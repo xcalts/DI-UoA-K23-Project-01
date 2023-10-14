@@ -4,12 +4,13 @@
 
 ## Links για Μελέτη
 
-[Youtube Playlist σχετικό με LSH](https://www.youtube.com/playlist?list=PLBv09BD7ez_6xoNh_luPdBmDCIHOQ3j7F), ειδικά τα βίντεο 8 και 9 είναι πολύ βοηθητικά.
+- [Youtube Playlist σχετικό με LSH](https://www.youtube.com/playlist?list=PLBv09BD7ez_6xoNh_luPdBmDCIHOQ3j7F), ειδικά τα βίντεο 8 και 9 είναι πολύ βοηθητικά.
 
-## Links από Implementations 
+## Links από Implementations
 
-[Project Πριν Τέσσερα Χρόνια](https://github.com/martheologi/Project-K23-Part1/)
+- [Project Πριν Τέσσερα Χρόνια](https://github.com/martheologi/Project-K23-Part1/)
 
 ## Χρήσιμα Links
 
-[Mnist Dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data)
+- [Mnist Dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data)
+- [Simple C++ Makefile Example](https://www.partow.net/programming/makefile/index.html)
