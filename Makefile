@@ -5,10 +5,8 @@ BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
 APP_DIR  := $(BUILD)/apps
 TARGET   := program
-INCLUDE  := -Iinclude/ -Iinclude/utils -Iinclude/dataset
+INCLUDE  := -Iinclude/
 SRC      :=                      \
-   $(wildcard src/utils/*.cpp) \
-   $(wildcard src/module2/*.cpp) \
    $(wildcard src/*.cpp)         \
 
 OBJECTS  := $(SRC:%.cpp=$(OBJ_DIR)/%.o)

@@ -9,8 +9,15 @@
 ## Links από Implementations
 
 - [Project Πριν Τέσσερα Χρόνια](https://github.com/martheologi/Project-K23-Part1/)
+- [Project Πριν Πέντε Χρόνια](https://github.com/acharalampous/lsh/tree/master)
 
 ## Χρήσιμα Links
 
 - [Mnist Dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data)
 - [Simple C++ Makefile Example](https://www.partow.net/programming/makefile/index.html)
+- [Google C++ Conventions](https://google.github.io/styleguide/cppguide.html#The__define_Guard)
+
+## Διαλέξεις
+
+- [Πρώτη](https://delos.uoa.gr/opendelos/player?rid=af8cbd76)
+- [Δεύτερη](https://delos.uoa.gr/opendelos/player?rid=c633220c)
