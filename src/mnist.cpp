@@ -6,8 +6,6 @@
 #include "mem.h"
 #include "mnist.h"
 
-using namespace std;
-
 MNIST::MNIST(const std::string filepath)
 {
     file_path = filepath;

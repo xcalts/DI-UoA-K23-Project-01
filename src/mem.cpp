@@ -4,8 +4,6 @@
 
 #include "mem.h"
 
-using namespace std;
-
 uint32_t ExtractIntFromBytes(const std::vector<uint8_t> &bytes, size_t offset)
 {
     if (bytes.size() < offset + 4)

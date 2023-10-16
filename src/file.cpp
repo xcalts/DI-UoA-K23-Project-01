@@ -5,8 +5,6 @@
 
 #include "file.h"
 
-using namespace std;
-
 std::vector<uint8_t> ReadFileAsBytes(const std::string &file_path)
 {
     std::vector<uint8_t> file_bytes;
@@ -17,8 +15,7 @@ std::vector<uint8_t> ReadFileAsBytes(const std::string &file_path)
     // Check if the file is open
     if (!file.is_open())
     {
-        std::cerr << "Failed to open the file: " << file_path << std::endl;
-        return file_bytes; // Return an empty vector in case of an error
+        throw std::runtime_error("Failed to open the file: " + file_path + "\n");
     }
 
     // Read the file into a vector of bytes
@@ -31,8 +28,7 @@ std::vector<uint8_t> ReadFileAsBytes(const std::string &file_path)
     // Check if the file was read successfully
     if (!file)
     {
-        std::cerr << "Failed to read the file: " << file_path << std::endl;
-        file_bytes.clear(); // Clear the vector in case of an error
+        throw std::runtime_error("Failed to read the file: " + file_path + "\n");
     }
 
     // Close the file
