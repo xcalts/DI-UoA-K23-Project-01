@@ -15,3 +15,8 @@
 
 - [Mnist Dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data)
 - [Simple C++ Makefile Example](https://www.partow.net/programming/makefile/index.html)
+
+## Διαλέξεις
+
+- [Πρώτη](https://delos.uoa.gr/opendelos/player?rid=af8cbd76)
+- [Δεύτερη](https://delos.uoa.gr/opendelos/player?rid=c633220c)
