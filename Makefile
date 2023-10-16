@@ -5,9 +5,9 @@ BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
 APP_DIR  := $(BUILD)/apps
 TARGET   := program
-INCLUDE  := -Iinclude/
+INCLUDE  := -Iinclude/ -Iinclude/utils -Iinclude/dataset
 SRC      :=                      \
-   $(wildcard src/module1/*.cpp) \
+   $(wildcard src/utils/*.cpp) \
    $(wildcard src/module2/*.cpp) \
    $(wildcard src/*.cpp)         \
 
