@@ -13,9 +13,10 @@
 
 ## Χρήσιμα Links
 
-- [Mnist Dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data)
+- [MNIST Dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data)
 - [Simple C++ Makefile Example](https://www.partow.net/programming/makefile/index.html)
 - [Google C++ Conventions](https://google.github.io/styleguide/cppguide.html#The__define_Guard)
+- [MNIST Creator](https://github.com/fortmarek/MNIST-Maker)
 
 ## Διαλέξεις
 
