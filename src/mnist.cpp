@@ -18,6 +18,11 @@ MNIST::MNIST(const std::string filepath)
     no_images = ExtractIntFromBytes(file_bytes, 4);
     no_rows = ExtractIntFromBytes(file_bytes, 8);
     no_columns = ExtractIntFromBytes(file_bytes, 12);
+
+    for (size_t i = 0; i < no_images; i++)
+    {
+        images.push_back(ExtractArrayFromBytes(file_bytes, i * 784));
+    }
 };
 
 /* Accessors */

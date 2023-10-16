@@ -16,4 +16,6 @@ int main()
     MNIST mnist = MNIST(file_path);
 
     mnist.Print();
+
+    return 0;
 }
