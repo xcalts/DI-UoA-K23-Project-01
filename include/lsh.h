@@ -4,7 +4,9 @@
 #include <array>
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 #include <string>
+#include <ctime>
 
 using namespace std;
 
@@ -18,6 +20,8 @@ private:
     int radius;
     vector<array<uint8_t, 784>> query_images;
     vector<array<uint8_t, 784>> images; // 28*28 dimensions
+    vector<unordered_map<uint, vector<array<uint8_t, 784>>>> hash_tables;
+    vector<vector<array<double, 784>>> random_projections;
 
 public:
     /* Constructor */
@@ -25,7 +29,12 @@ public:
 
     /* Accessors */
 
+
     /* Methods */
+    void GenerateHashFunctions();
+
+    void HashInput();
+
     void FindNearestNeighbor();
 
     void FindAllNearestNeighbors();
