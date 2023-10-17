@@ -70,6 +70,7 @@ The input and query files should be in the MNIST format with vector data.
 
     MNIST input = MNIST(input_file);
     MNIST query = MNIST(query_file);
+    LSH lsh = LSH(input, query, output_file, no_hash_functions, no_hash_tables, no_nearest, radius);
 
     cout << "== Input ==" << endl;
     input.Print();
@@ -78,9 +79,10 @@ The input and query files should be in the MNIST format with vector data.
     query.Print();
 
     std::cout << "== LSH ==" << std::endl;
-    LSH lsh = LSH(input, query, output_file, no_hash_functions, no_hash_tables, no_nearest, radius);
-
     lsh.Print();
+
+    std::cout << "== Draw 1st ==" << std::endl;
+    input.PrintImage(4);
 
     return EXIT_SUCCESS;
 }

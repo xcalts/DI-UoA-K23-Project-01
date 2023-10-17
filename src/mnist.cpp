@@ -33,11 +33,37 @@ uint32_t MNIST::GetColumnsCount() { return no_columns; };
 vector<array<uint8_t, 784>> MNIST::GetImages() { return images; };
 
 /* Functions */
-
 void MNIST::Print()
 {
+    cout << "MNIST File:        " << GetFilePath() << endl;
     cout << "Magic Number:      " << GetMagicNumber() << endl;
     cout << "Number of Images:  " << GetImagesCount() << endl;
     cout << "Number of Rows:    " << GetRowsCount() << endl;
     cout << "Number of Columns: " << GetColumnsCount() << endl;
+}
+
+void MNIST::PrintImage(size_t indx)
+{
+    if (indx > images.size() - 1)
+        throw runtime_error("Failed to draw the image at index " + indx);
+
+    array<uint8_t, 784> image = images.at(indx);
+
+    for (uint32_t i = 0; i < no_rows; ++i)
+    {
+        for (uint32_t j = 0; j < no_columns; ++j)
+        {
+            int pixelValue = image[i * no_columns + j];
+            char displayChar = '#';
+
+            // Use ' ' for white and '#' for black based on the pixel value
+            if (pixelValue < 128)
+            {
+                displayChar = ' '; // Black
+            }
+
+            std::cout << displayChar;
+        }
+        std::cout << std::endl;
+    }
 }

@@ -32,6 +32,7 @@ public:
 
     /* Functions */
     void Print();
+    void PrintImage(size_t);
 };
 
 #endif // MNIST_H
