@@ -4,7 +4,9 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
+
 /* Read a file as a vector of bytes. */
-std::vector<uint8_t> ReadFileAsBytes(const std::string &);
+vector<uint8_t> ReadFileAsBytes(const string &);
 
 #endif // FILE_H

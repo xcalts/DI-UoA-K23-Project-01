@@ -4,11 +4,13 @@
 
 #include "mem.h"
 
-uint32_t ExtractIntFromBytes(const std::vector<uint8_t> &bytes, size_t offset)
+using namespace std;
+
+uint32_t ExtractIntFromBytes(const vector<uint8_t> &bytes, size_t offset)
 {
     if (bytes.size() < offset + 4)
     {
-        throw std::runtime_error("Vector does not contain enough bytes to convert to a 32-bit integer at the specified offset.");
+        throw runtime_error("Vector does not contain enough bytes to convert to a 32-bit integer at the specified offset.");
     }
 
     uint32_t integerVal = 0;
@@ -22,14 +24,14 @@ uint32_t ExtractIntFromBytes(const std::vector<uint8_t> &bytes, size_t offset)
     return integerVal;
 }
 
-std::array<uint8_t, 784> ExtractArrayFromBytes(const std::vector<uint8_t> &bytes, size_t offset)
+array<uint8_t, 784> ExtractArrayFromBytes(const vector<uint8_t> &bytes, size_t offset)
 {
     if (bytes.size() < offset + 784)
     {
-        throw std::runtime_error("Vector does not contain enough bytes to extract the specified size.");
+        throw runtime_error("Vector does not contain enough bytes to extract the specified size.");
     }
 
-    std::array<uint8_t, 784> data;
+    array<uint8_t, 784> data;
 
     for (size_t i = 0; i < 784; i++)
     {

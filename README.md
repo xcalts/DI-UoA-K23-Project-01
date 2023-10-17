@@ -2,6 +2,13 @@
 
 1η εργασία - Αναζήτηση και συσταδοποίηση διανυσμάτων στη C/C++
 
+## Instructions
+
+```sh
+$ make debug
+$ ./build/apps/program -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte
+```
+
 ## Links για Μελέτη
 
 - [Youtube Playlist σχετικό με LSH](https://www.youtube.com/playlist?list=PLBv09BD7ez_6xoNh_luPdBmDCIHOQ3j7F), ειδικά τα βίντεο 8 και 9 είναι πολύ βοηθητικά.
