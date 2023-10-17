@@ -32,6 +32,7 @@ Usage:
 lsh_tool [options]c
 
 Options:
+-h, --help                   Print the help message.
 -i, --input <input_file>     Input MNIST format file containing data vectors.
 -q, --query <query_file>     Query MNIST format file for nearest neighbor search.
 -o, --output <output_file>   Output file to store the results.
@@ -52,8 +53,6 @@ Note:
 The input and query files should be in the MNIST format with vector data.
 )""";
 
-    cout << help_msg << endl;
-
     argh::parser cmdl(argc, argv, argh::parser::PREFER_PARAM_FOR_UNREG_OPTION);
     cmdl({"-i", "--input"}) >> input_file;
     cmdl({"-q", "--query"}) >> query_file;
@@ -63,7 +62,7 @@ The input and query files should be in the MNIST format with vector data.
     cmdl({"-N", "--num-nearest"}, N_DEFAULT) >> no_nearest;
     cmdl({"-R", "--radius"}, R_DEFAULT) >> radius;
 
-    if (input_file.empty() || query_file.empty() || output_file.empty())
+    if (cmdl({"-h", "--help"}) || input_file.empty() || query_file.empty() || output_file.empty())
     {
         cout << help_msg << endl;
         return EXIT_FAILURE;
