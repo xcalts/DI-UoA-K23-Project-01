@@ -64,7 +64,10 @@ The input and query files should be in the MNIST format with vector data.
     cmdl({"-R", "--radius"}, R_DEFAULT) >> radius;
 
     if (input_file.empty() || query_file.empty() || output_file.empty())
+    {
         cout << help_msg << endl;
+        return EXIT_FAILURE;
+    }
 
     MNIST input = MNIST(input_file);
     MNIST query = MNIST(query_file);
