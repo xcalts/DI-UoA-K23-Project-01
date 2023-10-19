@@ -6,6 +6,8 @@
 #include <vector>
 #include <string>
 
+#include "image.h"
+
 using namespace std;
 
 class MNIST
@@ -16,8 +18,7 @@ private:
     uint32_t no_images;
     uint32_t no_rows;
     uint32_t no_columns;
-    vector<array<uint8_t, 784>> images; // 28*28 dimensions
-
+    vector<Image> images; // 28*28 dimensions
 public:
     /* Constructor */
     MNIST(const string);
@@ -28,7 +29,7 @@ public:
     uint32_t GetImagesCount();
     uint32_t GetRowsCount();
     uint32_t GetColumnsCount();
-    vector<array<uint8_t, 784>> GetImages();
+    vector<Image> GetImages();
 
     /* Functions */
     void Print();

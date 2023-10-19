@@ -13,7 +13,7 @@ using namespace std;
 
 vector<vector<array<double, 784>>> GetRandomProjections(int, int);
 
-uint CalculateFinalHashCode(array<uint8_t, 784>, vector<array<double, 784>>, int, int, int);
+uint CalculateFinalHashCode(array<uint8_t, 784>, vector<array<double, 784>>, int, int);
 
 double CalculateDistance(int, array<uint8_t, 784>, array<uint8_t, 784>);
 

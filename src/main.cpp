@@ -82,9 +82,9 @@ The input and query files should be in the MNIST format with vector data.
     lsh.Print();
 
     std::cout << "== Draw 1st ==" << std::endl;
-    input.PrintImage(4);
+    input.PrintImage(0);
 
-    lsh.HashInput();
+    lsh.Execute();
 
     return EXIT_SUCCESS;
 }

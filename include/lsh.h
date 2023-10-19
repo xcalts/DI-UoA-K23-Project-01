@@ -3,10 +3,13 @@
 
 #include <array>
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <unordered_map>
 #include <string>
 #include <ctime>
+
+#include "image.h"
 
 using namespace std;
 
@@ -18,9 +21,9 @@ private:
     int number_of_hash_tables;
     int number_of_nearest;
     int radius;
-    vector<array<uint8_t, 784>> query_images;
-    vector<array<uint8_t, 784>> images; // 28*28 dimensions
-    vector<unordered_map<uint, vector<array<uint8_t, 784>>>> hash_tables;
+    vector<Image> query_images;
+    vector<Image> images; // 28*28 dimensions
+    vector<unordered_map<uint, vector<Image>>> hash_tables;
     vector<vector<array<double, 784>>> random_projections;
 
 public:
@@ -31,17 +34,19 @@ public:
 
 
     /* Methods */
-    void GenerateHashFunctions();
+    void Execute();
 
     void HashInput();
 
-    void FindNearestNeighbor();
+    set<Image, ImageComparator> FindAllNearestNeighbors(Image);
 
-    void FindAllNearestNeighbors();
+    set<Image, ImageComparator> BruteForceNearestNeighbors(Image);
 
-    void RadiusSearch();
+    set<Image, ImageComparator> RadiusSearch(Image);
 
     void Print();
+
+    void WriteToFile(Image, set<Image, ImageComparator>, set<Image, ImageComparator>, set<Image, ImageComparator>, double, double);
 };
 
 #endif // LSH_H

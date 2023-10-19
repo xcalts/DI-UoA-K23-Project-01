@@ -4,6 +4,7 @@
 
 #include "file.h"
 #include "mem.h"
+#include "image.h"
 #include "mnist.h"
 
 using namespace std;
@@ -20,7 +21,7 @@ MNIST::MNIST(const string filepath)
 
     for (size_t i = 0; i < no_images; i++)
     {
-        images.push_back(ExtractArrayFromBytes(file_bytes, 16 + i * 784));
+        images.push_back( Image((uint) i, ExtractArrayFromBytes(file_bytes, 16 + i * 784)) );
     }
 };
 
@@ -30,7 +31,7 @@ uint32_t MNIST::GetMagicNumber() { return magic_number; }
 uint32_t MNIST::GetImagesCount() { return no_images; }
 uint32_t MNIST::GetRowsCount() { return no_rows; }
 uint32_t MNIST::GetColumnsCount() { return no_columns; };
-vector<array<uint8_t, 784>> MNIST::GetImages() { return images; };
+vector<Image> MNIST::GetImages() { return images; };
 
 /* Functions */
 void MNIST::Print()
@@ -47,7 +48,7 @@ void MNIST::PrintImage(size_t indx)
     if (indx > images.size() - 1)
         throw runtime_error("Failed to draw the image at index " + indx);
 
-    array<uint8_t, 784> image = images.at(indx);
+    array<uint8_t, 784> image = images.at(indx).GetImageData();
 
     for (uint32_t i = 0; i < no_rows; ++i)
     {
