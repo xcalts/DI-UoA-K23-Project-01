@@ -1,39 +1,40 @@
-#ifndef LSH_H
-#define LSH_H
+#ifndef CUBE_H
+#define CUBE_H
 
-#include <array>
-#include <fstream>
 #include <vector>
 #include <unordered_map>
+#include <set>
+#include <cstdio>
+#include <fstream>
 #include <string>
-#include <ctime>
+#include <bitset>
+
+#include "image.h"
 
 using namespace std;
+using Vertex = vector<Image>;
 
-class LSH
-{
+class Hypercube {
 private:
     string output_file_path;
-    int number_of_hashing_functions;
-    int number_of_hash_tables;
+    int dimension;
+    int max_candidates;
+    int probes;
     int number_of_nearest;
-    int radius;
+    int radius; 
     vector<Image> query_images;
-    vector<Image> images; // 28*28 dimensions
-    vector<unordered_map<uint, vector<Image>>> hash_tables;
-    vector<vector<array<double, 784>>> random_projections;
-
+    vector<Image> images;
+    unordered_map<string, Vertex> vertices;
+    vector<array<double, 784>> random_projections;
 public:
-    /* Constructor */
-    LSH(MNIST, MNIST, string, int, int, int, int);
-
-    /* Accessors */
-
+    Hypercube(MNIST, MNIST, string, int, int, int, int, int);
 
     /* Methods */
     void Execute();
 
-    void HashInput();
+    void AssignInputToVertices();
+
+    vector<Image> GetNearestNeighborsCandidates(vector<vector<Vertex>>);
 
     set<Image, ImageComparator> FindAproximateNearestNeighbors(Image);
 
@@ -46,4 +47,4 @@ public:
     void WriteToFile(Image, set<Image, ImageComparator>, set<Image, ImageComparator>, set<Image, ImageComparator>, double, double);
 };
 
-#endif // LSH_H
+#endif // CUBE_H

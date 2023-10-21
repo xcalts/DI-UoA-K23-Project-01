@@ -13,7 +13,7 @@ vector<vector<array<double, 784>>> GetRandomProjections(int number_of_hash_table
 {
     vector<vector<array<double, 784>>> random_projections(number_of_hash_tables);
     
-    default_random_engine generator;                         // code for generating random numbers using normal distribution
+    default_random_engine generator(static_cast<unsigned>(time(nullptr)));                         // code for generating random numbers using normal distribution
     normal_distribution<double> distribution(0.0, 1.0);
 
     for(int i = 0; i < number_of_hash_tables; i++) {

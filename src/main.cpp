@@ -7,6 +7,7 @@
 #include "file.h"
 #include "mnist.h"
 #include "lsh.h"
+#include "cube.h"
 
 using namespace std;
 
@@ -14,6 +15,11 @@ using namespace std;
 #define L_DEFAULT 5
 #define N_DEFAULT 1
 #define R_DEFAULT 10000
+
+// Default values for Hypercube
+#define DIMENSIONS_DEFAULT 14
+#define M_DEFAULT 10
+#define PROBES_DEFAULT 2
 
 int main(int argc, char *argv[])
 {
@@ -24,6 +30,9 @@ int main(int argc, char *argv[])
     int no_hash_tables;
     int no_nearest;
     int radius;
+    int candidates;
+    int probes;
+    int dimensions;
 
     const char *help_msg = R"""(
 LSH Algorithm for Vectors in d-Space
@@ -62,6 +71,11 @@ The input and query files should be in the MNIST format with vector data.
     cmdl({"-N", "--num-nearest"}, N_DEFAULT) >> no_nearest;
     cmdl({"-R", "--radius"}, R_DEFAULT) >> radius;
 
+    // Used for Hupercube
+    cmdl({"-M", "--candidates"}, M_DEFAULT) >> candidates;
+    cmdl({"-probes", "--probes"}, PROBES_DEFAULT) >> probes;
+    cmdl({"-kd, --dimensions"}, DIMENSIONS_DEFAULT) >> dimensions;
+
     if (cmdl({"-h", "--help"}) || input_file.empty() || query_file.empty() || output_file.empty())
     {
         cout << help_msg << endl;
@@ -70,7 +84,9 @@ The input and query files should be in the MNIST format with vector data.
 
     MNIST input = MNIST(input_file);
     MNIST query = MNIST(query_file);
-    LSH lsh = LSH(input, query, output_file, no_hash_functions, no_hash_tables, no_nearest, radius);
+
+    // LSH lsh = LSH(input, query, output_file, no_hash_functions, no_hash_tables, no_nearest, radius);
+    Hypercube hypercube = Hypercube(input, query, output_file, dimensions, candidates, probes, no_nearest, radius);
 
     cout << "== Input ==" << endl;
     input.Print();
@@ -78,13 +94,17 @@ The input and query files should be in the MNIST format with vector data.
     std::cout << "== QUERY ==" << std::endl;
     query.Print();
 
-    std::cout << "== LSH ==" << std::endl;
-    lsh.Print();
+    // std::cout << "== LSH ==" << std::endl;
+    // lsh.Print();
+
+    std::cout << "== Hypercube ==" << std::endl;
+    hypercube.Print();
 
     std::cout << "== Draw 1st ==" << std::endl;
     input.PrintImage(0);
 
-    lsh.Execute();
+    // lsh.Execute();
+    hypercube.Execute();
 
     return EXIT_SUCCESS;
 }

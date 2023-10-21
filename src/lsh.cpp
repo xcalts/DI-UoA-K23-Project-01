@@ -1,4 +1,3 @@
-#include <iostream>
 #include <fstream>
 #include <vector>
 #include <set>
@@ -49,7 +48,7 @@ void LSH::HashInput()
     }
 }
 
-set<Image, ImageComparator> LSH::FindAllNearestNeighbors(Image query_image)
+set<Image, ImageComparator> LSH::FindAproximateNearestNeighbors(Image query_image)
 {
     cout << "Searching for " << number_of_nearest << " Nearest Neighbors using LSH..." << endl;
 
@@ -153,10 +152,12 @@ void LSH::Execute()
 {
     HashInput();
 
-    for(int i = 0; i < (int) query_images.size(); i++) {     // For each image in the query set
+    int i = 4;
+
+    // for(int i = 0; i < (int) query_images.size(); i++) {     // For each image in the query set
 
         const clock_t lsh_begin = clock();
-        set<Image, ImageComparator> nearest_neighbors_lsh = FindAllNearestNeighbors(query_images[i]);
+        set<Image, ImageComparator> nearest_neighbors_lsh = FindAproximateNearestNeighbors(query_images[i]);
         const clock_t lsh_end = clock();
 
         double lsh_time = double(lsh_end - lsh_begin) / CLOCKS_PER_SEC;
@@ -249,7 +250,7 @@ void LSH::Execute()
         } */
 
         WriteToFile(query_images[i], nearest_neighbors_lsh, nearest_neighbors_brute_force, neighbors_in_radius, lsh_time, brute_time);
-    }
+    // }
 }
 
 
@@ -284,12 +285,6 @@ void LSH::WriteToFile(Image query_image, set<Image, ImageComparator> nearest_nei
 
             i++;
         }
-
-        // for(int i = 0; i < (int) nearest_neighbors_lsh.size(); i++) {
-        //     output << "Nearest neighbor-" << i << ": " << nearest_neighbors_lsh[i].GetIndex() << endl;
-        //     output << "distanceLSH: " << nearest_neighbors_lsh[i].GetDist() << endl;
-        //     output << "distanceTrue: " << nearest_neighbors_brute_force[i].GetDist() << endl;
-        // }
 
         output << "tLSH: " << lsh_time << endl;
         output << "tTrue: " << brute_time << endl;
