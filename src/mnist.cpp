@@ -23,15 +23,15 @@ MNIST::MNIST(const string filepath)
     {
         images.push_back( Image((uint) i, ExtractArrayFromBytes(file_bytes, 16 + i * 784)) );
     }
-};
+}
 
 /* Accessors */
 string MNIST::GetFilePath() { return file_path; }
 uint32_t MNIST::GetMagicNumber() { return magic_number; }
 uint32_t MNIST::GetImagesCount() { return no_images; }
 uint32_t MNIST::GetRowsCount() { return no_rows; }
-uint32_t MNIST::GetColumnsCount() { return no_columns; };
-vector<Image> MNIST::GetImages() { return images; };
+uint32_t MNIST::GetColumnsCount() { return no_columns; }
+vector<Image> MNIST::GetImages() { return images; }
 
 /* Functions */
 void MNIST::Print()
