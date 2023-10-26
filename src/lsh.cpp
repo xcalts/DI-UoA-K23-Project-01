@@ -14,21 +14,12 @@ using namespace std;
 #define N_DEFAULT 1
 #define R_DEFAULT 10000
 
-int main(int argc, char *argv[])
-{
-    string input_file;
-    string query_file;
-    string output_file;
-    int no_hash_functions;
-    int no_hash_tables;
-    int no_nearest;
-    int radius;
-
-    const char *help_msg = R"""(
+#pragma region HELP_MESSAGE
+const char *help_msg = R"""(
 LSH Algorithm for Vectors in d-Space
 
 Usage:
-lsh_tool [options]c
+lsh [options]
 
 Options:
 -h, --help                   Print the help message.
@@ -45,12 +36,23 @@ This command line tool implements the Locality-Sensitive Hashing (LSH) algorithm
 It can be used to find the nearest neighbors of a query vector or to perform range queries within a specified radius.
 
 Example Usage:
-lsh_tool -i input.dat -q query.dat -o results.txt -k 15 -L 7 -N 5
-lsh_tool -i input.dat -q query.dat -o results.txt -k 10 -L 3 -R 0.5
+lsh -i input.dat -q query.dat -o results.txt -k 15 -L 7 -N 5
+lsh -i input.dat -q query.dat -o results.txt -k 10 -L 3 -R 0.5
 
 Note:
 The input and query files should be in the MNIST format with vector data.
 )""";
+#pragma endregion
+
+int main(int argc, char *argv[])
+{
+    string input_file;
+    string query_file;
+    string output_file;
+    int no_hash_functions;
+    int no_hash_tables;
+    int no_nearest;
+    int radius;
 
     argh::parser cmdl(argc, argv, argh::parser::PREFER_PARAM_FOR_UNREG_OPTION);
     cmdl({"-i", "--input"}) >> input_file;

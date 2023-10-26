@@ -7,7 +7,7 @@
 
 using namespace std;
 
-#pragma region HelpMessage
+#pragma region HELP_MESSAGE
 const char *help_msg = R"""(
 cluster - MNIST Image Clustering Tool
 
