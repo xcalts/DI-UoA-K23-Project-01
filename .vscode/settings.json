@@ -48,6 +48,7 @@
     "typeinfo": "cpp",
     "map": "cpp",
     "set": "cpp",
-    "sstream": "cpp"
+    "sstream": "cpp",
+    "bitset": "cpp"
   }
 }

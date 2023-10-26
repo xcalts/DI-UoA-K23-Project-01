@@ -1,6 +1,6 @@
 # Ignore build
-build/*
-
+bin/*
+obj/*
 # Prerequisites
 *.d
 

@@ -6,7 +6,7 @@
 
 ```sh
 $ make debug
-$ ./build/apps/program -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte
+$ ./build/apps/program -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte -o results.txt
 ```
 
 ## Links για Μελέτη

@@ -1,303 +1,87 @@
+#include <iostream>
 #include <fstream>
 #include <vector>
-#include <set>
-#include <unordered_map>
-#include <cstring>
-#include <ctime>
+#include <string>
 
+#include "argh.h"
 #include "mnist.h"
-#include "hashing.h"
-#include "image.h"
 #include "lsh.h"
 
 using namespace std;
 
-#define WINDOW 400
+#define K_DEFAULT 4
+#define L_DEFAULT 5
+#define N_DEFAULT 1
+#define R_DEFAULT 10000
 
-/* Constructor */
-LSH::LSH(MNIST input, MNIST query, string output, int k, int L, int N, int R)
+int main(int argc, char *argv[])
 {
-    output_file_path = output;
-    number_of_hashing_functions = k;
-    number_of_hash_tables = L;
-    number_of_nearest = N;
-    radius = R;
-    query_images = query.GetImages();
-    images = input.GetImages();
+    string input_file;
+    string query_file;
+    string output_file;
+    int no_hash_functions;
+    int no_hash_tables;
+    int no_nearest;
+    int radius;
 
-    hash_tables = vector<unordered_map<uint, vector<Image>>>(L);
-}
+    const char *help_msg = R"""(
+LSH Algorithm for Vectors in d-Space
 
-/* Functions */
-void LSH::HashInput()
-{
-    // for each hash table, use it's hashing functions and hash the input dataset
-    cout << "Hashing the input set into buckets..." << endl;
+Usage:
+lsh_tool [options]c
 
-    // create random projection vectors
-    random_projections = GetRandomProjections(number_of_hash_tables, number_of_hashing_functions);
+Options:
+-h, --help                   Print the help message.
+-i, --input <input_file>     Input MNIST format file containing data vectors.
+-q, --query <query_file>     Query MNIST format file for nearest neighbor search.
+-o, --output <output_file>   Output file to store the results.
+-k, --hash-functions <k>     Number of hash functions to use (default: 4).
+-L, --hash-tables <L>        Number of hash tables to use (default: 5).
+-N, --num-nearest <N>        Number of nearest points to search for (default: 1).
+-R, --radius <R>             Search radius for range query (default: 10000).
 
-    for(int i = 0; i < number_of_hash_tables; i++) {   // For each hash table
+Description:
+This command line tool implements the Locality-Sensitive Hashing (LSH) algorithm for vectors in d-space.
+It can be used to find the nearest neighbors of a query vector or to perform range queries within a specified radius.
 
-        for(int j = 0; j < (int) images.size(); j++) {       // For each image in input set
-            uint hash_code_for_querying_trick = CalculateFinalHashCode(images[j].GetImageData(), random_projections[i], number_of_hashing_functions, WINDOW);
-            uint final_hash_code = hash_code_for_querying_trick % ((uint) (images.size() / 16));
+Example Usage:
+lsh_tool -i input.dat -q query.dat -o results.txt -k 15 -L 7 -N 5
+lsh_tool -i input.dat -q query.dat -o results.txt -k 10 -L 3 -R 0.5
 
-            hash_tables[i][final_hash_code].push_back(images[j]);   
-        }
-    }
-}
+Note:
+The input and query files should be in the MNIST format with vector data.
+)""";
 
-set<Image, ImageComparator> LSH::FindAproximateNearestNeighbors(Image query_image)
-{
-    cout << "Searching for " << number_of_nearest << " Nearest Neighbors using LSH..." << endl;
+    argh::parser cmdl(argc, argv, argh::parser::PREFER_PARAM_FOR_UNREG_OPTION);
+    cmdl({"-i", "--input"}) >> input_file;
+    cmdl({"-q", "--query"}) >> query_file;
+    cmdl({"-o", "--output"}) >> output_file;
+    cmdl({"-k", "--hash-functions"}, K_DEFAULT) >> no_hash_functions;
+    cmdl({"-L", "--hash-tables"}, L_DEFAULT) >> no_hash_tables;
+    cmdl({"-N", "--num-nearest"}, N_DEFAULT) >> no_nearest;
+    cmdl({"-R", "--radius"}, R_DEFAULT) >> radius;
 
-    set<Image, ImageComparator> nearest_neighbors;
-    double min_dist = pow(2, 32) - 5;
-    
-    for(int i = 0; i < number_of_hash_tables; i++) {    // For each hash table
-
-        //Find query_image's hash code for given table
-        uint hash_code_for_querying_trick = CalculateFinalHashCode(query_image.GetImageData(), random_projections[i], number_of_hashing_functions, WINDOW);
-        uint final_hash_code = hash_code_for_querying_trick % ((uint) (images.size() / 16));
-
-        if(hash_tables[i][final_hash_code].size() == 0) {
-            continue;
-        }
-
-        vector<Image> bucket_images = hash_tables[i][final_hash_code];
-
-        for(int j = 0; j < (int) bucket_images.size(); j++) {   // For each image found in the same bucket as query_image
-            double dist = CalculateDistance(2, query_image.GetImageData(), bucket_images[j].GetImageData());
-            bucket_images[j].SetDist(dist);
-            
-            if(dist < min_dist) {
-                if((int) nearest_neighbors.size() == number_of_nearest) {
-                    nearest_neighbors.erase(--nearest_neighbors.end());
-                }
-
-                nearest_neighbors.insert(bucket_images[j]);
-
-                set<Image, ImageComparator>::reverse_iterator itr = nearest_neighbors.rbegin();
-                Image last_image = *itr;
-                min_dist = last_image.GetDist();
-            }
-            
-        }
+    if (cmdl({"-h", "--help"}) || input_file.empty() || query_file.empty() || output_file.empty())
+    {
+        cout << help_msg << endl;
+        return EXIT_FAILURE;
     }
 
-    return nearest_neighbors;
-}
+    MNIST input = MNIST(input_file);
+    MNIST query = MNIST(query_file);
 
-set<Image, ImageComparator> LSH::BruteForceNearestNeighbors(Image query_image)
-{
-    cout << "Searching for " << number_of_nearest << " Nearest Neighbors using Brute Force..." << endl;
+    LSH lsh = LSH(input, query, output_file, no_hash_functions, no_hash_tables, no_nearest, radius);
 
-    set<Image, ImageComparator> nearest_neighbors;
-    double min_dist = pow(2, 32) - 5;
+    cout << "== Input ==" << endl;
+    input.Print();
 
-    for(int i = 0; i < (int) images.size(); i++) {
-        double dist = CalculateDistance(2, query_image.GetImageData(), images[i].GetImageData());
-        images[i].SetDist(dist);
-        
-        if(dist < min_dist) {
-            if((int) nearest_neighbors.size() == number_of_nearest) {
-                nearest_neighbors.erase(--nearest_neighbors.end());
-            }
+    std::cout << "== Query ==" << std::endl;
+    query.Print();
 
-            nearest_neighbors.insert(images[i]);
+    std::cout << "== LSH ==" << std::endl;
+    lsh.Print();
 
-            set<Image, ImageComparator>::reverse_iterator itr = nearest_neighbors.rbegin();
-            Image last_image = *itr;
-            min_dist = last_image.GetDist();
-        }
-    }
+    lsh.Execute();
 
-    return nearest_neighbors;
-}
-
-set<Image, ImageComparator> LSH::RadiusSearch(Image query_image)
-{
-    cout << "Searching for Neighbors in Radius using LSH..." << endl;
-
-    set<Image, ImageComparator> nearest_neighbors;
-    
-    for(int i = 0; i < number_of_hash_tables; i++) {    // For each hash table
-
-        //Find query_image's hash code for given table
-        uint hash_code_for_querying_trick = CalculateFinalHashCode(query_image.GetImageData(), random_projections[i], number_of_hashing_functions, WINDOW);
-        uint final_hash_code = hash_code_for_querying_trick % ((uint) (images.size() / 16));
-
-        if(hash_tables[i][final_hash_code].size() == 0) {
-            continue;
-        }
-
-        vector<Image> bucket_images = hash_tables[i][final_hash_code];
-
-        for(int j = 0; j < (int) bucket_images.size(); j++) {   // For each image found in the same bucket as query_image
-            double dist = CalculateDistance(2, query_image.GetImageData(), bucket_images[j].GetImageData());
-            bucket_images[j].SetDist(dist);
-            
-            if(dist < radius) {
-                nearest_neighbors.insert(bucket_images[j]);
-            }
-            
-        }
-    }
-
-    return nearest_neighbors;
-}
-
-void LSH::Execute()
-{
-    HashInput();
-
-    int i = 4;
-
-    // for(int i = 0; i < (int) query_images.size(); i++) {     // For each image in the query set
-
-        const clock_t lsh_begin = clock();
-        set<Image, ImageComparator> nearest_neighbors_lsh = FindAproximateNearestNeighbors(query_images[i]);
-        const clock_t lsh_end = clock();
-
-        double lsh_time = double(lsh_end - lsh_begin) / CLOCKS_PER_SEC;
-
-        cout << "Time for LSH: " << lsh_time << endl;
-
-        /*
-        Used for debugging
-
-        for (set<Image>::iterator it = nearest_neighbors_lsh.begin(); it != nearest_neighbors_lsh.end(); ++it) {
-            Image element = *it;
-
-            for (uint32_t i = 0; i < 28; ++i)
-            {
-                for (uint32_t j = 0; j < 28; ++j)
-                {
-                    int pixelValue = element.GetImageData()[i * 28 + j];
-                    char displayChar = '#';
-
-                    // Use ' ' for white and '#' for black based on the pixel value
-                    if (pixelValue < 128)
-                    {
-                        displayChar = ' '; // Black
-                    }
-
-                    std::cout << displayChar;
-                }
-                std::cout << std::endl;
-            }
-            std::cout << element.GetDist() << endl;
-        } */
-    
-        const clock_t brute_begin = clock();
-        set<Image, ImageComparator> nearest_neighbors_brute_force = BruteForceNearestNeighbors(query_images[i]);
-        const clock_t brute_end = clock();
-
-        double brute_time = double(brute_end - brute_begin) / CLOCKS_PER_SEC;
-
-        cout << "Time for Brute Force: " << brute_time << endl;
-
-        /*
-        Used for debugging
-
-        for (set<Image>::iterator it = nearest_neighbors_brute_force.begin(); it != nearest_neighbors_brute_force.end(); ++it) {
-            Image element = *it;
-
-            for (uint32_t i = 0; i < 28; ++i)
-            {
-                for (uint32_t j = 0; j < 28; ++j)
-                {
-                    int pixelValue = element.GetImageData()[i * 28 + j];
-                    char displayChar = '#';
-
-                    // Use ' ' for white and '#' for black based on the pixel value
-                    if (pixelValue < 128)
-                    {
-                        displayChar = ' '; // Black
-                    }
-
-                    std::cout << displayChar;
-                }
-                std::cout << std::endl;
-            }
-            std::cout << element.GetDist() << endl;
-        } */
-
-        set<Image, ImageComparator> neighbors_in_radius = RadiusSearch(query_images[i]);
-
-        cout << "Neihbours in Radius " << radius << ": " << neighbors_in_radius.size() << endl;
-
-        /*
-        Used for debugging
-
-        for (uint32_t i = 0; i < 28; ++i)
-        {
-            for (uint32_t j = 0; j < 28; ++j)
-            {
-                int pixelValue = query_images[4].GetImageData()[i * 28 + j];
-                char displayChar = '#';
-
-                // Use ' ' for white and '#' for black based on the pixel value
-                if (pixelValue < 128)
-                {
-                    displayChar = ' '; // Black
-                }
-
-                std::cout << displayChar;
-            }
-            std::cout << std::endl;
-        } */
-
-        WriteToFile(query_images[i], nearest_neighbors_lsh, nearest_neighbors_brute_force, neighbors_in_radius, lsh_time, brute_time);
-    // }
-}
-
-
-void LSH::Print()
-{
-    cout << "Output File Path:                        " << output_file_path << endl;
-    cout << "Number of Hashing Functions:             " << to_string(number_of_hashing_functions) << endl;
-    cout << "Number of Hash Tables:                   " << to_string(number_of_hash_tables) << endl;
-    cout << "Number of Nearest Neighbors to be Found: " << to_string(number_of_nearest) << endl;
-    cout << "Radius:                                  " << to_string(radius) << endl;
-}
-
-void LSH::WriteToFile(Image query_image, set<Image, ImageComparator> nearest_neighbors_lsh, set<Image, ImageComparator> nearest_neighbors_brute_force, set<Image, ImageComparator> neighbors_in_radius, double lsh_time, double brute_time) {
-    ofstream output(output_file_path, ios::app);
-
-    if(output.is_open()) {
-
-        output << "Query: " << query_image.GetIndex() << endl;
-
-        // write data for LSH and Brute Force
-        int i = 1;
-        for(set<Image, ImageComparator>::iterator it1 = nearest_neighbors_lsh.begin(), it2 = nearest_neighbors_brute_force.begin();
-            (it1 != nearest_neighbors_lsh.end()) && (it2 != nearest_neighbors_brute_force.end());
-            ++it1, ++it2) 
-        {
-            Image neighbor_lsh = *it1;
-            Image neighbor_brute = *it2;
-
-            output << "Nearest neighbor-" << i << ": " << neighbor_lsh.GetIndex() << endl;
-            output << "distanceLSH: " << neighbor_lsh.GetDist() << endl;
-            output << "distanceTrue: " << neighbor_brute.GetDist() << endl;
-
-            i++;
-        }
-
-        output << "tLSH: " << lsh_time << endl;
-        output << "tTrue: " << brute_time << endl;
-
-        //write data for radius search
-        output << "R-near neighbors:" << endl;
-        for (set<Image, ImageComparator>::iterator it = neighbors_in_radius.begin(); it != neighbors_in_radius.end(); ++it) {
-            Image neighbor = *it;
-            output << neighbor.GetIndex() << endl;
-        }
-
-        output.close();
-    } else {
-        cout << "Failed to write to output file." << endl;
-    }
+    return EXIT_SUCCESS;
 }

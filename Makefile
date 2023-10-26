@@ -1,49 +1,40 @@
-CXX      := -c++
-CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror
-LDFLAGS  := -L/usr/lib -lstdc++ -lm
-BUILD    := ./build
-OBJ_DIR  := $(BUILD)/objects
-APP_DIR  := $(BUILD)/apps
-TARGET   := program
-INCLUDE  := -Iinclude/
-SRC      :=                      \
-   $(wildcard src/*.cpp)         \
+# Makefile
 
-OBJECTS  := $(SRC:%.cpp=$(OBJ_DIR)/%.o)
-DEPENDENCIES \
-         := $(OBJECTS:.o=.d)
+CXX = g++
+CXXFLAGS = -std=c++11 -I./inc
+SRC_DIR = src
+SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
+OBJ_DIR = obj
+OBJECTS = $(patsy, the prefix of the src files.ubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SOURCES))
+BIN_DIR = bin
+TARGETS = cube lsh
 
-all: build $(APP_DIR)/$(TARGET)
+all: $(TARGETS)
 
-$(OBJ_DIR)/%.o: %.cpp
+# rule to compile .cpp files into .o files
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 	@mkdir -p $(@D)
-	$(CXX) $(CXXFLAGS) $(INCLUDE) -c $< -MMD -o $@
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-$(APP_DIR)/$(TARGET): $(OBJECTS)
+# rule to build cube
+cube: $(OBJ_DIR)/cube.o
 	@mkdir -p $(@D)
-	$(CXX) $(CXXFLAGS) -o $(APP_DIR)/$(TARGET) $^ $(LDFLAGS)
+	$(CXX) $(CXXFLAGS) $^ -o $(BIN_DIR)/$@
 
--include $(DEPENDENCIES)
+# rule to build lsh
+lsh: $(OBJ_DIR)/lsh.o
+	@mkdir -p $(@D)
+	$(CXX) $(CXXFLAGS) $^ -o $(BIN_DIR)/$@
 
-.PHONY: all build clean debug release info
-
-build:
-	@mkdir -p $(APP_DIR)
-	@mkdir -p $(OBJ_DIR)
-
+# rule for debug
 debug: CXXFLAGS += -DDEBUG -g
 debug: all
 
+# rule for release
 release: CXXFLAGS += -O2
 release: all
 
 clean:
-	-@rm -rvf $(OBJ_DIR)/*
-	-@rm -rvf $(APP_DIR)/*
+	rm -rf $(OBJ_DIR) $(BIN_DIR)
 
-info:
-	@echo "[*] Application dir: ${APP_DIR}     "
-	@echo "[*] Object dir:      ${OBJ_DIR}     "
-	@echo "[*] Sources:         ${SRC}         "
-	@echo "[*] Objects:         ${OBJECTS}     "
-	@echo "[*] Dependencies:    ${DEPENDENCIES}"
+.PHONY: all clean
