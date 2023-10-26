@@ -1,6 +1,8 @@
 # Ignore build
 bin/*
 obj/*
+results.txt
+
 # Prerequisites
 *.d
 

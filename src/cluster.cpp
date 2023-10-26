@@ -3,6 +3,7 @@
 #include <iostream>
 
 #include "argh.h"
+#include "mnist.h"
 
 using namespace std;
 
@@ -72,13 +73,16 @@ int main(int argc, char *argv[])
     argh::parser cmdl(argc, argv, argh::parser::PREFER_PARAM_FOR_UNREG_OPTION);
     cmdl({"-i", "--input"}) >> input_file;
     cmdl({"-o", "--output"}) >> output_file;
-    cmdl({"-c", "--configuration "}) >> conf_file;
+    cmdl({"-c", "--configuration"}) >> conf_file;
+    cmdl({"-m", "--method"}) >> method;
 
     if (cmdl({"-h", "--help"}) || input_file.empty() || output_file.empty())
     {
         cout << help_msg << endl;
         return EXIT_FAILURE;
     }
+
+    MNIST input = MNIST(input_file);
 
     // Load and process data
     // Initialize centroids with k-Means++

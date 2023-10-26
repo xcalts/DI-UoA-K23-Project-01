@@ -81,6 +81,8 @@ The input and query files should be in the MNIST format with vector data.
     std::cout << "== LSH ==" << std::endl;
     lsh.Print();
 
+    query.PrintImage(50);
+
     lsh.Execute();
 
     return EXIT_SUCCESS;

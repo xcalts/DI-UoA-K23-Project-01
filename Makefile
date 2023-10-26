@@ -7,7 +7,7 @@ SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_DIR = obj
 OBJECTS = $(patsy, the prefix of the src files.ubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SOURCES))
 BIN_DIR = bin
-TARGETS = cube lsh cluster
+TARGETS = build cube lsh cluster
 
 all: $(TARGETS)
 
@@ -38,6 +38,10 @@ debug: all
 # rule for release
 release: CXXFLAGS += -O2
 release: all
+
+build:
+	@mkdir -p $(BIN_DIR)
+	@mkdir -p $(OBJ_DIR)
 
 clean:
 	rm -rf $(OBJ_DIR) $(BIN_DIR)
