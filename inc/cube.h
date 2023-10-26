@@ -29,8 +29,8 @@ private:
     int radius;
     vector<Image> query_images;
     vector<Image> images;
-    unordered_map<string, Vertex> vertices;
-    vector<array<double, 784>> random_projections;
+    unordered_map<string, Vertex> vertices;             // The vertices essentially act as a Hash Table if you think about it
+    vector<array<double, 784>> random_projections;      // These are the random vectors that are used to calculate each h(p) for each hash table
 
     /* Functions */
     string IntToBinaryString(int num, int num_bits)
@@ -72,11 +72,6 @@ public:
         query_images = query.GetImages();
         images = input.GetImages();
 
-        // Code to initialize vertices
-        for (int i = 0; i < pow(2, d); i++)
-        {
-            vertices[IntToBinaryString(i, d)] = vector<Image>(0);
-        }
     }
 
     /* Functions */
@@ -93,13 +88,18 @@ public:
             string query_vertex_code = "";
 
             for (int j = 0; j < dimension; j++)
-            {
+            { // For each dimension
+
+                // Map the image to a binary digit, eventually creating a string of 0s and 1s
                 uint hash_code = CalculateHashCode(image.GetImageData(), random_projections[j], WINDOW);
 
                 int binary_digit = hash_code % 2;
                 query_vertex_code += to_string(binary_digit);
             }
 
+            if(vertices.find(query_vertex_code) == vertices.end()) {
+                vertices[query_vertex_code] = vector<Image>(0);
+            }
             vertices[query_vertex_code].push_back(image);
         }
     }
@@ -111,13 +111,12 @@ public:
         for (int i = 0; i < probes; i++)
         {
 
-            // For every vertex with hamming distance to query_vertex, ranging from 0 to probes (opbv probes <= dimension)
             for (int j = 0; j < (int)vertices_by_hamming_distance[i].size(); j++)
-            {
+            { // For every vertex with 0 <= hamming distance to query_vertex <= probes (opbv probes <= dimension)
                 Vertex vertex = vertices_by_hamming_distance[i][j];
 
                 for (int k = 0; k < (int)vertex.size(); k++)
-                {
+                { // For every image of said vertex
 
                     // If we've reached max candidates then return
                     if ((int)nearest_neighbors_candidates.size() == max_candidates)
@@ -141,23 +140,30 @@ public:
         string query_vertex_code = "";
 
         for (int i = 0; i < dimension; i++)
-        {
+        { // For each dimension
+
+            // Map the image to a binary digit, eventually creating a string of 0s and 1s
             uint hash_code = CalculateHashCode(query_image.GetImageData(), random_projections[i], WINDOW);
 
             int binary_digit = hash_code % 2;
             query_vertex_code += to_string(binary_digit);
         }
 
-        vector<Image> query_image_vertex = vertices[query_vertex_code];
+        vector<Image> query_image_vertex(0);
+        if(vertices.find(query_vertex_code) != vertices.end()) {
+            vector<Image> query_image_vertex = vertices[query_vertex_code];
+        }
 
-        // Organize vertices by hamming distance to the vertex corresponding to the query_image
+        // Organize vertices by hamming distance to the vertex corresponding to the query_image, so probing logic can take place
         vector<vector<Vertex>> vertices_by_hamming_distance(dimension + 1);
 
         for (int i = 0; i < (int)vertices.size(); i++)
         {
             string vertex_code = IntToBinaryString(i, dimension);
             int hamming_distance = HammingDistance(query_vertex_code, vertex_code);
-            vertices_by_hamming_distance[hamming_distance].push_back(vertices[vertex_code]);
+            if(vertices.find(vertex_code) != vertices.end()) {
+                vertices_by_hamming_distance[hamming_distance].push_back(vertices[vertex_code]);
+            }
         }
 
         vector<Image> nearest_neighbors_candidates = GetNearestNeighborsCandidates(vertices_by_hamming_distance);
@@ -283,7 +289,7 @@ public:
 
         // Used for debugging
 
-        /* for (set<Image>::iterator it = nearest_neighbors_hypercube.begin(); it != nearest_neighbors_hypercube.end(); ++it) {
+        for (set<Image>::iterator it = nearest_neighbors_hypercube.begin(); it != nearest_neighbors_hypercube.end(); ++it) {
             Image element = *it;
 
             for (uint32_t i = 0; i < 28; ++i)
@@ -304,7 +310,7 @@ public:
                 std::cout << std::endl;
             }
             std::cout << element.GetDist() << endl;
-        } */
+        }
 
         const clock_t brute_begin = clock();
         set<Image, ImageComparator> nearest_neighbors_brute_force = BruteForceNearestNeighbors(query_images[i]);
@@ -316,7 +322,7 @@ public:
 
         // Used for debugging
 
-        /* for (set<Image>::iterator it = nearest_neighbors_brute_force.begin(); it != nearest_neighbors_brute_force.end(); ++it) {
+        for (set<Image>::iterator it = nearest_neighbors_brute_force.begin(); it != nearest_neighbors_brute_force.end(); ++it) {
             Image element = *it;
 
             for (uint32_t i = 0; i < 28; ++i)
@@ -337,7 +343,7 @@ public:
                 std::cout << std::endl;
             }
             std::cout << element.GetDist() << endl;
-        } */
+        }
 
         set<Image, ImageComparator> neighbors_in_radius = RadiusSearch(query_images[i]);
 

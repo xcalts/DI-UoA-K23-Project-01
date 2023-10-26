@@ -26,9 +26,9 @@ private:
     int number_of_nearest;
     int radius;
     vector<Image> query_images;
-    vector<Image> images; // 28*28 dimensions
-    vector<unordered_map<uint, vector<Image>>> hash_tables;
-    vector<vector<array<double, 784>>> random_projections;
+    vector<Image> images;
+    vector<unordered_map<uint, vector<Image>>> hash_tables;           // Vector of {number_of_hash_tables} Hash Tables
+    vector<vector<array<double, 784>>> random_projections;            // These are the random vectors that are used to calculate each h(p) for each hash table
 
 public:
     /* Constructor */
@@ -51,7 +51,7 @@ public:
         // for each hash table, use it's hashing functions and hash the input dataset
         cout << "Hashing the input set into buckets..." << endl;
 
-        // create random projection vectors
+        // For each hash table, create {number_of_hashing_functions} random projections
         random_projections = GetRandomProjections(number_of_hash_tables, number_of_hashing_functions);
 
         for (int i = 0; i < number_of_hash_tables; i++)
@@ -59,8 +59,12 @@ public:
 
             for (int j = 0; j < (int)images.size(); j++)
             { // For each image in input set
+
+                // hash_code_for_querying_trick can be used as an optimization to LSH, haven't implemented it yet
                 uint hash_code_for_querying_trick = CalculateFinalHashCode(images[j].GetImageData(), random_projections[i], number_of_hashing_functions, WINDOW);
-                uint final_hash_code = hash_code_for_querying_trick % ((uint)(images.size() / 16));
+                images[j].SetId(hash_code_for_querying_trick);
+
+                uint final_hash_code = hash_code_for_querying_trick % ((uint)(images.size() / 16));   // Mod by n/16 to get final_hash_code, found it yields the best results for W = 400
 
                 hash_tables[i][final_hash_code].push_back(images[j]);
             }
@@ -71,18 +75,20 @@ public:
     {
         cout << "Searching for " << number_of_nearest << " Nearest Neighbors using LSH..." << endl;
 
-        set<Image, ImageComparator> nearest_neighbors;
+        set<Image, ImageComparator> nearest_neighbors;  // Used for sorting the final vector of ANN
         double min_dist = pow(2, 32) - 5;
 
         for (int i = 0; i < number_of_hash_tables; i++)
         { // For each hash table
 
-            // Find query_image's hash code for given table
+            // Find query_image's hash code for given table, same way as for the input set
             uint hash_code_for_querying_trick = CalculateFinalHashCode(query_image.GetImageData(), random_projections[i], number_of_hashing_functions, WINDOW);
-            uint final_hash_code = hash_code_for_querying_trick % ((uint)(images.size() / 16));
+            query_image.SetId(hash_code_for_querying_trick);
 
-            if (hash_tables[i][final_hash_code].size() == 0)
-            {
+            uint final_hash_code = hash_code_for_querying_trick % ((uint)(images.size() / 16));   
+
+            if (hash_tables[i][final_hash_code].size() == 0)    
+            { // If the query_image ends up in an empty bucket for this hash table
                 continue;
             }
 
@@ -90,19 +96,24 @@ public:
 
             for (int j = 0; j < (int)bucket_images.size(); j++)
             { // For each image found in the same bucket as query_image
+
+                if(query_image.GetId() != bucket_images[j].GetId())
+                    continue;
+
+                // Calculate distance for each image in the same bucket as query_image (basically the whole point of LSH)
                 double dist = CalculateDistance(2, query_image.GetImageData(), bucket_images[j].GetImageData());
                 bucket_images[j].SetDist(dist);
 
                 if (dist < min_dist)
-                {
+                { // If found a better ANN than the current worst ANN
                     if ((int)nearest_neighbors.size() == number_of_nearest)
                     {
-                        nearest_neighbors.erase(--nearest_neighbors.end());
+                        nearest_neighbors.erase(--nearest_neighbors.end());    // Remove worst ANN
                     }
 
-                    nearest_neighbors.insert(bucket_images[j]);
+                    nearest_neighbors.insert(bucket_images[j]);   // Insert new ANN, set sorts itself
 
-                    set<Image, ImageComparator>::reverse_iterator itr = nearest_neighbors.rbegin();
+                    set<Image, ImageComparator>::reverse_iterator itr = nearest_neighbors.rbegin(); // Could be replaced by nearest_neighbors.end(), didn't work for some reason
                     Image last_image = *itr;
                     min_dist = last_image.GetDist();
                 }
@@ -116,7 +127,7 @@ public:
     {
         cout << "Searching for " << number_of_nearest << " Nearest Neighbors using Brute Force..." << endl;
 
-        set<Image, ImageComparator> nearest_neighbors;
+        set<Image, ImageComparator> nearest_neighbors;  // Used for sorting the final vector of ANN
         double min_dist = pow(2, 32) - 5;
 
         for (int i = 0; i < (int)images.size(); i++)
@@ -146,17 +157,17 @@ public:
     {
         cout << "Searching for Neighbors in Radius using LSH..." << endl;
 
-        set<Image, ImageComparator> nearest_neighbors;
+        set<Image, ImageComparator> nearest_neighbors;  // Used for sorting the final vector of ANN
 
         for (int i = 0; i < number_of_hash_tables; i++)
         { // For each hash table
 
-            // Find query_image's hash code for given table
+            // Find query_image's hash code for given table, same way as for the input set
             uint hash_code_for_querying_trick = CalculateFinalHashCode(query_image.GetImageData(), random_projections[i], number_of_hashing_functions, WINDOW);
             uint final_hash_code = hash_code_for_querying_trick % ((uint)(images.size() / 16));
 
             if (hash_tables[i][final_hash_code].size() == 0)
-            {
+            { // If the query_image ends up in an empty bucket for this hash table
                 continue;
             }
 
@@ -164,12 +175,14 @@ public:
 
             for (int j = 0; j < (int)bucket_images.size(); j++)
             { // For each image found in the same bucket as query_image
+
+                // Calculate distance for each image in the same bucket as query_image (basically the whole point of LSH)
                 double dist = CalculateDistance(2, query_image.GetImageData(), bucket_images[j].GetImageData());
                 bucket_images[j].SetDist(dist);
 
                 if (dist < radius)
                 {
-                    nearest_neighbors.insert(bucket_images[j]);
+                    nearest_neighbors.insert(bucket_images[j]);   // nearest_neighbors sorts itself, output.txt comes out tidy!
                 }
             }
         }
@@ -181,7 +194,7 @@ public:
     {
         HashInput();
 
-        int i = 4;
+        int i = 3;
 
         // for(int i = 0; i < (int) query_images.size(); i++) {     // For each image in the query set
 
@@ -193,8 +206,7 @@ public:
 
         cout << "Time for LSH: " << lsh_time << endl;
 
-        /*
-        Used for debugging
+        // Used for debugging 
 
         for (set<Image>::iterator it = nearest_neighbors_lsh.begin(); it != nearest_neighbors_lsh.end(); ++it) {
             Image element = *it;
@@ -217,7 +229,7 @@ public:
                 std::cout << std::endl;
             }
             std::cout << element.GetDist() << endl;
-        } */
+        } 
 
         const clock_t brute_begin = clock();
         set<Image, ImageComparator> nearest_neighbors_brute_force = BruteForceNearestNeighbors(query_images[i]);
@@ -227,8 +239,7 @@ public:
 
         cout << "Time for Brute Force: " << brute_time << endl;
 
-        /*
-        Used for debugging
+        // Used for debugging 
 
         for (set<Image>::iterator it = nearest_neighbors_brute_force.begin(); it != nearest_neighbors_brute_force.end(); ++it) {
             Image element = *it;
@@ -251,7 +262,7 @@ public:
                 std::cout << std::endl;
             }
             std::cout << element.GetDist() << endl;
-        } */
+        } 
 
         set<Image, ImageComparator> neighbors_in_radius = RadiusSearch(query_images[i]);
 
