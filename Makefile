@@ -7,7 +7,7 @@ SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_DIR = obj
 OBJECTS = $(patsy, the prefix of the src files.ubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SOURCES))
 BIN_DIR = bin
-TARGETS = cube lsh
+TARGETS = cube lsh cluster
 
 all: $(TARGETS)
 
@@ -23,6 +23,11 @@ cube: $(OBJ_DIR)/cube.o
 
 # rule to build lsh
 lsh: $(OBJ_DIR)/lsh.o
+	@mkdir -p $(@D)
+	$(CXX) $(CXXFLAGS) $^ -o $(BIN_DIR)/$@
+
+# rule to build cluster
+cluster: $(OBJ_DIR)/cluster.o
 	@mkdir -p $(@D)
 	$(CXX) $(CXXFLAGS) $^ -o $(BIN_DIR)/$@
 
