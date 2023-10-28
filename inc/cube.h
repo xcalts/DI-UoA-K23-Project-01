@@ -292,23 +292,7 @@ public:
         for (set<Image>::iterator it = nearest_neighbors_hypercube.begin(); it != nearest_neighbors_hypercube.end(); ++it) {
             Image element = *it;
 
-            for (int32_t i = 27; i >= 0; i--)
-            {
-                for (int32_t j = 27; j >= 0; j--)
-                {
-                    int pixelValue = element.GetImageData()[i * 28 + j];
-                    char displayChar = '#';
-
-                    // Use ' ' for white and '#' for black based on the pixel value
-                    if (pixelValue < 128)
-                    {
-                        displayChar = ' '; // Black
-                    }
-
-                    cout << displayChar;
-                }
-                cout << endl;
-            }
+            element.Print();
             cout << element.GetDist() << endl;
         }
 
@@ -325,23 +309,7 @@ public:
         for (set<Image>::iterator it = nearest_neighbors_brute_force.begin(); it != nearest_neighbors_brute_force.end(); ++it) {
             Image element = *it;
 
-            for (int32_t i = 27; i >= 0; i--)
-            {
-                for (int32_t j = 27; j >= 0; j--)
-                {
-                    int pixelValue = element.GetImageData()[i * 28 + j];
-                    char displayChar = '#';
-
-                    // Use ' ' for white and '#' for black based on the pixel value
-                    if (pixelValue < 128)
-                    {
-                        displayChar = ' '; // Black
-                    }
-
-                    cout << displayChar;
-                }
-                cout << endl;
-            }
+            element.Print();
             cout << element.GetDist() << endl;
         }
 
@@ -351,23 +319,7 @@ public:
 
         // Used for debugging
 
-        /* for (int32_t i = 27; i >= 0; i--)
-        {
-            for (int32_t j = 27; j >= 0; j--)
-            {
-                int pixelValue = query_images[4].GetImageData()[i * 28 + j];
-                char displayChar = '#';
-
-                // Use ' ' for white and '#' for black based on the pixel value
-                if (pixelValue < 128)
-                {
-                    displayChar = ' '; // Black
-                }
-
-                std::cout << displayChar;
-            }
-            std::cout << std::endl;
-        } */
+        //query_images[4].Print();
 
         WriteToFile(query_images[i], nearest_neighbors_hypercube, nearest_neighbors_brute_force, neighbors_in_radius, hypercube_time, brute_time);
         // }

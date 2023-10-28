@@ -64,9 +64,9 @@ public:
     {
         stringstream result;
 
-        for (uint32_t i = 0; i < 28; ++i)
+        for (int32_t i = 27; i >= 0; i--)
         {
-            for (uint32_t j = 0; j < 28; ++j)
+            for (int32_t j = 27; j >= 0; j--)
             {
                 int pixelValue = image_data[i * 28 + j];
                 char displayChar = '#';

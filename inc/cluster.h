@@ -10,6 +10,7 @@
 #include <cmath>
 #include <limits>
 
+#include "hash.h"
 #include "mnist.h"
 
 using namespace std;
@@ -28,17 +29,6 @@ private:
     vector<array<uint8_t, 784>> cluster_centers;
     vector<int> assignments;
     double executime_time_sec;
-
-    // Function to calculate the Euclidean distance between two data points
-    double euclideanDistance(const array<uint8_t, 784> &a, const array<uint8_t, 784> &b)
-    {
-        double sum = 0.0;
-        for (int i = 0; i < 784; i++)
-        {
-            sum += std::pow(a[i] - b[i], 2);
-        }
-        return sqrt(sum);
-    }
 
 public:
     /* Constructors*/
@@ -76,36 +66,51 @@ public:
 
     // Function to initialize cluster centers using k-Means++
     void initializeClusterCentersKMeansPP()
-    {
+    {   
+        cout << "Initializing centroids using k-means++..." << endl;
+
         vector<array<uint8_t, 784>> centers;
         centers.push_back(image_dataset[std::rand() % image_dataset.size()].GetImageData());
 
         while (centers.size() < no_clusters)
         {
             // Calculate the minimum distance from each data point to the nearest center
-            std::vector<double> distances(image_dataset.size(), std::numeric_limits<double>::max());
+            std::vector<double> min_dists_squared(image_dataset.size(), std::numeric_limits<double>::max());
+            double min_dists_squared_sum = 0.0;
+
             for (size_t i = 0; i < image_dataset.size(); i++)
             {
                 for (const array<uint8_t, 784> &center : centers)
                 {
-                    double dist = euclideanDistance(image_dataset[i].GetImageData(), center);
-                    distances[i] = std::min(distances[i], dist);
+                    double dist = CalculateDistance(2, image_dataset[i].GetImageData(), center);
+                    
+                    min_dists_squared[i] = std::min(min_dists_squared[i], pow(dist, 2));
                 }
+
+                min_dists_squared_sum += min_dists_squared[i];
             }
 
-            // Calculate the total distance from each data point to its nearest center
-            double totalDistance = 0.0;
-            for (double dist : distances)
+            std::vector<double> probabilities(image_dataset.size());
+            double sum = 0;
+            for(size_t i = 0; i < image_dataset.size(); i++)
             {
-                totalDistance += dist;
+                sum += min_dists_squared[i] / min_dists_squared_sum;
+                probabilities[i] = min_dists_squared[i] / min_dists_squared_sum;
             }
-
+            
+            cout << sum << endl;
+            
             // Choose the next center based on the probability proportional to its distance
-            double randValue = (std::rand() / (double)RAND_MAX) * totalDistance;
+            random_device rd;
+            mt19937 gen(rd());
+            uniform_real_distribution<double> random_uniform(0.0, 1.0);
+            
+            double rand_value = random_uniform(gen);
+            double cumulative_probability = 0.0;
             for (size_t i = 0; i < image_dataset.size(); i++)
             {
-                randValue -= distances[i];
-                if (randValue <= 0.0)
+                cumulative_probability += probabilities[i];
+                if (rand_value <= cumulative_probability)
                 {
                     centers.push_back(image_dataset[i].GetImageData()); // Add the data point as a new center
                     break;
@@ -118,7 +123,8 @@ public:
 
     // Function to assign each data point to the nearest cluster center using Lloyd's algorithm
     void assignToNearestClusterLloyd()
-    {
+    {   
+        cout << "Assigning points to clusters using Lloyd's algorithm..." << endl;
         for (size_t i = 0; i < image_dataset.size(); i++)
         {
             double minDistance = std::numeric_limits<double>::max();
@@ -127,7 +133,7 @@ public:
             // Find the nearest cluster center for the current data point
             for (int j = 0; j < no_clusters; j++)
             {
-                double distance = euclideanDistance(image_dataset[i].GetImageData(), cluster_centers[j]);
+                double distance = CalculateDistance(2, image_dataset[i].GetImageData(), cluster_centers[j]);
                 if (distance < minDistance)
                 {
                     minDistance = distance;
@@ -142,7 +148,8 @@ public:
 
     // Function to update cluster centers using the MacQueen method
     void updateClusterCentersMacQueen()
-    {
+    {   
+        cout << "Updating cluster centroids using MacQueen..." << endl;
         std::vector<array<uint8_t, 784>> updatedCenters(no_clusters);
         std::vector<int> clusterSizes(no_clusters, 0);
 
@@ -186,7 +193,7 @@ public:
             {
                 if (i != j)
                 {
-                    a += euclideanDistance(cluster[i], cluster[j]);
+                    a += CalculateDistance(2, cluster[i], cluster[j]);
                 }
             }
             if (cluster.size() > 1)
@@ -202,7 +209,7 @@ public:
                 {
                     if (i != j)
                     {
-                        meanDistanceToOtherCluster += euclideanDistance(otherPoint, cluster[j]);
+                        meanDistanceToOtherCluster += CalculateDistance(2, otherPoint, cluster[j]);
                     }
                 }
                 if (cluster.size() > 1)
