@@ -1,19 +1,17 @@
 #include <cstdlib>
 #include <string>
 #include <iostream>
-#include <fstream>
-#include <array>
-#include <vector>
-#include <random>
-#include <cmath>
+
+#define RYML_SINGLE_HDR_DEFINE_NOW
 
 #include "argh.h"
-#include "hash.h"
+#include "cluster.h"
 #include "mnist.h"
+#include "rapidyaml.h"
 
 using namespace std;
 
-#pragma region HelpMessage
+#pragma region HELP_MESSAGE
 const char *help_msg = R"""(
 cluster - MNIST Image Clustering Tool
 
@@ -68,36 +66,21 @@ For more information, please refer to the documentation.
 )""";
 #pragma endregion
 
-array<uint, 6> ReadFromConfigFile(string conf_file)
-{   
-    array<uint, 6> conf_array{{3, 4, 5, 1, 2, 6}};
-    ifstream conf_stream;
-    conf_stream.open(conf_file);
-
-    if(conf_stream.is_open()) {
-        
-        for(int i = 0; conf_stream; i++) 
-        {
-            string line;
-            getline(conf_stream, line);
-            if(line.empty())
-                continue;
-
-            string arg_value = line.substr(line.rfind(' ') + 1, string::npos);  
-            conf_array[i] = (uint) stoi(arg_value);
-        }
-        
-        conf_stream.close();
+string readFileToString(const std::string &filename)
+{
+    ifstream file(filename);
+    if (file)
+    {
+        // Read the entire file into a string
+        string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+        return content;
     }
-
-    return conf_array;
+    else
+    {
+        // Handle the case where the file couldn't be opened
+        throw runtime_error("Error opening the file: " + filename);
+    }
 }
-
-void ExecuteClustering(MNIST input, string output_file, uint number_of_clusters, uint number_of_vector_hash_tables, 
-                        uint number_of_vector_hash_functions, uint max_number_M_hybercube, uint number_of_hypercube_dimensions, 
-                        uint number_of_probes);
-
-vector<Image> InitializeCentroids(vector<Image> images, uint number_of_clusters);
 
 int main(int argc, char *argv[])
 {
@@ -106,6 +89,12 @@ int main(int argc, char *argv[])
     string conf_file;
     string method;
     string completion;
+    int no_clusters;
+    int no_hash_tables;
+    int no_hash_functions;
+    int no_max_hypercubes;
+    int no_dim_hypercubes;
+    int no_probes;
 
     argh::parser cmdl(argc, argv, argh::parser::PREFER_PARAM_FOR_UNREG_OPTION);
     cmdl({"-i", "--input"}) >> input_file;
@@ -119,35 +108,30 @@ int main(int argc, char *argv[])
         return EXIT_FAILURE;
     }
 
+    string conf_contents = readFileToString(conf_file);
+    ryml::Tree tree = ryml::parse_in_arena(ryml::to_csubstr(conf_contents));
+
+    tree["number_of_clusters"] >> no_clusters;
+    tree["number_of_vector_hash_tables"] >> no_hash_tables;
+    tree["number_of_vector_hash_functions"] >> no_hash_functions;
+    tree["max_number_M_hybercube"] >> no_max_hypercubes;
+    tree["number_of_hypercube_dimensions"] >> no_dim_hypercubes;
+    tree["number_of_probes"] >> no_probes;
+
     MNIST input = MNIST(input_file);
+    Cluster cluster = Cluster(no_clusters, no_hash_tables, no_hash_functions, no_max_hypercubes, no_dim_hypercubes, no_probes, input.GetImages());
+    ofstream output(output_file, ios::out | ios::trunc);
 
-    array<uint, 6> conf_array = ReadFromConfigFile(conf_file); 
-    uint number_of_clusters = conf_array[0];
-    uint number_of_vector_hash_tables = conf_array[1];
-    uint number_of_vector_hash_functions = conf_array[2];
-    uint max_number_M_hybercube = conf_array[3];
-    uint number_of_hypercube_dimensions = conf_array[4];
-    uint number_of_probes = conf_array[5];
+    if (output.is_open())
+    {
+        output << cluster.getResults().rdbuf();
 
-    ExecuteClustering(input, output_file, number_of_clusters, number_of_vector_hash_tables, number_of_vector_hash_functions, max_number_M_hybercube, number_of_hypercube_dimensions, number_of_probes);
-
-    return EXIT_SUCCESS;
-}
-
-void ExecuteClustering(MNIST input, string output_file, uint number_of_clusters, uint number_of_vector_hash_tables, 
-                        uint number_of_vector_hash_functions, uint max_number_M_hybercube, uint number_of_hypercube_dimensions, 
-                        uint number_of_probes)
-{
-    // Load and process data
-    vector<Image> images = input.GetImages();
-
-    // Initialize centroids with k-Means++
-    vector<Image> starting_centroids = InitializeCentroids(images, number_of_clusters);
-
-    // Perform MacQueen K-Means clustering
-    
-
-    // Output results
+        output.close();
+    }
+    else
+    {
+        cout << "Failed to write to output file." << endl;
+    }
 
 
 }

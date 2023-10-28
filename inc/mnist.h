@@ -3,6 +3,7 @@
 
 #include <array>
 #include <iostream>
+#include <sstream>
 #include <vector>
 #include <fstream>
 #include <string>
@@ -58,6 +59,31 @@ public:
     {
         id = Id;
     }
+
+    string Print()
+    {
+        stringstream result;
+
+        for (uint32_t i = 0; i < 28; ++i)
+        {
+            for (uint32_t j = 0; j < 28; ++j)
+            {
+                int pixelValue = image_data[i * 28 + j];
+                char displayChar = '#';
+
+                // Use ' ' for white and '#' for black based on the pixel value
+                if (pixelValue < 128)
+                {
+                    displayChar = ' '; // Black
+                }
+
+                result << displayChar;
+            }
+            result << '\n';
+        }
+
+        return result.str();
+    };
 };
 
 struct ImageComparator

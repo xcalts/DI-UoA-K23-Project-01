@@ -1,3 +1,6 @@
+#ifndef HASH_H
+#define HASH_H
+
 #include <cmath>
 #include <array>
 #include <cstdint>
@@ -13,13 +16,13 @@ vector<vector<array<double, 784>>> GetRandomProjections(int number_of_hash_table
     default_random_engine generator(static_cast<unsigned>(time(nullptr))); // code for generating random numbers using normal distribution
     normal_distribution<double> distribution(0.0, 1.0);                    // the numbers range from -1 to +1
 
-    for (int i = 0; i < number_of_hash_tables; i++)                        
+    for (int i = 0; i < number_of_hash_tables; i++)
     { // For each hash table, get an array of random projections to use
         random_projections[i] = vector<array<double, 784>>(number_of_hashing_functions);
         for (int j = 0; j < number_of_hashing_functions; j++)
         { // Get a different random vector/projection for each hash function
             for (int k = 0; k < 784; k++)
-            { 
+            {
                 random_projections[i][j][k] = distribution(generator) + 1; // + 1 is for normalization purposes, having negative values would mess up the final hash code
             }
         }
@@ -40,9 +43,9 @@ uint CalculateHashCode(array<uint8_t, 784> image, array<double, 784> random_proj
     }
 
     srand(time(0));
-    sum += rand() % (uint)window;  // rand() % (uint) window === t  (theory)
+    sum += rand() % (uint)window; // rand() % (uint) window === t  (theory)
 
-    double hash_code = sum / (uint)window;   // Divide by w
+    double hash_code = sum / (uint)window; // Divide by w
 
     return (uint)floor(hash_code);
 }
@@ -62,7 +65,7 @@ uint CalculateFinalHashCode(array<uint8_t, 784> image, vector<array<double, 784>
         uint hash_code = CalculateHashCode(image, random_projections[k], window);
         int ri = random_ri(gen);
 
-        sum += (ri * hash_code) % 4294967291;    // Recall (ab) mod m = ((a mod m)(b mod m)) mod m
+        sum += (ri * hash_code) % 4294967291; // Recall (ab) mod m = ((a mod m)(b mod m)) mod m
     }
 
     uint final_hash_code = (uint)(sum % 4294967291); // we use 2^32 - 5 == 4294967291 according to theory
@@ -70,7 +73,7 @@ uint CalculateFinalHashCode(array<uint8_t, 784> image, vector<array<double, 784>
     return final_hash_code;
 }
 
-// This function calculates the distance between 2 images depending on p, aka the metric specified (as asked) 
+// This function calculates the distance between 2 images depending on p, aka the metric specified (as asked)
 double CalculateDistance(int p, array<uint8_t, 784> data_point_a, array<uint8_t, 784> data_point_b)
 {
     double sum = 0.0;
@@ -82,3 +85,5 @@ double CalculateDistance(int p, array<uint8_t, 784> data_point_a, array<uint8_t,
 
     return pow(sum, 1.0 / p);
 }
+
+#endif // HASH_H
