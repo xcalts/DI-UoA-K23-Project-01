@@ -67,17 +67,17 @@ For more information, please refer to the documentation.
 
 string readFileToString(const std::string &filename)
 {
-    std::ifstream file(filename);
+    ifstream file(filename);
     if (file)
     {
         // Read the entire file into a string
-        std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+        string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
         return content;
     }
     else
     {
         // Handle the case where the file couldn't be opened
-        throw std::runtime_error("Error opening the file: " + filename);
+        throw runtime_error("Error opening the file: " + filename);
     }
 }
 
@@ -110,12 +110,12 @@ int main(int argc, char *argv[])
     string conf_contents = readFileToString(conf_file);
     ryml::Tree tree = ryml::parse_in_arena(ryml::to_csubstr(conf_contents));
 
-    clusters = atoi(tree["number_of_clusters"]);
-    no_hash_tables = atoi(tree["number_of_vector_hash_tables"]);
-    no_hash_functions = atoi(tree["number_of_vector_hash_functions"]);
-    no_max_hypercubes = atoi(tree["max_number_M_hybercube"]);
-    no_dim_hypercubes = atoi(tree["number_of_hypercube_dimensions"]);
-    no_probes = atoi(tree["number_of_probes"]);
+    tree["number_of_clusters"] >> no_clusters;
+    tree["number_of_vector_hash_tables"] >> no_hash_tables;
+    tree["number_of_vector_hash_functions"] >> no_hash_functions;
+    tree["max_number_M_hybercube"] >> no_max_hypercubes;
+    tree["number_of_hypercube_dimensions"] >> no_dim_hypercubes;
+    tree["number_of_probes"] >> no_probes;
 
     MNIST input = MNIST(input_file);
 
