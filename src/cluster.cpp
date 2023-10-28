@@ -2,8 +2,11 @@
 #include <string>
 #include <iostream>
 
+#define RYML_SINGLE_HDR_DEFINE_NOW
+
 #include "argh.h"
 #include "mnist.h"
+#include "rapidyaml.h"
 
 using namespace std;
 
@@ -62,6 +65,22 @@ For more information, please refer to the documentation.
 )""";
 #pragma endregion
 
+string readFileToString(const std::string &filename)
+{
+    std::ifstream file(filename);
+    if (file)
+    {
+        // Read the entire file into a string
+        std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+        return content;
+    }
+    else
+    {
+        // Handle the case where the file couldn't be opened
+        throw std::runtime_error("Error opening the file: " + filename);
+    }
+}
+
 int main(int argc, char *argv[])
 {
     string input_file;
@@ -69,6 +88,12 @@ int main(int argc, char *argv[])
     string conf_file;
     string method;
     string completion;
+    int no_clusters;
+    int no_hash_tables;
+    int no_hash_functions;
+    int no_max_hypercubes;
+    int no_dim_hypercubes;
+    int no_probes;
 
     argh::parser cmdl(argc, argv, argh::parser::PREFER_PARAM_FOR_UNREG_OPTION);
     cmdl({"-i", "--input"}) >> input_file;
@@ -81,6 +106,16 @@ int main(int argc, char *argv[])
         cout << help_msg << endl;
         return EXIT_FAILURE;
     }
+
+    string conf_contents = readFileToString(conf_file);
+    ryml::Tree tree = ryml::parse_in_arena(ryml::to_csubstr(conf_contents));
+
+    clusters = atoi(tree["number_of_clusters"]);
+    no_hash_tables = atoi(tree["number_of_vector_hash_tables"]);
+    no_hash_functions = atoi(tree["number_of_vector_hash_functions"]);
+    no_max_hypercubes = atoi(tree["max_number_M_hybercube"]);
+    no_dim_hypercubes = atoi(tree["number_of_hypercube_dimensions"]);
+    no_probes = atoi(tree["number_of_probes"]);
 
     MNIST input = MNIST(input_file);
 
