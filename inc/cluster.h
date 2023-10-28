@@ -2,6 +2,7 @@
 #define CLUSTER_H
 
 #include <array>
+#include <chrono>
 #include <string>
 #include <vector>
 #include <cstdlib>
@@ -26,6 +27,7 @@ private:
     vector<Image> image_dataset;
     vector<array<uint8_t, 784>> cluster_centers;
     vector<int> assignments;
+    double executime_time_sec;
 
     // Function to calculate the Euclidean distance between two data points
     double euclideanDistance(const array<uint8_t, 784> &a, const array<uint8_t, 784> &b)
@@ -63,12 +65,17 @@ public:
     /* Initialization k-means++ */
     void Initialization()
     {
-        cluster_centers = initializeClusterCenters();
-        assignments = assignToNearestCluster();
+        auto start = chrono::high_resolution_clock::now();
+        initializeClusterCentersKMeansPP();
+        assignToNearestClusterLloyd();
+        updateClusterCentersMacQueen();
+        auto stop = chrono::high_resolution_clock::now();
+
+        executime_time_sec = chrono::duration_cast<chrono::microseconds>(stop - start).count() / 1000000;
     }
 
     // Function to initialize cluster centers using k-Means++
-    vector<array<uint8_t, 784>> initializeClusterCenters()
+    void initializeClusterCentersKMeansPP()
     {
         vector<array<uint8_t, 784>> centers;
         centers.push_back(image_dataset[std::rand() % image_dataset.size()].GetImageData());
@@ -106,14 +113,12 @@ public:
             }
         }
 
-        return centers; // Return the initialized cluster centers
+        cluster_centers = centers; // Return the initialized cluster centers
     }
 
     // Function to assign each data point to the nearest cluster center using Lloyd's algorithm
-    vector<int> assignToNearestCluster()
+    void assignToNearestClusterLloyd()
     {
-        vector<int> assignments(image_dataset.size());
-
         for (size_t i = 0; i < image_dataset.size(); i++)
         {
             double minDistance = std::numeric_limits<double>::max();
@@ -133,8 +138,139 @@ public:
             // Assign the data point to the nearest cluster
             assignments[i] = nearestCluster;
         }
+    }
 
-        return assignments;
+    // Function to update cluster centers using the MacQueen method
+    void updateClusterCentersMacQueen()
+    {
+        std::vector<array<uint8_t, 784>> updatedCenters(no_clusters);
+        std::vector<int> clusterSizes(no_clusters, 0);
+
+        // Calculate the new cluster centers
+        for (size_t i = 0; i < image_dataset.size(); i++)
+        {
+            int cluster = assignments[i];
+            clusterSizes[cluster]++;
+
+            for (int j = 0; j < 784; j++)
+            {
+                updatedCenters[cluster][j] += image_dataset[i].GetImageData()[j];
+            }
+        }
+
+        // Normalize the cluster centers
+        for (int i = 0; i < no_clusters; i++)
+        {
+            if (clusterSizes[i] > 0)
+            {
+                for (int j = 0; j < 784; j++)
+                {
+                    updatedCenters[i][j] /= clusterSizes[i];
+                }
+            }
+        }
+    };
+
+    // Function to calculate the Silhouette score for a single cluster
+    double silhouetteScoreForCluster(const vector<array<uint8_t, 784>> &cluster)
+    {
+        double silhouette = 0.0;
+
+        for (size_t i = 0; i < cluster.size(); i++)
+        {
+            double a = 0.0;                                // Mean intra-cluster distance
+            double b = std::numeric_limits<double>::max(); // Mean nearest-cluster distance
+
+            // Calculate mean intra-cluster distance
+            for (size_t j = 0; j < cluster.size(); j++)
+            {
+                if (i != j)
+                {
+                    a += euclideanDistance(cluster[i], cluster[j]);
+                }
+            }
+            if (cluster.size() > 1)
+            {
+                a /= (cluster.size() - 1);
+            }
+
+            // Calculate mean nearest-cluster distance
+            for (const array<uint8_t, 784> &otherPoint : cluster)
+            {
+                double meanDistanceToOtherCluster = 0.0;
+                for (size_t j = 0; j < cluster.size(); j++)
+                {
+                    if (i != j)
+                    {
+                        meanDistanceToOtherCluster += euclideanDistance(otherPoint, cluster[j]);
+                    }
+                }
+                if (cluster.size() > 1)
+                {
+                    meanDistanceToOtherCluster /= (cluster.size() - 1);
+                }
+                b = std::min(b, meanDistanceToOtherCluster);
+            }
+
+            // Calculate Silhouette score for the current data point
+            double s = (b - a) / std::max(a, b);
+            silhouette += s;
+        }
+
+        return silhouette / cluster.size();
+    }
+
+    // Function to calculate the Silhouette score for all clusters and average
+    double silhouetteScore(const vector<vector<array<uint8_t, 784>>> &clusters)
+    {
+        double averageSilhouette = 0.0;
+
+        for (const std::vector<array<uint8_t, 784>> &cluster : clusters)
+        {
+            double clusterSilhouette = silhouetteScoreForCluster(cluster);
+            averageSilhouette += clusterSilhouette;
+        }
+
+        return averageSilhouette / clusters.size();
+    }
+
+    stringstream getResults()
+    {
+        stringstream results;
+
+        results << "Algorithm: Lloyds" << endl;
+
+        // Basically print cluster information
+        for (size_t i = 0; i < no_clusters; i++)
+        {
+            vector<int> assignments_per_cluster;
+
+            for (size_t j = 0; j < image_dataset.size(); j++)
+                if (assignments[j] == i)
+                    assignments_per_cluster.push_back(image_dataset[j].GetIndex());
+
+            results << "CLUSTER-" << i + 1 << " {size: " << assignments_per_cluster.size() << ", centroid:[";
+            for (size_t k = 0; k < assignments_per_cluster.size(); k++)
+                if (k < assignments_per_cluster.size() - 1)
+                    results << assignments_per_cluster[k] << " ";
+                else
+                    results << assignments_per_cluster[k]; // last
+            results << "]" << endl;
+        }
+        results << "clustering_time: " << executime_time_sec << " // in seconds" << endl;
+
+        // vector<vector<array<uint8_t, 784>>> clusters(no_clusters);
+        // for (size_t i = 0; i < image_dataset.size(); i++)
+        //     clusters[assignments[i]].push_back(image_dataset[i].GetImageData());
+
+        // results << "Silhouette: [";
+        // for (size_t i = 0; i < no_clusters; i++)
+        //     if (i < no_clusters - 1)
+        //         results << silhouetteScoreForCluster(clusters[i]) << ",";
+        //     else
+        //         results << silhouetteScoreForCluster(clusters[i]) << "]" << endl; // last
+
+        return results;
     }
 };
 

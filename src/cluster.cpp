@@ -120,11 +120,18 @@ int main(int argc, char *argv[])
 
     MNIST input = MNIST(input_file);
     Cluster cluster = Cluster(no_clusters, no_hash_tables, no_hash_functions, no_max_hypercubes, no_dim_hypercubes, no_probes, input.GetImages());
+    ofstream output(output_file, ios::out | ios::trunc);
 
-    // Load and process data
-    // Initialize centroids with k-Means++
-    // Perform MacQueen K-Means clustering
-    // Output results
+    if (output.is_open())
+    {
+        output << cluster.getResults().rdbuf();
+
+        output.close();
+    }
+    else
+    {
+        cout << "Failed to write to output file." << endl;
+    }
 
     return EXIT_SUCCESS;
 }
