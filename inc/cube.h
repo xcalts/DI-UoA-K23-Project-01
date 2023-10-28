@@ -292,9 +292,9 @@ public:
         for (set<Image>::iterator it = nearest_neighbors_hypercube.begin(); it != nearest_neighbors_hypercube.end(); ++it) {
             Image element = *it;
 
-            for (uint32_t i = 0; i < 28; ++i)
+            for (int32_t i = 27; i >= 0; i--)
             {
-                for (uint32_t j = 0; j < 28; ++j)
+                for (int32_t j = 27; j >= 0; j--)
                 {
                     int pixelValue = element.GetImageData()[i * 28 + j];
                     char displayChar = '#';
@@ -305,11 +305,11 @@ public:
                         displayChar = ' '; // Black
                     }
 
-                    std::cout << displayChar;
+                    cout << displayChar;
                 }
-                std::cout << std::endl;
+                cout << endl;
             }
-            std::cout << element.GetDist() << endl;
+            cout << element.GetDist() << endl;
         }
 
         const clock_t brute_begin = clock();
@@ -325,9 +325,9 @@ public:
         for (set<Image>::iterator it = nearest_neighbors_brute_force.begin(); it != nearest_neighbors_brute_force.end(); ++it) {
             Image element = *it;
 
-            for (uint32_t i = 0; i < 28; ++i)
+            for (int32_t i = 27; i >= 0; i--)
             {
-                for (uint32_t j = 0; j < 28; ++j)
+                for (int32_t j = 27; j >= 0; j--)
                 {
                     int pixelValue = element.GetImageData()[i * 28 + j];
                     char displayChar = '#';
@@ -338,11 +338,11 @@ public:
                         displayChar = ' '; // Black
                     }
 
-                    std::cout << displayChar;
+                    cout << displayChar;
                 }
-                std::cout << std::endl;
+                cout << endl;
             }
-            std::cout << element.GetDist() << endl;
+            cout << element.GetDist() << endl;
         }
 
         set<Image, ImageComparator> neighbors_in_radius = RadiusSearch(query_images[i]);
@@ -351,9 +351,9 @@ public:
 
         // Used for debugging
 
-        /* for (uint32_t i = 0; i < 28; ++i)
+        /* for (int32_t i = 27; i >= 0; i--)
         {
-            for (uint32_t j = 0; j < 28; ++j)
+            for (int32_t j = 27; j >= 0; j--)
             {
                 int pixelValue = query_images[4].GetImageData()[i * 28 + j];
                 char displayChar = '#';

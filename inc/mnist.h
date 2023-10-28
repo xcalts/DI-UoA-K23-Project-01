@@ -196,9 +196,9 @@ public:
 
         array<uint8_t, 784> image = images.at(indx).GetImageData();
 
-        for (uint32_t i = 0; i < no_rows; ++i)
+        for (int32_t i = no_rows-1; i >= 0; i--)
         {
-            for (uint32_t j = 0; j < no_columns; ++j)
+            for (int32_t j = no_columns-1; j >= 0; j--)
             {
                 int pixelValue = image[i * no_columns + j];
                 char displayChar = '#';
