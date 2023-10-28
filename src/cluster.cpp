@@ -5,6 +5,7 @@
 #define RYML_SINGLE_HDR_DEFINE_NOW
 
 #include "argh.h"
+#include "cluster.h"
 #include "mnist.h"
 #include "rapidyaml.h"
 
@@ -118,6 +119,7 @@ int main(int argc, char *argv[])
     tree["number_of_probes"] >> no_probes;
 
     MNIST input = MNIST(input_file);
+    Cluster cluster = Cluster(no_clusters, no_hash_tables, no_hash_functions, no_max_hypercubes, no_dim_hypercubes, no_probes, input.GetImages());
 
     // Load and process data
     // Initialize centroids with k-Means++
