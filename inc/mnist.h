@@ -3,6 +3,7 @@
 
 #include <array>
 #include <iostream>
+#include <sstream>
 #include <vector>
 #include <fstream>
 #include <string>
@@ -58,6 +59,31 @@ public:
     {
         id = Id;
     }
+
+    string Print()
+    {
+        stringstream result;
+
+        for (uint32_t i = 0; i < 28; ++i)
+        {
+            for (uint32_t j = 0; j < 28; ++j)
+            {
+                int pixelValue = image_data[i * 28 + j];
+                char displayChar = '#';
+
+                // Use ' ' for white and '#' for black based on the pixel value
+                if (pixelValue < 128)
+                {
+                    displayChar = ' '; // Black
+                }
+
+                result << displayChar;
+            }
+            result << '\n';
+        }
+
+        return result.str();
+    };
 };
 
 struct ImageComparator
@@ -187,32 +213,6 @@ public:
         cout << "Number of Images:  " << GetImagesCount() << endl;
         cout << "Number of Rows:    " << GetRowsCount() << endl;
         cout << "Number of Columns: " << GetColumnsCount() << endl;
-    }
-
-    void PrintImage(size_t indx)
-    {
-        if (indx > images.size() - 1)
-            throw runtime_error("Failed to draw the image at index " + indx);
-
-        array<uint8_t, 784> image = images.at(indx).GetImageData();
-
-        for (uint32_t i = 0; i < no_rows; ++i)
-        {
-            for (uint32_t j = 0; j < no_columns; ++j)
-            {
-                int pixelValue = image[i * no_columns + j];
-                char displayChar = '#';
-
-                // Use ' ' for white and '#' for black based on the pixel value
-                if (pixelValue < 128)
-                {
-                    displayChar = ' '; // Black
-                }
-
-                std::cout << displayChar;
-            }
-            std::cout << std::endl;
-        }
     }
 };
 
