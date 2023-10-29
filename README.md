@@ -41,16 +41,6 @@
   </p>
 </div>
 
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-### Installation
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
 ## Usage
 
 ```sh
@@ -59,10 +49,6 @@ $ ./bin/lsh -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte -o re
 $ ./bin/cube -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte -o results.txt -M 100 -probes 10 -k 14
 $ ./bin/cluster -i data/train-images.idx3-ubyte
 ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## Contributing
 
@@ -77,15 +63,9 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
