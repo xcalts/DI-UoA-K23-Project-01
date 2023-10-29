@@ -33,14 +33,13 @@ vector<vector<array<double, 784>>> GetRandomProjections(int number_of_hash_table
 
 // This is the hash code for each different h(p) function, as shown in theory
 // It's a separate function from CalculateFinalHashCode, as it is needed by it's own for Hypercube
-uint CalculateHashCode(array<uint8_t, 784> image, array<double, 784> random_projection, int window)
+uint CalculateHashCode(array<double, 784> image, array<double, 784> random_projection, int window)
 {
     // Calculate inner product between image and random projection, aka p [dot product] v
-    cout << "Hey" << endl;
     double sum = 0;
     for (int i = 0; i < 784; i++)
     {
-        sum += (double)image[i] * random_projection[i];
+        sum += image[i] * random_projection[i];
     }
     
     srand(time(0));
@@ -52,7 +51,7 @@ uint CalculateHashCode(array<uint8_t, 784> image, array<double, 784> random_proj
 }
 
 // This is the final hash code barring the (% TableSize) operation at the end, so that optimization of LSH can be possible (see theory)
-uint CalculateFinalHashCode(array<uint8_t, 784> image, vector<array<double, 784>> random_projections, int number_of_hashing_functions, int window)
+uint CalculateFinalHashCode(array<double, 784> image, vector<array<double, 784>> random_projections, int number_of_hashing_functions, int window)
 {
     uint sum = 0;
 
@@ -75,7 +74,7 @@ uint CalculateFinalHashCode(array<uint8_t, 784> image, vector<array<double, 784>
 }
 
 // This function calculates the distance between 2 images depending on p, aka the metric specified (as asked)
-double CalculateDistance(int p, array<uint8_t, 784> data_point_a, array<uint8_t, 784> data_point_b)
+double CalculateDistance(int p, array<double, 784> data_point_a, array<double, 784> data_point_b)
 {
     double sum = 0.0;
     for (size_t i = 0; i < 784; i++)

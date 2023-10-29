@@ -16,7 +16,7 @@ class Image
 private:
     /* Fields */
     uint index_in_dataset;
-    array<uint8_t, 784> image_data;
+    array<double, 784> image_data;
     double dist;
     int id;
 
@@ -25,7 +25,7 @@ public:
     Image() : index_in_dataset(0), image_data{}, dist(pow(2, 32) - 5), id(-1)
     {
     }
-    Image(uint indx, array<uint8_t, 784> data) : index_in_dataset(indx), image_data(data), dist(pow(2, 32) - 5), id(-1)
+    Image(uint indx, array<double, 784> data) : index_in_dataset(indx), image_data(data), dist(pow(2, 32) - 5), id(-1)
     {
     }
 
@@ -35,7 +35,7 @@ public:
         return index_in_dataset;
     }
 
-    array<uint8_t, 784> GetImageData()
+    array<double, 784> GetImageData()
     {
         return image_data;
     }
@@ -125,18 +125,18 @@ private:
         return integerVal;
     }
 
-    array<uint8_t, 784> ExtractArrayFromBytes(const vector<uint8_t> &bytes, size_t offset)
+    array<double, 784> ExtractArrayFromBytes(const vector<uint8_t> &bytes, size_t offset)
     {
         if (bytes.size() < offset + 784)
         {
             throw runtime_error("Vector does not contain enough bytes to extract the specified size.");
         }
 
-        array<uint8_t, 784> data;
+        array<double, 784> data;
 
         for (size_t i = 0; i < 784; i++)
         {
-            data[783 - i] = bytes[offset + i];
+            data[783 - i] = (double) bytes[offset + i];
         }
 
         return data;
@@ -220,7 +220,7 @@ public:
         if (indx > images.size() - 1)
             throw runtime_error("Failed to draw the image at index " + indx);
 
-        array<uint8_t, 784> image = images.at(indx).GetImageData();
+        array<double, 784> image = images.at(indx).GetImageData();
 
         for (int32_t i = no_rows-1; i >= 0; i--)
         {

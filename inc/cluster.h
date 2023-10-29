@@ -35,8 +35,8 @@ private:
     int no_dim_hypercubes;
     int no_probes;
     vector<Image> image_dataset;
-    vector<array<uint8_t, 784>> cluster_centers;
-    vector<array<uint8_t, 784>> unnormalized_cluster_centers;
+    vector<array<double, 784>> cluster_centers;
+    vector<array<double, 784>> unnormalized_cluster_centers;
     vector<int> assignments;
     unordered_map<int, vector<Image>> clusters;
     double executime_time_sec;
@@ -56,7 +56,7 @@ private:
         }
     }
 
-    double euclideanDistance(const array<uint8_t, 784> &a, const array<uint8_t, 784> &b)
+    double euclideanDistance(const array<double, 784> &a, const array<double, 784> &b)
     {
         double sum = 0.0;
         for (int i = 0; i < 784; i++)
@@ -89,9 +89,9 @@ public:
         range = START_RANGE;
         assigned = 0;
 
-        unnormalized_cluster_centers = vector<array<uint8_t, 784>>(no_clusters);
+        unnormalized_cluster_centers = vector<array<double, 784>>(no_clusters);
         for(int i = 0; i < no_clusters; i++) {
-            unnormalized_cluster_centers[i].fill(0);
+            unnormalized_cluster_centers[i].fill(0.0);
         }
 
         Initialization();
@@ -108,6 +108,9 @@ public:
         int i = 0;
         while(changes > 0) {
         // while(i++ < 2) {
+            for(int i = 0; i < no_clusters; i++) {
+                unnormalized_cluster_centers[i].fill(0.0);
+            }
             cout << "Changes: " << changes << ", Range: " << range << ", Assigned: " << assigned << endl;
             changes = 0;
             switch(parseMethod(method))
@@ -160,7 +163,7 @@ public:
     {   
         cout << "Initializing centroids using k-means++..." << endl;
 
-        vector<array<uint8_t, 784>> centers;
+        vector<array<double, 784>> centers;
         srand(time(0));
         int rand_indx = std::rand() % image_dataset.size();
         assignments[rand_indx] = 0;
@@ -176,7 +179,7 @@ public:
 
             for (size_t i = 0; i < image_dataset.size(); i++)
             {
-                for (const array<uint8_t, 784> &center : centers)
+                for (const array<double, 784> &center : centers)
                 {
                     double dist = euclideanDistance(image_dataset[i].GetImageData(), center);
                     
@@ -212,7 +215,7 @@ public:
             }
         }
 
-        unnormalized_cluster_centers = centers;
+        // unnormalized_cluster_centers = centers;
         cluster_centers = centers; // Return the initialized cluster centers
     }
 
@@ -240,6 +243,8 @@ public:
                 }
             }
             
+            cout << i << " > " << nearest_cluster << endl;
+
             // Assign the data point to the nearest cluster
             if(prev_cluster != nearest_cluster) {
 
@@ -255,10 +260,22 @@ public:
                     }
                 }
                 
+                int cluster_size = clusters[prev_cluster].size();
+
+                // Update previous cluster's center       
+                if (cluster_size > 0)
+                {
+                    for (int j = 0; j < 784; j++)
+                    {   
+                        unnormalized_cluster_centers[prev_cluster][j] -= image_dataset[i].GetImageData()[j];
+                        cluster_centers[prev_cluster][j] = unnormalized_cluster_centers[prev_cluster][j] / cluster_size;
+                    }      
+                }
+
                 // Assign image to nearest cluster
                 assignments[i] = nearest_cluster;
                 clusters[nearest_cluster].push_back(image_dataset[i]);
-                int cluster_size = clusters[nearest_cluster].size();
+                cluster_size = clusters[nearest_cluster].size();
 
                 // Update nearest cluster's center       
                 if (cluster_size > 0)
@@ -269,8 +286,6 @@ public:
                         cluster_centers[nearest_cluster][j] = unnormalized_cluster_centers[nearest_cluster][j] / cluster_size;
                     }      
                 }
-                
-
             }
         }
 
@@ -429,7 +444,7 @@ public:
     {
         cout << "Updating cluster centers..." << endl;
 
-        std::vector<array<uint8_t, 784>> updatedCenters(no_clusters);
+        std::vector<array<double, 784>> updatedCenters(no_clusters);
         std::vector<int> clusterSizes(no_clusters, 0);
 
         // Calculate the new cluster centers
@@ -461,29 +476,29 @@ public:
 
         cluster_centers = updatedCenters;
 
-        for(int k = 0; k < no_clusters; k++) {
-            for (int32_t i = 27; i >= 0; i--)
-            {
-                for (int32_t j = 27; j >= 0; j--)
-                {
-                    int pixelValue = updatedCenters[k][i * 28 + j];
-                    char displayChar = '#';
+        // for(int k = 0; k < no_clusters; k++) {
+        //     for (int32_t i = 27; i >= 0; i--)
+        //     {
+        //         for (int32_t j = 27; j >= 0; j--)
+        //         {
+        //             int pixelValue = updatedCenters[k][i * 28 + j];
+        //             char displayChar = '#';
 
-                    // Use ' ' for white and '#' for black based on the pixel value
-                    if (pixelValue < 128)
-                    {
-                        displayChar = ' '; // Black
-                    }
+        //             // Use ' ' for white and '#' for black based on the pixel value
+        //             if (pixelValue < 128)
+        //             {
+        //                 displayChar = ' '; // Black
+        //             }
 
-                    cout << displayChar;
-                }
-                cout << '\n';
-            }
-        }
+        //             cout << displayChar;
+        //         }
+        //         cout << '\n';
+        //     }
+        // }
     };
 
     // Function to calculate the Silhouette score for a single cluster
-    double silhouetteScoreForCluster(const vector<array<uint8_t, 784>> &cluster)
+    double silhouetteScoreForCluster(const vector<array<double, 784>> &cluster)
     {
         double silhouette = 0.0;
 
@@ -506,7 +521,7 @@ public:
             }
 
             // Calculate mean nearest-cluster distance
-            for (const array<uint8_t, 784> &otherPoint : cluster)
+            for (const array<double, 784> &otherPoint : cluster)
             {
                 double meanDistanceToOtherCluster = 0.0;
                 for (size_t j = 0; j < cluster.size(); j++)
@@ -532,11 +547,11 @@ public:
     }
 
     // Function to calculate the Silhouette score for all clusters and average
-    double silhouetteScore(const vector<vector<array<uint8_t, 784>>> &clusters)
+    double silhouetteScore(const vector<vector<array<double, 784>>> &clusters)
     {
         double averageSilhouette = 0.0;
 
-        for (const std::vector<array<uint8_t, 784>> &cluster : clusters)
+        for (const std::vector<array<double, 784>> &cluster : clusters)
         {
             double clusterSilhouette = silhouetteScoreForCluster(cluster);
             averageSilhouette += clusterSilhouette;
