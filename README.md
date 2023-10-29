@@ -30,11 +30,7 @@
   <h3 align="center">Search and Clustering in C/C++</h3>
 
   <p align="center">
-    <a href="https://github.com/xcalts/project-one-DI352"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/xcalts/project-one-DI352">View Demo</a>
-    ·
     <a href="https://github.com/xcalts/project-one-DI352/issues">Report Bug</a>
     ·
     <a href="https://github.com/xcalts/project-one-DI352/issues">Request Feature</a>
