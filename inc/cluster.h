@@ -18,7 +18,7 @@
 #include "cube.h"
 #include "mnist.h"
 
-#define START_RANGE 10000
+#define START_RANGE 100
 
 using namespace std;
 
@@ -105,17 +105,21 @@ public:
         initializeClusterCentersKMeansPP();
         
         uint changes = 1;
-        int i = 0;
-        while(changes > 0) {
-        // while(i++ < 2) {
-            for(int i = 0; i < no_clusters; i++) {
-                unnormalized_cluster_centers[i].fill(0.0);
-            }
+        int it = 0;
+
+        while((((double) changes / (double) image_dataset.size()) > 0.1 && it < 15) ||
+                ((parseMethod(method) == LSH_METHOD || parseMethod(method) == HYPERCUBE_METHOD) && ((double)(image_dataset.size() - assigned) / (double) image_dataset.size()) > 0.1)) 
+        {
+            
             cout << "Changes: " << changes << ", Range: " << range << ", Assigned: " << assigned << endl;
             changes = 0;
             switch(parseMethod(method))
             {
                 case LLOYD_METHOD:
+                    for(int i = 0; i < no_clusters; i++)
+                    {
+                        unnormalized_cluster_centers[i].fill(0.0);
+                    }
                     changes = assignToNearestClusterLloyd();
                     break;
                 case LSH_METHOD:
@@ -128,33 +132,18 @@ public:
                     break;
                 default:
                     cout << "Not Lloyd's" << endl;
-                    break;
+                    return;
             }
+            
+            it++;
         }
         
         auto stop = chrono::high_resolution_clock::now();
         executime_time_sec = chrono::duration_cast<chrono::microseconds>(stop - start).count() / 1000000;
         
-        for(int k = 0; k < no_clusters; k++) {
+        for(int k = 0; k < no_clusters; k++) 
+        {
             cout << k << ": " << clusters[k].size() << endl;
-
-        //     for (int32_t i = 27; i >= 0; i--)
-        //     {
-        //         for (int32_t j = 27; j >= 0; j--)
-        //         {
-        //             int pixelValue = cluster_centers[k][i * 28 + j];
-        //             char displayChar = '#';
-
-        //             // Use ' ' for white and '#' for black based on the pixel value
-        //             if (pixelValue < 128)
-        //             {
-        //                 displayChar = ' '; // Black
-        //             }
-
-        //             cout << displayChar;
-        //         }
-        //         cout << '\n';
-        //     }
         }
     }
 
@@ -208,14 +197,13 @@ public:
                 if (rand_value <= cumulative_probability)
                 {
                     assignments[i] = centers.size();
-                    clusters[0].push_back(image_dataset[rand_indx]);
+                    clusters[i].push_back(image_dataset[rand_indx]);
                     centers.push_back(image_dataset[i].GetImageData()); // Add the data point as a new center
                     break;
                 }
             }
         }
 
-        // unnormalized_cluster_centers = centers;
         cluster_centers = centers; // Return the initialized cluster centers
     }
 
@@ -243,7 +231,7 @@ public:
                 }
             }
             
-            cout << i << " > " << nearest_cluster << endl;
+            // cout << i << " > " << nearest_cluster << endl;
 
             // Assign the data point to the nearest cluster
             if(prev_cluster != nearest_cluster) {
@@ -258,19 +246,21 @@ public:
                             clusters[prev_cluster].erase(indx);
                         }
                     }
+                } else {
+                    assigned++;
                 }
                 
                 int cluster_size = clusters[prev_cluster].size();
 
                 // Update previous cluster's center       
-                if (cluster_size > 0)
-                {
-                    for (int j = 0; j < 784; j++)
-                    {   
-                        unnormalized_cluster_centers[prev_cluster][j] -= image_dataset[i].GetImageData()[j];
-                        cluster_centers[prev_cluster][j] = unnormalized_cluster_centers[prev_cluster][j] / cluster_size;
-                    }      
-                }
+                // if (cluster_size > 0 && prev_cluster != -1)
+                // {
+                //     for (int j = 0; j < 784; j++)
+                //     {   
+                //         unnormalized_cluster_centers[prev_cluster][j] -= image_dataset[i].GetImageData()[j];
+                //         cluster_centers[prev_cluster][j] = unnormalized_cluster_centers[prev_cluster][j] / cluster_size;
+                //     }      
+                // }
 
                 // Assign image to nearest cluster
                 assignments[i] = nearest_cluster;
@@ -287,6 +277,7 @@ public:
                     }      
                 }
             }
+
         }
 
         return changes;
@@ -475,26 +466,6 @@ public:
         }
 
         cluster_centers = updatedCenters;
-
-        // for(int k = 0; k < no_clusters; k++) {
-        //     for (int32_t i = 27; i >= 0; i--)
-        //     {
-        //         for (int32_t j = 27; j >= 0; j--)
-        //         {
-        //             int pixelValue = updatedCenters[k][i * 28 + j];
-        //             char displayChar = '#';
-
-        //             // Use ' ' for white and '#' for black based on the pixel value
-        //             if (pixelValue < 128)
-        //             {
-        //                 displayChar = ' '; // Black
-        //             }
-
-        //             cout << displayChar;
-        //         }
-        //         cout << '\n';
-        //     }
-        // }
     };
 
     // Function to calculate the Silhouette score for a single cluster
