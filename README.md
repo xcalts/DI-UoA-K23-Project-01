@@ -23,17 +23,11 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/xcalts/project-one-DI352">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Αναζήτηση και συσταδοποίηση διανυσμάτων στη C/C++</h3>
+  <h3 align="center">Search and Clustering in C/C++</h3>
 
   <p align="center">
     <a href="https://github.com/xcalts/project-one-DI352"><strong>Explore the docs »</strong></a>
