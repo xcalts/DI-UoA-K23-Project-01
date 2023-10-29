@@ -29,7 +29,6 @@ Options:
     -m, --method lloyd
         Choose the assignment method for k-Means clustering. Options:
         - lloyd: Use Lloyd's assignment algorithm (default).
-        - reverse: Use Reverse Search assignment algorithm.
         - lsh: Use LSH (Locality-Sensitive Hashing) assignment algorithm.
         - hypercube: Use the Hypercube assignment algorithm.
 
@@ -100,7 +99,7 @@ int main(int argc, char *argv[])
     cmdl({"-i", "--input"}) >> input_file;
     cmdl({"-o", "--output"}) >> output_file;
     cmdl({"-c", "--configuration"}) >> conf_file;
-    cmdl({"-m", "--method"}) >> method;
+    cmdl({"-m", "--method"}, "lloyd") >> method;
 
     if (cmdl({"-h", "--help"}) || input_file.empty() || output_file.empty())
     {
@@ -119,7 +118,7 @@ int main(int argc, char *argv[])
     tree["number_of_probes"] >> no_probes;
 
     MNIST input = MNIST(input_file);
-    Cluster cluster = Cluster(no_clusters, no_hash_tables, no_hash_functions, no_max_hypercubes, no_dim_hypercubes, no_probes, input.GetImages());
+    Cluster cluster = Cluster(no_clusters, no_hash_tables, no_hash_functions, no_max_hypercubes, no_dim_hypercubes, no_probes, input.GetImages(), method);
     ofstream output(output_file, ios::out | ios::trunc);
 
     if (output.is_open())
