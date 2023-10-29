@@ -28,9 +28,7 @@
 <br />
 <div align="center">
   <h3 align="center">Search and Clustering in C/C++</h3>
-
   <p align="center">
-    <br />
     <a href="https://github.com/xcalts/project-one-DI352/issues">Report Bug</a>
     ·
     <a href="https://github.com/xcalts/project-one-DI352/issues">Request Feature</a>
@@ -62,6 +60,11 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## Information
+
+Κυπραίος Χρήστος, 1115202000105
+Καλτσάς Χρήστος, 1115202000289
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
