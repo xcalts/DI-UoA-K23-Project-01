@@ -63,8 +63,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Information
 
-Κυπραίος Χρήστος, 1115202000105
-Καλτσάς Χρήστος, 1115202000289
+- Κυπραίος Χρήστος, 1115202000105
+- Καλτσάς Χρήστος, 1115202000289
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
