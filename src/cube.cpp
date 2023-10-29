@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
     MNIST input = MNIST(input_file);
     MNIST query = MNIST(query_file);
 
-    Hypercube hypercube = Hypercube(input, query, output_file, dimensions, candidates, probes, no_nearest, radius);
+    Hypercube hypercube = Hypercube(input.GetImages(), query.GetImages(), output_file, dimensions, candidates, probes, no_nearest, radius);
 
     cout << "== Input ==" << endl;
     input.Print();

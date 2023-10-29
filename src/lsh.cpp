@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
     MNIST input = MNIST(input_file);
     MNIST query = MNIST(query_file);
 
-    LSH lsh = LSH(input, query, output_file, no_hash_functions, no_hash_tables, radius);
+    LSH lsh = LSH(input.GetImages(), query.GetImages(), output_file, no_hash_functions, no_hash_tables, radius);
 
     ofstream output(output_file, ios::out | ios::trunc);
 

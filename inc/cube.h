@@ -61,7 +61,7 @@ private:
 
 public:
     /* Constructor */
-    Hypercube(MNIST input, MNIST query, string output, int d, int M, int p, int N, int R)
+    Hypercube(vector<Image> input, vector<Image> query, string output, int d, int M, int p, int N, int R)
     {
         output_file_path = output;
         dimension = d;
@@ -69,9 +69,10 @@ public:
         probes = p;
         number_of_nearest = N;
         radius = R;
-        query_images = query.GetImages();
-        images = input.GetImages();
+        query_images = query;
+        images = input;
 
+        AssignInputToVertices();
     }
 
     /* Functions */
@@ -231,11 +232,11 @@ public:
 
         // Find corresponding vertex for query_image
         string query_vertex_code = "";
-
+        
         for (int i = 0; i < dimension; i++)
-        {
+        {   
             uint hash_code = CalculateHashCode(query_image.GetImageData(), random_projections[i], WINDOW);
-
+            
             int binary_digit = hash_code % 2;
             query_vertex_code += to_string(binary_digit);
         }
@@ -273,8 +274,6 @@ public:
 
     void Execute()
     {
-        AssignInputToVertices();
-
         int i = 4;
 
         // for(int i = 0; i < (int) query_images.size(); i++) {     // For each image in the query set

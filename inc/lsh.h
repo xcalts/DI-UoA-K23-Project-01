@@ -31,14 +31,14 @@ private:
 
 public:
     /* Constructor */
-    LSH(MNIST input, MNIST query, string output, int k, int L, int R)
+    LSH(vector<Image> input, vector<Image> query, string output, int k, int L, int R)
     {
         output_file_path = output;
         number_of_hashing_functions = k;
         number_of_hash_tables = L;
         radius = R;
-        query_images = query.GetImages();
-        images = input.GetImages();
+        query_images = query;
+        images = input;
 
         hash_tables = vector<unordered_map<uint, vector<Image>>>(L);
         HashInput();

@@ -14,11 +14,15 @@
 #include <ctime>
 
 #include "hash.h"
+#include "lsh.h"
+#include "cube.h"
 #include "mnist.h"
+
+#define START_RANGE 10000
 
 using namespace std;
 
-enum Method { LLOYD, LSH, HYPERCUBE, UNKNOWN };
+enum Method { LLOYD_METHOD, LSH_METHOD, HYPERCUBE_METHOD, UNKNOWN };
 
 class Cluster
 {
@@ -37,14 +41,16 @@ private:
     unordered_map<int, vector<Image>> clusters;
     double executime_time_sec;
     string method;
+    int range;
+    int assigned;
 
     Method parseMethod(const std::string& input) {
         if (input == "lloyd") {
-            return LLOYD;
+            return LLOYD_METHOD;
         } else if (input == "lsh") {
-            return LSH;
+            return LSH_METHOD;
         } else if (input == "hypercube") {
-            return HYPERCUBE;
+            return HYPERCUBE_METHOD;
         } else {
             return UNKNOWN;
         }
@@ -80,6 +86,8 @@ public:
         image_dataset = _image_dataset;
         assignments = vector<int>(image_dataset.size(), -1);
         method = _method;
+        range = START_RANGE;
+        assigned = 0;
 
         unnormalized_cluster_centers = vector<array<uint8_t, 784>>(no_clusters);
         for(int i = 0; i < no_clusters; i++) {
@@ -95,23 +103,24 @@ public:
         auto start = chrono::high_resolution_clock::now();
         
         initializeClusterCentersKMeansPP();
+        
         uint changes = 1;
         int i = 0;
-        // while(changes > 0) {
-        while(i++ < 2) {
-            cout << changes << endl;
+        while(changes > 0) {
+        // while(i++ < 2) {
+            cout << "Changes: " << changes << ", Range: " << range << ", Assigned: " << assigned << endl;
             changes = 0;
             switch(parseMethod(method))
             {
-                case LLOYD:
+                case LLOYD_METHOD:
                     changes = assignToNearestClusterLloyd();
                     break;
-                case LSH:
-                    changes = assignToNearestClusterRange(LSH);
+                case LSH_METHOD:
+                    changes = assignToNearestClusterRange(LSH_METHOD);
                     updateClusterCentersMacQueen();
                     break;
-                case HYPERCUBE:
-                    changes = assignToNearestClusterRange(HYPERCUBE);
+                case HYPERCUBE_METHOD:
+                    changes = assignToNearestClusterRange(HYPERCUBE_METHOD);
                     updateClusterCentersMacQueen();
                     break;
                 default:
@@ -119,12 +128,12 @@ public:
                     break;
             }
         }
-
+        
         auto stop = chrono::high_resolution_clock::now();
         executime_time_sec = chrono::duration_cast<chrono::microseconds>(stop - start).count() / 1000000;
-
-        // for(int k = 0; k < no_clusters; k++) {
-        //     cout << k << ": " << clusters[k].size() << endl;
+        
+        for(int k = 0; k < no_clusters; k++) {
+            cout << k << ": " << clusters[k].size() << endl;
 
         //     for (int32_t i = 27; i >= 0; i--)
         //     {
@@ -143,7 +152,7 @@ public:
         //         }
         //         cout << '\n';
         //     }
-        // }
+        }
     }
 
     // Function to initialize cluster centers using k-Means++
@@ -196,7 +205,7 @@ public:
                 if (rand_value <= cumulative_probability)
                 {
                     assignments[i] = centers.size();
-                    clusters[centers.size()].push_back(image_dataset[i]);
+                    clusters[0].push_back(image_dataset[rand_indx]);
                     centers.push_back(image_dataset[i].GetImageData()); // Add the data point as a new center
                     break;
                 }
@@ -214,6 +223,7 @@ public:
         cout << "Assigning points to clusters using Lloyd's algorithm..." << endl;
         for (size_t i = 0; i < image_dataset.size(); i++)
         {
+            
             int prev_cluster = assignments[i];
             double min_distance = std::numeric_limits<double>::max();
             int nearest_cluster = -1;
@@ -234,7 +244,6 @@ public:
             if(prev_cluster != nearest_cluster) {
 
                 changes++;
-                assignments[i] = nearest_cluster;
                 
                 // Remove image from previous cluster
                 if(prev_cluster != -1) {
@@ -245,51 +254,181 @@ public:
                         }
                     }
                 }
-                // Assing image to nearest cluster
-                clusters[nearest_cluster].push_back(image_dataset[i]);
                 
-                // Update previous cluster's center
-                // if(prev_cluster != -1) {
-                //     int cluster_size = clusters[prev_cluster].size();       
-                //     if (cluster_size > 0)
-                //     {
-                //         for (int j = 0; j < 784; j++)
-                //         {   
-                //             unnormalized_cluster_centers[prev_cluster][j] -= image_dataset[i].GetImageData()[j];
-                //             cluster_centers[prev_cluster][j] = unnormalized_cluster_centers[prev_cluster][j] / cluster_size;
-                //         }            
-                //     }
-                // }
+                // Assign image to nearest cluster
+                assignments[i] = nearest_cluster;
+                clusters[nearest_cluster].push_back(image_dataset[i]);
+                int cluster_size = clusters[nearest_cluster].size();
 
-                // Update nearest cluster's center
-                int cluster_size = clusters[nearest_cluster].size();       
+                // Update nearest cluster's center       
                 if (cluster_size > 0)
                 {
                     for (int j = 0; j < 784; j++)
                     {   
                         unnormalized_cluster_centers[nearest_cluster][j] += image_dataset[i].GetImageData()[j];
                         cluster_centers[nearest_cluster][j] = unnormalized_cluster_centers[nearest_cluster][j] / cluster_size;
-                    }            
+                    }      
                 }
                 
 
             }
-            
         }
 
         return changes;
     }
 
     // Function to assign each data point to the nearest cluster center using range search
-    void assignToNearestClusterRange(Method method)
-    {   
+    uint assignToNearestClusterRange(Method method)
+    {
+        cout << assigned << endl;
+        uint changes = 0;
+
+        // Need to create images from centers
+        vector<Image> center_images(no_clusters);
+        for(int i = 0; i < no_clusters; i++)
+        {
+            Image image = Image(i, cluster_centers[i]);
+            center_images[i] = image;
+        }
+
+        // Vector that will keep count of conflicts
+        vector<vector<int>> conflicts(image_dataset.size(), vector<int>(0));
         
+        switch(method)
+        {
+            case LSH_METHOD: 
+            {
+                // For each center
+                // For given range, execute given LSH RadiusSearch using the one center as query
+                LSH lsh = LSH(image_dataset, center_images, "", no_hash_functions, no_hash_tables, range);
+                for(int i = 0; i < no_clusters; i++)
+                {
+                    // Execute given LSH RadiusSearch using the one center as query
+                    set<Image, ImageComparator> neighbors_in_radius = lsh.RadiusSearch(center_images[i]);
+                
+                    for (set<Image, ImageComparator>::iterator it = neighbors_in_radius.begin(); it != neighbors_in_radius.end(); ++it)
+                    {
+                        Image neighbor = *it;
+                        conflicts[neighbor.GetIndex()].push_back(i);
+                    }
+                }
+
+                break;
+            }
+            case HYPERCUBE_METHOD: 
+            {
+                // For each center
+                // For given range, execute given Hypercube RadiusSearch using the one center as query
+                Hypercube hypercube = Hypercube(image_dataset, center_images, "", no_dim_hypercubes, no_max_hypercubes, no_probes, 0, range);
+                for(int i = 0; i < no_clusters; i++)
+                {
+                    // Execute given Hypercube RadiusSearch using the one center as query
+                    set<Image, ImageComparator> neighbors_in_radius = hypercube.RadiusSearch(center_images[i]);
+                
+                    for (set<Image, ImageComparator>::iterator it = neighbors_in_radius.begin(); it != neighbors_in_radius.end(); ++it)
+                    {
+                        Image neighbor = *it;
+                        conflicts[neighbor.GetIndex()].push_back(i);
+                    }
+                }
+
+                break;
+            }
+            default: 
+            {
+                break;
+            }
+        }
+
+        // Resolve conflicts, aka points that fall into 2 radiuses, by calculating distance between point and centers
+        for(int i = 0; i < image_dataset.size(); i++)
+        {
+            // cout << i << ", " << conflicts[i].size() << endl;
+
+            if(conflicts[i].size() == 1) {
+                // cout << i << " > " << conflicts[i][0] << endl;
+
+                int prev_cluster = assignments[i];
+                int new_cluster = conflicts[i][0];
+
+                // if prev_cluster != new_cluster (happens if it was previously unassigned, or if cluster center's changed dramatically)
+                if(prev_cluster != new_cluster) {
+                    changes++;
+
+                    // Remove from previous cluster
+                    if(prev_cluster != -1) {
+                        for(int j = 0; j < clusters[prev_cluster].size(); j++) 
+                        {
+                            if(image_dataset[i].GetIndex() == clusters[prev_cluster][j].GetIndex()) {
+                                vector<Image>::iterator indx = clusters[prev_cluster].begin() + j;
+                                clusters[prev_cluster].erase(indx);
+                            }
+                        }
+                    } else {
+                        assigned++;
+                    }
+
+                    // Add to new cluster
+                    assignments[i] = new_cluster;
+                    clusters[new_cluster].push_back(image_dataset[i]);
+                }
+
+            } else if(conflicts[i].size() > 1) {
+                // cout << i << ": " << conflicts[i].size() << endl;
+
+                // Compare distances between conflicting clusters
+                int prev_cluster = assignments[i];
+                double min_dist = std::numeric_limits<double>::max();
+                int nearest_cluster = -1;
+                for(int j = 0; j < conflicts[i].size(); j++)
+                {
+                    // cout << conflicts[i][j] << endl;
+
+                    double distance = euclideanDistance(image_dataset[i].GetImageData(), cluster_centers[conflicts[i][j]]);
+                    if (distance < min_dist)
+                    {
+                        min_dist = distance;
+                        nearest_cluster = conflicts[i][j];
+                    }
+                }
+
+                // cout << "Nearest Cluster: " << nearest_cluster << ", Distance: " << min_dist << endl;
+
+                // if prev_cluster != nearest_cluster
+                if(prev_cluster != nearest_cluster) {
+                    changes++;
+
+                    // Remove from previous cluster
+                    if(prev_cluster != -1) {
+                        for(int j = 0; j < clusters[prev_cluster].size(); j++) 
+                        {
+                            if(image_dataset[i].GetIndex() == clusters[prev_cluster][j].GetIndex()) {
+                                vector<Image>::iterator indx = clusters[prev_cluster].begin() + j;
+                                clusters[prev_cluster].erase(indx);
+                            }
+                        }
+                    } else {
+                        assigned++;
+                    }
+
+                    // Add to nearest_cluster
+                    assignments[i] = nearest_cluster;
+                    clusters[nearest_cluster].push_back(image_dataset[i]);
+                }
+                
+            }
+        }
+
+        range *= 2;
+
+        return changes;
     }
 
     // Function to update cluster centers using the MacQueen method
     void updateClusterCentersMacQueen()
-    {   
-        cout << "Updating cluster centroids using MacQueen..." << endl;
+    {
+        cout << "Updating cluster centers..." << endl;
+
         std::vector<array<uint8_t, 784>> updatedCenters(no_clusters);
         std::vector<int> clusterSizes(no_clusters, 0);
 
@@ -297,11 +436,14 @@ public:
         for (size_t i = 0; i < image_dataset.size(); i++)
         {
             int cluster = assignments[i];
+            if(cluster == -1)
+                continue;
+
             clusterSizes[cluster]++;
 
             for (int j = 0; j < 784; j++)
             {
-                unnormalized_cluster_centers[cluster][j] += image_dataset[i].GetImageData()[j];
+                updatedCenters[cluster][j] += image_dataset[i].GetImageData()[j];
             }
         }
 
@@ -312,8 +454,30 @@ public:
             {
                 for (int j = 0; j < 784; j++)
                 {
-                    updatedCenters[i][j] = unnormalized_cluster_centers[i][j] / clusterSizes[i];
+                    updatedCenters[i][j] /= clusterSizes[i];
                 }
+            }
+        }
+
+        cluster_centers = updatedCenters;
+
+        for(int k = 0; k < no_clusters; k++) {
+            for (int32_t i = 27; i >= 0; i--)
+            {
+                for (int32_t j = 27; j >= 0; j--)
+                {
+                    int pixelValue = updatedCenters[k][i * 28 + j];
+                    char displayChar = '#';
+
+                    // Use ' ' for white and '#' for black based on the pixel value
+                    if (pixelValue < 128)
+                    {
+                        displayChar = ' '; // Black
+                    }
+
+                    cout << displayChar;
+                }
+                cout << '\n';
             }
         }
     };

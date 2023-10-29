@@ -36,12 +36,13 @@ vector<vector<array<double, 784>>> GetRandomProjections(int number_of_hash_table
 uint CalculateHashCode(array<uint8_t, 784> image, array<double, 784> random_projection, int window)
 {
     // Calculate inner product between image and random projection, aka p [dot product] v
+    cout << "Hey" << endl;
     double sum = 0;
     for (int i = 0; i < 784; i++)
     {
         sum += (double)image[i] * random_projection[i];
     }
-
+    
     srand(time(0));
     sum += rand() % (uint)window; // rand() % (uint) window === t  (theory)
 
