@@ -35,6 +35,12 @@
   </p>
 </div>
 
+## Requirements
+
+```sh
+$ sudo apt install build-essential
+```
+
 ## Usage
 
 ```sh
