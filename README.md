@@ -47,7 +47,7 @@ $ sudo apt install build-essential
 $ make debug
 $ ./bin/lsh -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte -o results.txt --hash-function 15 --hash-tables 10 --num-nearest 5 -R 0
 $ ./bin/cube -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte -o results.txt -M 100 -probes 10 -k 14
-$ ./bin/cluster -i data/train-images.idx3-ubyte
+$ ./bin/cluster -m lsh -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte -o results.txt -c ./data/cluster.conf
 ```
 
 ## Contributing
