@@ -29,7 +29,6 @@ Options:
     -m, --method lloyd
         Choose the assignment method for k-Means clustering. Options:
         - lloyd: Use Lloyd's assignment algorithm (default).
-        - reverse: Use Reverse Search assignment algorithm.
         - lsh: Use LSH (Locality-Sensitive Hashing) assignment algorithm.
         - hypercube: Use the Hypercube assignment algorithm.
 
@@ -45,7 +44,6 @@ Positional Arguments:
 
 Example Usage:
     cluster -m lloyd -i <input_file> -o <output_file> -c cluster.conf
-    cluster -m reverse -i <input_file> -o <output_file> -c cluster.conf
     cluster -m lsh -i <input_file> -o <output_file> -c cluster.conf
     cluster -m hypercube -i <input_file> -o <output_file> -c cluster.conf
 
