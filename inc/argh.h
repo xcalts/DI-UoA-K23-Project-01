@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ARGH_H
+#define ARGH_H
 
 #include <algorithm>
 #include <sstream>
@@ -491,3 +492,5 @@ namespace argh
         return multimap_iteration_wrapper(params_.lower_bound(trimmed_name), params_.upper_bound(trimmed_name));
     }
 }
+
+#endif // ARGH_H

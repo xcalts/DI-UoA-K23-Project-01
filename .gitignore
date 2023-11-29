@@ -3,9 +3,6 @@ bin/*
 obj/*
 results*
 
-# Ignore IDE
-.vscode/*
-
 # Prerequisites
 *.d
 

@@ -1,4 +1,3 @@
-#include <iostream>
 #include <fstream>
 #include <string>
 #include <vector>
@@ -7,6 +6,7 @@
 #include "brute.h"
 #include "lsh.h"
 #include "mnist.h"
+#include "mrng.h"
 
 #define K_DEFAULT 4
 #define L_DEFAULT 5
@@ -17,52 +17,27 @@ using namespace std;
 
 #pragma region HELP_MESSAGE
 const char *help_msg = R"""(
-LSH Algorithm for Vectors in d-Space
+MRNG Graph Algorithm for Vectors in d-Space
 
-Usage:
-lsh [options]
 
-Options:
--h, --help                   Print the help message.
--i, --input <input_file>     Input MNIST format file containing data vectors.
--q, --query <query_file>     Query MNIST format file for nearest neighbor search.
--o, --output <output_file>   Output file to store the results.
--k, --hash-functions <k>     Number of hash functions to use (default: 4).
--L, --hash-tables <L>        Number of hash tables to use (default: 5).
--N, --num-nearest <N>        Number of nearest points to search for (default: 1).
--R, --radius <R>             Search radius for range query (default: 10000).
-
-Description:
-This command line tool implements the Locality-Sensitive Hashing (LSH) algorithm for vectors in d-space.
-It can be used to find the nearest neighbors of a query vector or to perform range queries within a specified radius.
-
-Example Usage:
-lsh -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte -k 15 -L 10 -N 5 -R 5000
-
-Note:
-The input and query files should be in the MNIST format.
 )""";
 #pragma endregion
 
 int main(int argc, char *argv[])
 {
-    string input_file;     // Input MNIST format file containing data vectors.
-    string query_file;     // Query MNIST format file for nearest neighbor search.
-    string output_file;    // Output file to store the results.
-    int no_hash_functions; // Number of hash functions to use (default: 4).
-    int no_hash_tables;    // Number of hash tables to use (default: 5).
-    int no_nearest;        // Number of nearest points to search for (default: 1).
-    int radius;            // Search radius for range query (default: 10000).
+    string input_file;  // Input MNIST format file containing data vectors.
+    string query_file;  // Query MNIST format file for nearest neighbor search.
+    string output_file; // Output file to store the results.
+    int no_candinates;  // Number of candinates.
+    int no_nearest;     // Number of nearest points to search for (default: 1).
 
     // Parse the command line arguments using the argh.h functionality.
     argh::parser cmdl(argc, argv, argh::parser::PREFER_PARAM_FOR_UNREG_OPTION);
     cmdl({"-i", "--input"}) >> input_file;
     cmdl({"-q", "--query"}) >> query_file;
     cmdl({"-o", "--output"}) >> output_file;
-    cmdl({"-k", "--hash-functions"}, K_DEFAULT) >> no_hash_functions;
-    cmdl({"-L", "--hash-tables"}, L_DEFAULT) >> no_hash_tables;
+    cmdl({"-I", "--num-candinates"}, N_DEFAULT) >> no_candinates;
     cmdl({"-N", "--num-nearest"}, N_DEFAULT) >> no_nearest;
-    cmdl({"-R", "--radius"}, R_DEFAULT) >> radius;
 
     // In the following cases, print the help message.
     if (cmdl({"-h", "--help"}) || input_file.empty() || query_file.empty() || output_file.empty())
@@ -74,7 +49,8 @@ int main(int argc, char *argv[])
     // Create the required class instances.
     MNIST input = MNIST(input_file);
     MNIST query = MNIST(query_file);
-    LSH lsh = LSH(input, no_hash_functions, no_hash_tables);
+    // MRNG mrng = MRNG(input, no_candinates);
+    LSH lsh = LSH(input, 3, 4);
     BRUTE bf = BRUTE(input);
     ofstream output(output_file, ios::out | ios::trunc);
     clock_t start, end;
@@ -120,16 +96,6 @@ int main(int argc, char *argv[])
                 output << "distanceLSH: " << neighbor_lsh.GetDist() << endl;
                 output << "distanceBRUTE: " << neighbor_brute.GetDist() << endl;
                 i++;
-            }
-
-            // Find the Neighbors inside the radius.
-            set<MNIST_Image, MNIST_ImageComparator> neighbors_in_radius = lsh.RadiusSearch(query_image, radius);
-            output << "Radius: " << radius << endl;
-            for (auto it = neighbors_in_radius.begin(); it != neighbors_in_radius.end(); ++it)
-            {
-                MNIST_Image neighbor = *it;
-
-                output << neighbor.GetIndex() << endl;
             }
         }
 

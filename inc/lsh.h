@@ -1,6 +1,7 @@
 #ifndef LSH_H
 #define LSH_H
 
+#include <stdio.h>
 #include <array>
 #include <fstream>
 #include <cmath>
@@ -16,6 +17,8 @@
 using namespace std;
 
 #define WINDOW 400
+#define PBSTR "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+#define PBWIDTH 60
 
 // LSH contains the functionality of the Locality-Sensitive Hashing algorithm.
 class LSH
@@ -27,9 +30,18 @@ private:
     vector<unordered_map<uint, vector<MNIST_Image>>> hash_tables; // The LSH Hash Tables.
     vector<vector<IMAGE_DATA>> random_projections;                // These are the random vectors that are used to calculate each h(p) for each hash table.
 
+    void printProgress(double percentage)
+    {
+        int val = (int)(percentage * 100);
+        int lpad = (int)(percentage * PBWIDTH);
+        int rpad = PBWIDTH - lpad;
+        printf("\r%3d%% [%.*s%*s]", val, lpad, PBSTR, rpad, "");
+        fflush(stdout);
+    }
+
     void Initialization()
     {
-        cout << "DEBUG: Hashing the dataset." << endl;
+        cout << "LSH started hashing the dataset." << endl;
 
         // For each hash table, create {number_of_hashing_functions} random projections
         random_projections = GetRandomProjections(no_hash_tables, no_hash_functions);
@@ -48,12 +60,19 @@ private:
 
                 hash_tables[i][final_hash_code].push_back(images[j]);
             }
+
+            printProgress(static_cast<double>(i) / no_hash_tables);
         }
 
-        cout << "DEBUG: Finished hashing the dataset." << endl;
+        printProgress(1);
+
+        cout << endl
+             << "LSH fished hashing the dataset." << endl;
     }
 
 public:
+    LSH();
+
     // Create a new instance of LSH.
     LSH(MNIST _input, int _no_hash_functions, int _no_hash_tables)
     {
