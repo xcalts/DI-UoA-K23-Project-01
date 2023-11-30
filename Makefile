@@ -32,7 +32,7 @@ cluster: $(OBJ_DIR)/cluster.o
 	$(CXX) $(CXXFLAGS) $^ -o $(BIN_DIR)/$@
 
 # rule to build mrng
-cluster: $(OBJ_DIR)/mrng.o
+mrng: $(OBJ_DIR)/mrng.o
 	@mkdir -p $(@D)
 	$(CXX) $(CXXFLAGS) $^ -o $(BIN_DIR)/$@
 

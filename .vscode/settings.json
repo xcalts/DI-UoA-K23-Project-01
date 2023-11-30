@@ -1,11 +1,12 @@
 {
+  "C_Cpp.intelliSenseEngineFallback": "enabled",
+  "C_Cpp.default.compilerPath": "/usr/bin/g++-12",
   "files.associations": {
-    "bitset": "cpp",
-    "set": "cpp",
     "array": "cpp",
     "atomic": "cpp",
     "bit": "cpp",
     "*.tcc": "cpp",
+    "bitset": "cpp",
     "cctype": "cpp",
     "charconv": "cpp",
     "chrono": "cpp",
@@ -25,6 +26,7 @@
     "cwctype": "cpp",
     "deque": "cpp",
     "map": "cpp",
+    "set": "cpp",
     "string": "cpp",
     "unordered_map": "cpp",
     "vector": "cpp",
@@ -55,6 +57,5 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp"
-  },
-  "C_Cpp.errorSquiggles": "disabled"
+  }
 }

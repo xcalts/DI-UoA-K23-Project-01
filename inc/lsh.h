@@ -71,7 +71,8 @@ private:
     }
 
 public:
-    LSH();
+    // Constructors
+    LSH() {}
 
     // Create a new instance of LSH.
     LSH(MNIST _input, int _no_hash_functions, int _no_hash_tables)

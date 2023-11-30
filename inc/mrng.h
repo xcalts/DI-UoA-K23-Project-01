@@ -37,50 +37,60 @@ public:
     }
 
     // Find the nearest neighbour for the query_image
-    MNIST_Image FindNearestNeighbor(MNIST_Image query_image)
+    MNIST_Image FindNearestNeighbor(MNIST_Image p)
     {
-        // Initialize distance in the images.
+        // Add knn
+        // Initialize distance in the images
         for (auto &image : images)
         {
-            auto distance = EuclideanDistance(2, query_image.GetImageData(), image.GetImageData());
+            auto distance = EuclideanDistance(2, p.GetImageData(), image.GetImageData());
             image.SetDist(distance);
         }
 
-        // Initialize the candinates.
-        auto candinates = set<MNIST_Image, MNIST_ImageComparator>(images.begin(), images.end());
-        auto neighbours = lsh.FindNearestNeighbors(no_candinates, query_image); // Initialize the candinates using LSH.
+        // Sort candinates based on distance
+        set<MNIST_Image, MNIST_ImageComparator> Rp(images.begin(), images.end());
 
-        return MNIST_Image();
-        // auto c_wo_n = set<MNIST_Image, MNIST_ImageComparator>();
-        // std::set_difference(candinates.begin(), candinates.end(), neighbours.begin(), neighbours.end(), std::inserter(c_wo_n, c_wo_n.begin()));
+        // Find the neighbours using LSH.
+        auto Lp = lsh.FindNearestNeighbors(no_candinates, p);
 
-        // auto condition = true;
-        // for (auto r : c_wo_n)
-        // {
-        //     for (auto t : neighbours)
-        //     {
-        //         // consider query image as p
-        //         auto pr = EuclideanDistance(2, query_image.GetImageData(), r.GetImageData());
-        //         auto pt = EuclideanDistance(2, query_image.GetImageData(), t.GetImageData());
-        //         auto tr = EuclideanDistance(2, r.GetImageData(), t.GetImageData());
+        // Candinates - Neighbours
+        set<MNIST_Image, MNIST_ImageComparator> Rp_minus_Lp;
+        std::set_difference(
+            Rp.begin(),
+            Rp.end(),
+            Lp.begin(),
+            Lp.end(),
+            inserter(Rp_minus_Lp, Rp_minus_Lp.begin()),
+            MNIST_ImageComparator());
 
-        //         if (pr > pt && pr > tr)
-        //         {
-        //             condition = false;
-        //             break;
-        //         }
-        //     }
+        // MRNG Algorithm
+        auto condition = true;
+        for (auto r : Rp_minus_Lp)
+        {
+            for (auto t : Lp)
+            {
+                auto pr = EuclideanDistance(2, p.GetImageData(), r.GetImageData());
+                auto pt = EuclideanDistance(2, p.GetImageData(), t.GetImageData());
+                auto tr = EuclideanDistance(2, r.GetImageData(), t.GetImageData());
 
-        //     if (condition)
-        //     {
-        //         auto pos = neighbours.lower_bound(r);
-        //         neighbours.insert(pos, r);
-        //     }
-        // }
+                if (pr > pt && pr > tr)
+                {
+                    condition = false;
+                    break;
+                }
+            }
 
-        // auto nn = *(neighbours.begin());
+            if (condition)
+            {
+                auto pos = Lp.lower_bound(r);
+                Lp.insert(pos, r);
+            }
+        }
 
-        // return nn;
+        // The nearest is at indx 0
+        auto nn = *(Lp.begin());
+
+        return nn;
     }
 };
 
