@@ -39,25 +39,14 @@ public:
     // Find the nearest neighbour for the query_image
     MNIST_Image FindNearestNeighbor(MNIST_Image p)
     {
-        // Add knn
-        // Initialize distance in the images
-        for (auto &image : images)
-        {
-            auto distance = EuclideanDistance(2, p.GetImageData(), image.GetImageData());
-            image.SetDist(distance);
-        }
-
-        // Sort candinates based on distance
-        set<MNIST_Image, MNIST_ImageComparator> Rp(images.begin(), images.end());
-
         // Find the neighbours using LSH.
         auto Lp = lsh.FindNearestNeighbors(no_candinates, p);
 
         // Candinates - Neighbours
         set<MNIST_Image, MNIST_ImageComparator> Rp_minus_Lp;
         std::set_difference(
-            Rp.begin(),
-            Rp.end(),
+            images.begin(),
+            images.end(),
             Lp.begin(),
             Lp.end(),
             inserter(Rp_minus_Lp, Rp_minus_Lp.begin()),
