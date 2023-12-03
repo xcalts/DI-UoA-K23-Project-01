@@ -7,6 +7,7 @@
 #include "brute.h"
 #include "lsh.h"
 #include "mnist.h"
+#include "misc.h"
 
 #define K_DEFAULT 4
 #define L_DEFAULT 5
@@ -79,10 +80,16 @@ int main(int argc, char *argv[])
     ofstream output(output_file, ios::out | ios::trunc);
     clock_t start, end;
     double time;
+    double time_aprox_sum = 0;
+    double time_brute_sum = 0;
+    double max_maf = 0;
 
     // Print results in output file.
     if (output.is_open())
     {
+        output << "LSH Results" << endl;
+        cout << "[i] Calculating Results" << endl;
+        printProgress(0.0);
         for (MNIST_Image query_image : query.GetImages())
         {
             output << "===" << endl;
@@ -93,14 +100,16 @@ int main(int argc, char *argv[])
             set<MNIST_Image, MNIST_ImageComparator> lsh_nn = lsh.FindNearestNeighbors(no_nearest, query_image);
             end = clock();
             time = double(end - start) / CLOCKS_PER_SEC;
-            output << "timeLSH: " << time << " // seconds" << endl;
+            time_aprox_sum += time;
+            output << "timeLSH: " << time << "s" << endl;
 
             // Find the {no_neighbors} "Nearest Neighbors" vectors of the queried one using Brute Force.
             start = clock();
             set<MNIST_Image, MNIST_ImageComparator> brute_nn = bf.FindNearestNeighbors(no_nearest, query_image);
             end = clock();
             time = double(end - start) / CLOCKS_PER_SEC;
-            output << "timeBRUTE: " << time << " // seconds" << endl;
+            time_brute_sum += time;
+            output << "timeBRUTE: " << time << "s" << endl;
 
             // Print Comparison Stats between LSH and Brute Force.
             int i = 1;
@@ -110,6 +119,13 @@ int main(int argc, char *argv[])
             {
                 MNIST_Image neighbor_lsh = *it1;
                 MNIST_Image neighbor_brute = *it2;
+
+                if (i == 1)
+                {
+                    double maf = static_cast<double>(neighbor_lsh.GetDist()) / static_cast<double>(neighbor_brute.GetDist());
+                    if (maf > max_maf)
+                        max_maf = maf;
+                }
 
                 output << "NN-" << i << " Index: " << neighbor_lsh.GetIndex() << endl;
                 output << "distanceLSH: " << neighbor_lsh.GetDist() << endl;
@@ -126,8 +142,15 @@ int main(int argc, char *argv[])
 
                 output << neighbor.GetIndex() << endl;
             }
+            printProgress(static_cast<double>(query_image.GetIndex()) / query.GetImages().size());
         }
-
+        printProgress(1.0);
+        cout << endl
+             << "[i] Finished Calculating Results" << endl;
+        output << "===" << endl;
+        output << "tAverageApproximate: " << time_aprox_sum / query.GetImages().size() << endl;
+        output << "tAverageBrute: " << time_brute_sum / query.GetImages().size() << endl;
+        output << "MAF: " << max_maf << endl;
         output.close();
     }
     else

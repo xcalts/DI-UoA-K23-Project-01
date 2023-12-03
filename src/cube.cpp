@@ -7,6 +7,7 @@
 #include "brute.h"
 #include "mnist.h"
 #include "cube.h"
+#include "misc.h"
 
 #define N_DEFAULT 1
 #define R_DEFAULT 10000
@@ -82,11 +83,18 @@ int main(int argc, char *argv[])
     BRUTE bf = BRUTE(input);
     ofstream output(output_file, ios::out | ios::trunc);
     clock_t start, end;
-    double execution_time;
+    double time;
+    double time_aprox_sum = 0;
+    double time_brute_sum = 0;
+    double max_maf = 0;
 
     // Print results in output file.
     if (output.is_open())
     {
+        output << "CUBE Results" << endl;
+        cout << "[i] Calculating Results" << endl;
+        printProgress(0.0);
+        output << "CUBE Results" << endl;
         for (MNIST_Image query_image : query.GetImages())
         {
             output << "====================================================================================" << endl;
@@ -96,15 +104,17 @@ int main(int argc, char *argv[])
             start = clock();
             set<MNIST_Image, MNIST_ImageComparator> hypercube_nn = hypercube.FindNearestNeighbors(no_nearest, query_image);
             end = clock();
-            execution_time = double(end - start) / CLOCKS_PER_SEC;
-            output << "timeCUBE: " << execution_time << " // seconds" << endl;
+            time = double(end - start) / CLOCKS_PER_SEC;
+            time_aprox_sum += time;
+            output << "timeCUBE: " << time << "s" << endl;
 
             // Find the {no_neighbors} "Nearest Neighbors" vectors of the queried one using Brute Force.
             start = clock();
             set<MNIST_Image, MNIST_ImageComparator> lsh_nn_brute = bf.FindNearestNeighbors(no_nearest, query_image);
             end = clock();
-            execution_time = double(end - start) / CLOCKS_PER_SEC;
-            output << "timeBRUTE:  " << execution_time << " // seconds" << endl;
+            time = double(end - start) / CLOCKS_PER_SEC;
+            time_brute_sum += time;
+            output << "timeBRUTE:  " << time << "s" << endl;
 
             // Print Comparison Stats between LSH and Brute Force.
             int i = 1;
@@ -112,10 +122,18 @@ int main(int argc, char *argv[])
                  (it1 != hypercube_nn.end()) && (it2 != lsh_nn_brute.end());
                  it1++, it2++)
             {
-                MNIST_Image neighbor_lsh = *it1;
+                MNIST_Image neighbor_cube = *it1;
                 MNIST_Image neighbor_brute = *it2;
-                output << "NN--" << i << " Index: " << neighbor_lsh.GetIndex() << endl;
-                output << "distanceCUBE: " << neighbor_lsh.GetDist() << endl;
+
+                if (i == 1)
+                {
+                    double maf = static_cast<double>(neighbor_cube.GetDist()) / static_cast<double>(neighbor_brute.GetDist());
+                    if (maf > max_maf)
+                        max_maf = maf;
+                }
+
+                output << "NN--" << i << " Index: " << neighbor_cube.GetIndex() << endl;
+                output << "distanceCUBE: " << neighbor_cube.GetDist() << endl;
                 output << "distanceBRUTE: " << neighbor_brute.GetDist() << endl;
                 i++;
             }
@@ -128,8 +146,15 @@ int main(int argc, char *argv[])
                 MNIST_Image neighbor = *it;
                 output << neighbor.GetIndex() << endl;
             }
+            printProgress(static_cast<double>(query_image.GetIndex()) / query.GetImages().size());
         }
-
+        printProgress(1.0);
+        cout << endl
+             << "[i] Finished Calculating Results" << endl;
+        output << "===" << endl;
+        output << "tAverageApproximate: " << time_aprox_sum / query.GetImages().size() << endl;
+        output << "tAverageBrute: " << time_brute_sum / query.GetImages().size() << endl;
+        output << "MAF: " << max_maf << endl;
         output.close();
     }
     else

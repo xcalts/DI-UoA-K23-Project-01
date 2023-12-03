@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
                     // calc maf
                     if (i == 1)
                     {
-                        double maf = static_cast<double>(neighbor_approx.GetDist() - neighbor_brute.GetDist()) / static_cast<double>(neighbor_brute.GetDist());
+                        double maf = static_cast<double>(neighbor_approx.GetDist()) / static_cast<double>(neighbor_brute.GetDist());
                         if (maf > max_maf)
                             max_maf = maf;
                     }
@@ -181,7 +181,7 @@ int main(int argc, char *argv[])
                     // calc maf
                     if (i == 1)
                     {
-                        double maf = static_cast<double>(neighbor_approx.GetDist() - neighbor_brute.GetDist()) / static_cast<double>(neighbor_brute.GetDist());
+                        double maf = static_cast<double>(neighbor_approx.GetDist()) / static_cast<double>(neighbor_brute.GetDist());
                         if (maf > max_maf)
                             max_maf = maf;
                     }
