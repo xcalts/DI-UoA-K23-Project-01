@@ -7,7 +7,7 @@ SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_DIR = obj
 OBJECTS = $(patsy, the prefix of the src files.ubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SOURCES))
 BIN_DIR = bin
-TARGETS = clean build cube lsh cluster mrng
+TARGETS = clean build cube lsh cluster mrng graph_search
 
 all: $(TARGETS)
 
@@ -33,6 +33,11 @@ cluster: $(OBJ_DIR)/cluster.o
 
 # rule to build mrng
 mrng: $(OBJ_DIR)/mrng.o
+	@mkdir -p $(@D)
+	$(CXX) $(CXXFLAGS) $^ -o $(BIN_DIR)/$@
+
+# rule to build mrng
+graph_search: $(OBJ_DIR)/graph_search.o
 	@mkdir -p $(@D)
 	$(CXX) $(CXXFLAGS) $^ -o $(BIN_DIR)/$@
 

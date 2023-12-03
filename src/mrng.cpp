@@ -50,7 +50,6 @@ int main(int argc, char *argv[])
     cout << "[i] Initializing the MNIST dataset and MNIST query." << endl;
     MNIST input = MNIST(input_file);
     MNIST query = MNIST(query_file);
-    cout << "[i] Initializing the MRNG instance." << endl;
     MRNG mrng = MRNG(input, no_candinates);
     BRUTE bf = BRUTE(input);
 
