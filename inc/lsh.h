@@ -61,7 +61,7 @@ public:
 
                 // hash_code_for_querying_trick can be used as an optimization to LSH, haven't implemented it yet
                 uint hash_code_for_querying_trick = CalculateFinalHashCode(images[j].GetImageData(), random_projections[i], number_of_hashing_functions, WINDOW);
-                images[j].SetId(hash_code_for_querying_trick);
+                // images[j].SetId(hash_code_for_querying_trick);
 
                 uint final_hash_code = hash_code_for_querying_trick % ((uint)(images.size() / 16)); // Mod by n/16 to get final_hash_code, found it yields the best results for W = 400
 
@@ -83,7 +83,7 @@ public:
 
             // Find query_image's hash code for given table, same way as for the input set
             uint hash_code_for_querying_trick = CalculateFinalHashCode(query_image.GetImageData(), random_projections[i], number_of_hashing_functions, WINDOW);
-            query_image.SetId(hash_code_for_querying_trick);
+            // query_image.SetId(hash_code_for_querying_trick);
             uint final_hash_code = hash_code_for_querying_trick % ((uint)(images.size() / 16));
 
             // If the query_image ends up in an empty bucket for this hash table
@@ -96,8 +96,8 @@ public:
             // Calculate distance for each image in the same bucket as query_image (basically the whole point of LSH)
             for (int j = 0; j < (int)bucket_images.size(); j++)
             {
-                if (query_image.GetId() != bucket_images[j].GetId())
-                    continue;
+                // if (query_image.GetId() != bucket_images[j].GetId())
+                //     continue;
 
                 double dist = CalculateDistance(2, query_image.GetImageData(), bucket_images[j].GetImageData());
                 bucket_images[j].SetDist(dist);
