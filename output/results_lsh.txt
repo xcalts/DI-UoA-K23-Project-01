@@ -1,0 +1,10774 @@
+LSH Results
+===
+Query: 0
+timeLSH: 0.00459s
+timeBRUTE: 0.027095s
+NN-1 Index: 263
+distanceLSH: 1442.19
+distanceBRUTE: 1175.03
+NN-2 Index: 624
+distanceLSH: 1528.95
+distanceBRUTE: 1205.84
+Radius: 0
+===
+Query: 1
+timeLSH: 0.007211s
+timeBRUTE: 0.030822s
+NN-1 Index: 274
+distanceLSH: 2201.33
+distanceBRUTE: 1830.26
+NN-2 Index: 400
+distanceLSH: 2323.28
+distanceBRUTE: 2035.79
+Radius: 0
+===
+Query: 2
+timeLSH: 0.00629s
+timeBRUTE: 0.026525s
+NN-1 Index: 510
+distanceLSH: 921.172
+distanceBRUTE: 645.058
+NN-2 Index: 941
+distanceLSH: 1442.03
+distanceBRUTE: 680.469
+Radius: 0
+===
+Query: 3
+timeLSH: 0.005145s
+timeBRUTE: 0.026168s
+NN-1 Index: 612
+distanceLSH: 1666.75
+distanceBRUTE: 1394.31
+NN-2 Index: 367
+distanceLSH: 1902.53
+distanceBRUTE: 1484.55
+Radius: 0
+===
+Query: 4
+timeLSH: 0.004745s
+timeBRUTE: 0.028397s
+NN-1 Index: 314
+distanceLSH: 1731.05
+distanceBRUTE: 1335.51
+NN-2 Index: 718
+distanceLSH: 1743.1
+distanceBRUTE: 1523.53
+Radius: 0
+===
+Query: 5
+timeLSH: 0.004738s
+timeBRUTE: 0.021303s
+NN-1 Index: 269
+distanceLSH: 1066.05
+distanceBRUTE: 757.116
+NN-2 Index: 177
+distanceLSH: 1117.76
+distanceBRUTE: 776.667
+Radius: 0
+===
+Query: 6
+timeLSH: 0.004947s
+timeBRUTE: 0.02602s
+NN-1 Index: 718
+distanceLSH: 1826.67
+distanceBRUTE: 1489.44
+NN-2 Index: 700
+distanceLSH: 1897.3
+distanceBRUTE: 1603.12
+Radius: 0
+===
+Query: 7
+timeLSH: 0.006493s
+timeBRUTE: 0.022826s
+NN-1 Index: 566
+distanceLSH: 1978.71
+distanceBRUTE: 1844.49
+NN-2 Index: 264
+distanceLSH: 1988.16
+distanceBRUTE: 1846.71
+Radius: 0
+===
+Query: 8
+timeLSH: 0.004505s
+timeBRUTE: 0.02572s
+NN-1 Index: 988
+distanceLSH: 2325.19
+distanceBRUTE: 2235
+NN-2 Index: 461
+distanceLSH: 2347.14
+distanceBRUTE: 2270.58
+Radius: 0
+===
+Query: 9
+timeLSH: 0.006165s
+timeBRUTE: 0.02759s
+NN-1 Index: 880
+distanceLSH: 1660.24
+distanceBRUTE: 1391.53
+NN-2 Index: 753
+distanceLSH: 1742.67
+distanceBRUTE: 1438.81
+Radius: 0
+===
+Query: 10
+timeLSH: 0.007106s
+timeBRUTE: 0.022713s
+NN-1 Index: 293
+distanceLSH: 1814.86
+distanceBRUTE: 1421.33
+NN-2 Index: 612
+distanceLSH: 2017.64
+distanceBRUTE: 1611.18
+Radius: 0
+===
+Query: 11
+timeLSH: 0.006843s
+timeBRUTE: 0.030972s
+NN-1 Index: 488
+distanceLSH: 2027.42
+distanceBRUTE: 2027.42
+NN-2 Index: 296
+distanceLSH: 2178.34
+distanceBRUTE: 2078.25
+Radius: 0
+===
+Query: 12
+timeLSH: 0.005566s
+timeBRUTE: 0.029012s
+NN-1 Index: 687
+distanceLSH: 1300.14
+distanceBRUTE: 1215.53
+NN-2 Index: 45
+distanceLSH: 1451.62
+distanceBRUTE: 1300.14
+Radius: 0
+===
+Query: 13
+timeLSH: 0.004967s
+timeBRUTE: 0.027135s
+NN-1 Index: 662
+distanceLSH: 1697.49
+distanceBRUTE: 1388.68
+NN-2 Index: 952
+distanceLSH: 1837.9
+distanceBRUTE: 1518.18
+Radius: 0
+===
+Query: 14
+timeLSH: 0.004866s
+timeBRUTE: 0.026221s
+NN-1 Index: 398
+distanceLSH: 885.153
+distanceBRUTE: 872.264
+NN-2 Index: 72
+distanceLSH: 1007.23
+distanceBRUTE: 885.153
+Radius: 0
+===
+Query: 15
+timeLSH: 0.004876s
+timeBRUTE: 0.021583s
+NN-1 Index: 514
+distanceLSH: 2084.09
+distanceBRUTE: 1918.04
+NN-2 Index: 356
+distanceLSH: 2210.29
+distanceBRUTE: 1927.47
+Radius: 0
+===
+Query: 16
+timeLSH: 0.006588s
+timeBRUTE: 0.03557s
+NN-1 Index: 520
+distanceLSH: 1719.75
+distanceBRUTE: 1448.73
+NN-2 Index: 237
+distanceLSH: 1742.27
+distanceBRUTE: 1509.65
+Radius: 0
+===
+Query: 17
+timeLSH: 0.0074s
+timeBRUTE: 0.032377s
+NN-1 Index: 994
+distanceLSH: 1510.03
+distanceBRUTE: 1358.85
+NN-2 Index: 84
+distanceLSH: 1618.56
+distanceBRUTE: 1389.55
+Radius: 0
+===
+Query: 18
+timeLSH: 0.006075s
+timeBRUTE: 0.032393s
+NN-1 Index: 30
+distanceLSH: 2205.13
+distanceBRUTE: 2185.63
+NN-2 Index: 360
+distanceLSH: 2441.23
+distanceBRUTE: 2205.13
+Radius: 0
+===
+Query: 19
+timeLSH: 0.006341s
+timeBRUTE: 0.024036s
+NN-1 Index: 217
+distanceLSH: 1480.5
+distanceBRUTE: 1257.99
+NN-2 Index: 170
+distanceLSH: 1519.99
+distanceBRUTE: 1335.72
+Radius: 0
+===
+Query: 20
+timeLSH: 0.005949s
+timeBRUTE: 0.025415s
+NN-1 Index: 471
+distanceLSH: 1380
+distanceBRUTE: 1370.88
+Radius: 0
+===
+Query: 21
+timeLSH: 0.005106s
+timeBRUTE: 0.023275s
+NN-1 Index: 660
+distanceLSH: 1569.02
+distanceBRUTE: 1289.16
+NN-2 Index: 32
+distanceLSH: 1622.61
+distanceBRUTE: 1514.6
+Radius: 0
+===
+Query: 22
+timeLSH: 0.005811s
+timeBRUTE: 0.025518s
+NN-1 Index: 488
+distanceLSH: 1819.75
+distanceBRUTE: 1819.75
+NN-2 Index: 276
+distanceLSH: 2096.7
+distanceBRUTE: 1979.28
+Radius: 0
+===
+Query: 23
+timeLSH: 0.005455s
+timeBRUTE: 0.027076s
+NN-1 Index: 625
+distanceLSH: 1428.74
+distanceBRUTE: 1428.74
+NN-2 Index: 496
+distanceLSH: 1841.49
+distanceBRUTE: 1539.6
+Radius: 0
+===
+Query: 24
+timeLSH: 0.005847s
+timeBRUTE: 0.029391s
+NN-1 Index: 442
+distanceLSH: 1611.45
+distanceBRUTE: 1547.73
+NN-2 Index: 428
+distanceLSH: 1617.83
+distanceBRUTE: 1556.56
+Radius: 0
+===
+Query: 25
+timeLSH: 0.006027s
+timeBRUTE: 0.031158s
+NN-1 Index: 427
+distanceLSH: 1713.91
+distanceBRUTE: 1713.91
+NN-2 Index: 519
+distanceLSH: 2054.33
+distanceBRUTE: 1864.21
+Radius: 0
+===
+Query: 26
+timeLSH: 0.006636s
+timeBRUTE: 0.030937s
+NN-1 Index: 608
+distanceLSH: 1717.04
+distanceBRUTE: 1261.31
+Radius: 0
+===
+Query: 27
+timeLSH: 0.006235s
+timeBRUTE: 0.032364s
+NN-1 Index: 344
+distanceLSH: 1562.02
+distanceBRUTE: 1480.07
+NN-2 Index: 92
+distanceLSH: 1567.44
+distanceBRUTE: 1484.67
+Radius: 0
+===
+Query: 28
+timeLSH: 0.006322s
+timeBRUTE: 0.030438s
+NN-1 Index: 95
+distanceLSH: 1608.31
+distanceBRUTE: 1353.47
+NN-2 Index: 169
+distanceLSH: 1612.58
+distanceBRUTE: 1521.49
+Radius: 0
+===
+Query: 29
+timeLSH: 0.00567s
+timeBRUTE: 0.025629s
+NN-1 Index: 780
+distanceLSH: 831.907
+distanceBRUTE: 629.079
+NN-2 Index: 6
+distanceLSH: 1326.82
+distanceBRUTE: 698.132
+Radius: 0
+===
+Query: 30
+timeLSH: 0.004173s
+timeBRUTE: 0.032277s
+NN-1 Index: 44
+distanceLSH: 1969.56
+distanceBRUTE: 1415
+NN-2 Index: 479
+distanceLSH: 1982.23
+distanceBRUTE: 1558.28
+Radius: 0
+===
+Query: 31
+timeLSH: 0.006625s
+timeBRUTE: 0.029609s
+NN-1 Index: 8
+distanceLSH: 926.299
+distanceBRUTE: 608.037
+NN-2 Index: 398
+distanceLSH: 1176.84
+distanceBRUTE: 926.299
+Radius: 0
+===
+Query: 32
+timeLSH: 0.006722s
+timeBRUTE: 0.026004s
+NN-1 Index: 298
+distanceLSH: 1433.44
+distanceBRUTE: 1415.28
+Radius: 0
+===
+Query: 33
+timeLSH: 0.005878s
+timeBRUTE: 0.03221s
+NN-1 Index: 476
+distanceLSH: 2217.02
+distanceBRUTE: 2061.18
+Radius: 0
+===
+Query: 34
+timeLSH: 0.004016s
+timeBRUTE: 0.027819s
+NN-1 Index: 803
+distanceLSH: 1222.51
+distanceBRUTE: 1208.98
+NN-2 Index: 839
+distanceLSH: 1225
+distanceBRUTE: 1222.51
+Radius: 0
+===
+Query: 35
+timeLSH: 0.005055s
+timeBRUTE: 0.032179s
+NN-1 Index: 642
+distanceLSH: 2301.38
+distanceBRUTE: 1958.83
+NN-2 Index: 549
+distanceLSH: 2329.55
+distanceBRUTE: 1962.8
+Radius: 0
+===
+Query: 36
+timeLSH: 0.006219s
+timeBRUTE: 0.025831s
+NN-1 Index: 819
+distanceLSH: 1881.39
+distanceBRUTE: 1352.92
+NN-2 Index: 387
+distanceLSH: 1881.42
+distanceBRUTE: 1384.6
+Radius: 0
+===
+Query: 37
+timeLSH: 0.004676s
+timeBRUTE: 0.031461s
+NN-1 Index: 14
+distanceLSH: 664.995
+distanceBRUTE: 612.373
+Radius: 0
+===
+Query: 38
+timeLSH: 0.006289s
+timeBRUTE: 0.031433s
+NN-1 Index: 674
+distanceLSH: 1739.87
+distanceBRUTE: 1730.32
+NN-2 Index: 450
+distanceLSH: 1839.95
+distanceBRUTE: 1739.87
+Radius: 0
+===
+Query: 39
+timeLSH: 0.005882s
+timeBRUTE: 0.030504s
+NN-1 Index: 710
+distanceLSH: 932.327
+distanceBRUTE: 805.088
+NN-2 Index: 40
+distanceLSH: 990.024
+distanceBRUTE: 812.619
+Radius: 0
+===
+Query: 40
+timeLSH: 0.006792s
+timeBRUTE: 0.029588s
+NN-1 Index: 72
+distanceLSH: 673.645
+distanceBRUTE: 673.645
+NN-2 Index: 366
+distanceLSH: 865.841
+distanceBRUTE: 865.841
+Radius: 0
+===
+Query: 41
+timeLSH: 0.006296s
+timeBRUTE: 0.032538s
+NN-1 Index: 654
+distanceLSH: 1475.08
+distanceBRUTE: 1309.95
+NN-2 Index: 307
+distanceLSH: 1510.63
+distanceBRUTE: 1362.27
+Radius: 0
+===
+Query: 42
+timeLSH: 0.006368s
+timeBRUTE: 0.032374s
+NN-1 Index: 26
+distanceLSH: 1678.98
+distanceBRUTE: 1357.12
+NN-2 Index: 338
+distanceLSH: 1729.85
+distanceBRUTE: 1521.29
+Radius: 0
+===
+Query: 43
+timeLSH: 0.00783s
+timeBRUTE: 0.032832s
+NN-1 Index: 290
+distanceLSH: 1805.69
+distanceBRUTE: 1711.6
+NN-2 Index: 835
+distanceLSH: 1841.42
+distanceBRUTE: 1716.72
+Radius: 0
+===
+Query: 44
+timeLSH: 0.006572s
+timeBRUTE: 0.029255s
+NN-1 Index: 366
+distanceLSH: 1659.65
+distanceBRUTE: 1432.74
+NN-2 Index: 72
+distanceLSH: 1740.03
+distanceBRUTE: 1602.93
+Radius: 0
+===
+Query: 45
+timeLSH: 0.006561s
+timeBRUTE: 0.033289s
+NN-1 Index: 768
+distanceLSH: 1698.98
+distanceBRUTE: 1507.54
+NN-2 Index: 805
+distanceLSH: 1851.49
+distanceBRUTE: 1566.46
+Radius: 0
+===
+Query: 46
+timeLSH: 0.006768s
+timeBRUTE: 0.032914s
+NN-1 Index: 870
+distanceLSH: 758.1
+distanceBRUTE: 758.1
+NN-2 Index: 638
+distanceLSH: 1762.49
+distanceBRUTE: 1168.65
+Radius: 0
+===
+Query: 47
+timeLSH: 0.007191s
+timeBRUTE: 0.031614s
+NN-1 Index: 939
+distanceLSH: 1879.84
+distanceBRUTE: 1609.18
+NN-2 Index: 363
+distanceLSH: 1916.44
+distanceBRUTE: 1653.9
+Radius: 0
+===
+Query: 48
+timeLSH: 0.006152s
+timeBRUTE: 0.028648s
+NN-1 Index: 58
+distanceLSH: 1690.9
+distanceBRUTE: 1605.97
+NN-2 Index: 116
+distanceLSH: 1882.08
+distanceBRUTE: 1683.53
+Radius: 0
+===
+Query: 49
+timeLSH: 0.005032s
+timeBRUTE: 0.028074s
+NN-1 Index: 848
+distanceLSH: 2042.7
+distanceBRUTE: 1602.01
+NN-2 Index: 2
+distanceLSH: 2161.36
+distanceBRUTE: 1646.09
+Radius: 0
+===
+Query: 50
+timeLSH: 0.00482s
+timeBRUTE: 0.0263s
+NN-1 Index: 852
+distanceLSH: 1653.73
+distanceBRUTE: 1434.18
+NN-2 Index: 955
+distanceLSH: 1725.7
+distanceBRUTE: 1464.5
+Radius: 0
+===
+Query: 51
+timeLSH: 0.005581s
+timeBRUTE: 0.028791s
+NN-1 Index: 895
+distanceLSH: 2230.43
+distanceBRUTE: 1897.03
+NN-2 Index: 620
+distanceLSH: 2276.05
+distanceBRUTE: 1921.57
+Radius: 0
+===
+Query: 52
+timeLSH: 0.007207s
+timeBRUTE: 0.023688s
+NN-1 Index: 396
+distanceLSH: 1734.38
+distanceBRUTE: 1734.38
+NN-2 Index: 897
+distanceLSH: 2036.92
+distanceBRUTE: 1802.33
+Radius: 0
+===
+Query: 53
+timeLSH: 0.006147s
+timeBRUTE: 0.02725s
+NN-1 Index: 50
+distanceLSH: 2018.54
+distanceBRUTE: 1347.91
+NN-2 Index: 158
+distanceLSH: 2037.14
+distanceBRUTE: 1792.02
+Radius: 0
+===
+Query: 54
+timeLSH: 0.005077s
+timeBRUTE: 0.030129s
+NN-1 Index: 986
+distanceLSH: 2502.94
+distanceBRUTE: 2203.85
+NN-2 Index: 650
+distanceLSH: 2574.97
+distanceBRUTE: 2370.93
+Radius: 0
+===
+Query: 55
+timeLSH: 0.008127s
+timeBRUTE: 0.023723s
+NN-1 Index: 582
+distanceLSH: 1744.86
+distanceBRUTE: 1381.08
+NN-2 Index: 62
+distanceLSH: 1939.96
+distanceBRUTE: 1633.02
+Radius: 0
+===
+Query: 56
+timeLSH: 0.007122s
+timeBRUTE: 0.039138s
+NN-1 Index: 882
+distanceLSH: 1796.4
+distanceBRUTE: 1361.18
+NN-2 Index: 92
+distanceLSH: 1879.96
+distanceBRUTE: 1441.68
+Radius: 0
+===
+Query: 57
+timeLSH: 0.005518s
+timeBRUTE: 0.034687s
+NN-1 Index: 174
+distanceLSH: 868.888
+distanceBRUTE: 655.441
+NN-2 Index: 838
+distanceLSH: 986.455
+distanceBRUTE: 671.401
+Radius: 0
+===
+Query: 58
+timeLSH: 0.011048s
+timeBRUTE: 0.046728s
+NN-1 Index: 116
+distanceLSH: 1148.96
+distanceBRUTE: 1148.96
+NN-2 Index: 763
+distanceLSH: 1538.36
+distanceBRUTE: 1535.28
+Radius: 0
+===
+Query: 59
+timeLSH: 0.010053s
+timeBRUTE: 0.056541s
+NN-1 Index: 579
+distanceLSH: 1608.33
+distanceBRUTE: 1539.11
+NN-2 Index: 22
+distanceLSH: 1683.73
+distanceBRUTE: 1608.33
+Radius: 0
+===
+Query: 60
+timeLSH: 0.00769s
+timeBRUTE: 0.03268s
+NN-1 Index: 820
+distanceLSH: 1824.58
+distanceBRUTE: 1497.78
+NN-2 Index: 446
+distanceLSH: 2200.73
+distanceBRUTE: 1611.31
+Radius: 0
+===
+Query: 61
+timeLSH: 0.006966s
+timeBRUTE: 0.031779s
+NN-1 Index: 923
+distanceLSH: 1936.78
+distanceBRUTE: 1851.94
+NN-2 Index: 929
+distanceLSH: 2045.55
+distanceBRUTE: 1936.78
+Radius: 0
+===
+Query: 62
+timeLSH: 0.006446s
+timeBRUTE: 0.031514s
+NN-1 Index: 304
+distanceLSH: 1491.43
+distanceBRUTE: 1458.82
+NN-2 Index: 968
+distanceLSH: 1663.34
+distanceBRUTE: 1491.43
+Radius: 0
+===
+Query: 63
+timeLSH: 0.007312s
+timeBRUTE: 0.026496s
+NN-1 Index: 530
+distanceLSH: 1962.9
+distanceBRUTE: 1819.05
+NN-2 Index: 148
+distanceLSH: 2007.07
+distanceBRUTE: 1834.07
+Radius: 0
+===
+Query: 64
+timeLSH: 0.007586s
+timeBRUTE: 0.036921s
+NN-1 Index: 651
+distanceLSH: 1718.14
+distanceBRUTE: 1702.56
+NN-2 Index: 567
+distanceLSH: 1719.61
+distanceBRUTE: 1718.14
+Radius: 0
+===
+Query: 65
+timeLSH: 0.00599s
+timeBRUTE: 0.028685s
+NN-1 Index: 342
+distanceLSH: 1554.03
+distanceBRUTE: 1507.84
+NN-2 Index: 153
+distanceLSH: 1731.87
+distanceBRUTE: 1516.84
+Radius: 0
+===
+Query: 66
+timeLSH: 0.00702s
+timeBRUTE: 0.03252s
+NN-1 Index: 702
+distanceLSH: 2021.37
+distanceBRUTE: 1931.05
+NN-2 Index: 584
+distanceLSH: 2117.89
+distanceBRUTE: 2021.37
+Radius: 0
+===
+Query: 67
+timeLSH: 0.00626s
+timeBRUTE: 0.026289s
+NN-1 Index: 804
+distanceLSH: 1746.48
+distanceBRUTE: 1727.09
+NN-2 Index: 322
+distanceLSH: 1871.69
+distanceBRUTE: 1732.91
+Radius: 0
+===
+Query: 68
+timeLSH: 0.006841s
+timeBRUTE: 0.029686s
+NN-1 Index: 74
+distanceLSH: 1578.7
+distanceBRUTE: 1578.7
+NN-2 Index: 878
+distanceLSH: 2034.73
+distanceBRUTE: 1629.3
+Radius: 0
+===
+Query: 69
+timeLSH: 0.005237s
+timeBRUTE: 0.032579s
+NN-1 Index: 108
+distanceLSH: 2237.97
+distanceBRUTE: 1670.1
+NN-2 Index: 283
+distanceLSH: 2259.62
+distanceBRUTE: 1687.97
+Radius: 0
+===
+Query: 70
+timeLSH: 0.004224s
+timeBRUTE: 0.027652s
+NN-1 Index: 773
+distanceLSH: 1779.21
+distanceBRUTE: 1372.93
+NN-2 Index: 798
+distanceLSH: 1829.91
+distanceBRUTE: 1473.04
+Radius: 0
+===
+Query: 71
+timeLSH: 0.004682s
+timeBRUTE: 0.027966s
+NN-1 Index: 209
+distanceLSH: 1584.23
+distanceBRUTE: 1013.71
+NN-2 Index: 526
+distanceLSH: 1588.38
+distanceBRUTE: 1038.77
+Radius: 0
+===
+Query: 72
+timeLSH: 0.004426s
+timeBRUTE: 0.029259s
+NN-1 Index: 548
+distanceLSH: 2268.1
+distanceBRUTE: 2137.55
+NN-2 Index: 321
+distanceLSH: 2317.35
+distanceBRUTE: 2142.9
+Radius: 0
+===
+Query: 73
+timeLSH: 0.005466s
+timeBRUTE: 0.024423s
+NN-1 Index: 753
+distanceLSH: 1666.05
+distanceBRUTE: 1346.06
+NN-2 Index: 595
+distanceLSH: 1724.04
+distanceBRUTE: 1416.12
+Radius: 0
+===
+Query: 74
+timeLSH: 0.006269s
+timeBRUTE: 0.026939s
+NN-1 Index: 780
+distanceLSH: 837.32
+distanceBRUTE: 837.32
+NN-2 Index: 184
+distanceLSH: 1059.93
+distanceBRUTE: 855.446
+Radius: 0
+===
+Query: 75
+timeLSH: 0.004397s
+timeBRUTE: 0.030707s
+NN-1 Index: 968
+distanceLSH: 1610.28
+distanceBRUTE: 1376.75
+NN-2 Index: 900
+distanceLSH: 1865.82
+distanceBRUTE: 1528.14
+Radius: 0
+===
+Query: 76
+timeLSH: 0.005924s
+timeBRUTE: 0.030596s
+NN-1 Index: 856
+distanceLSH: 1602.1
+distanceBRUTE: 1304.38
+NN-2 Index: 840
+distanceLSH: 1773.45
+distanceBRUTE: 1488.86
+Radius: 0
+===
+Query: 77
+timeLSH: 0.006654s
+timeBRUTE: 0.030748s
+NN-1 Index: 307
+distanceLSH: 1866.62
+distanceBRUTE: 1649.05
+NN-2 Index: 586
+distanceLSH: 1894.47
+distanceBRUTE: 1746.9
+Radius: 0
+===
+Query: 78
+timeLSH: 0.005427s
+timeBRUTE: 0.021222s
+NN-1 Index: 19
+distanceLSH: 1310.72
+distanceBRUTE: 1310.72
+Radius: 0
+===
+Query: 79
+timeLSH: 0.005575s
+timeBRUTE: 0.030695s
+NN-1 Index: 753
+distanceLSH: 1609.71
+distanceBRUTE: 1496.25
+NN-2 Index: 185
+distanceLSH: 1742.31
+distanceBRUTE: 1536.9
+Radius: 0
+===
+Query: 80
+timeLSH: 0.004566s
+timeBRUTE: 0.032516s
+NN-1 Index: 812
+distanceLSH: 1442.19
+distanceBRUTE: 1442.19
+NN-2 Index: 686
+distanceLSH: 1699.63
+distanceBRUTE: 1607.82
+Radius: 0
+===
+Query: 81
+timeLSH: 0.007752s
+timeBRUTE: 0.024456s
+NN-1 Index: 802
+distanceLSH: 1496.16
+distanceBRUTE: 1344.85
+NN-2 Index: 395
+distanceLSH: 1549.15
+distanceBRUTE: 1406.14
+Radius: 0
+===
+Query: 82
+timeLSH: 0.005036s
+timeBRUTE: 0.023931s
+NN-1 Index: 642
+distanceLSH: 1597.89
+distanceBRUTE: 1586.12
+NN-2 Index: 568
+distanceLSH: 1971.79
+distanceBRUTE: 1597.89
+Radius: 0
+===
+Query: 83
+timeLSH: 0.004602s
+timeBRUTE: 0.028377s
+NN-1 Index: 686
+distanceLSH: 1408.25
+distanceBRUTE: 1308.15
+NN-2 Index: 820
+distanceLSH: 1490.47
+distanceBRUTE: 1407.73
+Radius: 0
+===
+Query: 84
+timeLSH: 0.005465s
+timeBRUTE: 0.027452s
+NN-1 Index: 144
+distanceLSH: 1939.36
+distanceBRUTE: 1669.83
+NN-2 Index: 609
+distanceLSH: 2123.37
+distanceBRUTE: 1909.63
+Radius: 0
+===
+Query: 85
+timeLSH: 0.007905s
+timeBRUTE: 0.033137s
+NN-1 Index: 877
+distanceLSH: 1594.26
+distanceBRUTE: 1382.03
+NN-2 Index: 692
+distanceLSH: 1641.24
+distanceBRUTE: 1594.26
+Radius: 0
+===
+Query: 86
+timeLSH: 0.006708s
+timeBRUTE: 0.030939s
+NN-1 Index: 307
+distanceLSH: 1360.83
+distanceBRUTE: 1201.03
+Radius: 0
+===
+Query: 87
+timeLSH: 0.004726s
+timeBRUTE: 0.021886s
+NN-1 Index: 298
+distanceLSH: 1990.07
+distanceBRUTE: 1891.81
+NN-2 Index: 630
+distanceLSH: 2168.31
+distanceBRUTE: 1904.29
+Radius: 0
+===
+Query: 88
+timeLSH: 0.00619s
+timeBRUTE: 0.03109s
+NN-1 Index: 700
+distanceLSH: 2192.81
+distanceBRUTE: 1618.58
+NN-2 Index: 92
+distanceLSH: 2261.46
+distanceBRUTE: 1711.17
+Radius: 0
+===
+Query: 89
+timeLSH: 0.00447s
+timeBRUTE: 0.020429s
+NN-1 Index: 105
+distanceLSH: 984.326
+distanceBRUTE: 851.228
+NN-2 Index: 510
+distanceLSH: 1015.43
+distanceBRUTE: 911.622
+Radius: 0
+===
+Query: 90
+timeLSH: 0.00463s
+timeBRUTE: 0.020908s
+NN-1 Index: 49
+distanceLSH: 1821.35
+distanceBRUTE: 1723.42
+NN-2 Index: 50
+distanceLSH: 1849.58
+distanceBRUTE: 1755.24
+Radius: 0
+===
+Query: 91
+timeLSH: 0.004732s
+timeBRUTE: 0.020287s
+NN-1 Index: 816
+distanceLSH: 1527.56
+distanceBRUTE: 1415.88
+NN-2 Index: 401
+distanceLSH: 1647.76
+distanceBRUTE: 1436.58
+Radius: 0
+===
+Query: 92
+timeLSH: 0.004484s
+timeBRUTE: 0.029491s
+NN-1 Index: 601
+distanceLSH: 1374.31
+distanceBRUTE: 1276.04
+NN-2 Index: 319
+distanceLSH: 1477.78
+distanceBRUTE: 1374.31
+Radius: 0
+===
+Query: 93
+timeLSH: 0.007172s
+timeBRUTE: 0.031092s
+NN-1 Index: 890
+distanceLSH: 1697.43
+distanceBRUTE: 1479.18
+NN-2 Index: 330
+distanceLSH: 1857.2
+distanceBRUTE: 1483.23
+Radius: 0
+===
+Query: 94
+timeLSH: 0.005733s
+timeBRUTE: 0.030974s
+NN-1 Index: 200
+distanceLSH: 1000.68
+distanceBRUTE: 1000.68
+NN-2 Index: 6
+distanceLSH: 1077.04
+distanceBRUTE: 1003.3
+Radius: 0
+===
+Query: 95
+timeLSH: 0.006877s
+timeBRUTE: 0.031609s
+NN-1 Index: 834
+distanceLSH: 2108.34
+distanceBRUTE: 2009.77
+NN-2 Index: 363
+distanceLSH: 2267.75
+distanceBRUTE: 2070.3
+Radius: 0
+===
+Query: 96
+timeLSH: 0.006371s
+timeBRUTE: 0.031699s
+NN-1 Index: 738
+distanceLSH: 1106.78
+distanceBRUTE: 1009.55
+NN-2 Index: 212
+distanceLSH: 1519.38
+distanceBRUTE: 1106.78
+Radius: 0
+===
+Query: 97
+timeLSH: 0.005994s
+timeBRUTE: 0.029406s
+NN-1 Index: 231
+distanceLSH: 1999.5
+distanceBRUTE: 1467.51
+NN-2 Index: 918
+distanceLSH: 2065.12
+distanceBRUTE: 1732.07
+Radius: 0
+===
+Query: 98
+timeLSH: 0.004622s
+timeBRUTE: 0.020281s
+NN-1 Index: 238
+distanceLSH: 1840.85
+distanceBRUTE: 1699.61
+NN-2 Index: 367
+distanceLSH: 1937.25
+distanceBRUTE: 1793.58
+Radius: 0
+===
+Query: 99
+timeLSH: 0.004233s
+timeBRUTE: 0.021158s
+NN-1 Index: 322
+distanceLSH: 1470.72
+distanceBRUTE: 1470.72
+Radius: 0
+===
+Query: 100
+timeLSH: 0.005822s
+timeBRUTE: 0.020799s
+NN-1 Index: 354
+distanceLSH: 1947.69
+distanceBRUTE: 1810.22
+NN-2 Index: 276
+distanceLSH: 1952.36
+distanceBRUTE: 1827.24
+Radius: 0
+===
+Query: 101
+timeLSH: 0.005028s
+timeBRUTE: 0.025735s
+NN-1 Index: 206
+distanceLSH: 2061.54
+distanceBRUTE: 1549.66
+NN-2 Index: 192
+distanceLSH: 2120.97
+distanceBRUTE: 1633.76
+Radius: 0
+===
+Query: 102
+timeLSH: 0.006586s
+timeBRUTE: 0.030179s
+NN-1 Index: 332
+distanceLSH: 1967.77
+distanceBRUTE: 1875.8
+NN-2 Index: 203
+distanceLSH: 2171.63
+distanceBRUTE: 1889.31
+Radius: 0
+===
+Query: 103
+timeLSH: 0.007282s
+timeBRUTE: 0.031978s
+NN-1 Index: 194
+distanceLSH: 1766.43
+distanceBRUTE: 1451.55
+NN-2 Index: 58
+distanceLSH: 1889.17
+distanceBRUTE: 1596.7
+Radius: 0
+===
+Query: 104
+timeLSH: 0.005953s
+timeBRUTE: 0.024864s
+NN-1 Index: 264
+distanceLSH: 1674.59
+distanceBRUTE: 1674.59
+NN-2 Index: 764
+distanceLSH: 1902.38
+distanceBRUTE: 1821.74
+Radius: 0
+===
+Query: 105
+timeLSH: 0.005178s
+timeBRUTE: 0.029384s
+NN-1 Index: 116
+distanceLSH: 1609.19
+distanceBRUTE: 1267.18
+NN-2 Index: 226
+distanceLSH: 1774.06
+distanceBRUTE: 1404.82
+Radius: 0
+===
+Query: 106
+timeLSH: 0.005459s
+timeBRUTE: 0.030184s
+NN-1 Index: 82
+distanceLSH: 2257.89
+distanceBRUTE: 1818.57
+Radius: 0
+===
+Query: 107
+timeLSH: 0.006394s
+timeBRUTE: 0.028088s
+NN-1 Index: 77
+distanceLSH: 1011.47
+distanceBRUTE: 913.939
+Radius: 0
+===
+Query: 108
+timeLSH: 0.006209s
+timeBRUTE: 0.031599s
+NN-1 Index: 718
+distanceLSH: 1485.94
+distanceBRUTE: 1322.47
+NN-2 Index: 580
+distanceLSH: 1552.85
+distanceBRUTE: 1476.01
+Radius: 0
+===
+Query: 109
+timeLSH: 0.006929s
+timeBRUTE: 0.029342s
+NN-1 Index: 289
+distanceLSH: 1533.77
+distanceBRUTE: 1241.21
+Radius: 0
+===
+Query: 110
+timeLSH: 0.004592s
+timeBRUTE: 0.0281s
+NN-1 Index: 817
+distanceLSH: 1746.28
+distanceBRUTE: 1399.56
+NN-2 Index: 135
+distanceLSH: 1824.1
+distanceBRUTE: 1564.52
+Radius: 0
+===
+Query: 111
+timeLSH: 0.005377s
+timeBRUTE: 0.029594s
+NN-1 Index: 416
+distanceLSH: 1391.26
+distanceBRUTE: 1135.47
+NN-2 Index: 276
+distanceLSH: 1398.02
+distanceBRUTE: 1216.99
+Radius: 0
+===
+Query: 112
+timeLSH: 0.004895s
+timeBRUTE: 0.019738s
+NN-1 Index: 638
+distanceLSH: 1693.12
+distanceBRUTE: 1410.26
+NN-2 Index: 200
+distanceLSH: 1721.44
+distanceBRUTE: 1470.37
+Radius: 0
+===
+Query: 113
+timeLSH: 0.005082s
+timeBRUTE: 0.026679s
+NN-1 Index: 428
+distanceLSH: 1444.27
+distanceBRUTE: 968.719
+NN-2 Index: 116
+distanceLSH: 1511.81
+distanceBRUTE: 1261.07
+Radius: 0
+===
+Query: 114
+timeLSH: 0.004742s
+timeBRUTE: 0.024743s
+NN-1 Index: 268
+distanceLSH: 1552.99
+distanceBRUTE: 1407.4
+NN-2 Index: 478
+distanceLSH: 1573.82
+distanceBRUTE: 1506.6
+Radius: 0
+===
+Query: 115
+timeLSH: 0.00633s
+timeBRUTE: 0.030189s
+NN-1 Index: 900
+distanceLSH: 1533.07
+distanceBRUTE: 1226.44
+NN-2 Index: 413
+distanceLSH: 1590.49
+distanceBRUTE: 1357.58
+Radius: 0
+===
+Query: 116
+timeLSH: 0.006416s
+timeBRUTE: 0.026614s
+NN-1 Index: 754
+distanceLSH: 1439.28
+distanceBRUTE: 1056.67
+NN-2 Index: 580
+distanceLSH: 1622.15
+distanceBRUTE: 1369.81
+Radius: 0
+===
+Query: 117
+timeLSH: 0.004838s
+timeBRUTE: 0.022696s
+NN-1 Index: 804
+distanceLSH: 1520.89
+distanceBRUTE: 1520.89
+NN-2 Index: 322
+distanceLSH: 1934.16
+distanceBRUTE: 1709.06
+Radius: 0
+===
+Query: 118
+timeLSH: 0.004535s
+timeBRUTE: 0.020221s
+NN-1 Index: 362
+distanceLSH: 1365.14
+distanceBRUTE: 1092.79
+NN-2 Index: 800
+distanceLSH: 1420.06
+distanceBRUTE: 1273.12
+Radius: 0
+===
+Query: 119
+timeLSH: 0.00693s
+timeBRUTE: 0.031538s
+NN-1 Index: 377
+distanceLSH: 2030.51
+distanceBRUTE: 1873.5
+NN-2 Index: 839
+distanceLSH: 2041.57
+distanceBRUTE: 1881.19
+Radius: 0
+===
+Query: 120
+timeLSH: 0.005599s
+timeBRUTE: 0.03237s
+NN-1 Index: 748
+distanceLSH: 1872.58
+distanceBRUTE: 1711.07
+NN-2 Index: 620
+distanceLSH: 1899.41
+distanceBRUTE: 1872.58
+Radius: 0
+===
+Query: 121
+timeLSH: 0.005284s
+timeBRUTE: 0.026438s
+NN-1 Index: 754
+distanceLSH: 1871.52
+distanceBRUTE: 1633.23
+NN-2 Index: 851
+distanceLSH: 1900.54
+distanceBRUTE: 1687.22
+Radius: 0
+===
+Query: 122
+timeLSH: 0.005597s
+timeBRUTE: 0.028988s
+NN-1 Index: 936
+distanceLSH: 1566.76
+distanceBRUTE: 1263.28
+NN-2 Index: 576
+distanceLSH: 1602.94
+distanceBRUTE: 1320.47
+Radius: 0
+===
+Query: 123
+timeLSH: 0.004702s
+timeBRUTE: 0.025551s
+NN-1 Index: 802
+distanceLSH: 1431.14
+distanceBRUTE: 1181.92
+NN-2 Index: 421
+distanceLSH: 1689.55
+distanceBRUTE: 1431.14
+Radius: 0
+===
+Query: 124
+timeLSH: 0.006969s
+timeBRUTE: 0.033218s
+NN-1 Index: 54
+distanceLSH: 1783.31
+distanceBRUTE: 1675.36
+NN-2 Index: 133
+distanceLSH: 1974.91
+distanceBRUTE: 1701.59
+Radius: 0
+===
+Query: 125
+timeLSH: 0.006797s
+timeBRUTE: 0.030385s
+NN-1 Index: 566
+distanceLSH: 1720.26
+distanceBRUTE: 1475.22
+NN-2 Index: 682
+distanceLSH: 1739.63
+distanceBRUTE: 1575.96
+Radius: 0
+===
+Query: 126
+timeLSH: 0.007616s
+timeBRUTE: 0.026787s
+NN-1 Index: 209
+distanceLSH: 2148.62
+distanceBRUTE: 2014.83
+NN-2 Index: 524
+distanceLSH: 2173.79
+distanceBRUTE: 2086.23
+Radius: 0
+===
+Query: 127
+timeLSH: 0.004224s
+timeBRUTE: 0.023491s
+NN-1 Index: 480
+distanceLSH: 1904.6
+distanceBRUTE: 1529.36
+NN-2 Index: 474
+distanceLSH: 1999.41
+distanceBRUTE: 1686.3
+Radius: 0
+===
+Query: 128
+timeLSH: 0.005354s
+timeBRUTE: 0.02767s
+NN-1 Index: 734
+distanceLSH: 1659.16
+distanceBRUTE: 1648.37
+NN-2 Index: 459
+distanceLSH: 2027.94
+distanceBRUTE: 1659.16
+Radius: 0
+===
+Query: 129
+timeLSH: 0.006398s
+timeBRUTE: 0.02352s
+NN-1 Index: 420
+distanceLSH: 1728.45
+distanceBRUTE: 1309.26
+NN-2 Index: 574
+distanceLSH: 1911.59
+distanceBRUTE: 1501.29
+Radius: 0
+===
+Query: 130
+timeLSH: 0.004747s
+timeBRUTE: 0.021736s
+NN-1 Index: 421
+distanceLSH: 1278.44
+distanceBRUTE: 1244.47
+NN-2 Index: 155
+distanceLSH: 1553.24
+distanceBRUTE: 1278.44
+Radius: 0
+===
+Query: 131
+timeLSH: 0.006755s
+timeBRUTE: 0.032757s
+NN-1 Index: 816
+distanceLSH: 1719.89
+distanceBRUTE: 1419.07
+NN-2 Index: 829
+distanceLSH: 1746.34
+distanceBRUTE: 1486.81
+Radius: 0
+===
+Query: 132
+timeLSH: 0.005388s
+timeBRUTE: 0.027311s
+NN-1 Index: 332
+distanceLSH: 1775.11
+distanceBRUTE: 1775.11
+Radius: 0
+===
+Query: 133
+timeLSH: 0.005699s
+timeBRUTE: 0.02579s
+NN-1 Index: 38
+distanceLSH: 1865.26
+distanceBRUTE: 1720.24
+NN-2 Index: 324
+distanceLSH: 1931.18
+distanceBRUTE: 1865.26
+Radius: 0
+===
+Query: 134
+timeLSH: 0.005859s
+timeBRUTE: 0.026428s
+NN-1 Index: 766
+distanceLSH: 1393.7
+distanceBRUTE: 1393.7
+NN-2 Index: 976
+distanceLSH: 1538.72
+distanceBRUTE: 1538.72
+Radius: 0
+===
+Query: 135
+timeLSH: 0.007004s
+timeBRUTE: 0.030683s
+NN-1 Index: 128
+distanceLSH: 729.892
+distanceBRUTE: 729.892
+NN-2 Index: 450
+distanceLSH: 801.281
+distanceBRUTE: 801.281
+Radius: 0
+===
+Query: 136
+timeLSH: 0.006613s
+timeBRUTE: 0.03186s
+NN-1 Index: 192
+distanceLSH: 1737.49
+distanceBRUTE: 1220.96
+NN-2 Index: 95
+distanceLSH: 1778.29
+distanceBRUTE: 1339.51
+Radius: 0
+===
+Query: 137
+timeLSH: 0.007246s
+timeBRUTE: 0.027064s
+NN-1 Index: 269
+distanceLSH: 921.071
+distanceBRUTE: 828.322
+Radius: 0
+===
+Query: 138
+timeLSH: 0.005254s
+timeBRUTE: 0.035512s
+NN-1 Index: 90
+distanceLSH: 1927.59
+distanceBRUTE: 1678.71
+Radius: 0
+===
+Query: 139
+timeLSH: 0.007352s
+timeBRUTE: 0.031364s
+NN-1 Index: 461
+distanceLSH: 1611.15
+distanceBRUTE: 1517.45
+NN-2 Index: 655
+distanceLSH: 1641.19
+distanceBRUTE: 1542.71
+Radius: 0
+===
+Query: 140
+timeLSH: 0.005252s
+timeBRUTE: 0.03111s
+NN-1 Index: 430
+distanceLSH: 1201.88
+distanceBRUTE: 1152.83
+NN-2 Index: 32
+distanceLSH: 1582.77
+distanceBRUTE: 1201.88
+Radius: 0
+===
+Query: 141
+timeLSH: 0.006165s
+timeBRUTE: 0.033406s
+NN-1 Index: 686
+distanceLSH: 1388
+distanceBRUTE: 1388
+NN-2 Index: 288
+distanceLSH: 1982.65
+distanceBRUTE: 1541.41
+Radius: 0
+===
+Query: 142
+timeLSH: 0.005538s
+timeBRUTE: 0.03239s
+NN-1 Index: 198
+distanceLSH: 2062.98
+distanceBRUTE: 1788.83
+NN-2 Index: 728
+distanceLSH: 2123.78
+distanceBRUTE: 1847.54
+Radius: 0
+===
+Query: 143
+timeLSH: 0.014953s
+timeBRUTE: 0.039375s
+NN-1 Index: 270
+distanceLSH: 667.386
+distanceBRUTE: 611.475
+NN-2 Index: 310
+distanceLSH: 1026.94
+distanceBRUTE: 667.386
+Radius: 0
+===
+Query: 144
+timeLSH: 0.007533s
+timeBRUTE: 0.032333s
+NN-1 Index: 307
+distanceLSH: 1545.02
+distanceBRUTE: 1340.14
+NN-2 Index: 305
+distanceLSH: 1644.5
+distanceBRUTE: 1431.33
+Radius: 0
+===
+Query: 145
+timeLSH: 0.008359s
+timeBRUTE: 0.028991s
+NN-1 Index: 780
+distanceLSH: 923.31
+distanceBRUTE: 669.19
+NN-2 Index: 248
+distanceLSH: 1288.66
+distanceBRUTE: 723.557
+Radius: 0
+===
+Query: 146
+timeLSH: 0.005182s
+timeBRUTE: 0.032135s
+NN-1 Index: 313
+distanceLSH: 1932.01
+distanceBRUTE: 1639.48
+NN-2 Index: 227
+distanceLSH: 2012.66
+distanceBRUTE: 1713.93
+Radius: 0
+===
+Query: 147
+timeLSH: 0.00604s
+timeBRUTE: 0.034411s
+NN-1 Index: 375
+distanceLSH: 1533.09
+distanceBRUTE: 1312.99
+NN-2 Index: 317
+distanceLSH: 1641.82
+distanceBRUTE: 1385.32
+Radius: 0
+===
+Query: 148
+timeLSH: 0.005694s
+timeBRUTE: 0.033377s
+NN-1 Index: 582
+distanceLSH: 1911.28
+distanceBRUTE: 1394.96
+NN-2 Index: 81
+distanceLSH: 1919.21
+distanceBRUTE: 1414.17
+Radius: 0
+===
+Query: 149
+timeLSH: 0.004772s
+timeBRUTE: 0.034235s
+NN-1 Index: 270
+distanceLSH: 1903.06
+distanceBRUTE: 1846.05
+NN-2 Index: 864
+distanceLSH: 1966.12
+distanceBRUTE: 1874.21
+Radius: 0
+===
+Query: 150
+timeLSH: 0.005755s
+timeBRUTE: 0.035788s
+NN-1 Index: 334
+distanceLSH: 1473.09
+distanceBRUTE: 1163
+NN-2 Index: 428
+distanceLSH: 1530.38
+distanceBRUTE: 1164.8
+Radius: 0
+===
+Query: 151
+timeLSH: 0.00654s
+timeBRUTE: 0.037095s
+NN-1 Index: 350
+distanceLSH: 2288.73
+distanceBRUTE: 2014.86
+NN-2 Index: 792
+distanceLSH: 2302.34
+distanceBRUTE: 2111.17
+Radius: 0
+===
+Query: 152
+timeLSH: 0.007448s
+timeBRUTE: 0.031904s
+NN-1 Index: 47
+distanceLSH: 1754.01
+distanceBRUTE: 1752.45
+NN-2 Index: 945
+distanceLSH: 1791.77
+distanceBRUTE: 1754.01
+Radius: 0
+===
+Query: 153
+timeLSH: 0.005604s
+timeBRUTE: 0.031768s
+NN-1 Index: 130
+distanceLSH: 1988.86
+distanceBRUTE: 1305.54
+NN-2 Index: 956
+distanceLSH: 1990.56
+distanceBRUTE: 1604.33
+Radius: 0
+===
+Query: 154
+timeLSH: 0.006539s
+timeBRUTE: 0.025113s
+NN-1 Index: 8
+distanceLSH: 864.022
+distanceBRUTE: 762.618
+NN-2 Index: 618
+distanceLSH: 1255.79
+distanceBRUTE: 764.435
+Radius: 0
+===
+Query: 155
+timeLSH: 0.006294s
+timeBRUTE: 0.030654s
+NN-1 Index: 328
+distanceLSH: 1788.05
+distanceBRUTE: 1445.71
+NN-2 Index: 845
+distanceLSH: 1890.36
+distanceBRUTE: 1695.19
+Radius: 0
+===
+Query: 156
+timeLSH: 0.006075s
+timeBRUTE: 0.032402s
+NN-1 Index: 32
+distanceLSH: 2003.58
+distanceBRUTE: 1325.57
+NN-2 Index: 338
+distanceLSH: 2048.86
+distanceBRUTE: 1566.79
+Radius: 0
+===
+Query: 157
+timeLSH: 0.00699s
+timeBRUTE: 0.033145s
+NN-1 Index: 320
+distanceLSH: 1410.89
+distanceBRUTE: 1410.89
+NN-2 Index: 192
+distanceLSH: 1758.93
+distanceBRUTE: 1420.57
+Radius: 0
+===
+Query: 158
+timeLSH: 0.005843s
+timeBRUTE: 0.033338s
+NN-1 Index: 998
+distanceLSH: 1981.45
+distanceBRUTE: 1650.61
+NN-2 Index: 80
+distanceLSH: 2120.1
+distanceBRUTE: 1844.58
+Radius: 0
+===
+Query: 159
+timeLSH: 0.006752s
+timeBRUTE: 0.027904s
+NN-1 Index: 738
+distanceLSH: 1605.19
+distanceBRUTE: 1584.75
+NN-2 Index: 112
+distanceLSH: 1620.26
+distanceBRUTE: 1586.83
+Radius: 0
+===
+Query: 160
+timeLSH: 0.006074s
+timeBRUTE: 0.030001s
+NN-1 Index: 162
+distanceLSH: 1735.88
+distanceBRUTE: 1527.84
+NN-2 Index: 744
+distanceLSH: 1780.36
+distanceBRUTE: 1607.16
+Radius: 0
+===
+Query: 161
+timeLSH: 0.005272s
+timeBRUTE: 0.027277s
+NN-1 Index: 261
+distanceLSH: 1803.17
+distanceBRUTE: 1601.27
+NN-2 Index: 794
+distanceLSH: 1906.23
+distanceBRUTE: 1643.24
+Radius: 0
+===
+Query: 162
+timeLSH: 0.004926s
+timeBRUTE: 0.029196s
+NN-1 Index: 912
+distanceLSH: 1845.39
+distanceBRUTE: 1405.85
+NN-2 Index: 748
+distanceLSH: 1940.64
+distanceBRUTE: 1680.7
+Radius: 0
+===
+Query: 163
+timeLSH: 0.005598s
+timeBRUTE: 0.031926s
+NN-1 Index: 58
+distanceLSH: 1840.46
+distanceBRUTE: 1500.2
+NN-2 Index: 237
+distanceLSH: 1982.58
+distanceBRUTE: 1693.13
+Radius: 0
+===
+Query: 164
+timeLSH: 0.005258s
+timeBRUTE: 0.026442s
+NN-1 Index: 354
+distanceLSH: 2008.52
+distanceBRUTE: 1521.38
+NN-2 Index: 26
+distanceLSH: 2074.56
+distanceBRUTE: 1636.99
+Radius: 0
+===
+Query: 165
+timeLSH: 0.004681s
+timeBRUTE: 0.029738s
+NN-1 Index: 924
+distanceLSH: 1842.87
+distanceBRUTE: 1635.05
+NN-2 Index: 668
+distanceLSH: 2005.99
+distanceBRUTE: 1691.59
+Radius: 0
+===
+Query: 166
+timeLSH: 0.005985s
+timeBRUTE: 0.026062s
+NN-1 Index: 482
+distanceLSH: 1737.03
+distanceBRUTE: 1514.1
+NN-2 Index: 166
+distanceLSH: 1781.98
+distanceBRUTE: 1649.44
+Radius: 0
+===
+Query: 167
+timeLSH: 0.004843s
+timeBRUTE: 0.027222s
+NN-1 Index: 523
+distanceLSH: 1563.27
+distanceBRUTE: 1396.81
+NN-2 Index: 614
+distanceLSH: 1795.42
+distanceBRUTE: 1503.54
+Radius: 0
+===
+Query: 168
+timeLSH: 0.005386s
+timeBRUTE: 0.030646s
+NN-1 Index: 200
+distanceLSH: 861.987
+distanceBRUTE: 647.959
+Radius: 0
+===
+Query: 169
+timeLSH: 0.005134s
+timeBRUTE: 0.028392s
+NN-1 Index: 116
+distanceLSH: 1619.35
+distanceBRUTE: 1356.51
+Radius: 0
+===
+Query: 170
+timeLSH: 0.005923s
+timeBRUTE: 0.025706s
+NN-1 Index: 336
+distanceLSH: 1430.9
+distanceBRUTE: 1251.22
+NN-2 Index: 344
+distanceLSH: 1467.22
+distanceBRUTE: 1430.9
+Radius: 0
+===
+Query: 171
+timeLSH: 0.004571s
+timeBRUTE: 0.023231s
+NN-1 Index: 511
+distanceLSH: 1763.83
+distanceBRUTE: 1445.45
+NN-2 Index: 497
+distanceLSH: 1773.07
+distanceBRUTE: 1558.72
+Radius: 0
+===
+Query: 172
+timeLSH: 0.00539s
+timeBRUTE: 0.026431s
+NN-1 Index: 830
+distanceLSH: 2033.76
+distanceBRUTE: 1782.78
+NN-2 Index: 732
+distanceLSH: 2128.49
+distanceBRUTE: 1862.8
+Radius: 0
+===
+Query: 173
+timeLSH: 0.005672s
+timeBRUTE: 0.027559s
+NN-1 Index: 136
+distanceLSH: 2017.22
+distanceBRUTE: 1804.09
+NN-2 Index: 216
+distanceLSH: 2088.27
+distanceBRUTE: 1893.26
+Radius: 0
+===
+Query: 174
+timeLSH: 0.005614s
+timeBRUTE: 0.029094s
+NN-1 Index: 696
+distanceLSH: 1992.39
+distanceBRUTE: 1774.9
+NN-2 Index: 315
+distanceLSH: 2100.28
+distanceBRUTE: 1810.95
+Radius: 0
+===
+Query: 175
+timeLSH: 0.005281s
+timeBRUTE: 0.03347s
+NN-1 Index: 634
+distanceLSH: 907.503
+distanceBRUTE: 907.503
+NN-2 Index: 40
+distanceLSH: 1338.9
+distanceBRUTE: 945.214
+Radius: 0
+===
+Query: 176
+timeLSH: 0.005861s
+timeBRUTE: 0.027015s
+NN-1 Index: 72
+distanceLSH: 729.98
+distanceBRUTE: 729.98
+NN-2 Index: 618
+distanceLSH: 1126.91
+distanceBRUTE: 753.781
+Radius: 0
+===
+Query: 177
+timeLSH: 0.00489s
+timeBRUTE: 0.026369s
+NN-1 Index: 160
+distanceLSH: 1961.66
+distanceBRUTE: 1681.47
+Radius: 0
+===
+Query: 178
+timeLSH: 0.00592s
+timeBRUTE: 0.022711s
+NN-1 Index: 112
+distanceLSH: 462.66
+distanceBRUTE: 462.66
+NN-2 Index: 678
+distanceLSH: 588.076
+distanceBRUTE: 541.036
+Radius: 0
+===
+Query: 179
+timeLSH: 0.005627s
+timeBRUTE: 0.027981s
+NN-1 Index: 766
+distanceLSH: 1624.32
+distanceBRUTE: 1624.32
+NN-2 Index: 41
+distanceLSH: 1878.39
+distanceBRUTE: 1759.88
+Radius: 0
+===
+Query: 180
+timeLSH: 0.005643s
+timeBRUTE: 0.024342s
+NN-1 Index: 40
+distanceLSH: 683.381
+distanceBRUTE: 622.53
+NN-2 Index: 366
+distanceLSH: 1113.72
+distanceBRUTE: 622.955
+Radius: 0
+===
+Query: 181
+timeLSH: 0.005192s
+timeBRUTE: 0.030115s
+NN-1 Index: 938
+distanceLSH: 1837.03
+distanceBRUTE: 1821.25
+NN-2 Index: 390
+distanceLSH: 1855.75
+distanceBRUTE: 1837.03
+Radius: 0
+===
+Query: 182
+timeLSH: 0.005633s
+timeBRUTE: 0.028675s
+NN-1 Index: 878
+distanceLSH: 1876.9
+distanceBRUTE: 1437.6
+NN-2 Index: 46
+distanceLSH: 1879.8
+distanceBRUTE: 1587.97
+Radius: 0
+===
+Query: 183
+timeLSH: 0.006364s
+timeBRUTE: 0.031691s
+NN-1 Index: 249
+distanceLSH: 2287.01
+distanceBRUTE: 1314.48
+NN-2 Index: 88
+distanceLSH: 2449.35
+distanceBRUTE: 1923.81
+Radius: 0
+===
+Query: 184
+timeLSH: 0.007283s
+timeBRUTE: 0.025903s
+NN-1 Index: 107
+distanceLSH: 1770.59
+distanceBRUTE: 1647.71
+NN-2 Index: 62
+distanceLSH: 1890.95
+distanceBRUTE: 1689.1
+Radius: 0
+===
+Query: 185
+timeLSH: 0.005493s
+timeBRUTE: 0.025478s
+NN-1 Index: 800
+distanceLSH: 1593.71
+distanceBRUTE: 1509.2
+Radius: 0
+===
+Query: 186
+timeLSH: 0.004845s
+timeBRUTE: 0.027353s
+NN-1 Index: 646
+distanceLSH: 1891.38
+distanceBRUTE: 1400.74
+NN-2 Index: 76
+distanceLSH: 1966.73
+distanceBRUTE: 1646.25
+Radius: 0
+===
+Query: 187
+timeLSH: 0.005105s
+timeBRUTE: 0.023672s
+NN-1 Index: 970
+distanceLSH: 1689.92
+distanceBRUTE: 1689.92
+NN-2 Index: 136
+distanceLSH: 1915.01
+distanceBRUTE: 1854.04
+Radius: 0
+===
+Query: 188
+timeLSH: 0.005106s
+timeBRUTE: 0.02744s
+NN-1 Index: 303
+distanceLSH: 1890.43
+distanceBRUTE: 1582.58
+NN-2 Index: 399
+distanceLSH: 2136.31
+distanceBRUTE: 1693.25
+Radius: 0
+===
+Query: 189
+timeLSH: 0.004937s
+timeBRUTE: 0.026848s
+NN-1 Index: 738
+distanceLSH: 678.522
+distanceBRUTE: 678.522
+NN-2 Index: 8
+distanceLSH: 1209.31
+distanceBRUTE: 829.378
+Radius: 0
+===
+Query: 190
+timeLSH: 0.004702s
+timeBRUTE: 0.027463s
+NN-1 Index: 416
+distanceLSH: 952.382
+distanceBRUTE: 931.47
+NN-2 Index: 492
+distanceLSH: 1175.18
+distanceBRUTE: 939.25
+Radius: 0
+===
+Query: 191
+timeLSH: 0.004713s
+timeBRUTE: 0.027304s
+NN-1 Index: 394
+distanceLSH: 1610.79
+distanceBRUTE: 965.409
+NN-2 Index: 484
+distanceLSH: 1700.9
+distanceBRUTE: 1064.59
+Radius: 0
+===
+Query: 192
+timeLSH: 0.004876s
+timeBRUTE: 0.026172s
+NN-1 Index: 519
+distanceLSH: 1723.71
+distanceBRUTE: 1125.83
+NN-2 Index: 860
+distanceLSH: 1806.57
+distanceBRUTE: 1327.68
+Radius: 0
+===
+Query: 193
+timeLSH: 0.005091s
+timeBRUTE: 0.026245s
+NN-1 Index: 428
+distanceLSH: 1645.99
+distanceBRUTE: 1606.86
+NN-2 Index: 162
+distanceLSH: 1827.04
+distanceBRUTE: 1645.99
+Radius: 0
+===
+Query: 194
+timeLSH: 0.004818s
+timeBRUTE: 0.028424s
+NN-1 Index: 216
+distanceLSH: 2022.22
+distanceBRUTE: 1518.26
+NN-2 Index: 542
+distanceLSH: 2166.9
+distanceBRUTE: 1531.99
+Radius: 0
+===
+Query: 195
+timeLSH: 0.005557s
+timeBRUTE: 0.031105s
+NN-1 Index: 358
+distanceLSH: 1728.53
+distanceBRUTE: 1594.94
+NN-2 Index: 778
+distanceLSH: 1845.69
+distanceBRUTE: 1599.19
+Radius: 0
+===
+Query: 196
+timeLSH: 0.005979s
+timeBRUTE: 0.025613s
+NN-1 Index: 710
+distanceLSH: 1053.71
+distanceBRUTE: 736.548
+NN-2 Index: 450
+distanceLSH: 1071.17
+distanceBRUTE: 1053.71
+Radius: 0
+===
+Query: 197
+timeLSH: 0.006104s
+timeBRUTE: 0.027501s
+NN-1 Index: 672
+distanceLSH: 1098.99
+distanceBRUTE: 1098.99
+Radius: 0
+===
+Query: 198
+timeLSH: 0.005578s
+timeBRUTE: 0.031773s
+NN-1 Index: 566
+distanceLSH: 1381.39
+distanceBRUTE: 1381.39
+NN-2 Index: 369
+distanceLSH: 1396.42
+distanceBRUTE: 1387.72
+Radius: 0
+===
+Query: 199
+timeLSH: 0.005794s
+timeBRUTE: 0.027546s
+NN-1 Index: 348
+distanceLSH: 2009.07
+distanceBRUTE: 1684.47
+NN-2 Index: 7
+distanceLSH: 2034.49
+distanceBRUTE: 1741.63
+Radius: 0
+===
+Query: 200
+timeLSH: 0.005037s
+timeBRUTE: 0.026364s
+NN-1 Index: 169
+distanceLSH: 2258.5
+distanceBRUTE: 1974.16
+NN-2 Index: 542
+distanceLSH: 2258.57
+distanceBRUTE: 2003.66
+Radius: 0
+===
+Query: 201
+timeLSH: 0.006352s
+timeBRUTE: 0.027861s
+NN-1 Index: 260
+distanceLSH: 2289.29
+distanceBRUTE: 1721.79
+NN-2 Index: 701
+distanceLSH: 2305.94
+distanceBRUTE: 1802.48
+Radius: 0
+===
+Query: 202
+timeLSH: 0.005917s
+timeBRUTE: 0.027808s
+NN-1 Index: 871
+distanceLSH: 891.169
+distanceBRUTE: 834.26
+NN-2 Index: 345
+distanceLSH: 898.933
+distanceBRUTE: 869.742
+Radius: 0
+===
+Query: 203
+timeLSH: 0.004856s
+timeBRUTE: 0.025093s
+NN-1 Index: 618
+distanceLSH: 909.842
+distanceBRUTE: 694.065
+NN-2 Index: 358
+distanceLSH: 1219.98
+distanceBRUTE: 746.015
+Radius: 0
+===
+Query: 204
+timeLSH: 0.005219s
+timeBRUTE: 0.030773s
+NN-1 Index: 276
+distanceLSH: 660.566
+distanceBRUTE: 660.566
+NN-2 Index: 604
+distanceLSH: 670.325
+distanceBRUTE: 665.149
+Radius: 0
+===
+Query: 205
+timeLSH: 0.007887s
+timeBRUTE: 0.035678s
+NN-1 Index: 136
+distanceLSH: 1449.57
+distanceBRUTE: 1365.04
+NN-2 Index: 74
+distanceLSH: 1590.79
+distanceBRUTE: 1449.57
+Radius: 0
+===
+Query: 206
+timeLSH: 0.005949s
+timeBRUTE: 0.032638s
+NN-1 Index: 566
+distanceLSH: 1623.42
+distanceBRUTE: 1537.38
+NN-2 Index: 176
+distanceLSH: 1630.5
+distanceBRUTE: 1558.68
+Radius: 0
+===
+Query: 207
+timeLSH: 0.006395s
+timeBRUTE: 0.030429s
+NN-1 Index: 514
+distanceLSH: 2145.64
+distanceBRUTE: 1432.36
+NN-2 Index: 228
+distanceLSH: 2191.04
+distanceBRUTE: 1851.41
+Radius: 0
+===
+Query: 208
+timeLSH: 0.005707s
+timeBRUTE: 0.025485s
+NN-1 Index: 476
+distanceLSH: 2004.54
+distanceBRUTE: 1816.44
+Radius: 0
+===
+Query: 209
+timeLSH: 0.005089s
+timeBRUTE: 0.028179s
+NN-1 Index: 110
+distanceLSH: 1890.9
+distanceBRUTE: 1824.15
+NN-2 Index: 183
+distanceLSH: 2310.28
+distanceBRUTE: 1890.9
+Radius: 0
+===
+Query: 210
+timeLSH: 0.004501s
+timeBRUTE: 0.026618s
+NN-1 Index: 877
+distanceLSH: 1638.78
+distanceBRUTE: 1638.78
+NN-2 Index: 322
+distanceLSH: 1783.21
+distanceBRUTE: 1680.8
+Radius: 0
+===
+Query: 211
+timeLSH: 0.006148s
+timeBRUTE: 0.028665s
+NN-1 Index: 778
+distanceLSH: 1910.11
+distanceBRUTE: 1822.98
+NN-2 Index: 45
+distanceLSH: 1919.45
+distanceBRUTE: 1836.51
+Radius: 0
+===
+Query: 212
+timeLSH: 0.005934s
+timeBRUTE: 0.029198s
+NN-1 Index: 222
+distanceLSH: 2166.5
+distanceBRUTE: 1505.62
+NN-2 Index: 428
+distanceLSH: 2244.74
+distanceBRUTE: 1783.83
+Radius: 0
+===
+Query: 213
+timeLSH: 0.004721s
+timeBRUTE: 0.022921s
+NN-1 Index: 822
+distanceLSH: 1558.77
+distanceBRUTE: 1375.68
+NN-2 Index: 900
+distanceLSH: 1632.6
+distanceBRUTE: 1444.65
+Radius: 0
+===
+Query: 214
+timeLSH: 0.005263s
+timeBRUTE: 0.02503s
+NN-1 Index: 806
+distanceLSH: 1231.12
+distanceBRUTE: 1231.12
+NN-2 Index: 428
+distanceLSH: 1440.66
+distanceBRUTE: 1300.14
+Radius: 0
+===
+Query: 215
+timeLSH: 0.00489s
+timeBRUTE: 0.030529s
+NN-1 Index: 542
+distanceLSH: 2024.31
+distanceBRUTE: 1341.91
+NN-2 Index: 217
+distanceLSH: 2100.24
+distanceBRUTE: 1594.58
+Radius: 0
+===
+Query: 216
+timeLSH: 0.006332s
+timeBRUTE: 0.028262s
+NN-1 Index: 321
+distanceLSH: 1788.03
+distanceBRUTE: 1626.8
+NN-2 Index: 646
+distanceLSH: 1834.21
+distanceBRUTE: 1658.66
+Radius: 0
+===
+Query: 217
+timeLSH: 0.005808s
+timeBRUTE: 0.029517s
+NN-1 Index: 202
+distanceLSH: 1876.09
+distanceBRUTE: 1763.47
+Radius: 0
+===
+Query: 218
+timeLSH: 0.004859s
+timeBRUTE: 0.028586s
+NN-1 Index: 223
+distanceLSH: 1683.24
+distanceBRUTE: 1683.24
+NN-2 Index: 301
+distanceLSH: 1756.02
+distanceBRUTE: 1687.86
+Radius: 0
+===
+Query: 219
+timeLSH: 0.005842s
+timeBRUTE: 0.028078s
+NN-1 Index: 869
+distanceLSH: 1962.22
+distanceBRUTE: 1683.09
+NN-2 Index: 543
+distanceLSH: 1984.72
+distanceBRUTE: 1695.98
+Radius: 0
+===
+Query: 220
+timeLSH: 0.005448s
+timeBRUTE: 0.031885s
+NN-1 Index: 196
+distanceLSH: 1693.22
+distanceBRUTE: 1414.83
+NN-2 Index: 686
+distanceLSH: 1738.31
+distanceBRUTE: 1549.44
+Radius: 0
+===
+Query: 221
+timeLSH: 0.007534s
+timeBRUTE: 0.027986s
+NN-1 Index: 330
+distanceLSH: 1969.91
+distanceBRUTE: 1969.91
+NN-2 Index: 69
+distanceLSH: 2285.47
+distanceBRUTE: 2010.57
+Radius: 0
+===
+Query: 222
+timeLSH: 0.005795s
+timeBRUTE: 0.030254s
+NN-1 Index: 950
+distanceLSH: 2405.58
+distanceBRUTE: 1972.22
+NN-2 Index: 169
+distanceLSH: 2513.96
+distanceBRUTE: 2249.73
+Radius: 0
+===
+Query: 223
+timeLSH: 0.006043s
+timeBRUTE: 0.024039s
+NN-1 Index: 880
+distanceLSH: 1030.66
+distanceBRUTE: 945.929
+NN-2 Index: 337
+distanceLSH: 1203.5
+distanceBRUTE: 1030.66
+Radius: 0
+===
+Query: 224
+timeLSH: 0.004788s
+timeBRUTE: 0.024459s
+NN-1 Index: 309
+distanceLSH: 1054.59
+distanceBRUTE: 753.138
+NN-2 Index: 443
+distanceLSH: 1360.33
+distanceBRUTE: 857.139
+Radius: 0
+===
+Query: 225
+timeLSH: 0.004674s
+timeBRUTE: 0.028097s
+NN-1 Index: 858
+distanceLSH: 2220.29
+distanceBRUTE: 2061.75
+Radius: 0
+===
+Query: 226
+timeLSH: 0.004901s
+timeBRUTE: 0.028917s
+NN-1 Index: 876
+distanceLSH: 2028.71
+distanceBRUTE: 1825.43
+NN-2 Index: 376
+distanceLSH: 2127.63
+distanceBRUTE: 1917.56
+Radius: 0
+===
+Query: 227
+timeLSH: 0.004394s
+timeBRUTE: 0.026141s
+NN-1 Index: 26
+distanceLSH: 1636.89
+distanceBRUTE: 1365.5
+NN-2 Index: 336
+distanceLSH: 1644.48
+distanceBRUTE: 1385.2
+Radius: 0
+===
+Query: 228
+timeLSH: 0.005855s
+timeBRUTE: 0.026491s
+NN-1 Index: 538
+distanceLSH: 734.385
+distanceBRUTE: 635.785
+NN-2 Index: 77
+distanceLSH: 1042.1
+distanceBRUTE: 637.213
+Radius: 0
+===
+Query: 229
+timeLSH: 0.005096s
+timeBRUTE: 0.029248s
+NN-1 Index: 133
+distanceLSH: 1345.03
+distanceBRUTE: 1142.56
+NN-2 Index: 754
+distanceLSH: 1405.87
+distanceBRUTE: 1156.71
+Radius: 0
+===
+Query: 230
+timeLSH: 0.005683s
+timeBRUTE: 0.029037s
+NN-1 Index: 832
+distanceLSH: 1404.15
+distanceBRUTE: 1404.15
+NN-2 Index: 278
+distanceLSH: 1698.96
+distanceBRUTE: 1537.72
+Radius: 0
+===
+Query: 231
+timeLSH: 0.006714s
+timeBRUTE: 0.030574s
+NN-1 Index: 514
+distanceLSH: 1757.1
+distanceBRUTE: 1436.35
+Radius: 0
+===
+Query: 232
+timeLSH: 0.006524s
+timeBRUTE: 0.030727s
+NN-1 Index: 106
+distanceLSH: 1978.61
+distanceBRUTE: 1681.07
+NN-2 Index: 62
+distanceLSH: 1988.07
+distanceBRUTE: 1759.25
+Radius: 0
+===
+Query: 233
+timeLSH: 0.007095s
+timeBRUTE: 0.029323s
+NN-1 Index: 285
+distanceLSH: 1853.85
+distanceBRUTE: 1785.8
+NN-2 Index: 423
+distanceLSH: 1925.19
+distanceBRUTE: 1788.37
+Radius: 0
+===
+Query: 234
+timeLSH: 0.004837s
+timeBRUTE: 0.024024s
+NN-1 Index: 285
+distanceLSH: 1390.57
+distanceBRUTE: 1091.16
+NN-2 Index: 288
+distanceLSH: 1523.56
+distanceBRUTE: 1131.57
+Radius: 0
+===
+Query: 235
+timeLSH: 0.004378s
+timeBRUTE: 0.024413s
+NN-1 Index: 334
+distanceLSH: 1622.77
+distanceBRUTE: 1558.5
+NN-2 Index: 226
+distanceLSH: 1773.64
+distanceBRUTE: 1622.77
+Radius: 0
+===
+Query: 236
+timeLSH: 0.004502s
+timeBRUTE: 0.024964s
+NN-1 Index: 400
+distanceLSH: 1628.24
+distanceBRUTE: 1628.24
+NN-2 Index: 180
+distanceLSH: 1831.81
+distanceBRUTE: 1831.81
+Radius: 0
+===
+Query: 237
+timeLSH: 0.005051s
+timeBRUTE: 0.026599s
+NN-1 Index: 99
+distanceLSH: 1670.99
+distanceBRUTE: 1428.28
+Radius: 0
+===
+Query: 238
+timeLSH: 0.004754s
+timeBRUTE: 0.024213s
+NN-1 Index: 116
+distanceLSH: 1573.67
+distanceBRUTE: 1387.5
+NN-2 Index: 217
+distanceLSH: 1579.64
+distanceBRUTE: 1454.77
+Radius: 0
+===
+Query: 239
+timeLSH: 0.005717s
+timeBRUTE: 0.023546s
+NN-1 Index: 454
+distanceLSH: 759.011
+distanceBRUTE: 497.209
+NN-2 Index: 102
+distanceLSH: 1055.44
+distanceBRUTE: 589.961
+Radius: 0
+===
+Query: 240
+timeLSH: 0.004887s
+timeBRUTE: 0.028555s
+NN-1 Index: 376
+distanceLSH: 1640.34
+distanceBRUTE: 1381.11
+NN-2 Index: 956
+distanceLSH: 1708.48
+distanceBRUTE: 1640.34
+Radius: 0
+===
+Query: 241
+timeLSH: 0.004482s
+timeBRUTE: 0.032473s
+NN-1 Index: 520
+distanceLSH: 1853.03
+distanceBRUTE: 1853.03
+NN-2 Index: 668
+distanceLSH: 1930.41
+distanceBRUTE: 1877.07
+Radius: 0
+===
+Query: 242
+timeLSH: 0.005638s
+timeBRUTE: 0.024218s
+NN-1 Index: 547
+distanceLSH: 1982.01
+distanceBRUTE: 1793.82
+NN-2 Index: 485
+distanceLSH: 2042.64
+distanceBRUTE: 1898.08
+Radius: 0
+===
+Query: 243
+timeLSH: 0.006094s
+timeBRUTE: 0.030157s
+NN-1 Index: 590
+distanceLSH: 1791.77
+distanceBRUTE: 1599.01
+NN-2 Index: 176
+distanceLSH: 1903.04
+distanceBRUTE: 1664.34
+Radius: 0
+===
+Query: 244
+timeLSH: 0.006851s
+timeBRUTE: 0.027518s
+NN-1 Index: 67
+distanceLSH: 1814.56
+distanceBRUTE: 1497.1
+NN-2 Index: 648
+distanceLSH: 1842.5
+distanceBRUTE: 1639.62
+Radius: 0
+===
+Query: 245
+timeLSH: 0.006686s
+timeBRUTE: 0.028668s
+NN-1 Index: 966
+distanceLSH: 1954.12
+distanceBRUTE: 1954.12
+NN-2 Index: 778
+distanceLSH: 2008.8
+distanceBRUTE: 1954.49
+Radius: 0
+===
+Query: 246
+timeLSH: 0.006706s
+timeBRUTE: 0.034539s
+NN-1 Index: 108
+distanceLSH: 1547.46
+distanceBRUTE: 1343.77
+NN-2 Index: 872
+distanceLSH: 1873.74
+distanceBRUTE: 1453.67
+Radius: 0
+===
+Query: 247
+timeLSH: 0.006273s
+timeBRUTE: 0.031588s
+NN-1 Index: 977
+distanceLSH: 1942.43
+distanceBRUTE: 1765.12
+NN-2 Index: 112
+distanceLSH: 1997.52
+distanceBRUTE: 1784.3
+Radius: 0
+===
+Query: 248
+timeLSH: 0.007477s
+timeBRUTE: 0.033025s
+NN-1 Index: 237
+distanceLSH: 1719.04
+distanceBRUTE: 1454.56
+NN-2 Index: 877
+distanceLSH: 1729.58
+distanceBRUTE: 1658.87
+Radius: 0
+===
+Query: 249
+timeLSH: 0.006781s
+timeBRUTE: 0.031879s
+NN-1 Index: 696
+distanceLSH: 1396.68
+distanceBRUTE: 1396.68
+NN-2 Index: 345
+distanceLSH: 1498.57
+distanceBRUTE: 1442.39
+Radius: 0
+===
+Query: 250
+timeLSH: 0.007807s
+timeBRUTE: 0.028636s
+NN-1 Index: 806
+distanceLSH: 1620.55
+distanceBRUTE: 1394.49
+NN-2 Index: 162
+distanceLSH: 1844.02
+distanceBRUTE: 1411.1
+Radius: 0
+===
+Query: 251
+timeLSH: 0.006003s
+timeBRUTE: 0.03029s
+NN-1 Index: 618
+distanceLSH: 831.965
+distanceBRUTE: 831.965
+NN-2 Index: 398
+distanceLSH: 1155.16
+distanceBRUTE: 852.345
+Radius: 0
+===
+Query: 252
+timeLSH: 0.006832s
+timeBRUTE: 0.031119s
+NN-1 Index: 374
+distanceLSH: 1373.93
+distanceBRUTE: 1264.35
+NN-2 Index: 812
+distanceLSH: 1422.21
+distanceBRUTE: 1373.93
+Radius: 0
+===
+Query: 253
+timeLSH: 0.006245s
+timeBRUTE: 0.029415s
+NN-1 Index: 808
+distanceLSH: 1812.21
+distanceBRUTE: 1618.87
+NN-2 Index: 832
+distanceLSH: 1847.39
+distanceBRUTE: 1620.02
+Radius: 0
+===
+Query: 254
+timeLSH: 0.005986s
+timeBRUTE: 0.027872s
+NN-1 Index: 904
+distanceLSH: 1395.97
+distanceBRUTE: 922.188
+NN-2 Index: 936
+distanceLSH: 1704.32
+distanceBRUTE: 1264.53
+Radius: 0
+===
+Query: 255
+timeLSH: 0.004691s
+timeBRUTE: 0.032145s
+NN-1 Index: 162
+distanceLSH: 1531.75
+distanceBRUTE: 1151.4
+NN-2 Index: 744
+distanceLSH: 1624.79
+distanceBRUTE: 1363.34
+Radius: 0
+===
+Query: 256
+timeLSH: 0.006261s
+timeBRUTE: 0.028548s
+NN-1 Index: 390
+distanceLSH: 1391.47
+distanceBRUTE: 1363.31
+NN-2 Index: 351
+distanceLSH: 1525.42
+distanceBRUTE: 1391.47
+Radius: 0
+===
+Query: 257
+timeLSH: 0.005327s
+timeBRUTE: 0.028407s
+NN-1 Index: 450
+distanceLSH: 1714.9
+distanceBRUTE: 1577.45
+NN-2 Index: 708
+distanceLSH: 1735.75
+distanceBRUTE: 1621.02
+Radius: 0
+===
+Query: 258
+timeLSH: 0.005078s
+timeBRUTE: 0.023765s
+NN-1 Index: 432
+distanceLSH: 2014.3
+distanceBRUTE: 1385.94
+NN-2 Index: 642
+distanceLSH: 2153.39
+distanceBRUTE: 1762.57
+Radius: 0
+===
+Query: 259
+timeLSH: 0.007043s
+timeBRUTE: 0.03546s
+NN-1 Index: 910
+distanceLSH: 2305.62
+distanceBRUTE: 1291.51
+NN-2 Index: 80
+distanceLSH: 2359.73
+distanceBRUTE: 1782.45
+Radius: 0
+===
+Query: 260
+timeLSH: 0.007196s
+timeBRUTE: 0.034498s
+NN-1 Index: 705
+distanceLSH: 2020.32
+distanceBRUTE: 1622.22
+NN-2 Index: 913
+distanceLSH: 2024.79
+distanceBRUTE: 1669.27
+Radius: 0
+===
+Query: 261
+timeLSH: 0.006751s
+timeBRUTE: 0.032539s
+NN-1 Index: 366
+distanceLSH: 1579.03
+distanceBRUTE: 1579.03
+NN-2 Index: 112
+distanceLSH: 1649.17
+distanceBRUTE: 1625.87
+Radius: 0
+===
+Query: 262
+timeLSH: 0.006788s
+timeBRUTE: 0.028568s
+NN-1 Index: 686
+distanceLSH: 1509.27
+distanceBRUTE: 1509.27
+NN-2 Index: 904
+distanceLSH: 1554.7
+distanceBRUTE: 1518.02
+Radius: 0
+===
+Query: 263
+timeLSH: 0.006791s
+timeBRUTE: 0.030321s
+NN-1 Index: 267
+distanceLSH: 1393.73
+distanceBRUTE: 999.066
+NN-2 Index: 288
+distanceLSH: 1444.38
+distanceBRUTE: 1141.12
+Radius: 0
+===
+Query: 264
+timeLSH: 0.005204s
+timeBRUTE: 0.023357s
+NN-1 Index: 444
+distanceLSH: 1816.59
+distanceBRUTE: 1457.38
+NN-2 Index: 406
+distanceLSH: 1832.37
+distanceBRUTE: 1556.47
+Radius: 0
+===
+Query: 265
+timeLSH: 0.005705s
+timeBRUTE: 0.030591s
+NN-1 Index: 780
+distanceLSH: 1031.39
+distanceBRUTE: 822.937
+NN-2 Index: 112
+distanceLSH: 1031.47
+distanceBRUTE: 829.739
+Radius: 0
+===
+Query: 266
+timeLSH: 0.006489s
+timeBRUTE: 0.029031s
+NN-1 Index: 776
+distanceLSH: 1924.82
+distanceBRUTE: 1696.02
+NN-2 Index: 80
+distanceLSH: 1979.76
+distanceBRUTE: 1770.8
+Radius: 0
+===
+Query: 267
+timeLSH: 0.004861s
+timeBRUTE: 0.027471s
+NN-1 Index: 618
+distanceLSH: 1320.84
+distanceBRUTE: 691.388
+NN-2 Index: 211
+distanceLSH: 1328.61
+distanceBRUTE: 867.185
+Radius: 0
+===
+Query: 268
+timeLSH: 0.007153s
+timeBRUTE: 0.032818s
+NN-1 Index: 504
+distanceLSH: 2168.83
+distanceBRUTE: 1948.81
+NN-2 Index: 392
+distanceLSH: 2231.61
+distanceBRUTE: 1968.61
+Radius: 0
+===
+Query: 269
+timeLSH: 0.006452s
+timeBRUTE: 0.032127s
+NN-1 Index: 114
+distanceLSH: 2106.25
+distanceBRUTE: 1702.74
+Radius: 0
+===
+Query: 270
+timeLSH: 0.004913s
+timeBRUTE: 0.024314s
+NN-1 Index: 760
+distanceLSH: 2048.65
+distanceBRUTE: 1537.27
+NN-2 Index: 284
+distanceLSH: 2082.49
+distanceBRUTE: 1760.27
+Radius: 0
+===
+Query: 271
+timeLSH: 0.005263s
+timeBRUTE: 0.021589s
+NN-1 Index: 234
+distanceLSH: 1731.34
+distanceBRUTE: 1414.79
+NN-2 Index: 182
+distanceLSH: 1951.76
+distanceBRUTE: 1495.54
+Radius: 0
+===
+Query: 272
+timeLSH: 0.006315s
+timeBRUTE: 0.031616s
+NN-1 Index: 40
+distanceLSH: 1039.55
+distanceBRUTE: 592.888
+NN-2 Index: 572
+distanceLSH: 1128
+distanceBRUTE: 637.217
+Radius: 0
+===
+Query: 273
+timeLSH: 0.005896s
+timeBRUTE: 0.029288s
+NN-1 Index: 806
+distanceLSH: 1489.79
+distanceBRUTE: 1489.79
+NN-2 Index: 4
+distanceLSH: 1759.2
+distanceBRUTE: 1513.05
+Radius: 0
+===
+Query: 274
+timeLSH: 0.004619s
+timeBRUTE: 0.026774s
+NN-1 Index: 820
+distanceLSH: 1723.7
+distanceBRUTE: 1701.66
+NN-2 Index: 848
+distanceLSH: 2081.57
+distanceBRUTE: 1723.7
+Radius: 0
+===
+Query: 275
+timeLSH: 0.005653s
+timeBRUTE: 0.028645s
+NN-1 Index: 460
+distanceLSH: 1569.14
+distanceBRUTE: 1333.27
+NN-2 Index: 564
+distanceLSH: 1575.14
+distanceBRUTE: 1395.19
+Radius: 0
+===
+Query: 276
+timeLSH: 0.0059s
+timeBRUTE: 0.029106s
+NN-1 Index: 450
+distanceLSH: 778.193
+distanceBRUTE: 609.618
+NN-2 Index: 251
+distanceLSH: 1024.3
+distanceBRUTE: 626.722
+Radius: 0
+===
+Query: 277
+timeLSH: 0.006315s
+timeBRUTE: 0.031042s
+NN-1 Index: 362
+distanceLSH: 2166.69
+distanceBRUTE: 1413.21
+NN-2 Index: 556
+distanceLSH: 2184.18
+distanceBRUTE: 2021.89
+Radius: 0
+===
+Query: 278
+timeLSH: 0.006132s
+timeBRUTE: 0.031516s
+NN-1 Index: 568
+distanceLSH: 1888.77
+distanceBRUTE: 1888.77
+NN-2 Index: 264
+distanceLSH: 2318.39
+distanceBRUTE: 1972.99
+Radius: 0
+===
+Query: 279
+timeLSH: 0.006479s
+timeBRUTE: 0.023286s
+NN-1 Index: 484
+distanceLSH: 686.76
+distanceBRUTE: 686.76
+NN-2 Index: 638
+distanceLSH: 825.95
+distanceBRUTE: 707.853
+Radius: 0
+===
+Query: 280
+timeLSH: 0.006323s
+timeBRUTE: 0.025528s
+NN-1 Index: 732
+distanceLSH: 1453.67
+distanceBRUTE: 1453.67
+NN-2 Index: 345
+distanceLSH: 1890.88
+distanceBRUTE: 1485.55
+Radius: 0
+===
+Query: 281
+timeLSH: 0.005014s
+timeBRUTE: 0.023178s
+NN-1 Index: 727
+distanceLSH: 1319.58
+distanceBRUTE: 1161.32
+NN-2 Index: 362
+distanceLSH: 1753.84
+distanceBRUTE: 1162.14
+Radius: 0
+===
+Query: 282
+timeLSH: 0.004702s
+timeBRUTE: 0.022136s
+NN-1 Index: 936
+distanceLSH: 1207.67
+distanceBRUTE: 1207.67
+NN-2 Index: 634
+distanceLSH: 1418.86
+distanceBRUTE: 1314.49
+Radius: 0
+===
+Query: 283
+timeLSH: 0.004929s
+timeBRUTE: 0.022362s
+NN-1 Index: 778
+distanceLSH: 1812.75
+distanceBRUTE: 1674.31
+NN-2 Index: 978
+distanceLSH: 1878.87
+distanceBRUTE: 1789.32
+Radius: 0
+===
+Query: 284
+timeLSH: 0.004977s
+timeBRUTE: 0.025971s
+NN-1 Index: 92
+distanceLSH: 1898.74
+distanceBRUTE: 1204.15
+NN-2 Index: 158
+distanceLSH: 2046.93
+distanceBRUTE: 1500.54
+Radius: 0
+===
+Query: 285
+timeLSH: 0.006335s
+timeBRUTE: 0.021909s
+NN-1 Index: 646
+distanceLSH: 2090.4
+distanceBRUTE: 1748.23
+NN-2 Index: 922
+distanceLSH: 2135.05
+distanceBRUTE: 1909.36
+Radius: 0
+===
+Query: 286
+timeLSH: 0.006008s
+timeBRUTE: 0.022021s
+NN-1 Index: 852
+distanceLSH: 1648.17
+distanceBRUTE: 1040.14
+NN-2 Index: 401
+distanceLSH: 1764.66
+distanceBRUTE: 1508.98
+Radius: 0
+===
+Query: 287
+timeLSH: 0.005497s
+timeBRUTE: 0.027503s
+NN-1 Index: 2
+distanceLSH: 2121.42
+distanceBRUTE: 1928.11
+NN-2 Index: 468
+distanceLSH: 2432.19
+distanceBRUTE: 2062.61
+Radius: 0
+===
+Query: 288
+timeLSH: 0.005232s
+timeBRUTE: 0.020672s
+NN-1 Index: 231
+distanceLSH: 1048.76
+distanceBRUTE: 896.969
+NN-2 Index: 408
+distanceLSH: 1115.7
+distanceBRUTE: 996.433
+Radius: 0
+===
+Query: 289
+timeLSH: 0.005839s
+timeBRUTE: 0.027807s
+NN-1 Index: 748
+distanceLSH: 1693.08
+distanceBRUTE: 1693.08
+NN-2 Index: 316
+distanceLSH: 1917.96
+distanceBRUTE: 1819.73
+Radius: 0
+===
+Query: 290
+timeLSH: 0.004878s
+timeBRUTE: 0.027105s
+NN-1 Index: 282
+distanceLSH: 2103.44
+distanceBRUTE: 1783.05
+NN-2 Index: 748
+distanceLSH: 2123.18
+distanceBRUTE: 1852.15
+Radius: 0
+===
+Query: 291
+timeLSH: 0.005469s
+timeBRUTE: 0.024984s
+NN-1 Index: 830
+distanceLSH: 2086.69
+distanceBRUTE: 1878.76
+NN-2 Index: 779
+distanceLSH: 2192.26
+distanceBRUTE: 1927.01
+Radius: 0
+===
+Query: 292
+timeLSH: 0.00675s
+timeBRUTE: 0.025906s
+NN-1 Index: 374
+distanceLSH: 1570.24
+distanceBRUTE: 1360.27
+NN-2 Index: 854
+distanceLSH: 1724.92
+distanceBRUTE: 1570.24
+Radius: 0
+===
+Query: 293
+timeLSH: 0.006404s
+timeBRUTE: 0.029911s
+NN-1 Index: 862
+distanceLSH: 2051.1
+distanceBRUTE: 1734.71
+NN-2 Index: 350
+distanceLSH: 2183.47
+distanceBRUTE: 1913.47
+Radius: 0
+===
+Query: 294
+timeLSH: 0.005112s
+timeBRUTE: 0.023458s
+NN-1 Index: 662
+distanceLSH: 1239.91
+distanceBRUTE: 1239.91
+NN-2 Index: 818
+distanceLSH: 1815.07
+distanceBRUTE: 1290.56
+Radius: 0
+===
+Query: 295
+timeLSH: 0.007365s
+timeBRUTE: 0.029958s
+NN-1 Index: 692
+distanceLSH: 1859.63
+distanceBRUTE: 1547.34
+NN-2 Index: 550
+distanceLSH: 1964.5
+distanceBRUTE: 1574.48
+Radius: 0
+===
+Query: 296
+timeLSH: 0.007114s
+timeBRUTE: 0.027585s
+NN-1 Index: 435
+distanceLSH: 1525.6
+distanceBRUTE: 1525.6
+NN-2 Index: 429
+distanceLSH: 1574.66
+distanceBRUTE: 1574.66
+Radius: 0
+===
+Query: 297
+timeLSH: 0.005238s
+timeBRUTE: 0.027102s
+NN-1 Index: 462
+distanceLSH: 1951.46
+distanceBRUTE: 1597.82
+NN-2 Index: 108
+distanceLSH: 2190.66
+distanceBRUTE: 1881.06
+Radius: 0
+===
+Query: 298
+timeLSH: 0.004785s
+timeBRUTE: 0.032071s
+NN-1 Index: 171
+distanceLSH: 1836.56
+distanceBRUTE: 1707.18
+NN-2 Index: 814
+distanceLSH: 1997.63
+distanceBRUTE: 1833.06
+Radius: 0
+===
+Query: 299
+timeLSH: 0.005462s
+timeBRUTE: 0.027251s
+NN-1 Index: 85
+distanceLSH: 1377.57
+distanceBRUTE: 1377.57
+NN-2 Index: 856
+distanceLSH: 1717.4
+distanceBRUTE: 1717.4
+Radius: 0
+===
+Query: 300
+timeLSH: 0.005559s
+timeBRUTE: 0.027062s
+NN-1 Index: 648
+distanceLSH: 1369.63
+distanceBRUTE: 1369.63
+NN-2 Index: 152
+distanceLSH: 1573.39
+distanceBRUTE: 1468.93
+Radius: 0
+===
+Query: 301
+timeLSH: 0.005142s
+timeBRUTE: 0.029137s
+NN-1 Index: 292
+distanceLSH: 1931.48
+distanceBRUTE: 1717.04
+NN-2 Index: 384
+distanceLSH: 2084.05
+distanceBRUTE: 1772.66
+Radius: 0
+===
+Query: 302
+timeLSH: 0.005857s
+timeBRUTE: 0.023758s
+NN-1 Index: 638
+distanceLSH: 411.699
+distanceBRUTE: 411.699
+NN-2 Index: 780
+distanceLSH: 925.751
+distanceBRUTE: 595.757
+Radius: 0
+===
+Query: 303
+timeLSH: 0.007085s
+timeBRUTE: 0.02528s
+NN-1 Index: 868
+distanceLSH: 1727.16
+distanceBRUTE: 1727.16
+NN-2 Index: 476
+distanceLSH: 1949.2
+distanceBRUTE: 1756.51
+Radius: 0
+===
+Query: 304
+timeLSH: 0.004861s
+timeBRUTE: 0.023438s
+NN-1 Index: 744
+distanceLSH: 1777.67
+distanceBRUTE: 1527.7
+NN-2 Index: 153
+distanceLSH: 1869.48
+distanceBRUTE: 1541.96
+Radius: 0
+===
+Query: 305
+timeLSH: 0.005176s
+timeBRUTE: 0.023089s
+NN-1 Index: 68
+distanceLSH: 1923.21
+distanceBRUTE: 1862.62
+NN-2 Index: 249
+distanceLSH: 2167.04
+distanceBRUTE: 1923.21
+Radius: 0
+===
+Query: 306
+timeLSH: 0.005492s
+timeBRUTE: 0.024605s
+NN-1 Index: 835
+distanceLSH: 1772.28
+distanceBRUTE: 1405.83
+NN-2 Index: 113
+distanceLSH: 1788.72
+distanceBRUTE: 1570.65
+Radius: 0
+===
+Query: 307
+timeLSH: 0.004677s
+timeBRUTE: 0.024123s
+NN-1 Index: 148
+distanceLSH: 1620.18
+distanceBRUTE: 1233.6
+NN-2 Index: 313
+distanceLSH: 1622.41
+distanceBRUTE: 1269.39
+Radius: 0
+===
+Query: 308
+timeLSH: 0.006697s
+timeBRUTE: 0.026055s
+NN-1 Index: 271
+distanceLSH: 1743.56
+distanceBRUTE: 1607.07
+NN-2 Index: 564
+distanceLSH: 1749.33
+distanceBRUTE: 1666.56
+Radius: 0
+===
+Query: 309
+timeLSH: 0.005006s
+timeBRUTE: 0.029787s
+NN-1 Index: 484
+distanceLSH: 1814.38
+distanceBRUTE: 1752.67
+NN-2 Index: 638
+distanceLSH: 1864.92
+distanceBRUTE: 1775.6
+Radius: 0
+===
+Query: 310
+timeLSH: 0.007592s
+timeBRUTE: 0.033212s
+NN-1 Index: 136
+distanceLSH: 1518.22
+distanceBRUTE: 1474.85
+NN-2 Index: 602
+distanceLSH: 1556.72
+distanceBRUTE: 1518.22
+Radius: 0
+===
+Query: 311
+timeLSH: 0.006458s
+timeBRUTE: 0.035968s
+NN-1 Index: 296
+distanceLSH: 2261.12
+distanceBRUTE: 1894.75
+NN-2 Index: 620
+distanceLSH: 2450.05
+distanceBRUTE: 1924.86
+Radius: 0
+===
+Query: 312
+timeLSH: 0.005911s
+timeBRUTE: 0.032028s
+NN-1 Index: 37
+distanceLSH: 1863.06
+distanceBRUTE: 1381.32
+NN-2 Index: 81
+distanceLSH: 1926.92
+distanceBRUTE: 1418.15
+Radius: 0
+===
+Query: 313
+timeLSH: 0.006258s
+timeBRUTE: 0.027727s
+NN-1 Index: 412
+distanceLSH: 2215.93
+distanceBRUTE: 1513.54
+NN-2 Index: 900
+distanceLSH: 2255.7
+distanceBRUTE: 2014.62
+Radius: 0
+===
+Query: 314
+timeLSH: 0.004893s
+timeBRUTE: 0.02508s
+NN-1 Index: 678
+distanceLSH: 946.524
+distanceBRUTE: 695.156
+Radius: 0
+===
+Query: 315
+timeLSH: 0.004745s
+timeBRUTE: 0.036259s
+NN-1 Index: 806
+distanceLSH: 1761.03
+distanceBRUTE: 1654.09
+NN-2 Index: 334
+distanceLSH: 1959.66
+distanceBRUTE: 1704.7
+Radius: 0
+===
+Query: 316
+timeLSH: 0.007671s
+timeBRUTE: 0.035631s
+NN-1 Index: 125
+distanceLSH: 1931.75
+distanceBRUTE: 1480.06
+NN-2 Index: 537
+distanceLSH: 1935.24
+distanceBRUTE: 1719.95
+Radius: 0
+===
+Query: 317
+timeLSH: 0.005824s
+timeBRUTE: 0.029569s
+NN-1 Index: 915
+distanceLSH: 1550.05
+distanceBRUTE: 1304.54
+NN-2 Index: 29
+distanceLSH: 1874.93
+distanceBRUTE: 1428.25
+Radius: 0
+===
+Query: 318
+timeLSH: 0.005285s
+timeBRUTE: 0.026561s
+NN-1 Index: 50
+distanceLSH: 2193.74
+distanceBRUTE: 2055.72
+NN-2 Index: 296
+distanceLSH: 2199.41
+distanceBRUTE: 2078.77
+Radius: 0
+===
+Query: 319
+timeLSH: 0.006775s
+timeBRUTE: 0.033244s
+NN-1 Index: 316
+distanceLSH: 2143.62
+distanceBRUTE: 1948.06
+NN-2 Index: 748
+distanceLSH: 2322.16
+distanceBRUTE: 1966.62
+Radius: 0
+===
+Query: 320
+timeLSH: 0.005394s
+timeBRUTE: 0.024154s
+NN-1 Index: 678
+distanceLSH: 1394.73
+distanceBRUTE: 1097.01
+NN-2 Index: 72
+distanceLSH: 1426.83
+distanceBRUTE: 1281.57
+Radius: 0
+===
+Query: 321
+timeLSH: 0.008585s
+timeBRUTE: 0.031022s
+NN-1 Index: 560
+distanceLSH: 1182.4
+distanceBRUTE: 1122.38
+Radius: 0
+===
+Query: 322
+timeLSH: 0.008342s
+timeBRUTE: 0.033875s
+NN-1 Index: 932
+distanceLSH: 1389.17
+distanceBRUTE: 1381.98
+NN-2 Index: 110
+distanceLSH: 1663.16
+distanceBRUTE: 1389.17
+Radius: 0
+===
+Query: 323
+timeLSH: 0.0072s
+timeBRUTE: 0.030184s
+NN-1 Index: 300
+distanceLSH: 1909.81
+distanceBRUTE: 1571.49
+NN-2 Index: 588
+distanceLSH: 1954.25
+distanceBRUTE: 1642.08
+Radius: 0
+===
+Query: 324
+timeLSH: 0.005611s
+timeBRUTE: 0.023798s
+NN-1 Index: 316
+distanceLSH: 1928.59
+distanceBRUTE: 1627.57
+NN-2 Index: 254
+distanceLSH: 1948.14
+distanceBRUTE: 1808.42
+Radius: 0
+===
+Query: 325
+timeLSH: 0.004299s
+timeBRUTE: 0.021571s
+NN-1 Index: 22
+distanceLSH: 1605.23
+distanceBRUTE: 1495.12
+NN-2 Index: 754
+distanceLSH: 1703.28
+distanceBRUTE: 1578.97
+Radius: 0
+===
+Query: 326
+timeLSH: 0.005858s
+timeBRUTE: 0.032172s
+NN-1 Index: 388
+distanceLSH: 1885.32
+distanceBRUTE: 1874.3
+NN-2 Index: 710
+distanceLSH: 1935.4
+distanceBRUTE: 1885.32
+Radius: 0
+===
+Query: 327
+timeLSH: 0.00743s
+timeBRUTE: 0.033489s
+NN-1 Index: 902
+distanceLSH: 1690.74
+distanceBRUTE: 1664.57
+NN-2 Index: 192
+distanceLSH: 1874.2
+distanceBRUTE: 1690.74
+Radius: 0
+===
+Query: 328
+timeLSH: 0.006814s
+timeBRUTE: 0.028443s
+NN-1 Index: 936
+distanceLSH: 1597.1
+distanceBRUTE: 1395.9
+NN-2 Index: 824
+distanceLSH: 1787.38
+distanceBRUTE: 1447.24
+Radius: 0
+===
+Query: 329
+timeLSH: 0.006679s
+timeBRUTE: 0.030804s
+NN-1 Index: 838
+distanceLSH: 934.695
+distanceBRUTE: 603.736
+Radius: 0
+===
+Query: 330
+timeLSH: 0.006161s
+timeBRUTE: 0.031028s
+NN-1 Index: 678
+distanceLSH: 478.009
+distanceBRUTE: 478.009
+NN-2 Index: 112
+distanceLSH: 612.96
+distanceBRUTE: 612.96
+Radius: 0
+===
+Query: 331
+timeLSH: 0.007088s
+timeBRUTE: 0.030374s
+NN-1 Index: 938
+distanceLSH: 1576.26
+distanceBRUTE: 1339.15
+NN-2 Index: 355
+distanceLSH: 1778.47
+distanceBRUTE: 1555.26
+Radius: 0
+===
+Query: 332
+timeLSH: 0.005343s
+timeBRUTE: 0.032274s
+NN-1 Index: 678
+distanceLSH: 682.892
+distanceBRUTE: 474.37
+NN-2 Index: 276
+distanceLSH: 945.336
+distanceBRUTE: 581.924
+Radius: 0
+===
+Query: 333
+timeLSH: 0.006888s
+timeBRUTE: 0.03087s
+NN-1 Index: 540
+distanceLSH: 2042.8
+distanceBRUTE: 1719.29
+NN-2 Index: 876
+distanceLSH: 2137.45
+distanceBRUTE: 1788.52
+Radius: 0
+===
+Query: 334
+timeLSH: 0.007808s
+timeBRUTE: 0.028384s
+NN-1 Index: 149
+distanceLSH: 1887.19
+distanceBRUTE: 1623.6
+NN-2 Index: 404
+distanceLSH: 1959.6
+distanceBRUTE: 1727.9
+Radius: 0
+===
+Query: 335
+timeLSH: 0.005213s
+timeBRUTE: 0.025746s
+NN-1 Index: 144
+distanceLSH: 1705.65
+distanceBRUTE: 1470.4
+NN-2 Index: 588
+distanceLSH: 1777.89
+distanceBRUTE: 1528.86
+Radius: 0
+===
+Query: 336
+timeLSH: 0.007701s
+timeBRUTE: 0.029947s
+NN-1 Index: 264
+distanceLSH: 1420.81
+distanceBRUTE: 1420.81
+NN-2 Index: 428
+distanceLSH: 1625.84
+distanceBRUTE: 1501
+Radius: 0
+===
+Query: 337
+timeLSH: 0.00812s
+timeBRUTE: 0.030179s
+NN-1 Index: 868
+distanceLSH: 1380.72
+distanceBRUTE: 1246.89
+NN-2 Index: 522
+distanceLSH: 1521.55
+distanceBRUTE: 1380.72
+Radius: 0
+===
+Query: 338
+timeLSH: 0.007991s
+timeBRUTE: 0.040445s
+NN-1 Index: 210
+distanceLSH: 2369.39
+distanceBRUTE: 2231.6
+NN-2 Index: 56
+distanceLSH: 2456.38
+distanceBRUTE: 2261.55
+Radius: 0
+===
+Query: 339
+timeLSH: 0.008246s
+timeBRUTE: 0.036435s
+NN-1 Index: 106
+distanceLSH: 1834.82
+distanceBRUTE: 1107.92
+NN-2 Index: 430
+distanceLSH: 1872.13
+distanceBRUTE: 1732.1
+Radius: 0
+===
+Query: 340
+timeLSH: 0.005045s
+timeBRUTE: 0.029652s
+NN-1 Index: 278
+distanceLSH: 1396.7
+distanceBRUTE: 1186.81
+Radius: 0
+===
+Query: 341
+timeLSH: 0.005745s
+timeBRUTE: 0.032978s
+NN-1 Index: 682
+distanceLSH: 1740.45
+distanceBRUTE: 1731.45
+NN-2 Index: 372
+distanceLSH: 1857.27
+distanceBRUTE: 1732.81
+Radius: 0
+===
+Query: 342
+timeLSH: 0.007818s
+timeBRUTE: 0.033246s
+NN-1 Index: 710
+distanceLSH: 771.642
+distanceBRUTE: 582.633
+NN-2 Index: 838
+distanceLSH: 950.927
+distanceBRUTE: 719.987
+Radius: 0
+===
+Query: 343
+timeLSH: 0.007959s
+timeBRUTE: 0.034583s
+NN-1 Index: 675
+distanceLSH: 1899.91
+distanceBRUTE: 1569.36
+NN-2 Index: 182
+distanceLSH: 2009.73
+distanceBRUTE: 1604.57
+Radius: 0
+===
+Query: 344
+timeLSH: 0.007158s
+timeBRUTE: 0.032012s
+NN-1 Index: 532
+distanceLSH: 1748.75
+distanceBRUTE: 1494.68
+NN-2 Index: 44
+distanceLSH: 1917.34
+distanceBRUTE: 1670.14
+Radius: 0
+===
+Query: 345
+timeLSH: 0.007199s
+timeBRUTE: 0.029506s
+NN-1 Index: 556
+distanceLSH: 899.926
+distanceBRUTE: 866.35
+NN-2 Index: 618
+distanceLSH: 1229.96
+distanceBRUTE: 899.926
+Radius: 0
+===
+Query: 346
+timeLSH: 0.005219s
+timeBRUTE: 0.02272s
+NN-1 Index: 740
+distanceLSH: 1862.24
+distanceBRUTE: 1308.23
+NN-2 Index: 621
+distanceLSH: 2059.75
+distanceBRUTE: 1379.78
+Radius: 0
+===
+Query: 347
+timeLSH: 0.005475s
+timeBRUTE: 0.026458s
+NN-1 Index: 348
+distanceLSH: 2096.73
+distanceBRUTE: 1933.15
+NN-2 Index: 496
+distanceLSH: 2205.92
+distanceBRUTE: 1948.1
+Radius: 0
+===
+Query: 348
+timeLSH: 0.005946s
+timeBRUTE: 0.02713s
+NN-1 Index: 152
+distanceLSH: 980.131
+distanceBRUTE: 731.563
+NN-2 Index: 648
+distanceLSH: 1080.25
+distanceBRUTE: 742.869
+Radius: 0
+===
+Query: 349
+timeLSH: 0.00486s
+timeBRUTE: 0.029109s
+NN-1 Index: 459
+distanceLSH: 1562.88
+distanceBRUTE: 1562.88
+NN-2 Index: 356
+distanceLSH: 1736.52
+distanceBRUTE: 1586.09
+Radius: 0
+===
+Query: 350
+timeLSH: 0.00608s
+timeBRUTE: 0.026299s
+NN-1 Index: 638
+distanceLSH: 1273.4
+distanceBRUTE: 812.176
+NN-2 Index: 358
+distanceLSH: 1375.71
+distanceBRUTE: 950.313
+Radius: 0
+===
+Query: 351
+timeLSH: 0.004347s
+timeBRUTE: 0.02452s
+NN-1 Index: 332
+distanceLSH: 1522.37
+distanceBRUTE: 1522.37
+NN-2 Index: 480
+distanceLSH: 1656.29
+distanceBRUTE: 1656.29
+Radius: 0
+===
+Query: 352
+timeLSH: 0.007416s
+timeBRUTE: 0.031827s
+NN-1 Index: 670
+distanceLSH: 2163.02
+distanceBRUTE: 2032.69
+NN-2 Index: 56
+distanceLSH: 2275.26
+distanceBRUTE: 2071.55
+Radius: 0
+===
+Query: 353
+timeLSH: 0.006618s
+timeBRUTE: 0.031756s
+NN-1 Index: 367
+distanceLSH: 2076.26
+distanceBRUTE: 1570.06
+NN-2 Index: 82
+distanceLSH: 2426
+distanceBRUTE: 1720.18
+Radius: 0
+===
+Query: 354
+timeLSH: 0.00754s
+timeBRUTE: 0.027102s
+NN-1 Index: 993
+distanceLSH: 1004.88
+distanceBRUTE: 800.323
+NN-2 Index: 587
+distanceLSH: 1055.56
+distanceBRUTE: 830.425
+Radius: 0
+===
+Query: 355
+timeLSH: 0.004877s
+timeBRUTE: 0.025293s
+NN-1 Index: 575
+distanceLSH: 1598.87
+distanceBRUTE: 1445.92
+NN-2 Index: 245
+distanceLSH: 1628.23
+distanceBRUTE: 1577.92
+Radius: 0
+===
+Query: 356
+timeLSH: 0.007144s
+timeBRUTE: 0.028938s
+NN-1 Index: 991
+distanceLSH: 1960.14
+distanceBRUTE: 1386.05
+NN-2 Index: 346
+distanceLSH: 1984.23
+distanceBRUTE: 1826.56
+Radius: 0
+===
+Query: 357
+timeLSH: 0.005079s
+timeBRUTE: 0.030447s
+NN-1 Index: 398
+distanceLSH: 990.028
+distanceBRUTE: 590.388
+NN-2 Index: 710
+distanceLSH: 1205.4
+distanceBRUTE: 718.839
+Radius: 0
+===
+Query: 358
+timeLSH: 0.005394s
+timeBRUTE: 0.026169s
+NN-1 Index: 436
+distanceLSH: 1995.14
+distanceBRUTE: 1537.37
+NN-2 Index: 356
+distanceLSH: 1995.95
+distanceBRUTE: 1637.63
+Radius: 0
+===
+Query: 359
+timeLSH: 0.007482s
+timeBRUTE: 0.030424s
+NN-1 Index: 806
+distanceLSH: 1334.3
+distanceBRUTE: 1334.3
+NN-2 Index: 170
+distanceLSH: 1639.13
+distanceBRUTE: 1428.61
+Radius: 0
+===
+Query: 360
+timeLSH: 0.005709s
+timeBRUTE: 0.030014s
+NN-1 Index: 20
+distanceLSH: 2102.34
+distanceBRUTE: 1842.19
+NN-2 Index: 2
+distanceLSH: 2261.07
+distanceBRUTE: 1905.54
+Radius: 0
+===
+Query: 361
+timeLSH: 0.007115s
+timeBRUTE: 0.033784s
+NN-1 Index: 534
+distanceLSH: 1287.73
+distanceBRUTE: 1287.73
+NN-2 Index: 238
+distanceLSH: 1957.98
+distanceBRUTE: 1599.77
+Radius: 0
+===
+Query: 362
+timeLSH: 0.006292s
+timeBRUTE: 0.032715s
+NN-1 Index: 624
+distanceLSH: 1921.01
+distanceBRUTE: 1912.67
+NN-2 Index: 353
+distanceLSH: 1970.55
+distanceBRUTE: 1921.01
+Radius: 0
+===
+Query: 363
+timeLSH: 0.00649s
+timeBRUTE: 0.030444s
+NN-1 Index: 366
+distanceLSH: 1730.26
+distanceBRUTE: 1407.86
+NN-2 Index: 484
+distanceLSH: 1768.02
+distanceBRUTE: 1427.92
+Radius: 0
+===
+Query: 364
+timeLSH: 0.006197s
+timeBRUTE: 0.029038s
+NN-1 Index: 332
+distanceLSH: 1887.79
+distanceBRUTE: 1750.24
+Radius: 0
+===
+Query: 365
+timeLSH: 0.006275s
+timeBRUTE: 0.03129s
+NN-1 Index: 836
+distanceLSH: 1858.95
+distanceBRUTE: 1262.06
+NN-2 Index: 656
+distanceLSH: 1916.44
+distanceBRUTE: 1685.46
+Radius: 0
+===
+Query: 366
+timeLSH: 0.006421s
+timeBRUTE: 0.028695s
+NN-1 Index: 488
+distanceLSH: 2070.58
+distanceBRUTE: 1911.67
+NN-2 Index: 186
+distanceLSH: 2078.77
+distanceBRUTE: 1929.92
+Radius: 0
+===
+Query: 367
+timeLSH: 0.006792s
+timeBRUTE: 0.031711s
+NN-1 Index: 886
+distanceLSH: 2029.41
+distanceBRUTE: 1913.22
+NN-2 Index: 332
+distanceLSH: 2248.88
+distanceBRUTE: 1968.99
+Radius: 0
+===
+Query: 368
+timeLSH: 0.005897s
+timeBRUTE: 0.028071s
+NN-1 Index: 32
+distanceLSH: 1629.34
+distanceBRUTE: 1328.38
+NN-2 Index: 810
+distanceLSH: 1836.05
+distanceBRUTE: 1509.37
+Radius: 0
+===
+Query: 369
+timeLSH: 0.005647s
+timeBRUTE: 0.031399s
+NN-1 Index: 346
+distanceLSH: 1828.93
+distanceBRUTE: 1641.9
+NN-2 Index: 321
+distanceLSH: 1903.24
+distanceBRUTE: 1723.28
+Radius: 0
+===
+Query: 370
+timeLSH: 0.005325s
+timeBRUTE: 0.031422s
+NN-1 Index: 904
+distanceLSH: 1726.28
+distanceBRUTE: 1414.13
+NN-2 Index: 686
+distanceLSH: 1828.45
+distanceBRUTE: 1427.6
+Radius: 0
+===
+Query: 371
+timeLSH: 0.005597s
+timeBRUTE: 0.0311s
+NN-1 Index: 830
+distanceLSH: 2004.22
+distanceBRUTE: 1396.7
+NN-2 Index: 70
+distanceLSH: 2020.54
+distanceBRUTE: 1821.02
+Radius: 0
+===
+Query: 372
+timeLSH: 0.006209s
+timeBRUTE: 0.030791s
+NN-1 Index: 984
+distanceLSH: 1863.5
+distanceBRUTE: 1863.5
+NN-2 Index: 209
+distanceLSH: 2165.08
+distanceBRUTE: 1918.67
+Radius: 0
+===
+Query: 373
+timeLSH: 0.006085s
+timeBRUTE: 0.025548s
+NN-1 Index: 758
+distanceLSH: 1933.83
+distanceBRUTE: 1708.05
+NN-2 Index: 397
+distanceLSH: 2086.79
+distanceBRUTE: 1795.69
+Radius: 0
+===
+Query: 374
+timeLSH: 0.004512s
+timeBRUTE: 0.023799s
+NN-1 Index: 188
+distanceLSH: 1566.71
+distanceBRUTE: 1566.71
+NN-2 Index: 532
+distanceLSH: 1925.73
+distanceBRUTE: 1734.06
+Radius: 0
+===
+Query: 375
+timeLSH: 0.005405s
+timeBRUTE: 0.032132s
+NN-1 Index: 396
+distanceLSH: 2011.83
+distanceBRUTE: 1482.09
+NN-2 Index: 806
+distanceLSH: 2068.63
+distanceBRUTE: 1597.96
+Radius: 0
+===
+Query: 376
+timeLSH: 0.006359s
+timeBRUTE: 0.028767s
+NN-1 Index: 354
+distanceLSH: 1567.88
+distanceBRUTE: 1306.86
+NN-2 Index: 26
+distanceLSH: 1575.39
+distanceBRUTE: 1342.44
+Radius: 0
+===
+Query: 377
+timeLSH: 0.006363s
+timeBRUTE: 0.027895s
+NN-1 Index: 454
+distanceLSH: 860.64
+distanceBRUTE: 594.88
+NN-2 Index: 174
+distanceLSH: 952.887
+distanceBRUTE: 744.263
+Radius: 0
+===
+Query: 378
+timeLSH: 0.005746s
+timeBRUTE: 0.023497s
+NN-1 Index: 678
+distanceLSH: 765.923
+distanceBRUTE: 621.915
+NN-2 Index: 710
+distanceLSH: 895.299
+distanceBRUTE: 699.991
+Radius: 0
+===
+Query: 379
+timeLSH: 0.006544s
+timeBRUTE: 0.030052s
+NN-1 Index: 446
+distanceLSH: 1804.52
+distanceBRUTE: 1398.54
+NN-2 Index: 926
+distanceLSH: 1856.89
+distanceBRUTE: 1429.23
+Radius: 0
+===
+Query: 380
+timeLSH: 0.005329s
+timeBRUTE: 0.029514s
+NN-1 Index: 209
+distanceLSH: 2269.17
+distanceBRUTE: 1851.86
+NN-2 Index: 524
+distanceLSH: 2487.82
+distanceBRUTE: 1887.34
+Radius: 0
+===
+Query: 381
+timeLSH: 0.00554s
+timeBRUTE: 0.028766s
+NN-1 Index: 798
+distanceLSH: 1893.48
+distanceBRUTE: 1754.5
+NN-2 Index: 42
+distanceLSH: 2031.69
+distanceBRUTE: 1776.68
+Radius: 0
+===
+Query: 382
+timeLSH: 0.005813s
+timeBRUTE: 0.029348s
+NN-1 Index: 748
+distanceLSH: 1756.13
+distanceBRUTE: 1423.78
+NN-2 Index: 840
+distanceLSH: 1907.59
+distanceBRUTE: 1524.3
+Radius: 0
+===
+Query: 383
+timeLSH: 0.00623s
+timeBRUTE: 0.028668s
+NN-1 Index: 868
+distanceLSH: 1451.73
+distanceBRUTE: 1176.17
+Radius: 0
+===
+Query: 384
+timeLSH: 0.005947s
+timeBRUTE: 0.031646s
+NN-1 Index: 681
+distanceLSH: 1757.61
+distanceBRUTE: 1480.82
+NN-2 Index: 299
+distanceLSH: 1850.08
+distanceBRUTE: 1586.61
+Radius: 0
+===
+Query: 385
+timeLSH: 0.004498s
+timeBRUTE: 0.023413s
+NN-1 Index: 112
+distanceLSH: 761.593
+distanceBRUTE: 592.999
+NN-2 Index: 72
+distanceLSH: 999.976
+distanceBRUTE: 671.595
+Radius: 0
+===
+Query: 386
+timeLSH: 0.005033s
+timeBRUTE: 0.024014s
+NN-1 Index: 93
+distanceLSH: 1346.6
+distanceBRUTE: 1346.6
+NN-2 Index: 514
+distanceLSH: 1722.99
+distanceBRUTE: 1564.44
+Radius: 0
+===
+Query: 387
+timeLSH: 0.005838s
+timeBRUTE: 0.025386s
+NN-1 Index: 674
+distanceLSH: 1802.36
+distanceBRUTE: 1693.54
+NN-2 Index: 500
+distanceLSH: 1848.97
+distanceBRUTE: 1704.85
+Radius: 0
+===
+Query: 388
+timeLSH: 0.005736s
+timeBRUTE: 0.025507s
+NN-1 Index: 507
+distanceLSH: 886.253
+distanceBRUTE: 541.868
+NN-2 Index: 747
+distanceLSH: 990.776
+distanceBRUTE: 577.372
+Radius: 0
+===
+Query: 389
+timeLSH: 0.004883s
+timeBRUTE: 0.029011s
+NN-1 Index: 247
+distanceLSH: 1733.97
+distanceBRUTE: 1507.95
+NN-2 Index: 600
+distanceLSH: 1752.27
+distanceBRUTE: 1558.86
+Radius: 0
+===
+Query: 390
+timeLSH: 0.004749s
+timeBRUTE: 0.02641s
+NN-1 Index: 171
+distanceLSH: 1966.98
+distanceBRUTE: 1743.75
+NN-2 Index: 530
+distanceLSH: 2326.97
+distanceBRUTE: 1966.98
+Radius: 0
+===
+Query: 391
+timeLSH: 0.0049s
+timeBRUTE: 0.025981s
+NN-1 Index: 766
+distanceLSH: 2008.31
+distanceBRUTE: 1710.11
+NN-2 Index: 823
+distanceLSH: 2021.02
+distanceBRUTE: 1792.1
+Radius: 0
+===
+Query: 392
+timeLSH: 0.005447s
+timeBRUTE: 0.021004s
+NN-1 Index: 498
+distanceLSH: 1532.02
+distanceBRUTE: 1381.18
+NN-2 Index: 816
+distanceLSH: 1595.74
+distanceBRUTE: 1400.13
+Radius: 0
+===
+Query: 393
+timeLSH: 0.006501s
+timeBRUTE: 0.024517s
+NN-1 Index: 40
+distanceLSH: 730.733
+distanceBRUTE: 695.352
+NN-2 Index: 366
+distanceLSH: 762.058
+distanceBRUTE: 730.733
+Radius: 0
+===
+Query: 394
+timeLSH: 0.005543s
+timeBRUTE: 0.025471s
+NN-1 Index: 929
+distanceLSH: 1591.63
+distanceBRUTE: 1507.24
+NN-2 Index: 42
+distanceLSH: 1659.76
+distanceBRUTE: 1575.96
+Radius: 0
+===
+Query: 395
+timeLSH: 0.004525s
+timeBRUTE: 0.026525s
+NN-1 Index: 690
+distanceLSH: 1959.92
+distanceBRUTE: 1466.7
+NN-2 Index: 890
+distanceLSH: 1987.9
+distanceBRUTE: 1724.7
+Radius: 0
+===
+Query: 396
+timeLSH: 0.005602s
+timeBRUTE: 0.024755s
+NN-1 Index: 693
+distanceLSH: 2040.11
+distanceBRUTE: 1756.45
+NN-2 Index: 871
+distanceLSH: 2073.07
+distanceBRUTE: 1877.39
+Radius: 0
+===
+Query: 397
+timeLSH: 0.005787s
+timeBRUTE: 0.025441s
+NN-1 Index: 726
+distanceLSH: 1820.83
+distanceBRUTE: 1264.39
+NN-2 Index: 254
+distanceLSH: 1854.09
+distanceBRUTE: 1548.57
+Radius: 0
+===
+Query: 398
+timeLSH: 0.005894s
+timeBRUTE: 0.028602s
+NN-1 Index: 926
+distanceLSH: 1656.77
+distanceBRUTE: 1488.38
+NN-2 Index: 322
+distanceLSH: 1763.06
+distanceBRUTE: 1505.46
+Radius: 0
+===
+Query: 399
+timeLSH: 0.004786s
+timeBRUTE: 0.024426s
+NN-1 Index: 914
+distanceLSH: 1814.84
+distanceBRUTE: 1764.39
+NN-2 Index: 434
+distanceLSH: 1974.64
+distanceBRUTE: 1814.84
+Radius: 0
+===
+Query: 400
+timeLSH: 0.005829s
+timeBRUTE: 0.026261s
+NN-1 Index: 844
+distanceLSH: 1827.08
+distanceBRUTE: 1582.48
+NN-2 Index: 555
+distanceLSH: 1945.55
+distanceBRUTE: 1819.67
+Radius: 0
+===
+Query: 401
+timeLSH: 0.005051s
+timeBRUTE: 0.028707s
+NN-1 Index: 447
+distanceLSH: 1806.09
+distanceBRUTE: 1601.54
+NN-2 Index: 876
+distanceLSH: 1821.18
+distanceBRUTE: 1651.13
+Radius: 0
+===
+Query: 402
+timeLSH: 0.004366s
+timeBRUTE: 0.025226s
+NN-1 Index: 886
+distanceLSH: 2044.86
+distanceBRUTE: 2044.86
+NN-2 Index: 12
+distanceLSH: 2210.63
+distanceBRUTE: 2055.8
+Radius: 0
+===
+Query: 403
+timeLSH: 0.005882s
+timeBRUTE: 0.026707s
+NN-1 Index: 564
+distanceLSH: 1830.36
+distanceBRUTE: 1830.36
+NN-2 Index: 968
+distanceLSH: 1877.66
+distanceBRUTE: 1847.25
+Radius: 0
+===
+Query: 404
+timeLSH: 0.006141s
+timeBRUTE: 0.024554s
+NN-1 Index: 611
+distanceLSH: 1764.59
+distanceBRUTE: 1693.68
+NN-2 Index: 345
+distanceLSH: 1826.48
+distanceBRUTE: 1716.55
+Radius: 0
+===
+Query: 405
+timeLSH: 0.004472s
+timeBRUTE: 0.02484s
+NN-1 Index: 606
+distanceLSH: 1876.77
+distanceBRUTE: 1876.77
+NN-2 Index: 848
+distanceLSH: 1880.02
+distanceBRUTE: 1880.02
+Radius: 0
+===
+Query: 406
+timeLSH: 0.004882s
+timeBRUTE: 0.024143s
+NN-1 Index: 668
+distanceLSH: 2112
+distanceBRUTE: 1567.53
+NN-2 Index: 542
+distanceLSH: 2175.06
+distanceBRUTE: 1853.58
+Radius: 0
+===
+Query: 407
+timeLSH: 0.004505s
+timeBRUTE: 0.023368s
+NN-1 Index: 229
+distanceLSH: 1992.79
+distanceBRUTE: 1684.39
+Radius: 0
+===
+Query: 408
+timeLSH: 0.005114s
+timeBRUTE: 0.024248s
+NN-1 Index: 490
+distanceLSH: 1684.85
+distanceBRUTE: 1460.67
+NN-2 Index: 80
+distanceLSH: 1953.21
+distanceBRUTE: 1464.51
+Radius: 0
+===
+Query: 409
+timeLSH: 0.006947s
+timeBRUTE: 0.030604s
+NN-1 Index: 398
+distanceLSH: 1050.82
+distanceBRUTE: 875.171
+NN-2 Index: 112
+distanceLSH: 1143.36
+distanceBRUTE: 937.365
+Radius: 0
+===
+Query: 410
+timeLSH: 0.007075s
+timeBRUTE: 0.031877s
+NN-1 Index: 820
+distanceLSH: 1645.77
+distanceBRUTE: 1430.84
+NN-2 Index: 640
+distanceLSH: 1679.69
+distanceBRUTE: 1444.03
+Radius: 0
+===
+Query: 411
+timeLSH: 0.005687s
+timeBRUTE: 0.025216s
+NN-1 Index: 258
+distanceLSH: 1357.29
+distanceBRUTE: 868.639
+NN-2 Index: 174
+distanceLSH: 1457.86
+distanceBRUTE: 1136.42
+Radius: 0
+===
+Query: 412
+timeLSH: 0.004963s
+timeBRUTE: 0.029102s
+NN-1 Index: 74
+distanceLSH: 2111.53
+distanceBRUTE: 1894.5
+NN-2 Index: 149
+distanceLSH: 2189.5
+distanceBRUTE: 2090.76
+Radius: 0
+===
+Query: 413
+timeLSH: 0.006185s
+timeBRUTE: 0.028991s
+NN-1 Index: 994
+distanceLSH: 1431.48
+distanceBRUTE: 1275.55
+NN-2 Index: 243
+distanceLSH: 1929.04
+distanceBRUTE: 1280.79
+Radius: 0
+===
+Query: 414
+timeLSH: 0.006335s
+timeBRUTE: 0.034585s
+NN-1 Index: 824
+distanceLSH: 1714.31
+distanceBRUTE: 1372.92
+NN-2 Index: 900
+distanceLSH: 1878.82
+distanceBRUTE: 1543.38
+Radius: 0
+===
+Query: 415
+timeLSH: 0.007595s
+timeBRUTE: 0.032209s
+NN-1 Index: 84
+distanceLSH: 1728.87
+distanceBRUTE: 1496.58
+NN-2 Index: 362
+distanceLSH: 1769.39
+distanceBRUTE: 1502
+Radius: 0
+===
+Query: 416
+timeLSH: 0.004991s
+timeBRUTE: 0.023952s
+NN-1 Index: 152
+distanceLSH: 915.69
+distanceBRUTE: 593.896
+NN-2 Index: 710
+distanceLSH: 997.448
+distanceBRUTE: 797.903
+Radius: 0
+===
+Query: 417
+timeLSH: 0.005276s
+timeBRUTE: 0.024935s
+NN-1 Index: 980
+distanceLSH: 1345.83
+distanceBRUTE: 1312.19
+NN-2 Index: 336
+distanceLSH: 1368.6
+distanceBRUTE: 1345.83
+Radius: 0
+===
+Query: 418
+timeLSH: 0.005465s
+timeBRUTE: 0.025934s
+NN-1 Index: 696
+distanceLSH: 1917.07
+distanceBRUTE: 1538.59
+NN-2 Index: 548
+distanceLSH: 2024.39
+distanceBRUTE: 1678.67
+Radius: 0
+===
+Query: 419
+timeLSH: 0.004347s
+timeBRUTE: 0.026322s
+NN-1 Index: 454
+distanceLSH: 684.934
+distanceBRUTE: 604.866
+NN-2 Index: 112
+distanceLSH: 890.387
+distanceBRUTE: 677.795
+Radius: 0
+===
+Query: 420
+timeLSH: 0.006278s
+timeBRUTE: 0.03102s
+NN-1 Index: 937
+distanceLSH: 1438.03
+distanceBRUTE: 1352.21
+NN-2 Index: 655
+distanceLSH: 1470.59
+distanceBRUTE: 1438.03
+Radius: 0
+===
+Query: 421
+timeLSH: 0.005567s
+timeBRUTE: 0.024996s
+NN-1 Index: 563
+distanceLSH: 2013.34
+distanceBRUTE: 1734.51
+NN-2 Index: 291
+distanceLSH: 2190.33
+distanceBRUTE: 2013.34
+Radius: 0
+===
+Query: 422
+timeLSH: 0.004696s
+timeBRUTE: 0.024199s
+NN-1 Index: 566
+distanceLSH: 1206.55
+distanceBRUTE: 977.1
+NN-2 Index: 520
+distanceLSH: 1449.67
+distanceBRUTE: 1119.7
+Radius: 0
+===
+Query: 423
+timeLSH: 0.005604s
+timeBRUTE: 0.025967s
+NN-1 Index: 180
+distanceLSH: 2003.21
+distanceBRUTE: 1629.84
+NN-2 Index: 514
+distanceLSH: 2153.99
+distanceBRUTE: 1907.22
+Radius: 0
+===
+Query: 424
+timeLSH: 0.006647s
+timeBRUTE: 0.031397s
+NN-1 Index: 702
+distanceLSH: 1982.04
+distanceBRUTE: 1520.63
+NN-2 Index: 668
+distanceLSH: 2143.04
+distanceBRUTE: 1556.92
+Radius: 0
+===
+Query: 425
+timeLSH: 0.005806s
+timeBRUTE: 0.027339s
+NN-1 Index: 438
+distanceLSH: 1930.67
+distanceBRUTE: 1805.08
+NN-2 Index: 428
+distanceLSH: 1986.52
+distanceBRUTE: 1918.55
+Radius: 0
+===
+Query: 426
+timeLSH: 0.005634s
+timeBRUTE: 0.026674s
+NN-1 Index: 247
+distanceLSH: 1202.28
+distanceBRUTE: 1162.98
+NN-2 Index: 754
+distanceLSH: 1458.23
+distanceBRUTE: 1202.28
+Radius: 0
+===
+Query: 427
+timeLSH: 0.005065s
+timeBRUTE: 0.02707s
+NN-1 Index: 638
+distanceLSH: 515.978
+distanceBRUTE: 457.748
+NN-2 Index: 184
+distanceLSH: 826.551
+distanceBRUTE: 515.978
+Radius: 0
+===
+Query: 428
+timeLSH: 0.005874s
+timeBRUTE: 0.030344s
+NN-1 Index: 373
+distanceLSH: 1444.47
+distanceBRUTE: 1339.03
+NN-2 Index: 139
+distanceLSH: 1626.43
+distanceBRUTE: 1370.51
+Radius: 0
+===
+Query: 429
+timeLSH: 0.006365s
+timeBRUTE: 0.021817s
+NN-1 Index: 276
+distanceLSH: 2002.12
+distanceBRUTE: 1688.61
+NN-2 Index: 838
+distanceLSH: 2061.51
+distanceBRUTE: 1744.92
+Radius: 0
+===
+Query: 430
+timeLSH: 0.004671s
+timeBRUTE: 0.028626s
+NN-1 Index: 174
+distanceLSH: 854.895
+distanceBRUTE: 709.348
+NN-2 Index: 152
+distanceLSH: 898.131
+distanceBRUTE: 715.142
+Radius: 0
+===
+Query: 431
+timeLSH: 0.005064s
+timeBRUTE: 0.025797s
+NN-1 Index: 736
+distanceLSH: 1957.37
+distanceBRUTE: 1771.69
+NN-2 Index: 796
+distanceLSH: 2013.61
+distanceBRUTE: 1775.07
+Radius: 0
+===
+Query: 432
+timeLSH: 0.005876s
+timeBRUTE: 0.027181s
+NN-1 Index: 142
+distanceLSH: 1694.94
+distanceBRUTE: 1694.94
+NN-2 Index: 708
+distanceLSH: 1988.49
+distanceBRUTE: 1796.64
+Radius: 0
+===
+Query: 433
+timeLSH: 0.006918s
+timeBRUTE: 0.028529s
+NN-1 Index: 172
+distanceLSH: 1925.06
+distanceBRUTE: 1828.69
+NN-2 Index: 101
+distanceLSH: 1969.45
+distanceBRUTE: 1867.76
+Radius: 0
+===
+Query: 434
+timeLSH: 0.005422s
+timeBRUTE: 0.033261s
+NN-1 Index: 116
+distanceLSH: 1479.11
+distanceBRUTE: 1083.86
+NN-2 Index: 834
+distanceLSH: 1687.39
+distanceBRUTE: 1239.65
+Radius: 0
+===
+Query: 435
+timeLSH: 0.006177s
+timeBRUTE: 0.031366s
+NN-1 Index: 950
+distanceLSH: 1753.72
+distanceBRUTE: 1741.39
+NN-2 Index: 353
+distanceLSH: 1778.58
+distanceBRUTE: 1753.72
+Radius: 0
+===
+Query: 436
+timeLSH: 0.004752s
+timeBRUTE: 0.023564s
+NN-1 Index: 858
+distanceLSH: 1738.17
+distanceBRUTE: 1496.66
+NN-2 Index: 615
+distanceLSH: 1774.05
+distanceBRUTE: 1628.3
+Radius: 0
+===
+Query: 437
+timeLSH: 0.004972s
+timeBRUTE: 0.026766s
+NN-1 Index: 12
+distanceLSH: 2115.45
+distanceBRUTE: 2014.38
+NN-2 Index: 392
+distanceLSH: 2413.82
+distanceBRUTE: 2115.45
+Radius: 0
+===
+Query: 438
+timeLSH: 0.004648s
+timeBRUTE: 0.027099s
+NN-1 Index: 773
+distanceLSH: 1402.63
+distanceBRUTE: 1338.85
+NN-2 Index: 96
+distanceLSH: 1453.37
+distanceBRUTE: 1402.26
+Radius: 0
+===
+Query: 439
+timeLSH: 0.006121s
+timeBRUTE: 0.022522s
+NN-1 Index: 430
+distanceLSH: 1607.45
+distanceBRUTE: 1403.15
+NN-2 Index: 816
+distanceLSH: 1608.02
+distanceBRUTE: 1468.81
+Radius: 0
+===
+Query: 440
+timeLSH: 0.006645s
+timeBRUTE: 0.024987s
+NN-1 Index: 51
+distanceLSH: 2019.35
+distanceBRUTE: 1821.19
+NN-2 Index: 464
+distanceLSH: 2327.34
+distanceBRUTE: 1905.32
+Radius: 0
+===
+Query: 441
+timeLSH: 0.006751s
+timeBRUTE: 0.027795s
+NN-1 Index: 702
+distanceLSH: 1812.81
+distanceBRUTE: 1371.59
+NN-2 Index: 860
+distanceLSH: 1851.89
+distanceBRUTE: 1444.04
+Radius: 0
+===
+Query: 442
+timeLSH: 0.005211s
+timeBRUTE: 0.026714s
+NN-1 Index: 98
+distanceLSH: 1665.12
+distanceBRUTE: 1481.14
+NN-2 Index: 992
+distanceLSH: 1804.84
+distanceBRUTE: 1505.28
+Radius: 0
+===
+Query: 443
+timeLSH: 0.006761s
+timeBRUTE: 0.033217s
+NN-1 Index: 18
+distanceLSH: 1634.76
+distanceBRUTE: 1503.89
+NN-2 Index: 232
+distanceLSH: 1719.85
+distanceBRUTE: 1630.07
+Radius: 0
+===
+Query: 444
+timeLSH: 0.0069s
+timeBRUTE: 0.035576s
+NN-1 Index: 393
+distanceLSH: 1922.83
+distanceBRUTE: 1676.16
+NN-2 Index: 796
+distanceLSH: 1971.32
+distanceBRUTE: 1746.36
+Radius: 0
+===
+Query: 445
+timeLSH: 0.00658s
+timeBRUTE: 0.034953s
+NN-1 Index: 971
+distanceLSH: 2242.04
+distanceBRUTE: 1836.94
+NN-2 Index: 178
+distanceLSH: 2322.45
+distanceBRUTE: 1936.01
+Radius: 0
+===
+Query: 446
+timeLSH: 0.005745s
+timeBRUTE: 0.051203s
+NN-1 Index: 165
+distanceLSH: 1882.99
+distanceBRUTE: 1647.18
+NN-2 Index: 958
+distanceLSH: 1909.84
+distanceBRUTE: 1799.25
+Radius: 0
+===
+Query: 447
+timeLSH: 0.009139s
+timeBRUTE: 0.044947s
+NN-1 Index: 589
+distanceLSH: 1807.62
+distanceBRUTE: 1807.62
+NN-2 Index: 9
+distanceLSH: 1868.91
+distanceBRUTE: 1868.91
+Radius: 0
+===
+Query: 448
+timeLSH: 0.007265s
+timeBRUTE: 0.034112s
+NN-1 Index: 423
+distanceLSH: 1550.17
+distanceBRUTE: 1395.87
+NN-2 Index: 227
+distanceLSH: 1609.86
+distanceBRUTE: 1441.51
+Radius: 0
+===
+Query: 449
+timeLSH: 0.006957s
+timeBRUTE: 0.02926s
+NN-1 Index: 12
+distanceLSH: 2071.55
+distanceBRUTE: 2071.55
+Radius: 0
+===
+Query: 450
+timeLSH: 0.005258s
+timeBRUTE: 0.029558s
+NN-1 Index: 74
+distanceLSH: 1567.42
+distanceBRUTE: 1567.42
+NN-2 Index: 49
+distanceLSH: 1854.32
+distanceBRUTE: 1703.33
+Radius: 0
+===
+Query: 451
+timeLSH: 0.00417s
+timeBRUTE: 0.028356s
+NN-1 Index: 890
+distanceLSH: 1984.54
+distanceBRUTE: 1731.72
+NN-2 Index: 98
+distanceLSH: 2164.41
+distanceBRUTE: 1803.71
+Radius: 0
+===
+Query: 452
+timeLSH: 0.004178s
+timeBRUTE: 0.021896s
+NN-1 Index: 646
+distanceLSH: 1698.27
+distanceBRUTE: 1668.79
+NN-2 Index: 276
+distanceLSH: 1714.64
+distanceBRUTE: 1687.41
+Radius: 0
+===
+Query: 453
+timeLSH: 0.005802s
+timeBRUTE: 0.031265s
+NN-1 Index: 392
+distanceLSH: 2172.06
+distanceBRUTE: 2034.19
+NN-2 Index: 50
+distanceLSH: 2182.89
+distanceBRUTE: 2086.79
+Radius: 0
+===
+Query: 454
+timeLSH: 0.005103s
+timeBRUTE: 0.031858s
+NN-1 Index: 940
+distanceLSH: 1414.69
+distanceBRUTE: 1399.29
+NN-2 Index: 460
+distanceLSH: 1628.12
+distanceBRUTE: 1414.69
+Radius: 0
+===
+Query: 455
+timeLSH: 0.006331s
+timeBRUTE: 0.030614s
+NN-1 Index: 290
+distanceLSH: 872.41
+distanceBRUTE: 736.315
+NN-2 Index: 174
+distanceLSH: 1091.32
+distanceBRUTE: 774.321
+Radius: 0
+===
+Query: 456
+timeLSH: 0.006678s
+timeBRUTE: 0.027547s
+NN-1 Index: 99
+distanceLSH: 1508.82
+distanceBRUTE: 1472.85
+NN-2 Index: 588
+distanceLSH: 1680.41
+distanceBRUTE: 1489.8
+Radius: 0
+===
+Query: 457
+timeLSH: 0.006196s
+timeBRUTE: 0.030358s
+NN-1 Index: 18
+distanceLSH: 1617.75
+distanceBRUTE: 1364.91
+NN-2 Index: 602
+distanceLSH: 1852.61
+distanceBRUTE: 1519.17
+Radius: 0
+===
+Query: 458
+timeLSH: 0.006715s
+timeBRUTE: 0.032689s
+NN-1 Index: 976
+distanceLSH: 1398.24
+distanceBRUTE: 1398.24
+NN-2 Index: 162
+distanceLSH: 1915.46
+distanceBRUTE: 1767.2
+Radius: 0
+===
+Query: 459
+timeLSH: 0.006491s
+timeBRUTE: 0.031358s
+NN-1 Index: 80
+distanceLSH: 2038.21
+distanceBRUTE: 1635.29
+NN-2 Index: 596
+distanceLSH: 2080.4
+distanceBRUTE: 1877.75
+Radius: 0
+===
+Query: 460
+timeLSH: 0.006132s
+timeBRUTE: 0.032625s
+NN-1 Index: 523
+distanceLSH: 1864.96
+distanceBRUTE: 1696.28
+NN-2 Index: 423
+distanceLSH: 1929.75
+distanceBRUTE: 1748.24
+Radius: 0
+===
+Query: 461
+timeLSH: 0.007796s
+timeBRUTE: 0.033656s
+NN-1 Index: 986
+distanceLSH: 2250.61
+distanceBRUTE: 2049.79
+NN-2 Index: 142
+distanceLSH: 2452.99
+distanceBRUTE: 2168.08
+Radius: 0
+===
+Query: 462
+timeLSH: 0.005431s
+timeBRUTE: 0.035153s
+NN-1 Index: 90
+distanceLSH: 2363.38
+distanceBRUTE: 1946.86
+Radius: 0
+===
+Query: 463
+timeLSH: 0.006899s
+timeBRUTE: 0.032299s
+NN-1 Index: 323
+distanceLSH: 1694.15
+distanceBRUTE: 1594.44
+NN-2 Index: 261
+distanceLSH: 2200.14
+distanceBRUTE: 1654.55
+Radius: 0
+===
+Query: 464
+timeLSH: 0.005302s
+timeBRUTE: 0.027553s
+NN-1 Index: 471
+distanceLSH: 1804.12
+distanceBRUTE: 1733.87
+NN-2 Index: 853
+distanceLSH: 1891.22
+distanceBRUTE: 1783.43
+Radius: 0
+===
+Query: 465
+timeLSH: 0.006711s
+timeBRUTE: 0.031428s
+NN-1 Index: 333
+distanceLSH: 1984.63
+distanceBRUTE: 1914.94
+NN-2 Index: 734
+distanceLSH: 2127.68
+distanceBRUTE: 1984.63
+Radius: 0
+===
+Query: 466
+timeLSH: 0.005366s
+timeBRUTE: 0.02674s
+NN-1 Index: 245
+distanceLSH: 1294.71
+distanceBRUTE: 1294.71
+NN-2 Index: 761
+distanceLSH: 1465.44
+distanceBRUTE: 1465.44
+Radius: 0
+===
+Query: 467
+timeLSH: 0.006591s
+timeBRUTE: 0.032852s
+NN-1 Index: 688
+distanceLSH: 1357.64
+distanceBRUTE: 1357.64
+NN-2 Index: 180
+distanceLSH: 1756.02
+distanceBRUTE: 1756.02
+Radius: 0
+===
+Query: 468
+timeLSH: 0.006352s
+timeBRUTE: 0.030704s
+NN-1 Index: 803
+distanceLSH: 1572.49
+distanceBRUTE: 1572.49
+NN-2 Index: 651
+distanceLSH: 1768.72
+distanceBRUTE: 1704.46
+Radius: 0
+===
+Query: 469
+timeLSH: 0.005826s
+timeBRUTE: 0.032612s
+NN-1 Index: 760
+distanceLSH: 2158.29
+distanceBRUTE: 1568.42
+NN-2 Index: 344
+distanceLSH: 2240.71
+distanceBRUTE: 1736.56
+Radius: 0
+===
+Query: 470
+timeLSH: 0.006016s
+timeBRUTE: 0.031839s
+NN-1 Index: 976
+distanceLSH: 1654.66
+distanceBRUTE: 1479.66
+NN-2 Index: 912
+distanceLSH: 1895.07
+distanceBRUTE: 1639.53
+Radius: 0
+===
+Query: 471
+timeLSH: 0.005905s
+timeBRUTE: 0.029757s
+NN-1 Index: 227
+distanceLSH: 1604.54
+distanceBRUTE: 1250.74
+NN-2 Index: 707
+distanceLSH: 1665.22
+distanceBRUTE: 1297.32
+Radius: 0
+===
+Query: 472
+timeLSH: 0.005323s
+timeBRUTE: 0.030223s
+NN-1 Index: 986
+distanceLSH: 1426.49
+distanceBRUTE: 1426.49
+NN-2 Index: 241
+distanceLSH: 1919.78
+distanceBRUTE: 1774.65
+Radius: 0
+===
+Query: 473
+timeLSH: 0.00601s
+timeBRUTE: 0.031349s
+NN-1 Index: 618
+distanceLSH: 745.295
+distanceBRUTE: 660.513
+Radius: 0
+===
+Query: 474
+timeLSH: 0.006648s
+timeBRUTE: 0.026563s
+NN-1 Index: 972
+distanceLSH: 2025.62
+distanceBRUTE: 1939.06
+NN-2 Index: 348
+distanceLSH: 2106.04
+distanceBRUTE: 1965.78
+Radius: 0
+===
+Query: 475
+timeLSH: 0.00631s
+timeBRUTE: 0.032574s
+NN-1 Index: 606
+distanceLSH: 1942.17
+distanceBRUTE: 1651.11
+NN-2 Index: 990
+distanceLSH: 2154.19
+distanceBRUTE: 1668.29
+Radius: 0
+===
+Query: 476
+timeLSH: 0.006418s
+timeBRUTE: 0.029748s
+NN-1 Index: 780
+distanceLSH: 935.365
+distanceBRUTE: 640.04
+NN-2 Index: 484
+distanceLSH: 959.002
+distanceBRUTE: 797.974
+Radius: 0
+===
+Query: 477
+timeLSH: 0.005567s
+timeBRUTE: 0.031349s
+NN-1 Index: 122
+distanceLSH: 1980.73
+distanceBRUTE: 1828.13
+Radius: 0
+===
+Query: 478
+timeLSH: 0.005452s
+timeBRUTE: 0.030328s
+NN-1 Index: 660
+distanceLSH: 1725.07
+distanceBRUTE: 1579.87
+NN-2 Index: 746
+distanceLSH: 1751.6
+distanceBRUTE: 1705.09
+Radius: 0
+===
+Query: 479
+timeLSH: 0.005476s
+timeBRUTE: 0.02882s
+NN-1 Index: 264
+distanceLSH: 1785.86
+distanceBRUTE: 1590.85
+Radius: 0
+===
+Query: 480
+timeLSH: 0.006461s
+timeBRUTE: 0.030946s
+NN-1 Index: 466
+distanceLSH: 711.416
+distanceBRUTE: 711.416
+NN-2 Index: 290
+distanceLSH: 948.403
+distanceBRUTE: 826.598
+Radius: 0
+===
+Query: 481
+timeLSH: 0.005654s
+timeBRUTE: 0.031918s
+NN-1 Index: 550
+distanceLSH: 1293.05
+distanceBRUTE: 961.163
+NN-2 Index: 344
+distanceLSH: 1340.3
+distanceBRUTE: 1293.05
+Radius: 0
+===
+Query: 482
+timeLSH: 0.005998s
+timeBRUTE: 0.030994s
+NN-1 Index: 820
+distanceLSH: 1777.75
+distanceBRUTE: 1367.25
+NN-2 Index: 288
+distanceLSH: 2094.39
+distanceBRUTE: 1583.92
+Radius: 0
+===
+Query: 483
+timeLSH: 0.005731s
+timeBRUTE: 0.030551s
+NN-1 Index: 879
+distanceLSH: 1817.65
+distanceBRUTE: 1650.83
+NN-2 Index: 99
+distanceLSH: 1911.37
+distanceBRUTE: 1670.72
+Radius: 0
+===
+Query: 484
+timeLSH: 0.006887s
+timeBRUTE: 0.031456s
+NN-1 Index: 372
+distanceLSH: 1132.56
+distanceBRUTE: 1132.56
+NN-2 Index: 442
+distanceLSH: 1611.91
+distanceBRUTE: 1383.41
+Radius: 0
+===
+Query: 485
+timeLSH: 0.006169s
+timeBRUTE: 0.031847s
+NN-1 Index: 210
+distanceLSH: 1725.13
+distanceBRUTE: 1343.64
+Radius: 0
+===
+Query: 486
+timeLSH: 0.006027s
+timeBRUTE: 0.027587s
+NN-1 Index: 819
+distanceLSH: 2188.3
+distanceBRUTE: 2004.74
+NN-2 Index: 972
+distanceLSH: 2228.93
+distanceBRUTE: 2006.7
+Radius: 0
+===
+Query: 487
+timeLSH: 0.00478s
+timeBRUTE: 0.031707s
+NN-1 Index: 116
+distanceLSH: 1219.74
+distanceBRUTE: 1219.74
+NN-2 Index: 4
+distanceLSH: 1837.19
+distanceBRUTE: 1514.81
+Radius: 0
+===
+Query: 488
+timeLSH: 0.006342s
+timeBRUTE: 0.031696s
+NN-1 Index: 96
+distanceLSH: 1532.71
+distanceBRUTE: 1367.49
+NN-2 Index: 183
+distanceLSH: 1676.55
+distanceBRUTE: 1384.54
+Radius: 0
+===
+Query: 489
+timeLSH: 0.005917s
+timeBRUTE: 0.03026s
+NN-1 Index: 604
+distanceLSH: 656.481
+distanceBRUTE: 474.094
+NN-2 Index: 290
+distanceLSH: 835.833
+distanceBRUTE: 656.481
+Radius: 0
+===
+Query: 490
+timeLSH: 0.006223s
+timeBRUTE: 0.030144s
+NN-1 Index: 947
+distanceLSH: 2153.42
+distanceBRUTE: 1711.18
+NN-2 Index: 614
+distanceLSH: 2187.36
+distanceBRUTE: 1855.53
+Radius: 0
+===
+Query: 491
+timeLSH: 0.007045s
+timeBRUTE: 0.030733s
+NN-1 Index: 625
+distanceLSH: 1676.35
+distanceBRUTE: 1594.58
+NN-2 Index: 991
+distanceLSH: 1746.95
+distanceBRUTE: 1676.35
+Radius: 0
+===
+Query: 492
+timeLSH: 0.005115s
+timeBRUTE: 0.026448s
+NN-1 Index: 146
+distanceLSH: 1911.87
+distanceBRUTE: 1898.84
+NN-2 Index: 325
+distanceLSH: 2152.56
+distanceBRUTE: 1906.4
+Radius: 0
+===
+Query: 493
+timeLSH: 0.006486s
+timeBRUTE: 0.026036s
+NN-1 Index: 490
+distanceLSH: 1935.1
+distanceBRUTE: 1813.76
+NN-2 Index: 830
+distanceLSH: 2028.47
+distanceBRUTE: 1856.49
+Radius: 0
+===
+Query: 494
+timeLSH: 0.007568s
+timeBRUTE: 0.025032s
+NN-1 Index: 522
+distanceLSH: 833.761
+distanceBRUTE: 833.761
+NN-2 Index: 263
+distanceLSH: 1409.01
+distanceBRUTE: 1179.21
+Radius: 0
+===
+Query: 495
+timeLSH: 0.005561s
+timeBRUTE: 0.027399s
+NN-1 Index: 451
+distanceLSH: 2077.94
+distanceBRUTE: 1702.28
+NN-2 Index: 81
+distanceLSH: 2115.32
+distanceBRUTE: 1771.45
+Radius: 0
+===
+Query: 496
+timeLSH: 0.006034s
+timeBRUTE: 0.032047s
+NN-1 Index: 460
+distanceLSH: 1625.33
+distanceBRUTE: 1035.37
+NN-2 Index: 718
+distanceLSH: 1693.06
+distanceBRUTE: 1345.53
+Radius: 0
+===
+Query: 497
+timeLSH: 0.005636s
+timeBRUTE: 0.030274s
+NN-1 Index: 980
+distanceLSH: 1389.85
+distanceBRUTE: 1358.76
+NN-2 Index: 978
+distanceLSH: 1567.36
+distanceBRUTE: 1378.8
+Radius: 0
+===
+Query: 498
+timeLSH: 0.007051s
+timeBRUTE: 0.031382s
+NN-1 Index: 420
+distanceLSH: 1816.5
+distanceBRUTE: 1568.35
+NN-2 Index: 802
+distanceLSH: 1880.83
+distanceBRUTE: 1628.62
+Radius: 0
+===
+Query: 499
+timeLSH: 0.006532s
+timeBRUTE: 0.029171s
+NN-1 Index: 955
+distanceLSH: 1671.93
+distanceBRUTE: 1309.18
+NN-2 Index: 746
+distanceLSH: 1746.02
+distanceBRUTE: 1513.18
+Radius: 0
+===
+Query: 500
+timeLSH: 0.006518s
+timeBRUTE: 0.032482s
+NN-1 Index: 874
+distanceLSH: 1891.56
+distanceBRUTE: 1573.49
+NN-2 Index: 748
+distanceLSH: 1931.1
+distanceBRUTE: 1620.85
+Radius: 0
+===
+Query: 501
+timeLSH: 0.005229s
+timeBRUTE: 0.025318s
+NN-1 Index: 322
+distanceLSH: 1745.11
+distanceBRUTE: 1745.11
+NN-2 Index: 380
+distanceLSH: 2141.8
+distanceBRUTE: 1883.5
+Radius: 0
+===
+Query: 502
+timeLSH: 0.006363s
+timeBRUTE: 0.032093s
+NN-1 Index: 335
+distanceLSH: 1859.8
+distanceBRUTE: 1558.89
+NN-2 Index: 239
+distanceLSH: 1887.23
+distanceBRUTE: 1570.82
+Radius: 0
+===
+Query: 503
+timeLSH: 0.006519s
+timeBRUTE: 0.034601s
+NN-1 Index: 684
+distanceLSH: 1954.96
+distanceBRUTE: 1907.52
+NN-2 Index: 275
+distanceLSH: 2553.97
+distanceBRUTE: 1951.7
+Radius: 0
+===
+Query: 504
+timeLSH: 0.0107s
+timeBRUTE: 0.03266s
+NN-1 Index: 484
+distanceLSH: 766.621
+distanceBRUTE: 548.745
+Radius: 0
+===
+Query: 505
+timeLSH: 0.006842s
+timeBRUTE: 0.030658s
+NN-1 Index: 107
+distanceLSH: 1946.46
+distanceBRUTE: 1727.97
+NN-2 Index: 796
+distanceLSH: 1994.98
+distanceBRUTE: 1824.79
+Radius: 0
+===
+Query: 506
+timeLSH: 0.005607s
+timeBRUTE: 0.024089s
+NN-1 Index: 105
+distanceLSH: 1250.34
+distanceBRUTE: 651.299
+NN-2 Index: 492
+distanceLSH: 1310.34
+distanceBRUTE: 781.825
+Radius: 0
+===
+Query: 507
+timeLSH: 0.005602s
+timeBRUTE: 0.020464s
+NN-1 Index: 376
+distanceLSH: 1655.65
+distanceBRUTE: 1571.76
+NN-2 Index: 128
+distanceLSH: 2051.92
+distanceBRUTE: 1655.65
+Radius: 0
+===
+Query: 508
+timeLSH: 0.00672s
+timeBRUTE: 0.029702s
+NN-1 Index: 794
+distanceLSH: 1945.66
+distanceBRUTE: 1478.9
+NN-2 Index: 660
+distanceLSH: 1962.23
+distanceBRUTE: 1572.19
+Radius: 0
+===
+Query: 509
+timeLSH: 0.00519s
+timeBRUTE: 0.023802s
+NN-1 Index: 48
+distanceLSH: 1741.77
+distanceBRUTE: 1599.16
+NN-2 Index: 49
+distanceLSH: 1924.25
+distanceBRUTE: 1687.46
+Radius: 0
+===
+Query: 510
+timeLSH: 0.005911s
+timeBRUTE: 0.022431s
+NN-1 Index: 954
+distanceLSH: 1525.81
+distanceBRUTE: 1373.63
+NN-2 Index: 723
+distanceLSH: 1588.62
+distanceBRUTE: 1466.97
+Radius: 0
+===
+Query: 511
+timeLSH: 0.006894s
+timeBRUTE: 0.026993s
+NN-1 Index: 99
+distanceLSH: 1509.55
+distanceBRUTE: 1465
+NN-2 Index: 201
+distanceLSH: 1556.41
+distanceBRUTE: 1478.29
+Radius: 0
+===
+Query: 512
+timeLSH: 0.005436s
+timeBRUTE: 0.029253s
+NN-1 Index: 472
+distanceLSH: 1775.48
+distanceBRUTE: 1554.95
+NN-2 Index: 941
+distanceLSH: 1802.16
+distanceBRUTE: 1679.08
+Radius: 0
+===
+Query: 513
+timeLSH: 0.006705s
+timeBRUTE: 0.03263s
+NN-1 Index: 400
+distanceLSH: 1771.2
+distanceBRUTE: 1771.2
+NN-2 Index: 732
+distanceLSH: 2332.27
+distanceBRUTE: 1896.7
+Radius: 0
+===
+Query: 514
+timeLSH: 0.005245s
+timeBRUTE: 0.029017s
+NN-1 Index: 914
+distanceLSH: 2603.12
+distanceBRUTE: 2199.14
+Radius: 0
+===
+Query: 515
+timeLSH: 0.006382s
+timeBRUTE: 0.027843s
+NN-1 Index: 856
+distanceLSH: 1589.81
+distanceBRUTE: 1589.81
+NN-2 Index: 588
+distanceLSH: 1634.61
+distanceBRUTE: 1601.4
+Radius: 0
+===
+Query: 516
+timeLSH: 0.004715s
+timeBRUTE: 0.028654s
+NN-1 Index: 673
+distanceLSH: 2063.42
+distanceBRUTE: 2004.81
+NN-2 Index: 92
+distanceLSH: 2172.85
+distanceBRUTE: 2028.84
+Radius: 0
+===
+Query: 517
+timeLSH: 0.005236s
+timeBRUTE: 0.02589s
+NN-1 Index: 802
+distanceLSH: 1570.61
+distanceBRUTE: 1523.18
+NN-2 Index: 221
+distanceLSH: 1691.51
+distanceBRUTE: 1570.61
+Radius: 0
+===
+Query: 518
+timeLSH: 0.00535s
+timeBRUTE: 0.030725s
+NN-1 Index: 912
+distanceLSH: 1875.17
+distanceBRUTE: 1644.34
+NN-2 Index: 26
+distanceLSH: 2021.5
+distanceBRUTE: 1778.01
+Radius: 0
+===
+Query: 519
+timeLSH: 0.005224s
+timeBRUTE: 0.024404s
+NN-1 Index: 900
+distanceLSH: 1451.26
+distanceBRUTE: 1290.66
+NN-2 Index: 968
+distanceLSH: 1678.69
+distanceBRUTE: 1331.38
+Radius: 0
+===
+Query: 520
+timeLSH: 0.004869s
+timeBRUTE: 0.022151s
+NN-1 Index: 450
+distanceLSH: 1608.05
+distanceBRUTE: 1515.04
+NN-2 Index: 137
+distanceLSH: 1701.1
+distanceBRUTE: 1557.22
+Radius: 0
+===
+Query: 521
+timeLSH: 0.004447s
+timeBRUTE: 0.025844s
+NN-1 Index: 176
+distanceLSH: 1359.39
+distanceBRUTE: 1359.39
+NN-2 Index: 900
+distanceLSH: 1528.18
+distanceBRUTE: 1450.7
+Radius: 0
+===
+Query: 522
+timeLSH: 0.005054s
+timeBRUTE: 0.026086s
+NN-1 Index: 686
+distanceLSH: 1677.69
+distanceBRUTE: 1590.69
+NN-2 Index: 608
+distanceLSH: 1802.25
+distanceBRUTE: 1616.02
+Radius: 0
+===
+Query: 523
+timeLSH: 0.004172s
+timeBRUTE: 0.022263s
+NN-1 Index: 475
+distanceLSH: 1661.07
+distanceBRUTE: 869.41
+NN-2 Index: 993
+distanceLSH: 1723.56
+distanceBRUTE: 1111.05
+Radius: 0
+===
+Query: 524
+timeLSH: 0.004631s
+timeBRUTE: 0.027718s
+NN-1 Index: 760
+distanceLSH: 2164.92
+distanceBRUTE: 2007.34
+NN-2 Index: 970
+distanceLSH: 2168.11
+distanceBRUTE: 2071.18
+Radius: 0
+===
+Query: 525
+timeLSH: 0.004897s
+timeBRUTE: 0.025917s
+NN-1 Index: 524
+distanceLSH: 1663.04
+distanceBRUTE: 1663.04
+NN-2 Index: 234
+distanceLSH: 1829.45
+distanceBRUTE: 1780.44
+Radius: 0
+===
+Query: 526
+timeLSH: 0.004837s
+timeBRUTE: 0.023936s
+NN-1 Index: 254
+distanceLSH: 1990.76
+distanceBRUTE: 1561.57
+NN-2 Index: 216
+distanceLSH: 2150.61
+distanceBRUTE: 1749.75
+Radius: 0
+===
+Query: 527
+timeLSH: 0.00592s
+timeBRUTE: 0.039047s
+NN-1 Index: 244
+distanceLSH: 2235.83
+distanceBRUTE: 1908.95
+NN-2 Index: 970
+distanceLSH: 2367.34
+distanceBRUTE: 1984.45
+Radius: 0
+===
+Query: 528
+timeLSH: 0.007133s
+timeBRUTE: 0.031014s
+NN-1 Index: 44
+distanceLSH: 1903.03
+distanceBRUTE: 1689.77
+NN-2 Index: 274
+distanceLSH: 2037.48
+distanceBRUTE: 1811.49
+Radius: 0
+===
+Query: 529
+timeLSH: 0.007375s
+timeBRUTE: 0.032338s
+NN-1 Index: 710
+distanceLSH: 712.333
+distanceBRUTE: 652.131
+NN-2 Index: 310
+distanceLSH: 865.778
+distanceBRUTE: 686.738
+Radius: 0
+===
+Query: 530
+timeLSH: 0.006304s
+timeBRUTE: 0.033827s
+NN-1 Index: 148
+distanceLSH: 1749.51
+distanceBRUTE: 1370.63
+NN-2 Index: 876
+distanceLSH: 1825.12
+distanceBRUTE: 1517.18
+Radius: 0
+===
+Query: 531
+timeLSH: 0.005403s
+timeBRUTE: 0.027771s
+NN-1 Index: 366
+distanceLSH: 1846.19
+distanceBRUTE: 1625.81
+NN-2 Index: 184
+distanceLSH: 1932.85
+distanceBRUTE: 1638.7
+Radius: 0
+===
+Query: 532
+timeLSH: 0.005149s
+timeBRUTE: 0.025167s
+NN-1 Index: 217
+distanceLSH: 1644.28
+distanceBRUTE: 1478.52
+NN-2 Index: 436
+distanceLSH: 1717.55
+distanceBRUTE: 1617.56
+Radius: 0
+===
+Query: 533
+timeLSH: 0.004242s
+timeBRUTE: 0.029298s
+NN-1 Index: 237
+distanceLSH: 1908.39
+distanceBRUTE: 1717.29
+Radius: 0
+===
+Query: 534
+timeLSH: 0.005476s
+timeBRUTE: 0.028603s
+NN-1 Index: 810
+distanceLSH: 1391.52
+distanceBRUTE: 1232.84
+NN-2 Index: 816
+distanceLSH: 1518.6
+distanceBRUTE: 1391.52
+Radius: 0
+===
+Query: 535
+timeLSH: 0.007122s
+timeBRUTE: 0.029322s
+NN-1 Index: 847
+distanceLSH: 2195.23
+distanceBRUTE: 1801.05
+NN-2 Index: 434
+distanceLSH: 2295.85
+distanceBRUTE: 1868.61
+Radius: 0
+===
+Query: 536
+timeLSH: 0.006735s
+timeBRUTE: 0.022815s
+NN-1 Index: 276
+distanceLSH: 1696.25
+distanceBRUTE: 1676.03
+NN-2 Index: 466
+distanceLSH: 1793.12
+distanceBRUTE: 1687.88
+Radius: 0
+===
+Query: 537
+timeLSH: 0.00607s
+timeBRUTE: 0.022203s
+NN-1 Index: 269
+distanceLSH: 864.316
+distanceBRUTE: 685.506
+NN-2 Index: 538
+distanceLSH: 1117.61
+distanceBRUTE: 717.683
+Radius: 0
+===
+Query: 538
+timeLSH: 0.004585s
+timeBRUTE: 0.022435s
+NN-1 Index: 17
+distanceLSH: 1660.32
+distanceBRUTE: 1524.47
+NN-2 Index: 153
+distanceLSH: 1842.56
+distanceBRUTE: 1534.28
+Radius: 0
+===
+Query: 539
+timeLSH: 0.00465s
+timeBRUTE: 0.03049s
+NN-1 Index: 693
+distanceLSH: 2113.54
+distanceBRUTE: 1664.97
+NN-2 Index: 107
+distanceLSH: 2213.13
+distanceBRUTE: 1694.86
+Radius: 0
+===
+Query: 540
+timeLSH: 0.005307s
+timeBRUTE: 0.025522s
+NN-1 Index: 768
+distanceLSH: 1878.41
+distanceBRUTE: 1718.48
+NN-2 Index: 356
+distanceLSH: 2070.02
+distanceBRUTE: 1782.54
+Radius: 0
+===
+Query: 541
+timeLSH: 0.005622s
+timeBRUTE: 0.028761s
+NN-1 Index: 194
+distanceLSH: 1407.39
+distanceBRUTE: 1257.92
+NN-2 Index: 988
+distanceLSH: 1655.52
+distanceBRUTE: 1407.39
+Radius: 0
+===
+Query: 542
+timeLSH: 0.004907s
+timeBRUTE: 0.0288s
+NN-1 Index: 124
+distanceLSH: 1594.46
+distanceBRUTE: 1549.8
+NN-2 Index: 276
+distanceLSH: 1650.07
+distanceBRUTE: 1556.16
+Radius: 0
+===
+Query: 543
+timeLSH: 0.00772s
+timeBRUTE: 0.039019s
+NN-1 Index: 576
+distanceLSH: 1894.66
+distanceBRUTE: 1838.77
+NN-2 Index: 26
+distanceLSH: 1934.77
+distanceBRUTE: 1894.66
+Radius: 0
+===
+Query: 544
+timeLSH: 0.004906s
+timeBRUTE: 0.029717s
+NN-1 Index: 692
+distanceLSH: 1611.5
+distanceBRUTE: 1544.64
+NN-2 Index: 608
+distanceLSH: 1611.98
+distanceBRUTE: 1611.5
+Radius: 0
+===
+Query: 545
+timeLSH: 0.006512s
+timeBRUTE: 0.031756s
+NN-1 Index: 844
+distanceLSH: 1909.27
+distanceBRUTE: 1559.27
+NN-2 Index: 118
+distanceLSH: 1973.78
+distanceBRUTE: 1603.43
+Radius: 0
+===
+Query: 546
+timeLSH: 0.006222s
+timeBRUTE: 0.032182s
+NN-1 Index: 56
+distanceLSH: 1894.91
+distanceBRUTE: 1626.8
+NN-2 Index: 612
+distanceLSH: 1994.99
+distanceBRUTE: 1639.24
+Radius: 0
+===
+Query: 547
+timeLSH: 0.00568s
+timeBRUTE: 0.029534s
+NN-1 Index: 197
+distanceLSH: 1970.28
+distanceBRUTE: 1671.67
+NN-2 Index: 503
+distanceLSH: 1975.91
+distanceBRUTE: 1697.97
+Radius: 0
+===
+Query: 548
+timeLSH: 0.006907s
+timeBRUTE: 0.022429s
+NN-1 Index: 771
+distanceLSH: 1762.82
+distanceBRUTE: 1555.28
+NN-2 Index: 775
+distanceLSH: 1822.19
+distanceBRUTE: 1623.78
+Radius: 0
+===
+Query: 549
+timeLSH: 0.007271s
+timeBRUTE: 0.029333s
+NN-1 Index: 504
+distanceLSH: 2500.41
+distanceBRUTE: 1900.64
+NN-2 Index: 902
+distanceLSH: 2522.72
+distanceBRUTE: 2144.71
+Radius: 0
+===
+Query: 550
+timeLSH: 0.006048s
+timeBRUTE: 0.027248s
+NN-1 Index: 888
+distanceLSH: 1323.4
+distanceBRUTE: 1132.19
+NN-2 Index: 285
+distanceLSH: 1465.88
+distanceBRUTE: 1316.18
+Radius: 0
+===
+Query: 551
+timeLSH: 0.00599s
+timeBRUTE: 0.032809s
+NN-1 Index: 678
+distanceLSH: 1516.15
+distanceBRUTE: 1495.42
+NN-2 Index: 408
+distanceLSH: 1572.38
+distanceBRUTE: 1508.03
+Radius: 0
+===
+Query: 552
+timeLSH: 0.006028s
+timeBRUTE: 0.035751s
+NN-1 Index: 39
+distanceLSH: 2026.75
+distanceBRUTE: 1724.71
+NN-2 Index: 656
+distanceLSH: 2068.86
+distanceBRUTE: 1731.49
+Radius: 0
+===
+Query: 553
+timeLSH: 0.007692s
+timeBRUTE: 0.034445s
+NN-1 Index: 916
+distanceLSH: 2195.86
+distanceBRUTE: 2025.71
+NN-2 Index: 238
+distanceLSH: 2222.98
+distanceBRUTE: 2053.03
+Radius: 0
+===
+Query: 554
+timeLSH: 0.007641s
+timeBRUTE: 0.034601s
+NN-1 Index: 518
+distanceLSH: 1745.65
+distanceBRUTE: 1548.8
+NN-2 Index: 301
+distanceLSH: 1804.28
+distanceBRUTE: 1585.9
+Radius: 0
+===
+Query: 555
+timeLSH: 0.006858s
+timeBRUTE: 0.033722s
+NN-1 Index: 680
+distanceLSH: 1489.14
+distanceBRUTE: 1104.82
+NN-2 Index: 442
+distanceLSH: 1683.44
+distanceBRUTE: 1265.98
+Radius: 0
+===
+Query: 556
+timeLSH: 0.007685s
+timeBRUTE: 0.038354s
+NN-1 Index: 20
+distanceLSH: 1971.22
+distanceBRUTE: 1662.55
+NN-2 Index: 222
+distanceLSH: 2139.07
+distanceBRUTE: 1780.52
+Radius: 0
+===
+Query: 557
+timeLSH: 0.007061s
+timeBRUTE: 0.036545s
+NN-1 Index: 750
+distanceLSH: 1733
+distanceBRUTE: 1426.9
+NN-2 Index: 478
+distanceLSH: 1835.6
+distanceBRUTE: 1514.75
+Radius: 0
+===
+Query: 558
+timeLSH: 0.005816s
+timeBRUTE: 0.028855s
+NN-1 Index: 566
+distanceLSH: 1358.64
+distanceBRUTE: 1292.5
+NN-2 Index: 183
+distanceLSH: 1663.43
+distanceBRUTE: 1305.81
+Radius: 0
+===
+Query: 559
+timeLSH: 0.007092s
+timeBRUTE: 0.030707s
+NN-1 Index: 380
+distanceLSH: 2021.61
+distanceBRUTE: 1686.39
+NN-2 Index: 506
+distanceLSH: 2132.4
+distanceBRUTE: 1803.26
+Radius: 0
+===
+Query: 560
+timeLSH: 0.005521s
+timeBRUTE: 0.029306s
+NN-1 Index: 707
+distanceLSH: 1509.46
+distanceBRUTE: 1319.71
+NN-2 Index: 412
+distanceLSH: 1614.1
+distanceBRUTE: 1339.9
+Radius: 0
+===
+Query: 561
+timeLSH: 0.005705s
+timeBRUTE: 0.033575s
+NN-1 Index: 770
+distanceLSH: 2198.86
+distanceBRUTE: 1826.27
+NN-2 Index: 209
+distanceLSH: 2235.73
+distanceBRUTE: 1942.5
+Radius: 0
+===
+Query: 562
+timeLSH: 0.004291s
+timeBRUTE: 0.021002s
+NN-1 Index: 782
+distanceLSH: 1574.01
+distanceBRUTE: 1574.01
+Radius: 0
+===
+Query: 563
+timeLSH: 0.006757s
+timeBRUTE: 0.035873s
+NN-1 Index: 976
+distanceLSH: 1606.07
+distanceBRUTE: 1605.04
+Radius: 0
+===
+Query: 564
+timeLSH: 0.00844s
+timeBRUTE: 0.021249s
+NN-1 Index: 612
+distanceLSH: 1436.67
+distanceBRUTE: 1436.67
+NN-2 Index: 668
+distanceLSH: 1528.53
+distanceBRUTE: 1472.59
+Radius: 0
+===
+Query: 565
+timeLSH: 0.004578s
+timeBRUTE: 0.025059s
+NN-1 Index: 936
+distanceLSH: 1546.89
+distanceBRUTE: 1425.1
+NN-2 Index: 900
+distanceLSH: 1576.08
+distanceBRUTE: 1461.31
+Radius: 0
+===
+Query: 566
+timeLSH: 0.004697s
+timeBRUTE: 0.034798s
+NN-1 Index: 454
+distanceLSH: 1731.87
+distanceBRUTE: 1317.18
+NN-2 Index: 674
+distanceLSH: 1776.38
+distanceBRUTE: 1404.67
+Radius: 0
+===
+Query: 567
+timeLSH: 0.006552s
+timeBRUTE: 0.031405s
+NN-1 Index: 320
+distanceLSH: 1753.73
+distanceBRUTE: 1363.48
+NN-2 Index: 970
+distanceLSH: 1969.86
+distanceBRUTE: 1489.81
+Radius: 0
+===
+Query: 568
+timeLSH: 0.006701s
+timeBRUTE: 0.032864s
+NN-1 Index: 36
+distanceLSH: 1896.86
+distanceBRUTE: 1273.98
+NN-2 Index: 754
+distanceLSH: 1962.37
+distanceBRUTE: 1368.35
+Radius: 0
+===
+Query: 569
+timeLSH: 0.008885s
+timeBRUTE: 0.032563s
+NN-1 Index: 808
+distanceLSH: 2076.99
+distanceBRUTE: 1490.36
+NN-2 Index: 298
+distanceLSH: 2122.46
+distanceBRUTE: 1811.27
+Radius: 0
+===
+Query: 570
+timeLSH: 0.00701s
+timeBRUTE: 0.030666s
+NN-1 Index: 766
+distanceLSH: 2196.77
+distanceBRUTE: 1974.06
+NN-2 Index: 736
+distanceLSH: 2203.64
+distanceBRUTE: 1979.96
+Radius: 0
+===
+Query: 571
+timeLSH: 0.00671s
+timeBRUTE: 0.03006s
+NN-1 Index: 116
+distanceLSH: 1438.43
+distanceBRUTE: 1406.64
+NN-2 Index: 687
+distanceLSH: 1584.84
+distanceBRUTE: 1438.43
+Radius: 0
+===
+Query: 572
+timeLSH: 0.005408s
+timeBRUTE: 0.027213s
+NN-1 Index: 46
+distanceLSH: 1779.72
+distanceBRUTE: 1676
+NN-2 Index: 224
+distanceLSH: 1913.5
+distanceBRUTE: 1683.59
+Radius: 0
+===
+Query: 573
+timeLSH: 0.005005s
+timeBRUTE: 0.031248s
+NN-1 Index: 602
+distanceLSH: 1847.81
+distanceBRUTE: 1485.06
+Radius: 0
+===
+Query: 574
+timeLSH: 0.005483s
+timeBRUTE: 0.023231s
+NN-1 Index: 433
+distanceLSH: 1387.36
+distanceBRUTE: 1265.56
+NN-2 Index: 646
+distanceLSH: 1850.85
+distanceBRUTE: 1387.36
+Radius: 0
+===
+Query: 575
+timeLSH: 0.005009s
+timeBRUTE: 0.024411s
+NN-1 Index: 566
+distanceLSH: 1478.35
+distanceBRUTE: 1383.71
+NN-2 Index: 4
+distanceLSH: 1691.54
+distanceBRUTE: 1451.09
+Radius: 0
+===
+Query: 576
+timeLSH: 0.006837s
+timeBRUTE: 0.029412s
+NN-1 Index: 74
+distanceLSH: 1884.95
+distanceBRUTE: 1346.56
+NN-2 Index: 874
+distanceLSH: 1929.17
+distanceBRUTE: 1449.63
+Radius: 0
+===
+Query: 577
+timeLSH: 0.004273s
+timeBRUTE: 0.02303s
+NN-1 Index: 983
+distanceLSH: 1426.88
+distanceBRUTE: 1426.88
+NN-2 Index: 26
+distanceLSH: 1822.44
+distanceBRUTE: 1508.08
+Radius: 0
+===
+Query: 578
+timeLSH: 0.006416s
+timeBRUTE: 0.030193s
+NN-1 Index: 97
+distanceLSH: 1755.03
+distanceBRUTE: 1755.03
+NN-2 Index: 923
+distanceLSH: 1854.65
+distanceBRUTE: 1785.23
+Radius: 0
+===
+Query: 579
+timeLSH: 0.0061s
+timeBRUTE: 0.025512s
+NN-1 Index: 636
+distanceLSH: 1428.2
+distanceBRUTE: 1115.33
+NN-2 Index: 243
+distanceLSH: 1501.13
+distanceBRUTE: 1150.04
+Radius: 0
+===
+Query: 580
+timeLSH: 0.005162s
+timeBRUTE: 0.030766s
+NN-1 Index: 817
+distanceLSH: 1943.87
+distanceBRUTE: 1514.13
+NN-2 Index: 923
+distanceLSH: 1946.29
+distanceBRUTE: 1562.43
+Radius: 0
+===
+Query: 581
+timeLSH: 0.005479s
+timeBRUTE: 0.028954s
+NN-1 Index: 596
+distanceLSH: 1791.97
+distanceBRUTE: 1722.33
+NN-2 Index: 435
+distanceLSH: 1951.22
+distanceBRUTE: 1781.18
+Radius: 0
+===
+Query: 582
+timeLSH: 0.004801s
+timeBRUTE: 0.030237s
+NN-1 Index: 646
+distanceLSH: 1761.06
+distanceBRUTE: 1666.43
+NN-2 Index: 871
+distanceLSH: 1817.96
+distanceBRUTE: 1713.4
+Radius: 0
+===
+Query: 583
+timeLSH: 0.006687s
+timeBRUTE: 0.022532s
+NN-1 Index: 177
+distanceLSH: 2108.69
+distanceBRUTE: 1693.81
+NN-2 Index: 168
+distanceLSH: 2140.18
+distanceBRUTE: 1795.97
+Radius: 0
+===
+Query: 584
+timeLSH: 0.006267s
+timeBRUTE: 0.025137s
+NN-1 Index: 484
+distanceLSH: 1216.07
+distanceBRUTE: 889.803
+NN-2 Index: 808
+distanceLSH: 1442.93
+distanceBRUTE: 890.356
+Radius: 0
+===
+Query: 585
+timeLSH: 0.005274s
+timeBRUTE: 0.022801s
+NN-1 Index: 154
+distanceLSH: 1777.11
+distanceBRUTE: 1351.17
+NN-2 Index: 580
+distanceLSH: 1782.03
+distanceBRUTE: 1362.86
+Radius: 0
+===
+Query: 586
+timeLSH: 0.004372s
+timeBRUTE: 0.032185s
+NN-1 Index: 524
+distanceLSH: 1659.2
+distanceBRUTE: 1602.4
+NN-2 Index: 326
+distanceLSH: 1687.89
+distanceBRUTE: 1623.69
+Radius: 0
+===
+Query: 587
+timeLSH: 0.004342s
+timeBRUTE: 0.031584s
+NN-1 Index: 842
+distanceLSH: 2077.01
+distanceBRUTE: 1476.02
+NN-2 Index: 431
+distanceLSH: 2088.43
+distanceBRUTE: 1858.19
+Radius: 0
+===
+Query: 588
+timeLSH: 0.007405s
+timeBRUTE: 0.03239s
+NN-1 Index: 284
+distanceLSH: 1824.04
+distanceBRUTE: 1783.17
+NN-2 Index: 554
+distanceLSH: 1874.77
+distanceBRUTE: 1824.04
+Radius: 0
+===
+Query: 589
+timeLSH: 0.005211s
+timeBRUTE: 0.024739s
+NN-1 Index: 372
+distanceLSH: 1510.32
+distanceBRUTE: 1351.67
+NN-2 Index: 354
+distanceLSH: 1596.47
+distanceBRUTE: 1360.11
+Radius: 0
+===
+Query: 590
+timeLSH: 0.005791s
+timeBRUTE: 0.024613s
+NN-1 Index: 242
+distanceLSH: 1966.66
+distanceBRUTE: 1389.89
+NN-2 Index: 998
+distanceLSH: 2042.2
+distanceBRUTE: 1522.53
+Radius: 0
+===
+Query: 591
+timeLSH: 0.004939s
+timeBRUTE: 0.024495s
+NN-1 Index: 50
+distanceLSH: 1534.07
+distanceBRUTE: 1467.33
+NN-2 Index: 660
+distanceLSH: 1860.99
+distanceBRUTE: 1534.07
+Radius: 0
+===
+Query: 592
+timeLSH: 0.00533s
+timeBRUTE: 0.028539s
+NN-1 Index: 326
+distanceLSH: 1630.23
+distanceBRUTE: 1546.76
+NN-2 Index: 234
+distanceLSH: 1676.97
+distanceBRUTE: 1611.75
+Radius: 0
+===
+Query: 593
+timeLSH: 0.005155s
+timeBRUTE: 0.029637s
+NN-1 Index: 285
+distanceLSH: 1366.18
+distanceBRUTE: 1229.09
+NN-2 Index: 980
+distanceLSH: 1443.46
+distanceBRUTE: 1268.53
+Radius: 0
+===
+Query: 594
+timeLSH: 0.0061s
+timeBRUTE: 0.029461s
+NN-1 Index: 810
+distanceLSH: 1727.49
+distanceBRUTE: 1347.1
+NN-2 Index: 956
+distanceLSH: 1898.8
+distanceBRUTE: 1374.32
+Radius: 0
+===
+Query: 595
+timeLSH: 0.005173s
+timeBRUTE: 0.024767s
+NN-1 Index: 98
+distanceLSH: 1987.28
+distanceBRUTE: 1695.98
+NN-2 Index: 392
+distanceLSH: 2023.12
+distanceBRUTE: 1733.36
+Radius: 0
+===
+Query: 596
+timeLSH: 0.006391s
+timeBRUTE: 0.023869s
+NN-1 Index: 94
+distanceLSH: 1894.43
+distanceBRUTE: 1894.43
+Radius: 0
+===
+Query: 597
+timeLSH: 0.004725s
+timeBRUTE: 0.026712s
+NN-1 Index: 614
+distanceLSH: 2252.87
+distanceBRUTE: 2121.98
+NN-2 Index: 759
+distanceLSH: 2276.61
+distanceBRUTE: 2193.38
+Radius: 0
+===
+Query: 598
+timeLSH: 0.004277s
+timeBRUTE: 0.023165s
+NN-1 Index: 744
+distanceLSH: 1601.47
+distanceBRUTE: 1312.65
+NN-2 Index: 354
+distanceLSH: 1660.68
+distanceBRUTE: 1373.22
+Radius: 0
+===
+Query: 599
+timeLSH: 0.004967s
+timeBRUTE: 0.024987s
+NN-1 Index: 110
+distanceLSH: 1695.98
+distanceBRUTE: 1513.35
+Radius: 0
+===
+Query: 600
+timeLSH: 0.005276s
+timeBRUTE: 0.024368s
+NN-1 Index: 431
+distanceLSH: 1603.41
+distanceBRUTE: 1281.91
+NN-2 Index: 498
+distanceLSH: 1702.32
+distanceBRUTE: 1477.95
+Radius: 0
+===
+Query: 601
+timeLSH: 0.005272s
+timeBRUTE: 0.025655s
+NN-1 Index: 501
+distanceLSH: 1916.94
+distanceBRUTE: 1601.32
+NN-2 Index: 450
+distanceLSH: 1925.39
+distanceBRUTE: 1751.73
+Radius: 0
+===
+Query: 602
+timeLSH: 0.005228s
+timeBRUTE: 0.024931s
+NN-1 Index: 143
+distanceLSH: 2368.66
+distanceBRUTE: 1934.84
+NN-2 Index: 770
+distanceLSH: 2374.21
+distanceBRUTE: 2148.9
+Radius: 0
+===
+Query: 603
+timeLSH: 0.0057s
+timeBRUTE: 0.031024s
+NN-1 Index: 285
+distanceLSH: 1935.58
+distanceBRUTE: 1649.54
+NN-2 Index: 304
+distanceLSH: 2026.95
+distanceBRUTE: 1726.65
+Radius: 0
+===
+Query: 604
+timeLSH: 0.004373s
+timeBRUTE: 0.02524s
+NN-1 Index: 480
+distanceLSH: 1811
+distanceBRUTE: 1759.31
+NN-2 Index: 540
+distanceLSH: 1909.07
+distanceBRUTE: 1784.99
+Radius: 0
+===
+Query: 605
+timeLSH: 0.00428s
+timeBRUTE: 0.025658s
+NN-1 Index: 99
+distanceLSH: 1477.02
+distanceBRUTE: 1290.06
+NN-2 Index: 573
+distanceLSH: 1477.04
+distanceBRUTE: 1417.13
+Radius: 0
+===
+Query: 606
+timeLSH: 0.00476s
+timeBRUTE: 0.025219s
+NN-1 Index: 130
+distanceLSH: 1808.65
+distanceBRUTE: 1808.65
+NN-2 Index: 225
+distanceLSH: 1972.89
+distanceBRUTE: 1834.78
+Radius: 0
+===
+Query: 607
+timeLSH: 0.007003s
+timeBRUTE: 0.025861s
+NN-1 Index: 73
+distanceLSH: 1924.33
+distanceBRUTE: 1292.71
+NN-2 Index: 442
+distanceLSH: 1985.03
+distanceBRUTE: 1498.63
+Radius: 0
+===
+Query: 608
+timeLSH: 0.006279s
+timeBRUTE: 0.02544s
+NN-1 Index: 524
+distanceLSH: 1664.08
+distanceBRUTE: 1664.08
+NN-2 Index: 246
+distanceLSH: 2292.02
+distanceBRUTE: 1665.7
+Radius: 0
+===
+Query: 609
+timeLSH: 0.005373s
+timeBRUTE: 0.022643s
+NN-1 Index: 646
+distanceLSH: 1515.74
+distanceBRUTE: 1515.74
+NN-2 Index: 507
+distanceLSH: 1851.76
+distanceBRUTE: 1620.16
+Radius: 0
+===
+Query: 610
+timeLSH: 0.00546s
+timeBRUTE: 0.027038s
+NN-1 Index: 401
+distanceLSH: 1844.91
+distanceBRUTE: 1841.87
+NN-2 Index: 741
+distanceLSH: 1894.44
+distanceBRUTE: 1844.91
+Radius: 0
+===
+Query: 611
+timeLSH: 0.005738s
+timeBRUTE: 0.022984s
+NN-1 Index: 668
+distanceLSH: 2022.25
+distanceBRUTE: 1954.55
+NN-2 Index: 458
+distanceLSH: 2032.41
+distanceBRUTE: 2006.98
+Radius: 0
+===
+Query: 612
+timeLSH: 0.005635s
+timeBRUTE: 0.025513s
+NN-1 Index: 252
+distanceLSH: 2251.7
+distanceBRUTE: 1578.83
+NN-2 Index: 39
+distanceLSH: 2420.48
+distanceBRUTE: 2148.83
+Radius: 0
+===
+Query: 613
+timeLSH: 0.0057s
+timeBRUTE: 0.022231s
+NN-1 Index: 611
+distanceLSH: 1460.42
+distanceBRUTE: 1451.43
+NN-2 Index: 941
+distanceLSH: 1581.48
+distanceBRUTE: 1460.42
+Radius: 0
+===
+Query: 614
+timeLSH: 0.00507s
+timeBRUTE: 0.023591s
+NN-1 Index: 454
+distanceLSH: 1404.29
+distanceBRUTE: 1230.15
+NN-2 Index: 638
+distanceLSH: 1496.3
+distanceBRUTE: 1320.36
+Radius: 0
+===
+Query: 615
+timeLSH: 0.004316s
+timeBRUTE: 0.026299s
+NN-1 Index: 783
+distanceLSH: 1013.58
+distanceBRUTE: 1011.8
+NN-2 Index: 951
+distanceLSH: 1111.95
+distanceBRUTE: 1013.58
+Radius: 0
+===
+Query: 616
+timeLSH: 0.005628s
+timeBRUTE: 0.021616s
+NN-1 Index: 412
+distanceLSH: 1812.48
+distanceBRUTE: 1554.71
+NN-2 Index: 600
+distanceLSH: 1885.23
+distanceBRUTE: 1571.14
+Radius: 0
+===
+Query: 617
+timeLSH: 0.006497s
+timeBRUTE: 0.023402s
+NN-1 Index: 898
+distanceLSH: 1880.65
+distanceBRUTE: 1554.7
+NN-2 Index: 518
+distanceLSH: 1969.8
+distanceBRUTE: 1738.59
+Radius: 0
+===
+Query: 618
+timeLSH: 0.005591s
+timeBRUTE: 0.02506s
+NN-1 Index: 748
+distanceLSH: 1955.24
+distanceBRUTE: 1807.68
+Radius: 0
+===
+Query: 619
+timeLSH: 0.006597s
+timeBRUTE: 0.025475s
+NN-1 Index: 358
+distanceLSH: 1925.96
+distanceBRUTE: 1615.37
+NN-2 Index: 720
+distanceLSH: 1951.15
+distanceBRUTE: 1733.07
+Radius: 0
+===
+Query: 620
+timeLSH: 0.004764s
+timeBRUTE: 0.025109s
+NN-1 Index: 662
+distanceLSH: 1762.73
+distanceBRUTE: 1656.71
+NN-2 Index: 192
+distanceLSH: 1882.86
+distanceBRUTE: 1667.88
+Radius: 0
+===
+Query: 621
+timeLSH: 0.006913s
+timeBRUTE: 0.024396s
+NN-1 Index: 708
+distanceLSH: 1495.1
+distanceBRUTE: 1495.1
+NN-2 Index: 976
+distanceLSH: 1649.85
+distanceBRUTE: 1549.77
+Radius: 0
+===
+Query: 622
+timeLSH: 0.006645s
+timeBRUTE: 0.026871s
+NN-1 Index: 442
+distanceLSH: 1638.92
+distanceBRUTE: 1426.77
+NN-2 Index: 800
+distanceLSH: 1647.79
+distanceBRUTE: 1536.36
+Radius: 0
+===
+Query: 623
+timeLSH: 0.005881s
+timeBRUTE: 0.02779s
+NN-1 Index: 401
+distanceLSH: 1263.79
+distanceBRUTE: 1263.79
+NN-2 Index: 852
+distanceLSH: 1344.18
+distanceBRUTE: 1284.67
+Radius: 0
+===
+Query: 624
+timeLSH: 0.005599s
+timeBRUTE: 0.022536s
+NN-1 Index: 397
+distanceLSH: 1362.68
+distanceBRUTE: 1132.31
+NN-2 Index: 59
+distanceLSH: 1416.4
+distanceBRUTE: 1215.88
+Radius: 0
+===
+Query: 625
+timeLSH: 0.005643s
+timeBRUTE: 0.02957s
+NN-1 Index: 323
+distanceLSH: 1908
+distanceBRUTE: 1799.14
+NN-2 Index: 944
+distanceLSH: 2188.54
+distanceBRUTE: 1846.85
+Radius: 0
+===
+Query: 626
+timeLSH: 0.005407s
+timeBRUTE: 0.026155s
+NN-1 Index: 819
+distanceLSH: 1363.59
+distanceBRUTE: 1004.32
+NN-2 Index: 654
+distanceLSH: 1689.73
+distanceBRUTE: 1116.19
+Radius: 0
+===
+Query: 627
+timeLSH: 0.005672s
+timeBRUTE: 0.025912s
+NN-1 Index: 267
+distanceLSH: 1719.08
+distanceBRUTE: 1493.26
+NN-2 Index: 240
+distanceLSH: 1755.36
+distanceBRUTE: 1541.16
+Radius: 0
+===
+Query: 628
+timeLSH: 0.006216s
+timeBRUTE: 0.029899s
+NN-1 Index: 876
+distanceLSH: 1975.56
+distanceBRUTE: 1645.54
+NN-2 Index: 532
+distanceLSH: 1986.56
+distanceBRUTE: 1710.41
+Radius: 0
+===
+Query: 629
+timeLSH: 0.006579s
+timeBRUTE: 0.028357s
+NN-1 Index: 463
+distanceLSH: 1975.2
+distanceBRUTE: 1849.53
+Radius: 0
+===
+Query: 630
+timeLSH: 0.005545s
+timeBRUTE: 0.030163s
+NN-1 Index: 344
+distanceLSH: 1376.99
+distanceBRUTE: 1376.99
+NN-2 Index: 264
+distanceLSH: 1691.05
+distanceBRUTE: 1416.82
+Radius: 0
+===
+Query: 631
+timeLSH: 0.005834s
+timeBRUTE: 0.023246s
+NN-1 Index: 972
+distanceLSH: 2128.46
+distanceBRUTE: 1956.39
+NN-2 Index: 631
+distanceLSH: 2354.66
+distanceBRUTE: 1962.58
+Radius: 0
+===
+Query: 632
+timeLSH: 0.005013s
+timeBRUTE: 0.023601s
+NN-1 Index: 684
+distanceLSH: 1824.85
+distanceBRUTE: 1635.49
+NN-2 Index: 477
+distanceLSH: 1953.67
+distanceBRUTE: 1824.85
+Radius: 0
+===
+Query: 633
+timeLSH: 0.00732s
+timeBRUTE: 0.026805s
+NN-1 Index: 78
+distanceLSH: 2001.97
+distanceBRUTE: 1850.05
+NN-2 Index: 99
+distanceLSH: 2026.42
+distanceBRUTE: 1907.67
+Radius: 0
+===
+Query: 634
+timeLSH: 0.00592s
+timeBRUTE: 0.032054s
+NN-1 Index: 322
+distanceLSH: 1648.15
+distanceBRUTE: 1503.74
+NN-2 Index: 848
+distanceLSH: 1860.47
+distanceBRUTE: 1648.15
+Radius: 0
+===
+Query: 635
+timeLSH: 0.005376s
+timeBRUTE: 0.02836s
+NN-1 Index: 783
+distanceLSH: 1529.04
+distanceBRUTE: 1464.72
+NN-2 Index: 779
+distanceLSH: 1534.9
+distanceBRUTE: 1478.03
+Radius: 0
+===
+Query: 636
+timeLSH: 0.005543s
+timeBRUTE: 0.028436s
+NN-1 Index: 562
+distanceLSH: 1408.04
+distanceBRUTE: 1395.1
+NN-2 Index: 904
+distanceLSH: 1786.44
+distanceBRUTE: 1408.04
+Radius: 0
+===
+Query: 637
+timeLSH: 0.004987s
+timeBRUTE: 0.032191s
+NN-1 Index: 198
+distanceLSH: 2039.41
+distanceBRUTE: 1734.47
+NN-2 Index: 316
+distanceLSH: 2096.3
+distanceBRUTE: 1779.75
+Radius: 0
+===
+Query: 638
+timeLSH: 0.005756s
+timeBRUTE: 0.026711s
+NN-1 Index: 103
+distanceLSH: 1977.54
+distanceBRUTE: 1863.66
+NN-2 Index: 42
+distanceLSH: 2017.56
+distanceBRUTE: 1880.69
+Radius: 0
+===
+Query: 639
+timeLSH: 0.005053s
+timeBRUTE: 0.031217s
+NN-1 Index: 806
+distanceLSH: 1532.57
+distanceBRUTE: 1367.65
+NN-2 Index: 4
+distanceLSH: 1542.21
+distanceBRUTE: 1408.99
+Radius: 0
+===
+Query: 640
+timeLSH: 0.00489s
+timeBRUTE: 0.022905s
+NN-1 Index: 6
+distanceLSH: 641.472
+distanceBRUTE: 641.472
+NN-2 Index: 720
+distanceLSH: 1351.97
+distanceBRUTE: 694.349
+Radius: 0
+===
+Query: 641
+timeLSH: 0.005834s
+timeBRUTE: 0.025805s
+NN-1 Index: 352
+distanceLSH: 1901.34
+distanceBRUTE: 1749.48
+NN-2 Index: 474
+distanceLSH: 1935.4
+distanceBRUTE: 1762.07
+Radius: 0
+===
+Query: 642
+timeLSH: 0.006538s
+timeBRUTE: 0.024452s
+NN-1 Index: 287
+distanceLSH: 2185.67
+distanceBRUTE: 1803.17
+NN-2 Index: 598
+distanceLSH: 2304.82
+distanceBRUTE: 1935.1
+Radius: 0
+===
+Query: 643
+timeLSH: 0.005756s
+timeBRUTE: 0.022804s
+NN-1 Index: 378
+distanceLSH: 1863.76
+distanceBRUTE: 1785.28
+Radius: 0
+===
+Query: 644
+timeLSH: 0.005067s
+timeBRUTE: 0.023342s
+NN-1 Index: 296
+distanceLSH: 1633.6
+distanceBRUTE: 1138.09
+Radius: 0
+===
+Query: 645
+timeLSH: 0.004778s
+timeBRUTE: 0.025005s
+NN-1 Index: 36
+distanceLSH: 1774.35
+distanceBRUTE: 1601.31
+NN-2 Index: 956
+distanceLSH: 1778.52
+distanceBRUTE: 1606.41
+Radius: 0
+===
+Query: 646
+timeLSH: 0.007174s
+timeBRUTE: 0.029007s
+NN-1 Index: 892
+distanceLSH: 1515.03
+distanceBRUTE: 1515.03
+NN-2 Index: 939
+distanceLSH: 1847.9
+distanceBRUTE: 1628.49
+Radius: 0
+===
+Query: 647
+timeLSH: 0.005633s
+timeBRUTE: 0.022498s
+NN-1 Index: 484
+distanceLSH: 1008.85
+distanceBRUTE: 671.761
+NN-2 Index: 200
+distanceLSH: 1045.31
+distanceBRUTE: 830.8
+Radius: 0
+===
+Query: 648
+timeLSH: 0.004946s
+timeBRUTE: 0.025656s
+NN-1 Index: 298
+distanceLSH: 1808.89
+distanceBRUTE: 1796.7
+NN-2 Index: 874
+distanceLSH: 2161.21
+distanceBRUTE: 1808.89
+Radius: 0
+===
+Query: 649
+timeLSH: 0.004461s
+timeBRUTE: 0.022935s
+NN-1 Index: 580
+distanceLSH: 1752.19
+distanceBRUTE: 1182.23
+Radius: 0
+===
+Query: 650
+timeLSH: 0.004665s
+timeBRUTE: 0.023246s
+NN-1 Index: 407
+distanceLSH: 1927.96
+distanceBRUTE: 1585.54
+NN-2 Index: 741
+distanceLSH: 1934.28
+distanceBRUTE: 1590.57
+Radius: 0
+===
+Query: 651
+timeLSH: 0.005953s
+timeBRUTE: 0.022822s
+NN-1 Index: 84
+distanceLSH: 1965.91
+distanceBRUTE: 1291.33
+NN-2 Index: 936
+distanceLSH: 2005.89
+distanceBRUTE: 1392.94
+Radius: 0
+===
+Query: 652
+timeLSH: 0.00517s
+timeBRUTE: 0.022132s
+NN-1 Index: 454
+distanceLSH: 924.179
+distanceBRUTE: 748.797
+NN-2 Index: 556
+distanceLSH: 1031.62
+distanceBRUTE: 789.385
+Radius: 0
+===
+Query: 653
+timeLSH: 0.006341s
+timeBRUTE: 0.025551s
+NN-1 Index: 884
+distanceLSH: 1940.05
+distanceBRUTE: 1635.78
+NN-2 Index: 366
+distanceLSH: 1946.5
+distanceBRUTE: 1804.89
+Radius: 0
+===
+Query: 654
+timeLSH: 0.004255s
+timeBRUTE: 0.023507s
+NN-1 Index: 284
+distanceLSH: 2283.1
+distanceBRUTE: 2263.21
+NN-2 Index: 158
+distanceLSH: 2469.53
+distanceBRUTE: 2283.1
+Radius: 0
+===
+Query: 655
+timeLSH: 0.005065s
+timeBRUTE: 0.023779s
+NN-1 Index: 7
+distanceLSH: 2325.17
+distanceBRUTE: 2137.87
+NN-2 Index: 817
+distanceLSH: 2352.15
+distanceBRUTE: 2154.35
+Radius: 0
+===
+Query: 656
+timeLSH: 0.005601s
+timeBRUTE: 0.026323s
+NN-1 Index: 88
+distanceLSH: 1789.75
+distanceBRUTE: 1586.39
+NN-2 Index: 229
+distanceLSH: 1806.8
+distanceBRUTE: 1655.05
+Radius: 0
+===
+Query: 657
+timeLSH: 0.004893s
+timeBRUTE: 0.024452s
+NN-1 Index: 298
+distanceLSH: 1577.59
+distanceBRUTE: 1577.59
+NN-2 Index: 12
+distanceLSH: 1674.38
+distanceBRUTE: 1650.55
+Radius: 0
+===
+Query: 658
+timeLSH: 0.005344s
+timeBRUTE: 0.027014s
+NN-1 Index: 883
+distanceLSH: 2079.81
+distanceBRUTE: 1597.33
+NN-2 Index: 297
+distanceLSH: 2162.82
+distanceBRUTE: 1891.57
+Radius: 0
+===
+Query: 659
+timeLSH: 0.005007s
+timeBRUTE: 0.02453s
+NN-1 Index: 556
+distanceLSH: 1817.76
+distanceBRUTE: 1718.83
+NN-2 Index: 824
+distanceLSH: 1906.86
+distanceBRUTE: 1760.34
+Radius: 0
+===
+Query: 660
+timeLSH: 0.005136s
+timeBRUTE: 0.024976s
+NN-1 Index: 217
+distanceLSH: 1338.3
+distanceBRUTE: 1112
+NN-2 Index: 289
+distanceLSH: 1379.33
+distanceBRUTE: 1338.3
+Radius: 0
+===
+Query: 661
+timeLSH: 0.005801s
+timeBRUTE: 0.025982s
+NN-1 Index: 496
+distanceLSH: 1860.5
+distanceBRUTE: 1359.5
+NN-2 Index: 584
+distanceLSH: 1886.71
+distanceBRUTE: 1658.54
+Radius: 0
+===
+Query: 662
+timeLSH: 0.005088s
+timeBRUTE: 0.022912s
+NN-1 Index: 374
+distanceLSH: 1640.19
+distanceBRUTE: 963.81
+Radius: 0
+===
+Query: 663
+timeLSH: 0.004155s
+timeBRUTE: 0.022414s
+NN-1 Index: 174
+distanceLSH: 1065.72
+distanceBRUTE: 663.892
+NN-2 Index: 618
+distanceLSH: 1088.46
+distanceBRUTE: 666.269
+Radius: 0
+===
+Query: 664
+timeLSH: 0.005272s
+timeBRUTE: 0.029956s
+NN-1 Index: 146
+distanceLSH: 1754.85
+distanceBRUTE: 1663.12
+NN-2 Index: 499
+distanceLSH: 1866.37
+distanceBRUTE: 1754.85
+Radius: 0
+===
+Query: 665
+timeLSH: 0.004995s
+timeBRUTE: 0.024378s
+NN-1 Index: 241
+distanceLSH: 2339.39
+distanceBRUTE: 1992.28
+NN-2 Index: 221
+distanceLSH: 2519.47
+distanceBRUTE: 2104.88
+Radius: 0
+===
+Query: 666
+timeLSH: 0.005641s
+timeBRUTE: 0.022157s
+NN-1 Index: 636
+distanceLSH: 1108
+distanceBRUTE: 772.9
+NN-2 Index: 42
+distanceLSH: 1181.04
+distanceBRUTE: 1103.43
+Radius: 0
+===
+Query: 667
+timeLSH: 0.004382s
+timeBRUTE: 0.022951s
+NN-1 Index: 310
+distanceLSH: 1254.71
+distanceBRUTE: 897.25
+NN-2 Index: 72
+distanceLSH: 1299.07
+distanceBRUTE: 1096.06
+Radius: 0
+===
+Query: 668
+timeLSH: 0.005778s
+timeBRUTE: 0.024441s
+NN-1 Index: 92
+distanceLSH: 1828.51
+distanceBRUTE: 1828.51
+NN-2 Index: 264
+distanceLSH: 1970.11
+distanceBRUTE: 1842.21
+Radius: 0
+===
+Query: 669
+timeLSH: 0.005168s
+timeBRUTE: 0.028633s
+NN-1 Index: 808
+distanceLSH: 1714.29
+distanceBRUTE: 1448.93
+NN-2 Index: 174
+distanceLSH: 1754.49
+distanceBRUTE: 1449.1
+Radius: 0
+===
+Query: 670
+timeLSH: 0.006354s
+timeBRUTE: 0.027012s
+NN-1 Index: 569
+distanceLSH: 1616.25
+distanceBRUTE: 1336.6
+NN-2 Index: 595
+distanceLSH: 1637.74
+distanceBRUTE: 1474.45
+Radius: 0
+===
+Query: 671
+timeLSH: 0.005271s
+timeBRUTE: 0.033221s
+NN-1 Index: 380
+distanceLSH: 2287.15
+distanceBRUTE: 1957.49
+NN-2 Index: 764
+distanceLSH: 2387.6
+distanceBRUTE: 2022.21
+Radius: 0
+===
+Query: 672
+timeLSH: 0.004763s
+timeBRUTE: 0.022518s
+NN-1 Index: 408
+distanceLSH: 723.11
+distanceBRUTE: 593.351
+NN-2 Index: 211
+distanceLSH: 904.88
+distanceBRUTE: 625.577
+Radius: 0
+===
+Query: 673
+timeLSH: 0.008146s
+timeBRUTE: 0.023578s
+NN-1 Index: 655
+distanceLSH: 1816.11
+distanceBRUTE: 1415.73
+NN-2 Index: 981
+distanceLSH: 1858.35
+distanceBRUTE: 1768.89
+Radius: 0
+===
+Query: 674
+timeLSH: 0.004739s
+timeBRUTE: 0.02823s
+NN-1 Index: 132
+distanceLSH: 1804.09
+distanceBRUTE: 1519.74
+NN-2 Index: 652
+distanceLSH: 1868.53
+distanceBRUTE: 1680.57
+Radius: 0
+===
+Query: 675
+timeLSH: 0.005508s
+timeBRUTE: 0.025548s
+NN-1 Index: 112
+distanceLSH: 682.961
+distanceBRUTE: 670.657
+NN-2 Index: 484
+distanceLSH: 759.001
+distanceBRUTE: 682.961
+Radius: 0
+===
+Query: 676
+timeLSH: 0.006979s
+timeBRUTE: 0.029644s
+NN-1 Index: 683
+distanceLSH: 1588.3
+distanceBRUTE: 1542.36
+NN-2 Index: 651
+distanceLSH: 1721.99
+distanceBRUTE: 1544.88
+Radius: 0
+===
+Query: 677
+timeLSH: 0.005778s
+timeBRUTE: 0.030753s
+NN-1 Index: 198
+distanceLSH: 2061.24
+distanceBRUTE: 2024.1
+NN-2 Index: 284
+distanceLSH: 2365.33
+distanceBRUTE: 2061.24
+Radius: 0
+===
+Query: 678
+timeLSH: 0.005464s
+timeBRUTE: 0.023175s
+NN-1 Index: 334
+distanceLSH: 1575.59
+distanceBRUTE: 1485.14
+NN-2 Index: 914
+distanceLSH: 1930.36
+distanceBRUTE: 1575.59
+Radius: 0
+===
+Query: 679
+timeLSH: 0.005624s
+timeBRUTE: 0.023748s
+NN-1 Index: 26
+distanceLSH: 1689.81
+distanceBRUTE: 1201.83
+NN-2 Index: 412
+distanceLSH: 1702.93
+distanceBRUTE: 1321.48
+Radius: 0
+===
+Query: 680
+timeLSH: 0.005249s
+timeBRUTE: 0.028528s
+NN-1 Index: 367
+distanceLSH: 2046.92
+distanceBRUTE: 1643.5
+NN-2 Index: 311
+distanceLSH: 2247.6
+distanceBRUTE: 1666.66
+Radius: 0
+===
+Query: 681
+timeLSH: 0.005976s
+timeBRUTE: 0.028043s
+NN-1 Index: 820
+distanceLSH: 1584.7
+distanceBRUTE: 1584.7
+NN-2 Index: 344
+distanceLSH: 1940.38
+distanceBRUTE: 1690.92
+Radius: 0
+===
+Query: 682
+timeLSH: 0.005469s
+timeBRUTE: 0.027765s
+NN-1 Index: 454
+distanceLSH: 774.178
+distanceBRUTE: 692.623
+NN-2 Index: 124
+distanceLSH: 1276.37
+distanceBRUTE: 698.957
+Radius: 0
+===
+Query: 683
+timeLSH: 0.005204s
+timeBRUTE: 0.023017s
+NN-1 Index: 132
+distanceLSH: 1544.43
+distanceBRUTE: 1403.65
+Radius: 0
+===
+Query: 684
+timeLSH: 0.005568s
+timeBRUTE: 0.029122s
+NN-1 Index: 808
+distanceLSH: 2189.41
+distanceBRUTE: 1888.94
+NN-2 Index: 38
+distanceLSH: 2231.23
+distanceBRUTE: 1945.88
+Radius: 0
+===
+Query: 685
+timeLSH: 0.00717s
+timeBRUTE: 0.034991s
+NN-1 Index: 499
+distanceLSH: 2017.71
+distanceBRUTE: 1817.86
+NN-2 Index: 555
+distanceLSH: 2021.97
+distanceBRUTE: 1825.69
+Radius: 0
+===
+Query: 686
+timeLSH: 0.006633s
+timeBRUTE: 0.033329s
+NN-1 Index: 356
+distanceLSH: 1568.2
+distanceBRUTE: 1454.93
+NN-2 Index: 76
+distanceLSH: 1937.61
+distanceBRUTE: 1507.05
+Radius: 0
+===
+Query: 687
+timeLSH: 0.007816s
+timeBRUTE: 0.036097s
+NN-1 Index: 588
+distanceLSH: 1898.11
+distanceBRUTE: 1548.27
+NN-2 Index: 502
+distanceLSH: 1901.15
+distanceBRUTE: 1680.36
+Radius: 0
+===
+Query: 688
+timeLSH: 0.008423s
+timeBRUTE: 0.037477s
+NN-1 Index: 302
+distanceLSH: 1710.79
+distanceBRUTE: 1366.6
+NN-2 Index: 147
+distanceLSH: 1802.69
+distanceBRUTE: 1418.44
+Radius: 0
+===
+Query: 689
+timeLSH: 0.006311s
+timeBRUTE: 0.03132s
+NN-1 Index: 900
+distanceLSH: 1386.04
+distanceBRUTE: 1260.82
+NN-2 Index: 786
+distanceLSH: 1408.23
+distanceBRUTE: 1349.34
+Radius: 0
+===
+Query: 690
+timeLSH: 0.007875s
+timeBRUTE: 0.032601s
+NN-1 Index: 365
+distanceLSH: 1735.29
+distanceBRUTE: 1735.29
+NN-2 Index: 339
+distanceLSH: 1963.41
+distanceBRUTE: 1893.99
+Radius: 0
+===
+Query: 691
+timeLSH: 0.007125s
+timeBRUTE: 0.034765s
+NN-1 Index: 424
+distanceLSH: 2129.45
+distanceBRUTE: 2058.97
+Radius: 0
+===
+Query: 692
+timeLSH: 0.007024s
+timeBRUTE: 0.038021s
+NN-1 Index: 900
+distanceLSH: 1940.39
+distanceBRUTE: 1823.86
+NN-2 Index: 40
+distanceLSH: 1950.9
+distanceBRUTE: 1827.24
+Radius: 0
+===
+Query: 693
+timeLSH: 0.005949s
+timeBRUTE: 0.032377s
+NN-1 Index: 348
+distanceLSH: 1680.63
+distanceBRUTE: 1599.98
+NN-2 Index: 137
+distanceLSH: 1871.03
+distanceBRUTE: 1680.63
+Radius: 0
+===
+Query: 694
+timeLSH: 0.006869s
+timeBRUTE: 0.03434s
+NN-1 Index: 769
+distanceLSH: 1911.74
+distanceBRUTE: 1827
+NN-2 Index: 791
+distanceLSH: 1958.55
+distanceBRUTE: 1873.92
+Radius: 0
+===
+Query: 695
+timeLSH: 0.007091s
+timeBRUTE: 0.030865s
+NN-1 Index: 276
+distanceLSH: 568.02
+distanceBRUTE: 568.02
+NN-2 Index: 466
+distanceLSH: 1001.13
+distanceBRUTE: 647.365
+Radius: 0
+===
+Query: 696
+timeLSH: 0.007826s
+timeBRUTE: 0.033464s
+NN-1 Index: 8
+distanceLSH: 862.917
+distanceBRUTE: 862.917
+NN-2 Index: 14
+distanceLSH: 1113.42
+distanceBRUTE: 871.009
+Radius: 0
+===
+Query: 697
+timeLSH: 0.006351s
+timeBRUTE: 0.031512s
+NN-1 Index: 369
+distanceLSH: 1666.33
+distanceBRUTE: 1187.46
+NN-2 Index: 402
+distanceLSH: 1703.15
+distanceBRUTE: 1346.13
+Radius: 0
+===
+Query: 698
+timeLSH: 0.006006s
+timeBRUTE: 0.025408s
+NN-1 Index: 877
+distanceLSH: 1803.21
+distanceBRUTE: 1690.57
+NN-2 Index: 402
+distanceLSH: 1970.7
+distanceBRUTE: 1803.21
+Radius: 0
+===
+Query: 699
+timeLSH: 0.006575s
+timeBRUTE: 0.032246s
+NN-1 Index: 176
+distanceLSH: 1780.97
+distanceBRUTE: 1406.98
+NN-2 Index: 304
+distanceLSH: 1785.54
+distanceBRUTE: 1547.42
+Radius: 0
+===
+Query: 700
+timeLSH: 0.005393s
+timeBRUTE: 0.029671s
+NN-1 Index: 978
+distanceLSH: 999.801
+distanceBRUTE: 846.926
+NN-2 Index: 248
+distanceLSH: 1018.41
+distanceBRUTE: 985.673
+Radius: 0
+===
+Query: 701
+timeLSH: 0.00646s
+timeBRUTE: 0.035995s
+NN-1 Index: 669
+distanceLSH: 1680.81
+distanceBRUTE: 1546.67
+NN-2 Index: 21
+distanceLSH: 1689.66
+distanceBRUTE: 1626.07
+Radius: 0
+===
+Query: 702
+timeLSH: 0.00577s
+timeBRUTE: 0.033818s
+NN-1 Index: 258
+distanceLSH: 1408.59
+distanceBRUTE: 1207.87
+NN-2 Index: 168
+distanceLSH: 1617.75
+distanceBRUTE: 1301.52
+Radius: 0
+===
+Query: 703
+timeLSH: 0.006903s
+timeBRUTE: 0.0339s
+NN-1 Index: 824
+distanceLSH: 1537.36
+distanceBRUTE: 1438.04
+NN-2 Index: 786
+distanceLSH: 1778.48
+distanceBRUTE: 1537.36
+Radius: 0
+===
+Query: 704
+timeLSH: 0.006311s
+timeBRUTE: 0.032398s
+NN-1 Index: 399
+distanceLSH: 2152.06
+distanceBRUTE: 1326.77
+NN-2 Index: 867
+distanceLSH: 2307.96
+distanceBRUTE: 1400.11
+Radius: 0
+===
+Query: 705
+timeLSH: 0.006114s
+timeBRUTE: 0.026463s
+NN-1 Index: 786
+distanceLSH: 1175.76
+distanceBRUTE: 1059.83
+NN-2 Index: 566
+distanceLSH: 1624.86
+distanceBRUTE: 1175.76
+Radius: 0
+===
+Query: 706
+timeLSH: 0.007607s
+timeBRUTE: 0.033432s
+NN-1 Index: 428
+distanceLSH: 1325.8
+distanceBRUTE: 1325.8
+NN-2 Index: 154
+distanceLSH: 1572.95
+distanceBRUTE: 1326.21
+Radius: 0
+===
+Query: 707
+timeLSH: 0.006564s
+timeBRUTE: 0.034449s
+NN-1 Index: 980
+distanceLSH: 1519.19
+distanceBRUTE: 1519.19
+NN-2 Index: 600
+distanceLSH: 1631.81
+distanceBRUTE: 1614.6
+Radius: 0
+===
+Query: 708
+timeLSH: 0.007569s
+timeBRUTE: 0.0335s
+NN-1 Index: 58
+distanceLSH: 1614.53
+distanceBRUTE: 1614.53
+NN-2 Index: 906
+distanceLSH: 1889.81
+distanceBRUTE: 1637.18
+Radius: 0
+===
+Query: 709
+timeLSH: 0.00612s
+timeBRUTE: 0.030604s
+NN-1 Index: 545
+distanceLSH: 1843.44
+distanceBRUTE: 1351.57
+NN-2 Index: 796
+distanceLSH: 1880.45
+distanceBRUTE: 1644.51
+Radius: 0
+===
+Query: 710
+timeLSH: 0.006909s
+timeBRUTE: 0.032027s
+NN-1 Index: 130
+distanceLSH: 2295.98
+distanceBRUTE: 1939.42
+NN-2 Index: 179
+distanceLSH: 2360.59
+distanceBRUTE: 1991
+Radius: 0
+===
+Query: 711
+timeLSH: 0.017057s
+timeBRUTE: 0.050671s
+NN-1 Index: 757
+distanceLSH: 2153.71
+distanceBRUTE: 1968.54
+NN-2 Index: 273
+distanceLSH: 2263.66
+distanceBRUTE: 2007.7
+Radius: 0
+===
+Query: 712
+timeLSH: 0.01006s
+timeBRUTE: 0.033741s
+NN-1 Index: 834
+distanceLSH: 1678.69
+distanceBRUTE: 1495.39
+NN-2 Index: 482
+distanceLSH: 1781.48
+distanceBRUTE: 1641.83
+Radius: 0
+===
+Query: 713
+timeLSH: 0.006353s
+timeBRUTE: 0.030862s
+NN-1 Index: 209
+distanceLSH: 2021.68
+distanceBRUTE: 1536.57
+NN-2 Index: 284
+distanceLSH: 2081.54
+distanceBRUTE: 1864.91
+Radius: 0
+===
+Query: 714
+timeLSH: 0.006682s
+timeBRUTE: 0.032052s
+NN-1 Index: 284
+distanceLSH: 1925.94
+distanceBRUTE: 1769.83
+NN-2 Index: 404
+distanceLSH: 2016.5
+distanceBRUTE: 1925.94
+Radius: 0
+===
+Query: 715
+timeLSH: 0.006213s
+timeBRUTE: 0.033209s
+NN-1 Index: 972
+distanceLSH: 2115.49
+distanceBRUTE: 1899.68
+NN-2 Index: 795
+distanceLSH: 2265.99
+distanceBRUTE: 2015.24
+Radius: 0
+===
+Query: 716
+timeLSH: 0.007027s
+timeBRUTE: 0.027319s
+NN-1 Index: 370
+distanceLSH: 1264.94
+distanceBRUTE: 994.401
+Radius: 0
+===
+Query: 717
+timeLSH: 0.007264s
+timeBRUTE: 0.03335s
+NN-1 Index: 850
+distanceLSH: 2128.6
+distanceBRUTE: 2039.11
+NN-2 Index: 658
+distanceLSH: 2219.26
+distanceBRUTE: 2128.6
+Radius: 0
+===
+Query: 718
+timeLSH: 0.005838s
+timeBRUTE: 0.023355s
+NN-1 Index: 376
+distanceLSH: 1867.98
+distanceBRUTE: 1619.17
+NN-2 Index: 227
+distanceLSH: 1960.9
+distanceBRUTE: 1694.53
+Radius: 0
+===
+Query: 719
+timeLSH: 0.006065s
+timeBRUTE: 0.023938s
+NN-1 Index: 222
+distanceLSH: 1827.74
+distanceBRUTE: 1827.74
+NN-2 Index: 164
+distanceLSH: 1846.37
+distanceBRUTE: 1846.37
+Radius: 0
+===
+Query: 720
+timeLSH: 0.007981s
+timeBRUTE: 0.031848s
+NN-1 Index: 970
+distanceLSH: 2064.35
+distanceBRUTE: 2064.35
+NN-2 Index: 594
+distanceLSH: 2352.43
+distanceBRUTE: 2152.62
+Radius: 0
+===
+Query: 721
+timeLSH: 0.006375s
+timeBRUTE: 0.033955s
+NN-1 Index: 68
+distanceLSH: 2110.83
+distanceBRUTE: 1677.76
+Radius: 0
+===
+Query: 722
+timeLSH: 0.005582s
+timeBRUTE: 0.024478s
+NN-1 Index: 194
+distanceLSH: 1744.58
+distanceBRUTE: 1466.97
+NN-2 Index: 237
+distanceLSH: 1863.27
+distanceBRUTE: 1527.91
+Radius: 0
+===
+Query: 723
+timeLSH: 0.005602s
+timeBRUTE: 0.022533s
+NN-1 Index: 232
+distanceLSH: 1731.41
+distanceBRUTE: 1597.54
+NN-2 Index: 106
+distanceLSH: 1867.39
+distanceBRUTE: 1731.41
+Radius: 0
+===
+Query: 724
+timeLSH: 0.006078s
+timeBRUTE: 0.028355s
+NN-1 Index: 32
+distanceLSH: 1292.11
+distanceBRUTE: 1230.44
+NN-2 Index: 412
+distanceLSH: 1756.35
+distanceBRUTE: 1292.11
+Radius: 0
+===
+Query: 725
+timeLSH: 0.004701s
+timeBRUTE: 0.026688s
+NN-1 Index: 290
+distanceLSH: 954.565
+distanceBRUTE: 459.022
+NN-2 Index: 710
+distanceLSH: 1215.09
+distanceBRUTE: 559.006
+Radius: 0
+===
+Query: 726
+timeLSH: 0.006343s
+timeBRUTE: 0.027029s
+NN-1 Index: 420
+distanceLSH: 1772.77
+distanceBRUTE: 1520.08
+NN-2 Index: 718
+distanceLSH: 1829.4
+distanceBRUTE: 1601.9
+Radius: 0
+===
+Query: 727
+timeLSH: 0.005411s
+timeBRUTE: 0.029522s
+NN-1 Index: 694
+distanceLSH: 1770.48
+distanceBRUTE: 1629.63
+NN-2 Index: 130
+distanceLSH: 1807.64
+distanceBRUTE: 1677.11
+Radius: 0
+===
+Query: 728
+timeLSH: 0.006086s
+timeBRUTE: 0.024331s
+NN-1 Index: 795
+distanceLSH: 1983.63
+distanceBRUTE: 1726.41
+NN-2 Index: 668
+distanceLSH: 2078.73
+distanceBRUTE: 1803.03
+Radius: 0
+===
+Query: 729
+timeLSH: 0.006625s
+timeBRUTE: 0.025228s
+NN-1 Index: 672
+distanceLSH: 1536.35
+distanceBRUTE: 1536.35
+NN-2 Index: 841
+distanceLSH: 1947.48
+distanceBRUTE: 1542.06
+Radius: 0
+===
+Query: 730
+timeLSH: 0.006503s
+timeBRUTE: 0.032244s
+NN-1 Index: 640
+distanceLSH: 1797.93
+distanceBRUTE: 1506.12
+NN-2 Index: 778
+distanceLSH: 1915.25
+distanceBRUTE: 1766.07
+Radius: 0
+===
+Query: 731
+timeLSH: 0.005087s
+timeBRUTE: 0.030052s
+NN-1 Index: 584
+distanceLSH: 2003.17
+distanceBRUTE: 1993.39
+NN-2 Index: 568
+distanceLSH: 2080.05
+distanceBRUTE: 2003.17
+Radius: 0
+===
+Query: 732
+timeLSH: 0.006361s
+timeBRUTE: 0.034936s
+NN-1 Index: 380
+distanceLSH: 2119.37
+distanceBRUTE: 1524.07
+NN-2 Index: 261
+distanceLSH: 2450.47
+distanceBRUTE: 1739.38
+Radius: 0
+===
+Query: 733
+timeLSH: 0.006814s
+timeBRUTE: 0.028455s
+NN-1 Index: 428
+distanceLSH: 1314.95
+distanceBRUTE: 1314.95
+NN-2 Index: 162
+distanceLSH: 1783.15
+distanceBRUTE: 1505.51
+Radius: 0
+===
+Query: 734
+timeLSH: 0.00791s
+timeBRUTE: 0.033706s
+NN-1 Index: 638
+distanceLSH: 1757.65
+distanceBRUTE: 1549.04
+NN-2 Index: 922
+distanceLSH: 1778.28
+distanceBRUTE: 1569.56
+Radius: 0
+===
+Query: 735
+timeLSH: 0.007662s
+timeBRUTE: 0.029118s
+NN-1 Index: 358
+distanceLSH: 976.012
+distanceBRUTE: 444.756
+NN-2 Index: 40
+distanceLSH: 1200.77
+distanceBRUTE: 558.641
+Radius: 0
+===
+Query: 736
+timeLSH: 0.006472s
+timeBRUTE: 0.028079s
+NN-1 Index: 58
+distanceLSH: 2112.94
+distanceBRUTE: 1575
+NN-2 Index: 461
+distanceLSH: 2534.88
+distanceBRUTE: 1893.48
+Radius: 0
+===
+Query: 737
+timeLSH: 0.004374s
+timeBRUTE: 0.028937s
+NN-1 Index: 323
+distanceLSH: 2114.9
+distanceBRUTE: 1583.69
+NN-2 Index: 494
+distanceLSH: 2531.64
+distanceBRUTE: 1898.54
+Radius: 0
+===
+Query: 738
+timeLSH: 0.005199s
+timeBRUTE: 0.028967s
+NN-1 Index: 508
+distanceLSH: 2119.25
+distanceBRUTE: 1926.62
+NN-2 Index: 3
+distanceLSH: 2195.52
+distanceBRUTE: 1996.48
+Radius: 0
+===
+Query: 739
+timeLSH: 0.006336s
+timeBRUTE: 0.028552s
+NN-1 Index: 832
+distanceLSH: 1462.25
+distanceBRUTE: 1213.34
+Radius: 0
+===
+Query: 740
+timeLSH: 0.00611s
+timeBRUTE: 0.027402s
+NN-1 Index: 812
+distanceLSH: 1635.84
+distanceBRUTE: 1498.27
+NN-2 Index: 170
+distanceLSH: 1720.49
+distanceBRUTE: 1510.29
+Radius: 0
+===
+Query: 741
+timeLSH: 0.007407s
+timeBRUTE: 0.031316s
+NN-1 Index: 611
+distanceLSH: 1700.57
+distanceBRUTE: 1418.77
+NN-2 Index: 728
+distanceLSH: 1855.01
+distanceBRUTE: 1700.57
+Radius: 0
+===
+Query: 742
+timeLSH: 0.006961s
+timeBRUTE: 0.02851s
+NN-1 Index: 435
+distanceLSH: 1607
+distanceBRUTE: 1607
+NN-2 Index: 119
+distanceLSH: 2061.37
+distanceBRUTE: 1712.95
+Radius: 0
+===
+Query: 743
+timeLSH: 0.006213s
+timeBRUTE: 0.028221s
+NN-1 Index: 396
+distanceLSH: 1817.96
+distanceBRUTE: 1294.56
+NN-2 Index: 66
+distanceLSH: 1870.29
+distanceBRUTE: 1401.91
+Radius: 0
+===
+Query: 744
+timeLSH: 0.006301s
+timeBRUTE: 0.023524s
+NN-1 Index: 548
+distanceLSH: 2123.28
+distanceBRUTE: 2008.24
+Radius: 0
+===
+Query: 745
+timeLSH: 0.004989s
+timeBRUTE: 0.023549s
+NN-1 Index: 105
+distanceLSH: 1142.93
+distanceBRUTE: 773.383
+NN-2 Index: 871
+distanceLSH: 1144.94
+distanceBRUTE: 824.608
+Radius: 0
+===
+Query: 746
+timeLSH: 0.006659s
+timeBRUTE: 0.02506s
+NN-1 Index: 750
+distanceLSH: 1265.58
+distanceBRUTE: 1265.58
+NN-2 Index: 96
+distanceLSH: 1514.01
+distanceBRUTE: 1297.65
+Radius: 0
+===
+Query: 747
+timeLSH: 0.005033s
+timeBRUTE: 0.022012s
+NN-1 Index: 726
+distanceLSH: 1925.1
+distanceBRUTE: 1584.05
+NN-2 Index: 532
+distanceLSH: 1997.36
+distanceBRUTE: 1653.85
+Radius: 0
+===
+Query: 748
+timeLSH: 0.005127s
+timeBRUTE: 0.025606s
+NN-1 Index: 434
+distanceLSH: 1863.27
+distanceBRUTE: 1698.76
+NN-2 Index: 436
+distanceLSH: 1893.25
+distanceBRUTE: 1714.01
+Radius: 0
+===
+Query: 749
+timeLSH: 0.006551s
+timeBRUTE: 0.028961s
+NN-1 Index: 408
+distanceLSH: 1016.14
+distanceBRUTE: 453.043
+NN-2 Index: 676
+distanceLSH: 1107.53
+distanceBRUTE: 573.509
+Radius: 0
+===
+Query: 750
+timeLSH: 0.005625s
+timeBRUTE: 0.025639s
+NN-1 Index: 910
+distanceLSH: 1794.23
+distanceBRUTE: 1286.11
+NN-2 Index: 458
+distanceLSH: 1829.53
+distanceBRUTE: 1638.71
+Radius: 0
+===
+Query: 751
+timeLSH: 0.005705s
+timeBRUTE: 0.023664s
+NN-1 Index: 895
+distanceLSH: 1619.64
+distanceBRUTE: 1619.64
+NN-2 Index: 554
+distanceLSH: 1621.6
+distanceBRUTE: 1621.6
+Radius: 0
+===
+Query: 752
+timeLSH: 0.006405s
+timeBRUTE: 0.026741s
+NN-1 Index: 806
+distanceLSH: 1643.06
+distanceBRUTE: 1389.75
+NN-2 Index: 402
+distanceLSH: 1851.58
+distanceBRUTE: 1488.33
+Radius: 0
+===
+Query: 753
+timeLSH: 0.005354s
+timeBRUTE: 0.02784s
+NN-1 Index: 479
+distanceLSH: 1784.3
+distanceBRUTE: 1413.25
+NN-2 Index: 490
+distanceLSH: 1868.31
+distanceBRUTE: 1699.82
+Radius: 0
+===
+Query: 754
+timeLSH: 0.007114s
+timeBRUTE: 0.028804s
+NN-1 Index: 276
+distanceLSH: 421.175
+distanceBRUTE: 421.175
+NN-2 Index: 838
+distanceLSH: 761.32
+distanceBRUTE: 567.631
+Radius: 0
+===
+Query: 755
+timeLSH: 0.006287s
+timeBRUTE: 0.033254s
+NN-1 Index: 978
+distanceLSH: 852.508
+distanceBRUTE: 514.536
+NN-2 Index: 102
+distanceLSH: 1002.53
+distanceBRUTE: 661.612
+Radius: 0
+===
+Query: 756
+timeLSH: 0.006627s
+timeBRUTE: 0.031929s
+NN-1 Index: 634
+distanceLSH: 1540.89
+distanceBRUTE: 1372.02
+NN-2 Index: 267
+distanceLSH: 1558.69
+distanceBRUTE: 1419.63
+Radius: 0
+===
+Query: 757
+timeLSH: 0.005319s
+timeBRUTE: 0.025388s
+NN-1 Index: 442
+distanceLSH: 1595.88
+distanceBRUTE: 1325.03
+NN-2 Index: 580
+distanceLSH: 1656.87
+distanceBRUTE: 1355.1
+Radius: 0
+===
+Query: 758
+timeLSH: 0.006856s
+timeBRUTE: 0.030311s
+NN-1 Index: 162
+distanceLSH: 1488.76
+distanceBRUTE: 1407.85
+NN-2 Index: 338
+distanceLSH: 1618.47
+distanceBRUTE: 1488.76
+Radius: 0
+===
+Query: 759
+timeLSH: 0.005484s
+timeBRUTE: 0.028111s
+NN-1 Index: 267
+distanceLSH: 1151.78
+distanceBRUTE: 955.713
+NN-2 Index: 280
+distanceLSH: 1532.39
+distanceBRUTE: 1106.32
+Radius: 0
+===
+Query: 760
+timeLSH: 0.004972s
+timeBRUTE: 0.027663s
+NN-1 Index: 482
+distanceLSH: 1525.09
+distanceBRUTE: 1254.92
+NN-2 Index: 413
+distanceLSH: 1559.49
+distanceBRUTE: 1368.56
+Radius: 0
+===
+Query: 761
+timeLSH: 0.006081s
+timeBRUTE: 0.026398s
+NN-1 Index: 800
+distanceLSH: 2051.61
+distanceBRUTE: 1766.17
+NN-2 Index: 685
+distanceLSH: 2096.54
+distanceBRUTE: 1862.5
+Radius: 0
+===
+Query: 762
+timeLSH: 0.004706s
+timeBRUTE: 0.024577s
+NN-1 Index: 380
+distanceLSH: 1953.27
+distanceBRUTE: 1705.41
+NN-2 Index: 164
+distanceLSH: 2065.24
+distanceBRUTE: 1935.42
+Radius: 0
+===
+Query: 763
+timeLSH: 0.005339s
+timeBRUTE: 0.031006s
+NN-1 Index: 526
+distanceLSH: 2331.08
+distanceBRUTE: 1912.9
+NN-2 Index: 688
+distanceLSH: 2422.19
+distanceBRUTE: 1993.39
+Radius: 0
+===
+Query: 764
+timeLSH: 0.006721s
+timeBRUTE: 0.03027s
+NN-1 Index: 530
+distanceLSH: 1813.46
+distanceBRUTE: 1800.93
+NN-2 Index: 493
+distanceLSH: 2046.62
+distanceBRUTE: 1813.46
+Radius: 0
+===
+Query: 765
+timeLSH: 0.005487s
+timeBRUTE: 0.022158s
+NN-1 Index: 162
+distanceLSH: 1599.94
+distanceBRUTE: 1016.45
+NN-2 Index: 275
+distanceLSH: 1681.24
+distanceBRUTE: 1150.73
+Radius: 0
+===
+Query: 766
+timeLSH: 0.006575s
+timeBRUTE: 0.023882s
+NN-1 Index: 532
+distanceLSH: 2298.53
+distanceBRUTE: 1966.57
+NN-2 Index: 474
+distanceLSH: 2320.21
+distanceBRUTE: 2095.42
+Radius: 0
+===
+Query: 767
+timeLSH: 0.005528s
+timeBRUTE: 0.022627s
+NN-1 Index: 538
+distanceLSH: 843.1
+distanceBRUTE: 735.486
+NN-2 Index: 455
+distanceLSH: 966.914
+distanceBRUTE: 843.1
+Radius: 0
+===
+Query: 768
+timeLSH: 0.006032s
+timeBRUTE: 0.02761s
+NN-1 Index: 678
+distanceLSH: 806.74
+distanceBRUTE: 619.447
+NN-2 Index: 556
+distanceLSH: 996.762
+distanceBRUTE: 726.151
+Radius: 0
+===
+Query: 769
+timeLSH: 0.004712s
+timeBRUTE: 0.022089s
+NN-1 Index: 62
+distanceLSH: 1544.99
+distanceBRUTE: 1424.48
+NN-2 Index: 430
+distanceLSH: 1631.16
+distanceBRUTE: 1434.53
+Radius: 0
+===
+Query: 770
+timeLSH: 0.005734s
+timeBRUTE: 0.027665s
+NN-1 Index: 257
+distanceLSH: 1664.71
+distanceBRUTE: 1546.36
+NN-2 Index: 369
+distanceLSH: 1688.35
+distanceBRUTE: 1563.66
+Radius: 0
+===
+Query: 771
+timeLSH: 0.005052s
+timeBRUTE: 0.023904s
+NN-1 Index: 786
+distanceLSH: 1771.95
+distanceBRUTE: 1613.19
+NN-2 Index: 686
+distanceLSH: 1905.45
+distanceBRUTE: 1632.64
+Radius: 0
+===
+Query: 772
+timeLSH: 0.00653s
+timeBRUTE: 0.030649s
+NN-1 Index: 454
+distanceLSH: 858.209
+distanceBRUTE: 734.466
+NN-2 Index: 710
+distanceLSH: 1133.91
+distanceBRUTE: 759.362
+Radius: 0
+===
+Query: 773
+timeLSH: 0.005528s
+timeBRUTE: 0.023119s
+NN-1 Index: 226
+distanceLSH: 1241.35
+distanceBRUTE: 1096.25
+NN-2 Index: 350
+distanceLSH: 1353.78
+distanceBRUTE: 1241.35
+Radius: 0
+===
+Query: 774
+timeLSH: 0.006028s
+timeBRUTE: 0.023902s
+NN-1 Index: 812
+distanceLSH: 1410.26
+distanceBRUTE: 1304.98
+NN-2 Index: 412
+distanceLSH: 1513.25
+distanceBRUTE: 1310.56
+Radius: 0
+===
+Query: 775
+timeLSH: 0.004233s
+timeBRUTE: 0.027005s
+NN-1 Index: 830
+distanceLSH: 1908.95
+distanceBRUTE: 1554.41
+NN-2 Index: 416
+distanceLSH: 2002.69
+distanceBRUTE: 1729.45
+Radius: 0
+===
+Query: 776
+timeLSH: 0.007404s
+timeBRUTE: 0.027633s
+NN-1 Index: 222
+distanceLSH: 2117.2
+distanceBRUTE: 1889.97
+NN-2 Index: 842
+distanceLSH: 2128.36
+distanceBRUTE: 1939.41
+Radius: 0
+===
+Query: 777
+timeLSH: 0.005346s
+timeBRUTE: 0.028322s
+NN-1 Index: 358
+distanceLSH: 1024.77
+distanceBRUTE: 740.095
+NN-2 Index: 738
+distanceLSH: 1398.59
+distanceBRUTE: 878.562
+Radius: 0
+===
+Query: 778
+timeLSH: 0.005185s
+timeBRUTE: 0.035503s
+NN-1 Index: 136
+distanceLSH: 2049.77
+distanceBRUTE: 1775.9
+Radius: 0
+===
+Query: 779
+timeLSH: 0.00635s
+timeBRUTE: 0.028888s
+NN-1 Index: 822
+distanceLSH: 1615.49
+distanceBRUTE: 1615.49
+NN-2 Index: 366
+distanceLSH: 1930.8
+distanceBRUTE: 1661.03
+Radius: 0
+===
+Query: 780
+timeLSH: 0.005913s
+timeBRUTE: 0.027334s
+NN-1 Index: 992
+distanceLSH: 2103.41
+distanceBRUTE: 2031.53
+NN-2 Index: 298
+distanceLSH: 2158.91
+distanceBRUTE: 2082.87
+Radius: 0
+===
+Query: 781
+timeLSH: 0.007628s
+timeBRUTE: 0.028818s
+NN-1 Index: 602
+distanceLSH: 1927.96
+distanceBRUTE: 1602.91
+NN-2 Index: 198
+distanceLSH: 1984.1
+distanceBRUTE: 1641.95
+Radius: 0
+===
+Query: 782
+timeLSH: 0.004197s
+timeBRUTE: 0.02473s
+NN-1 Index: 840
+distanceLSH: 2195.28
+distanceBRUTE: 1869.1
+NN-2 Index: 546
+distanceLSH: 2258.67
+distanceBRUTE: 1885.11
+Radius: 0
+===
+Query: 783
+timeLSH: 0.006929s
+timeBRUTE: 0.022415s
+NN-1 Index: 454
+distanceLSH: 599.276
+distanceBRUTE: 576.976
+NN-2 Index: 102
+distanceLSH: 824.184
+distanceBRUTE: 599.276
+Radius: 0
+===
+Query: 784
+timeLSH: 0.005682s
+timeBRUTE: 0.024695s
+NN-1 Index: 164
+distanceLSH: 1763.64
+distanceBRUTE: 1725.08
+Radius: 0
+===
+Query: 785
+timeLSH: 0.004536s
+timeBRUTE: 0.025869s
+NN-1 Index: 298
+distanceLSH: 1784.34
+distanceBRUTE: 1565.9
+NN-2 Index: 284
+distanceLSH: 1784.88
+distanceBRUTE: 1784.34
+Radius: 0
+===
+Query: 786
+timeLSH: 0.005686s
+timeBRUTE: 0.024592s
+NN-1 Index: 218
+distanceLSH: 1785.95
+distanceBRUTE: 1741.09
+NN-2 Index: 958
+distanceLSH: 1901.53
+distanceBRUTE: 1742.9
+Radius: 0
+===
+Query: 787
+timeLSH: 0.005399s
+timeBRUTE: 0.027911s
+NN-1 Index: 198
+distanceLSH: 2287.16
+distanceBRUTE: 2102.88
+NN-2 Index: 516
+distanceLSH: 2434.04
+distanceBRUTE: 2197.69
+Radius: 0
+===
+Query: 788
+timeLSH: 0.006944s
+timeBRUTE: 0.029523s
+NN-1 Index: 170
+distanceLSH: 1338.4
+distanceBRUTE: 957.289
+NN-2 Index: 362
+distanceLSH: 1349.41
+distanceBRUTE: 1033.37
+Radius: 0
+===
+Query: 789
+timeLSH: 0.006246s
+timeBRUTE: 0.025406s
+NN-1 Index: 778
+distanceLSH: 2012.06
+distanceBRUTE: 1328.73
+NN-2 Index: 566
+distanceLSH: 2024.1
+distanceBRUTE: 1597.64
+Radius: 0
+===
+Query: 790
+timeLSH: 0.005796s
+timeBRUTE: 0.023843s
+NN-1 Index: 211
+distanceLSH: 976.204
+distanceBRUTE: 772.774
+NN-2 Index: 556
+distanceLSH: 1002.32
+distanceBRUTE: 842.891
+Radius: 0
+===
+Query: 791
+timeLSH: 0.00572s
+timeBRUTE: 0.025568s
+NN-1 Index: 608
+distanceLSH: 1989.92
+distanceBRUTE: 1458.62
+NN-2 Index: 940
+distanceLSH: 2072.88
+distanceBRUTE: 1591.38
+Radius: 0
+===
+Query: 792
+timeLSH: 0.005521s
+timeBRUTE: 0.023597s
+NN-1 Index: 27
+distanceLSH: 2043.5
+distanceBRUTE: 2043.5
+NN-2 Index: 203
+distanceLSH: 2401.81
+distanceBRUTE: 2087.82
+Radius: 0
+===
+Query: 793
+timeLSH: 0.004473s
+timeBRUTE: 0.02619s
+NN-1 Index: 594
+distanceLSH: 1871.04
+distanceBRUTE: 1741.44
+NN-2 Index: 708
+distanceLSH: 1900.02
+distanceBRUTE: 1754.51
+Radius: 0
+===
+Query: 794
+timeLSH: 0.004478s
+timeBRUTE: 0.030882s
+NN-1 Index: 326
+distanceLSH: 1485.92
+distanceBRUTE: 1072.47
+NN-2 Index: 733
+distanceLSH: 1820.13
+distanceBRUTE: 1235.8
+Radius: 0
+===
+Query: 795
+timeLSH: 0.004044s
+timeBRUTE: 0.023846s
+NN-1 Index: 72
+distanceLSH: 1705.61
+distanceBRUTE: 1631.51
+NN-2 Index: 102
+distanceLSH: 1772.94
+distanceBRUTE: 1644
+Radius: 0
+===
+Query: 796
+timeLSH: 0.005904s
+timeBRUTE: 0.028888s
+NN-1 Index: 82
+distanceLSH: 2091.35
+distanceBRUTE: 1931.5
+NN-2 Index: 477
+distanceLSH: 2229.47
+distanceBRUTE: 2019.19
+Radius: 0
+===
+Query: 797
+timeLSH: 0.004786s
+timeBRUTE: 0.026341s
+NN-1 Index: 978
+distanceLSH: 1625.03
+distanceBRUTE: 1373.07
+NN-2 Index: 822
+distanceLSH: 1685.54
+distanceBRUTE: 1568.64
+Radius: 0
+===
+Query: 798
+timeLSH: 0.004751s
+timeBRUTE: 0.022746s
+NN-1 Index: 780
+distanceLSH: 1016.17
+distanceBRUTE: 793.916
+NN-2 Index: 8
+distanceLSH: 1194.04
+distanceBRUTE: 834.418
+Radius: 0
+===
+Query: 799
+timeLSH: 0.005571s
+timeBRUTE: 0.028011s
+NN-1 Index: 732
+distanceLSH: 2107.95
+distanceBRUTE: 1951.72
+Radius: 0
+===
+Query: 800
+timeLSH: 0.005743s
+timeBRUTE: 0.027983s
+NN-1 Index: 970
+distanceLSH: 1718.4
+distanceBRUTE: 1712.72
+NN-2 Index: 594
+distanceLSH: 1837.09
+distanceBRUTE: 1718.4
+Radius: 0
+===
+Query: 801
+timeLSH: 0.005716s
+timeBRUTE: 0.026283s
+NN-1 Index: 486
+distanceLSH: 2077.13
+distanceBRUTE: 1742.89
+NN-2 Index: 198
+distanceLSH: 2150.51
+distanceBRUTE: 1929.26
+Radius: 0
+===
+Query: 802
+timeLSH: 0.004899s
+timeBRUTE: 0.028523s
+NN-1 Index: 692
+distanceLSH: 1454.27
+distanceBRUTE: 1351.52
+NN-2 Index: 314
+distanceLSH: 1797.31
+distanceBRUTE: 1454.27
+Radius: 0
+===
+Query: 803
+timeLSH: 0.00501s
+timeBRUTE: 0.022918s
+NN-1 Index: 275
+distanceLSH: 1984.34
+distanceBRUTE: 1625.76
+NN-2 Index: 257
+distanceLSH: 2024.15
+distanceBRUTE: 1758.8
+Radius: 0
+===
+Query: 804
+timeLSH: 0.005003s
+timeBRUTE: 0.024365s
+NN-1 Index: 494
+distanceLSH: 2214.57
+distanceBRUTE: 1906.93
+NN-2 Index: 664
+distanceLSH: 2317.89
+distanceBRUTE: 2082.7
+Radius: 0
+===
+Query: 805
+timeLSH: 0.00494s
+timeBRUTE: 0.026253s
+NN-1 Index: 97
+distanceLSH: 1521.62
+distanceBRUTE: 1521.62
+NN-2 Index: 17
+distanceLSH: 1681.14
+distanceBRUTE: 1586.14
+Radius: 0
+===
+Query: 806
+timeLSH: 0.004992s
+timeBRUTE: 0.028449s
+NN-1 Index: 76
+distanceLSH: 1888.31
+distanceBRUTE: 1837.38
+NN-2 Index: 708
+distanceLSH: 1966.59
+distanceBRUTE: 1888.31
+Radius: 0
+===
+Query: 807
+timeLSH: 0.006022s
+timeBRUTE: 0.028955s
+NN-1 Index: 752
+distanceLSH: 1840.86
+distanceBRUTE: 1526.59
+NN-2 Index: 12
+distanceLSH: 1874.64
+distanceBRUTE: 1675.25
+Radius: 0
+===
+Query: 808
+timeLSH: 0.005313s
+timeBRUTE: 0.024713s
+NN-1 Index: 182
+distanceLSH: 1800.06
+distanceBRUTE: 1350.77
+NN-2 Index: 602
+distanceLSH: 1962.41
+distanceBRUTE: 1534.31
+Radius: 0
+===
+Query: 809
+timeLSH: 0.004233s
+timeBRUTE: 0.025158s
+NN-1 Index: 124
+distanceLSH: 866.887
+distanceBRUTE: 699.329
+NN-2 Index: 14
+distanceLSH: 905.727
+distanceBRUTE: 773.685
+Radius: 0
+===
+Query: 810
+timeLSH: 0.004943s
+timeBRUTE: 0.02515s
+NN-1 Index: 522
+distanceLSH: 1849.93
+distanceBRUTE: 1849.93
+NN-2 Index: 969
+distanceLSH: 2209.72
+distanceBRUTE: 1897.71
+Radius: 0
+===
+Query: 811
+timeLSH: 0.005243s
+timeBRUTE: 0.021421s
+NN-1 Index: 98
+distanceLSH: 1724.43
+distanceBRUTE: 1147.99
+NN-2 Index: 291
+distanceLSH: 1870.96
+distanceBRUTE: 1564.45
+Radius: 0
+===
+Query: 812
+timeLSH: 0.004718s
+timeBRUTE: 0.026107s
+NN-1 Index: 138
+distanceLSH: 1948.64
+distanceBRUTE: 1887.88
+NN-2 Index: 332
+distanceLSH: 1986.57
+distanceBRUTE: 1899.38
+Radius: 0
+===
+Query: 813
+timeLSH: 0.005634s
+timeBRUTE: 0.026804s
+NN-1 Index: 387
+distanceLSH: 1859.28
+distanceBRUTE: 1763.25
+NN-2 Index: 353
+distanceLSH: 1877.31
+distanceBRUTE: 1784.32
+Radius: 0
+===
+Query: 814
+timeLSH: 0.006728s
+timeBRUTE: 0.023801s
+NN-1 Index: 630
+distanceLSH: 1825.68
+distanceBRUTE: 1227.69
+NN-2 Index: 382
+distanceLSH: 1984.03
+distanceBRUTE: 1323.07
+Radius: 0
+===
+Query: 815
+timeLSH: 0.004324s
+timeBRUTE: 0.02445s
+NN-1 Index: 50
+distanceLSH: 1400.76
+distanceBRUTE: 1400.76
+NN-2 Index: 182
+distanceLSH: 1819.67
+distanceBRUTE: 1579.16
+Radius: 0
+===
+Query: 816
+timeLSH: 0.006215s
+timeBRUTE: 0.025949s
+NN-1 Index: 78
+distanceLSH: 1821.42
+distanceBRUTE: 1610.87
+NN-2 Index: 345
+distanceLSH: 1938.76
+distanceBRUTE: 1649.51
+Radius: 0
+===
+Query: 817
+timeLSH: 0.005163s
+timeBRUTE: 0.02403s
+NN-1 Index: 241
+distanceLSH: 1490.35
+distanceBRUTE: 1490.35
+NN-2 Index: 296
+distanceLSH: 2085.65
+distanceBRUTE: 1793.73
+Radius: 0
+===
+Query: 818
+timeLSH: 0.006065s
+timeBRUTE: 0.029912s
+NN-1 Index: 450
+distanceLSH: 1172.97
+distanceBRUTE: 743.251
+NN-2 Index: 556
+distanceLSH: 1233.64
+distanceBRUTE: 1126.14
+Radius: 0
+===
+Query: 819
+timeLSH: 0.005677s
+timeBRUTE: 0.028692s
+NN-1 Index: 992
+distanceLSH: 1933.32
+distanceBRUTE: 1696.89
+NN-2 Index: 452
+distanceLSH: 2079.54
+distanceBRUTE: 1797.1
+Radius: 0
+===
+Query: 820
+timeLSH: 0.004581s
+timeBRUTE: 0.023813s
+NN-1 Index: 151
+distanceLSH: 1748.27
+distanceBRUTE: 1454.82
+NN-2 Index: 816
+distanceLSH: 1751.68
+distanceBRUTE: 1634.08
+Radius: 0
+===
+Query: 821
+timeLSH: 0.004955s
+timeBRUTE: 0.024737s
+NN-1 Index: 118
+distanceLSH: 1796.54
+distanceBRUTE: 1655.68
+NN-2 Index: 210
+distanceLSH: 2022.94
+distanceBRUTE: 1684.28
+Radius: 0
+===
+Query: 822
+timeLSH: 0.004897s
+timeBRUTE: 0.023221s
+NN-1 Index: 446
+distanceLSH: 1925.33
+distanceBRUTE: 1296.37
+NN-2 Index: 371
+distanceLSH: 1954.45
+distanceBRUTE: 1380.81
+Radius: 0
+===
+Query: 823
+timeLSH: 0.005273s
+timeBRUTE: 0.026499s
+NN-1 Index: 949
+distanceLSH: 1970.97
+distanceBRUTE: 1690.35
+NN-2 Index: 381
+distanceLSH: 2016.89
+distanceBRUTE: 1935.56
+Radius: 0
+===
+Query: 824
+timeLSH: 0.004703s
+timeBRUTE: 0.021433s
+NN-1 Index: 674
+distanceLSH: 1167.42
+distanceBRUTE: 650.567
+NN-2 Index: 72
+distanceLSH: 1315.72
+distanceBRUTE: 819.968
+Radius: 0
+===
+Query: 825
+timeLSH: 0.004407s
+timeBRUTE: 0.023904s
+NN-1 Index: 724
+distanceLSH: 1382.38
+distanceBRUTE: 1272.48
+NN-2 Index: 750
+distanceLSH: 1487.35
+distanceBRUTE: 1310.96
+Radius: 0
+===
+Query: 826
+timeLSH: 0.005848s
+timeBRUTE: 0.025922s
+NN-1 Index: 572
+distanceLSH: 921.034
+distanceBRUTE: 594.787
+NN-2 Index: 780
+distanceLSH: 1173.26
+distanceBRUTE: 614.399
+Radius: 0
+===
+Query: 827
+timeLSH: 0.004831s
+timeBRUTE: 0.025663s
+NN-1 Index: 586
+distanceLSH: 1620.75
+distanceBRUTE: 1620.75
+Radius: 0
+===
+Query: 828
+timeLSH: 0.006072s
+timeBRUTE: 0.02529s
+NN-1 Index: 696
+distanceLSH: 1481.57
+distanceBRUTE: 1481.57
+NN-2 Index: 938
+distanceLSH: 1874.64
+distanceBRUTE: 1859.64
+Radius: 0
+===
+Query: 829
+timeLSH: 0.00678s
+timeBRUTE: 0.023488s
+NN-1 Index: 531
+distanceLSH: 1772.62
+distanceBRUTE: 1618.9
+NN-2 Index: 655
+distanceLSH: 2034.14
+distanceBRUTE: 1701.31
+Radius: 0
+===
+Query: 830
+timeLSH: 0.005328s
+timeBRUTE: 0.024822s
+NN-1 Index: 217
+distanceLSH: 1556.16
+distanceBRUTE: 1556.16
+Radius: 0
+===
+Query: 831
+timeLSH: 0.006404s
+timeBRUTE: 0.024113s
+NN-1 Index: 838
+distanceLSH: 740.468
+distanceBRUTE: 644.313
+NN-2 Index: 310
+distanceLSH: 775.738
+distanceBRUTE: 705.802
+Radius: 0
+===
+Query: 832
+timeLSH: 0.005786s
+timeBRUTE: 0.026042s
+NN-1 Index: 900
+distanceLSH: 1446.31
+distanceBRUTE: 1310.57
+NN-2 Index: 786
+distanceLSH: 1582.07
+distanceBRUTE: 1323.58
+Radius: 0
+===
+Query: 833
+timeLSH: 0.00524s
+timeBRUTE: 0.031375s
+NN-1 Index: 172
+distanceLSH: 1536.48
+distanceBRUTE: 1495.94
+NN-2 Index: 750
+distanceLSH: 1569.22
+distanceBRUTE: 1536.48
+Radius: 0
+===
+Query: 834
+timeLSH: 0.006342s
+timeBRUTE: 0.023481s
+NN-1 Index: 852
+distanceLSH: 1463.42
+distanceBRUTE: 1463.42
+NN-2 Index: 269
+distanceLSH: 1875.89
+distanceBRUTE: 1474.31
+Radius: 0
+===
+Query: 835
+timeLSH: 0.004716s
+timeBRUTE: 0.025141s
+NN-1 Index: 310
+distanceLSH: 1038.86
+distanceBRUTE: 388.507
+NN-2 Index: 72
+distanceLSH: 1122.94
+distanceBRUTE: 580.648
+Radius: 0
+===
+Query: 836
+timeLSH: 0.006052s
+timeBRUTE: 0.027869s
+NN-1 Index: 290
+distanceLSH: 873.112
+distanceBRUTE: 615.927
+NN-2 Index: 270
+distanceLSH: 1195.52
+distanceBRUTE: 663.709
+Radius: 0
+===
+Query: 837
+timeLSH: 0.004129s
+timeBRUTE: 0.023539s
+NN-1 Index: 646
+distanceLSH: 1550.68
+distanceBRUTE: 1550.68
+NN-2 Index: 309
+distanceLSH: 1682.31
+distanceBRUTE: 1568.81
+Radius: 0
+===
+Query: 838
+timeLSH: 0.004394s
+timeBRUTE: 0.023807s
+NN-1 Index: 264
+distanceLSH: 2021.55
+distanceBRUTE: 1513.94
+NN-2 Index: 2
+distanceLSH: 2029.13
+distanceBRUTE: 1693.12
+Radius: 0
+===
+Query: 839
+timeLSH: 0.00588s
+timeBRUTE: 0.028144s
+NN-1 Index: 225
+distanceLSH: 1914.45
+distanceBRUTE: 1749.99
+NN-2 Index: 805
+distanceLSH: 1923.22
+distanceBRUTE: 1816.12
+Radius: 0
+===
+Query: 840
+timeLSH: 0.005704s
+timeBRUTE: 0.029295s
+NN-1 Index: 105
+distanceLSH: 994.551
+distanceBRUTE: 859.412
+NN-2 Index: 290
+distanceLSH: 1174.48
+distanceBRUTE: 954.556
+Radius: 0
+===
+Query: 841
+timeLSH: 0.007416s
+timeBRUTE: 0.030586s
+NN-1 Index: 904
+distanceLSH: 2012.64
+distanceBRUTE: 1635.47
+NN-2 Index: 196
+distanceLSH: 2026.16
+distanceBRUTE: 1793.38
+Radius: 0
+===
+Query: 842
+timeLSH: 0.006841s
+timeBRUTE: 0.028141s
+NN-1 Index: 864
+distanceLSH: 1214.21
+distanceBRUTE: 1003.89
+NN-2 Index: 140
+distanceLSH: 1305.98
+distanceBRUTE: 1094.8
+Radius: 0
+===
+Query: 843
+timeLSH: 0.006076s
+timeBRUTE: 0.020931s
+NN-1 Index: 380
+distanceLSH: 1890.04
+distanceBRUTE: 1423.05
+NN-2 Index: 264
+distanceLSH: 1892.54
+distanceBRUTE: 1447.89
+Radius: 0
+===
+Query: 844
+timeLSH: 0.00455s
+timeBRUTE: 0.02829s
+NN-1 Index: 864
+distanceLSH: 1939.98
+distanceBRUTE: 1880.2
+NN-2 Index: 502
+distanceLSH: 1967.77
+distanceBRUTE: 1939.98
+Radius: 0
+===
+Query: 845
+timeLSH: 0.005381s
+timeBRUTE: 0.026676s
+NN-1 Index: 709
+distanceLSH: 1648.03
+distanceBRUTE: 1648.03
+NN-2 Index: 473
+distanceLSH: 2038.15
+distanceBRUTE: 1727.14
+Radius: 0
+===
+Query: 846
+timeLSH: 0.004851s
+timeBRUTE: 0.026816s
+NN-1 Index: 723
+distanceLSH: 1741.52
+distanceBRUTE: 1581.43
+NN-2 Index: 377
+distanceLSH: 1744.38
+distanceBRUTE: 1634.52
+Radius: 0
+===
+Query: 847
+timeLSH: 0.004754s
+timeBRUTE: 0.022455s
+NN-1 Index: 748
+distanceLSH: 1881.06
+distanceBRUTE: 1620.93
+NN-2 Index: 198
+distanceLSH: 1888.9
+distanceBRUTE: 1632.73
+Radius: 0
+===
+Query: 848
+timeLSH: 0.00469s
+timeBRUTE: 0.024835s
+NN-1 Index: 538
+distanceLSH: 724.345
+distanceBRUTE: 724.345
+NN-2 Index: 510
+distanceLSH: 815.697
+distanceBRUTE: 783.355
+Radius: 0
+===
+Query: 849
+timeLSH: 0.004864s
+timeBRUTE: 0.023012s
+NN-1 Index: 392
+distanceLSH: 1711.62
+distanceBRUTE: 1678.28
+NN-2 Index: 830
+distanceLSH: 1869.48
+distanceBRUTE: 1711.62
+Radius: 0
+===
+Query: 850
+timeLSH: 0.006997s
+timeBRUTE: 0.023204s
+NN-1 Index: 40
+distanceLSH: 801.655
+distanceBRUTE: 657.623
+NN-2 Index: 112
+distanceLSH: 981.931
+distanceBRUTE: 801.655
+Radius: 0
+===
+Query: 851
+timeLSH: 0.005925s
+timeBRUTE: 0.023161s
+NN-1 Index: 93
+distanceLSH: 1956.15
+distanceBRUTE: 1512.26
+NN-2 Index: 979
+distanceLSH: 2010.37
+distanceBRUTE: 1543.6
+Radius: 0
+===
+Query: 852
+timeLSH: 0.007915s
+timeBRUTE: 0.023882s
+NN-1 Index: 750
+distanceLSH: 1579.42
+distanceBRUTE: 1389.09
+NN-2 Index: 824
+distanceLSH: 1727.93
+distanceBRUTE: 1440.81
+Radius: 0
+===
+Query: 853
+timeLSH: 0.005305s
+timeBRUTE: 0.029992s
+NN-1 Index: 853
+distanceLSH: 1624.65
+distanceBRUTE: 1317.34
+NN-2 Index: 33
+distanceLSH: 1721.41
+distanceBRUTE: 1359.86
+Radius: 0
+===
+Query: 854
+timeLSH: 0.006667s
+timeBRUTE: 0.026985s
+NN-1 Index: 612
+distanceLSH: 1753.53
+distanceBRUTE: 1580.58
+NN-2 Index: 234
+distanceLSH: 1825.46
+distanceBRUTE: 1589.21
+Radius: 0
+===
+Query: 855
+timeLSH: 0.004646s
+timeBRUTE: 0.02358s
+NN-1 Index: 136
+distanceLSH: 1380.58
+distanceBRUTE: 1380.58
+Radius: 0
+===
+Query: 856
+timeLSH: 0.005823s
+timeBRUTE: 0.024012s
+NN-1 Index: 11
+distanceLSH: 2037.27
+distanceBRUTE: 1856.82
+NN-2 Index: 270
+distanceLSH: 2052.43
+distanceBRUTE: 1881.03
+Radius: 0
+===
+Query: 857
+timeLSH: 0.005633s
+timeBRUTE: 0.029977s
+NN-1 Index: 789
+distanceLSH: 1732.41
+distanceBRUTE: 1288.74
+NN-2 Index: 625
+distanceLSH: 1873.09
+distanceBRUTE: 1434.27
+Radius: 0
+===
+Query: 858
+timeLSH: 0.004449s
+timeBRUTE: 0.027591s
+NN-1 Index: 457
+distanceLSH: 1672.26
+distanceBRUTE: 1672.26
+NN-2 Index: 619
+distanceLSH: 1984.02
+distanceBRUTE: 1748.09
+Radius: 0
+===
+Query: 859
+timeLSH: 0.004585s
+timeBRUTE: 0.023617s
+NN-1 Index: 786
+distanceLSH: 1223.42
+distanceBRUTE: 1045.41
+NN-2 Index: 212
+distanceLSH: 1424.63
+distanceBRUTE: 1216.91
+Radius: 0
+===
+Query: 860
+timeLSH: 0.006621s
+timeBRUTE: 0.031232s
+NN-1 Index: 910
+distanceLSH: 2099.12
+distanceBRUTE: 1713.55
+NN-2 Index: 944
+distanceLSH: 2209.56
+distanceBRUTE: 1727.73
+Radius: 0
+===
+Query: 861
+timeLSH: 0.004855s
+timeBRUTE: 0.024989s
+NN-1 Index: 210
+distanceLSH: 1982.77
+distanceBRUTE: 1701.48
+NN-2 Index: 412
+distanceLSH: 2002.83
+distanceBRUTE: 1757.5
+Radius: 0
+===
+Query: 862
+timeLSH: 0.00489s
+timeBRUTE: 0.025029s
+NN-1 Index: 92
+distanceLSH: 1481.49
+distanceBRUTE: 1139.18
+NN-2 Index: 438
+distanceLSH: 1536.42
+distanceBRUTE: 1185.13
+Radius: 0
+===
+Query: 863
+timeLSH: 0.004134s
+timeBRUTE: 0.025381s
+NN-1 Index: 989
+distanceLSH: 1906.29
+distanceBRUTE: 1619.33
+NN-2 Index: 127
+distanceLSH: 1982.78
+distanceBRUTE: 1639.56
+Radius: 0
+===
+Query: 864
+timeLSH: 0.005335s
+timeBRUTE: 0.027617s
+NN-1 Index: 734
+distanceLSH: 2464.33
+distanceBRUTE: 1780.56
+NN-2 Index: 777
+distanceLSH: 2497.77
+distanceBRUTE: 1979.95
+Radius: 0
+===
+Query: 865
+timeLSH: 0.004505s
+timeBRUTE: 0.02615s
+NN-1 Index: 330
+distanceLSH: 1860.53
+distanceBRUTE: 1499
+NN-2 Index: 132
+distanceLSH: 1920.12
+distanceBRUTE: 1605.81
+Radius: 0
+===
+Query: 866
+timeLSH: 0.006372s
+timeBRUTE: 0.025235s
+NN-1 Index: 106
+distanceLSH: 1822.78
+distanceBRUTE: 1796.13
+NN-2 Index: 768
+distanceLSH: 1953.15
+distanceBRUTE: 1822.78
+Radius: 0
+===
+Query: 867
+timeLSH: 0.006105s
+timeBRUTE: 0.023854s
+NN-1 Index: 938
+distanceLSH: 1792.49
+distanceBRUTE: 1670.2
+NN-2 Index: 472
+distanceLSH: 1913.51
+distanceBRUTE: 1677.6
+Radius: 0
+===
+Query: 868
+timeLSH: 0.005048s
+timeBRUTE: 0.026018s
+NN-1 Index: 684
+distanceLSH: 1588.05
+distanceBRUTE: 1588.05
+NN-2 Index: 584
+distanceLSH: 1674.6
+distanceBRUTE: 1674.6
+Radius: 0
+===
+Query: 869
+timeLSH: 0.005142s
+timeBRUTE: 0.026893s
+NN-1 Index: 960
+distanceLSH: 2164.03
+distanceBRUTE: 1814.33
+NN-2 Index: 49
+distanceLSH: 2178.84
+distanceBRUTE: 1897.43
+Radius: 0
+===
+Query: 870
+timeLSH: 0.005817s
+timeBRUTE: 0.025319s
+NN-1 Index: 18
+distanceLSH: 1677.75
+distanceBRUTE: 1535.7
+NN-2 Index: 660
+distanceLSH: 1760.01
+distanceBRUTE: 1542.05
+Radius: 0
+===
+Query: 871
+timeLSH: 0.00542s
+timeBRUTE: 0.02539s
+NN-1 Index: 473
+distanceLSH: 1830.69
+distanceBRUTE: 1574.55
+Radius: 0
+===
+Query: 872
+timeLSH: 0.004311s
+timeBRUTE: 0.022048s
+NN-1 Index: 285
+distanceLSH: 1735.93
+distanceBRUTE: 1694.92
+NN-2 Index: 43
+distanceLSH: 1911.94
+distanceBRUTE: 1715.21
+Radius: 0
+===
+Query: 873
+timeLSH: 0.004302s
+timeBRUTE: 0.025931s
+NN-1 Index: 586
+distanceLSH: 1859.68
+distanceBRUTE: 1614.69
+NN-2 Index: 567
+distanceLSH: 2090.44
+distanceBRUTE: 1859.68
+Radius: 0
+===
+Query: 874
+timeLSH: 0.004541s
+timeBRUTE: 0.028629s
+NN-1 Index: 22
+distanceLSH: 1358.93
+distanceBRUTE: 1154.6
+NN-2 Index: 471
+distanceLSH: 1435.6
+distanceBRUTE: 1180.12
+Radius: 0
+===
+Query: 875
+timeLSH: 0.004818s
+timeBRUTE: 0.024958s
+NN-1 Index: 979
+distanceLSH: 1976.01
+distanceBRUTE: 1570.78
+NN-2 Index: 343
+distanceLSH: 2021.83
+distanceBRUTE: 1601.62
+Radius: 0
+===
+Query: 876
+timeLSH: 0.005933s
+timeBRUTE: 0.03371s
+NN-1 Index: 392
+distanceLSH: 2379.91
+distanceBRUTE: 2201.46
+NN-2 Index: 748
+distanceLSH: 2406.39
+distanceBRUTE: 2263.53
+Radius: 0
+===
+Query: 877
+timeLSH: 0.005976s
+timeBRUTE: 0.026718s
+NN-1 Index: 792
+distanceLSH: 2251.53
+distanceBRUTE: 1955.47
+NN-2 Index: 372
+distanceLSH: 2384.43
+distanceBRUTE: 2251.53
+Radius: 0
+===
+Query: 878
+timeLSH: 0.004732s
+timeBRUTE: 0.028816s
+NN-1 Index: 916
+distanceLSH: 2246.42
+distanceBRUTE: 1979.08
+NN-2 Index: 244
+distanceLSH: 2300.46
+distanceBRUTE: 2055.22
+Radius: 0
+===
+Query: 879
+timeLSH: 0.005067s
+timeBRUTE: 0.023674s
+NN-1 Index: 85
+distanceLSH: 1996.82
+distanceBRUTE: 1780.5
+NN-2 Index: 332
+distanceLSH: 2028.64
+distanceBRUTE: 1871.28
+Radius: 0
+===
+Query: 880
+timeLSH: 0.006104s
+timeBRUTE: 0.025085s
+NN-1 Index: 795
+distanceLSH: 1397.92
+distanceBRUTE: 992.554
+NN-2 Index: 624
+distanceLSH: 1515.65
+distanceBRUTE: 1383.64
+Radius: 0
+===
+Query: 881
+timeLSH: 0.006078s
+timeBRUTE: 0.029448s
+NN-1 Index: 58
+distanceLSH: 1923.04
+distanceBRUTE: 1669.43
+NN-2 Index: 974
+distanceLSH: 1950.29
+distanceBRUTE: 1774.47
+Radius: 0
+===
+Query: 882
+timeLSH: 0.004835s
+timeBRUTE: 0.026538s
+NN-1 Index: 728
+distanceLSH: 1449.65
+distanceBRUTE: 1334.63
+NN-2 Index: 353
+distanceLSH: 1709.6
+distanceBRUTE: 1335.44
+Radius: 0
+===
+Query: 883
+timeLSH: 0.004876s
+timeBRUTE: 0.024695s
+NN-1 Index: 50
+distanceLSH: 1641.72
+distanceBRUTE: 1613.74
+NN-2 Index: 330
+distanceLSH: 1759.89
+distanceBRUTE: 1641.72
+Radius: 0
+===
+Query: 884
+timeLSH: 0.004478s
+timeBRUTE: 0.025502s
+NN-1 Index: 80
+distanceLSH: 1558.77
+distanceBRUTE: 1401.2
+NN-2 Index: 192
+distanceLSH: 1931.36
+distanceBRUTE: 1558.77
+Radius: 0
+===
+Query: 885
+timeLSH: 0.005562s
+timeBRUTE: 0.02342s
+NN-1 Index: 204
+distanceLSH: 1560.28
+distanceBRUTE: 1560.28
+NN-2 Index: 401
+distanceLSH: 1842.66
+distanceBRUTE: 1571.9
+Radius: 0
+===
+Query: 886
+timeLSH: 0.005529s
+timeBRUTE: 0.029277s
+NN-1 Index: 323
+distanceLSH: 1786.98
+distanceBRUTE: 1708.58
+NN-2 Index: 238
+distanceLSH: 1827.59
+distanceBRUTE: 1786.98
+Radius: 0
+===
+Query: 887
+timeLSH: 0.005575s
+timeBRUTE: 0.025793s
+NN-1 Index: 856
+distanceLSH: 1600.71
+distanceBRUTE: 1571.69
+NN-2 Index: 49
+distanceLSH: 1688.28
+distanceBRUTE: 1600.71
+Radius: 0
+===
+Query: 888
+timeLSH: 0.00529s
+timeBRUTE: 0.024455s
+NN-1 Index: 657
+distanceLSH: 1913.34
+distanceBRUTE: 1800.26
+NN-2 Index: 568
+distanceLSH: 1947.66
+distanceBRUTE: 1832.37
+Radius: 0
+===
+Query: 889
+timeLSH: 0.004536s
+timeBRUTE: 0.026939s
+NN-1 Index: 112
+distanceLSH: 521.92
+distanceBRUTE: 521.92
+NN-2 Index: 484
+distanceLSH: 700.598
+distanceBRUTE: 535.961
+Radius: 0
+===
+Query: 890
+timeLSH: 0.004783s
+timeBRUTE: 0.025917s
+NN-1 Index: 956
+distanceLSH: 1706.57
+distanceBRUTE: 1706.57
+NN-2 Index: 396
+distanceLSH: 1766.04
+distanceBRUTE: 1738.52
+Radius: 0
+===
+Query: 891
+timeLSH: 0.004991s
+timeBRUTE: 0.027736s
+NN-1 Index: 205
+distanceLSH: 1839.08
+distanceBRUTE: 1335.82
+NN-2 Index: 919
+distanceLSH: 1839.7
+distanceBRUTE: 1477.75
+Radius: 0
+===
+Query: 892
+timeLSH: 0.00601s
+timeBRUTE: 0.023192s
+NN-1 Index: 530
+distanceLSH: 2006.54
+distanceBRUTE: 1694.52
+NN-2 Index: 252
+distanceLSH: 2244.66
+distanceBRUTE: 2006.54
+Radius: 0
+===
+Query: 893
+timeLSH: 0.005821s
+timeBRUTE: 0.026772s
+NN-1 Index: 608
+distanceLSH: 1561.39
+distanceBRUTE: 1548.84
+NN-2 Index: 460
+distanceLSH: 1759.02
+distanceBRUTE: 1561.39
+Radius: 0
+===
+Query: 894
+timeLSH: 0.005782s
+timeBRUTE: 0.025996s
+NN-1 Index: 12
+distanceLSH: 2431.11
+distanceBRUTE: 2143.64
+NN-2 Index: 244
+distanceLSH: 2474.57
+distanceBRUTE: 2227.03
+Radius: 0
+===
+Query: 895
+timeLSH: 0.00503s
+timeBRUTE: 0.023997s
+NN-1 Index: 582
+distanceLSH: 1567.13
+distanceBRUTE: 1567.13
+Radius: 0
+===
+Query: 896
+timeLSH: 0.005606s
+timeBRUTE: 0.0243s
+NN-1 Index: 367
+distanceLSH: 2248.12
+distanceBRUTE: 1695.63
+NN-2 Index: 253
+distanceLSH: 2293.59
+distanceBRUTE: 1866.88
+Radius: 0
+===
+Query: 897
+timeLSH: 0.004906s
+timeBRUTE: 0.025411s
+NN-1 Index: 960
+distanceLSH: 1747.92
+distanceBRUTE: 1747.92
+NN-2 Index: 912
+distanceLSH: 1889.88
+distanceBRUTE: 1874.46
+Radius: 0
+===
+Query: 898
+timeLSH: 0.004378s
+timeBRUTE: 0.024178s
+NN-1 Index: 884
+distanceLSH: 1520.19
+distanceBRUTE: 1406.07
+NN-2 Index: 290
+distanceLSH: 1678.32
+distanceBRUTE: 1520.19
+Radius: 0
+===
+Query: 899
+timeLSH: 0.005557s
+timeBRUTE: 0.031271s
+NN-1 Index: 136
+distanceLSH: 1963.99
+distanceBRUTE: 1865.25
+NN-2 Index: 298
+distanceLSH: 1980.6
+distanceBRUTE: 1917.4
+Radius: 0
+===
+Query: 900
+timeLSH: 0.005543s
+timeBRUTE: 0.025945s
+NN-1 Index: 398
+distanceLSH: 1203.9
+distanceBRUTE: 1151.49
+NN-2 Index: 454
+distanceLSH: 1220.83
+distanceBRUTE: 1203.9
+Radius: 0
+===
+Query: 901
+timeLSH: 0.005173s
+timeBRUTE: 0.025156s
+NN-1 Index: 2
+distanceLSH: 2054.41
+distanceBRUTE: 1501.86
+NN-2 Index: 158
+distanceLSH: 2081.31
+distanceBRUTE: 1542.6
+Radius: 0
+===
+Query: 902
+timeLSH: 0.005589s
+timeBRUTE: 0.026503s
+NN-1 Index: 576
+distanceLSH: 1123.92
+distanceBRUTE: 1123.92
+NN-2 Index: 304
+distanceLSH: 1547.31
+distanceBRUTE: 1413.46
+Radius: 0
+===
+Query: 903
+timeLSH: 0.005195s
+timeBRUTE: 0.022639s
+NN-1 Index: 944
+distanceLSH: 1842.79
+distanceBRUTE: 1783.51
+NN-2 Index: 431
+distanceLSH: 2232.92
+distanceBRUTE: 1842.79
+Radius: 0
+===
+Query: 904
+timeLSH: 0.005209s
+timeBRUTE: 0.024928s
+NN-1 Index: 108
+distanceLSH: 2083.33
+distanceBRUTE: 1903.15
+NN-2 Index: 210
+distanceLSH: 2333.98
+distanceBRUTE: 1939.02
+Radius: 0
+===
+Query: 905
+timeLSH: 0.006059s
+timeBRUTE: 0.02435s
+NN-1 Index: 432
+distanceLSH: 2260.53
+distanceBRUTE: 1738.5
+Radius: 0
+===
+Query: 906
+timeLSH: 0.006269s
+timeBRUTE: 0.026364s
+NN-1 Index: 812
+distanceLSH: 1692.9
+distanceBRUTE: 1393.77
+NN-2 Index: 460
+distanceLSH: 1757.75
+distanceBRUTE: 1634.78
+Radius: 0
+===
+Query: 907
+timeLSH: 0.006263s
+timeBRUTE: 0.024852s
+NN-1 Index: 309
+distanceLSH: 921.493
+distanceBRUTE: 654.679
+NN-2 Index: 77
+distanceLSH: 1265.76
+distanceBRUTE: 704.104
+Radius: 0
+===
+Query: 908
+timeLSH: 0.006689s
+timeBRUTE: 0.022355s
+NN-1 Index: 275
+distanceLSH: 1436.24
+distanceBRUTE: 1018.77
+NN-2 Index: 45
+distanceLSH: 1622.27
+distanceBRUTE: 1106.24
+Radius: 0
+===
+Query: 909
+timeLSH: 0.005131s
+timeBRUTE: 0.025502s
+NN-1 Index: 604
+distanceLSH: 2031.66
+distanceBRUTE: 1719.93
+NN-2 Index: 820
+distanceLSH: 2034.21
+distanceBRUTE: 1745.46
+Radius: 0
+===
+Query: 910
+timeLSH: 0.005344s
+timeBRUTE: 0.026284s
+NN-1 Index: 402
+distanceLSH: 1229.02
+distanceBRUTE: 1156.54
+NN-2 Index: 275
+distanceLSH: 1715
+distanceBRUTE: 1229.02
+Radius: 0
+===
+Query: 911
+timeLSH: 0.006641s
+timeBRUTE: 0.024997s
+NN-1 Index: 888
+distanceLSH: 1549.82
+distanceBRUTE: 1464.87
+NN-2 Index: 634
+distanceLSH: 1706.67
+distanceBRUTE: 1480.17
+Radius: 0
+===
+Query: 912
+timeLSH: 0.005125s
+timeBRUTE: 0.025636s
+NN-1 Index: 404
+distanceLSH: 1928.23
+distanceBRUTE: 1792.9
+Radius: 0
+===
+Query: 913
+timeLSH: 0.004465s
+timeBRUTE: 0.026649s
+NN-1 Index: 322
+distanceLSH: 1737.61
+distanceBRUTE: 1295.56
+NN-2 Index: 990
+distanceLSH: 2110.95
+distanceBRUTE: 1722.19
+Radius: 0
+===
+Query: 914
+timeLSH: 0.004152s
+timeBRUTE: 0.029283s
+NN-1 Index: 545
+distanceLSH: 1677.24
+distanceBRUTE: 1172.09
+NN-2 Index: 97
+distanceLSH: 1715.86
+distanceBRUTE: 1438.8
+Radius: 0
+===
+Query: 915
+timeLSH: 0.005158s
+timeBRUTE: 0.029789s
+NN-1 Index: 602
+distanceLSH: 1620.89
+distanceBRUTE: 1588.63
+NN-2 Index: 920
+distanceLSH: 1803.19
+distanceBRUTE: 1620.89
+Radius: 0
+===
+Query: 916
+timeLSH: 0.004471s
+timeBRUTE: 0.028753s
+NN-1 Index: 20
+distanceLSH: 2229.15
+distanceBRUTE: 2006.87
+NN-2 Index: 363
+distanceLSH: 2259.7
+distanceBRUTE: 2012.25
+Radius: 0
+===
+Query: 917
+timeLSH: 0.005105s
+timeBRUTE: 0.024852s
+NN-1 Index: 798
+distanceLSH: 1108.51
+distanceBRUTE: 1108.51
+NN-2 Index: 824
+distanceLSH: 1523.56
+distanceBRUTE: 1202.94
+Radius: 0
+===
+Query: 918
+timeLSH: 0.005854s
+timeBRUTE: 0.028873s
+NN-1 Index: 40
+distanceLSH: 1115.2
+distanceBRUTE: 657.385
+NN-2 Index: 406
+distanceLSH: 1417.54
+distanceBRUTE: 713.679
+Radius: 0
+===
+Query: 919
+timeLSH: 0.005285s
+timeBRUTE: 0.025312s
+NN-1 Index: 252
+distanceLSH: 1851.02
+distanceBRUTE: 1789.83
+NN-2 Index: 102
+distanceLSH: 1889.63
+distanceBRUTE: 1793.38
+Radius: 0
+===
+Query: 920
+timeLSH: 0.004835s
+timeBRUTE: 0.02409s
+NN-1 Index: 648
+distanceLSH: 1141.9
+distanceBRUTE: 609.839
+NN-2 Index: 290
+distanceLSH: 1269.85
+distanceBRUTE: 615.439
+Radius: 0
+===
+Query: 921
+timeLSH: 0.005572s
+timeBRUTE: 0.022229s
+NN-1 Index: 943
+distanceLSH: 2146.45
+distanceBRUTE: 1712.93
+NN-2 Index: 457
+distanceLSH: 2148.24
+distanceBRUTE: 1877.36
+Radius: 0
+===
+Query: 922
+timeLSH: 0.005217s
+timeBRUTE: 0.026887s
+NN-1 Index: 560
+distanceLSH: 1976.35
+distanceBRUTE: 1758.8
+NN-2 Index: 611
+distanceLSH: 1994.9
+distanceBRUTE: 1764.74
+Radius: 0
+===
+Query: 923
+timeLSH: 0.005371s
+timeBRUTE: 0.025261s
+NN-1 Index: 179
+distanceLSH: 2187.94
+distanceBRUTE: 1480.7
+NN-2 Index: 281
+distanceLSH: 2444.48
+distanceBRUTE: 1780.43
+Radius: 0
+===
+Query: 924
+timeLSH: 0.005605s
+timeBRUTE: 0.024997s
+NN-1 Index: 803
+distanceLSH: 1936.35
+distanceBRUTE: 1741.84
+NN-2 Index: 880
+distanceLSH: 1966.1
+distanceBRUTE: 1743.87
+Radius: 0
+===
+Query: 925
+timeLSH: 0.004892s
+timeBRUTE: 0.023401s
+NN-1 Index: 975
+distanceLSH: 1969.47
+distanceBRUTE: 1493.95
+NN-2 Index: 760
+distanceLSH: 2065.3
+distanceBRUTE: 1552.16
+Radius: 0
+===
+Query: 926
+timeLSH: 0.004568s
+timeBRUTE: 0.028055s
+NN-1 Index: 536
+distanceLSH: 2035.52
+distanceBRUTE: 1869.65
+NN-2 Index: 796
+distanceLSH: 2075.31
+distanceBRUTE: 1930.92
+Radius: 0
+===
+Query: 927
+timeLSH: 0.006549s
+timeBRUTE: 0.023433s
+NN-1 Index: 490
+distanceLSH: 1457.96
+distanceBRUTE: 1342.54
+NN-2 Index: 98
+distanceLSH: 1751.88
+distanceBRUTE: 1457.96
+Radius: 0
+===
+Query: 928
+timeLSH: 0.004625s
+timeBRUTE: 0.025404s
+NN-1 Index: 344
+distanceLSH: 1437.2
+distanceBRUTE: 1261.2
+NN-2 Index: 520
+distanceLSH: 1603.64
+distanceBRUTE: 1437.2
+Radius: 0
+===
+Query: 929
+timeLSH: 0.006268s
+timeBRUTE: 0.023616s
+NN-1 Index: 310
+distanceLSH: 732.596
+distanceBRUTE: 686.991
+NN-2 Index: 152
+distanceLSH: 1006.96
+distanceBRUTE: 694.746
+Radius: 0
+===
+Query: 930
+timeLSH: 0.004577s
+timeBRUTE: 0.028928s
+NN-1 Index: 231
+distanceLSH: 1746.57
+distanceBRUTE: 1538.29
+NN-2 Index: 918
+distanceLSH: 1768.35
+distanceBRUTE: 1550.66
+Radius: 0
+===
+Query: 931
+timeLSH: 0.005302s
+timeBRUTE: 0.02835s
+NN-1 Index: 226
+distanceLSH: 1565
+distanceBRUTE: 1344.45
+NN-2 Index: 786
+distanceLSH: 1664.71
+distanceBRUTE: 1445.88
+Radius: 0
+===
+Query: 932
+timeLSH: 0.00568s
+timeBRUTE: 0.025058s
+NN-1 Index: 249
+distanceLSH: 2058.53
+distanceBRUTE: 1825.46
+NN-2 Index: 984
+distanceLSH: 2439.17
+distanceBRUTE: 1913.5
+Radius: 0
+===
+Query: 933
+timeLSH: 0.005415s
+timeBRUTE: 0.029901s
+NN-1 Index: 490
+distanceLSH: 1660.11
+distanceBRUTE: 1660.11
+NN-2 Index: 50
+distanceLSH: 1665.03
+distanceBRUTE: 1665.03
+Radius: 0
+===
+Query: 934
+timeLSH: 0.0054s
+timeBRUTE: 0.026214s
+NN-1 Index: 748
+distanceLSH: 1968.83
+distanceBRUTE: 1807.84
+NN-2 Index: 110
+distanceLSH: 2110.99
+distanceBRUTE: 1839.92
+Radius: 0
+===
+Query: 935
+timeLSH: 0.005457s
+timeBRUTE: 0.024508s
+NN-1 Index: 921
+distanceLSH: 1993.11
+distanceBRUTE: 1859.72
+NN-2 Index: 185
+distanceLSH: 2007.23
+distanceBRUTE: 1873.97
+Radius: 0
+===
+Query: 936
+timeLSH: 0.004996s
+timeBRUTE: 0.026868s
+NN-1 Index: 810
+distanceLSH: 2089.22
+distanceBRUTE: 1764.92
+NN-2 Index: 748
+distanceLSH: 2137.42
+distanceBRUTE: 1861.65
+Radius: 0
+===
+Query: 937
+timeLSH: 0.006766s
+timeBRUTE: 0.030702s
+NN-1 Index: 944
+distanceLSH: 2491.72
+distanceBRUTE: 1958.86
+NN-2 Index: 194
+distanceLSH: 2714.83
+distanceBRUTE: 2093.27
+Radius: 0
+===
+Query: 938
+timeLSH: 0.005978s
+timeBRUTE: 0.027383s
+NN-1 Index: 404
+distanceLSH: 1764.47
+distanceBRUTE: 1764.47
+NN-2 Index: 284
+distanceLSH: 1920.29
+distanceBRUTE: 1797.4
+Radius: 0
+===
+Query: 939
+timeLSH: 0.004728s
+timeBRUTE: 0.02588s
+NN-1 Index: 296
+distanceLSH: 2185.67
+distanceBRUTE: 2096.39
+NN-2 Index: 371
+distanceLSH: 2292.84
+distanceBRUTE: 2129.32
+Radius: 0
+===
+Query: 940
+timeLSH: 0.00513s
+timeBRUTE: 0.026206s
+NN-1 Index: 672
+distanceLSH: 1536.34
+distanceBRUTE: 1293.61
+Radius: 0
+===
+Query: 941
+timeLSH: 0.004915s
+timeBRUTE: 0.024736s
+NN-1 Index: 962
+distanceLSH: 1507.5
+distanceBRUTE: 1018.35
+NN-2 Index: 773
+distanceLSH: 1579.6
+distanceBRUTE: 1081.65
+Radius: 0
+===
+Query: 942
+timeLSH: 0.004651s
+timeBRUTE: 0.022689s
+NN-1 Index: 536
+distanceLSH: 1607.19
+distanceBRUTE: 1500.19
+NN-2 Index: 218
+distanceLSH: 1764.9
+distanceBRUTE: 1563.29
+Radius: 0
+===
+Query: 943
+timeLSH: 0.00567s
+timeBRUTE: 0.027128s
+NN-1 Index: 999
+distanceLSH: 1333.28
+distanceBRUTE: 1333.28
+NN-2 Index: 939
+distanceLSH: 1466.75
+distanceBRUTE: 1466.75
+Radius: 0
+===
+Query: 944
+timeLSH: 0.004868s
+timeBRUTE: 0.026211s
+NN-1 Index: 618
+distanceLSH: 1791.55
+distanceBRUTE: 1691.66
+NN-2 Index: 556
+distanceLSH: 1903.31
+distanceBRUTE: 1728.56
+Radius: 0
+===
+Query: 945
+timeLSH: 0.006216s
+timeBRUTE: 0.031231s
+NN-1 Index: 840
+distanceLSH: 2218.17
+distanceBRUTE: 1701.56
+NN-2 Index: 809
+distanceLSH: 2280
+distanceBRUTE: 1750.53
+Radius: 0
+===
+Query: 946
+timeLSH: 0.005619s
+timeBRUTE: 0.027837s
+NN-1 Index: 824
+distanceLSH: 1400.17
+distanceBRUTE: 1240.17
+NN-2 Index: 162
+distanceLSH: 1550.02
+distanceBRUTE: 1296.57
+Radius: 0
+===
+Query: 947
+timeLSH: 0.005751s
+timeBRUTE: 0.024122s
+NN-1 Index: 116
+distanceLSH: 1927.02
+distanceBRUTE: 1412.17
+NN-2 Index: 687
+distanceLSH: 1953.42
+distanceBRUTE: 1579.42
+Radius: 0
+===
+Query: 948
+timeLSH: 0.005019s
+timeBRUTE: 0.026219s
+NN-1 Index: 398
+distanceLSH: 622.911
+distanceBRUTE: 583.657
+NN-2 Index: 678
+distanceLSH: 866.414
+distanceBRUTE: 622.911
+Radius: 0
+===
+Query: 949
+timeLSH: 0.005083s
+timeBRUTE: 0.025785s
+NN-1 Index: 710
+distanceLSH: 947.956
+distanceBRUTE: 568.157
+NN-2 Index: 978
+distanceLSH: 1060.05
+distanceBRUTE: 807.212
+Radius: 0
+===
+Query: 950
+timeLSH: 0.005028s
+timeBRUTE: 0.022662s
+NN-1 Index: 409
+distanceLSH: 1769.39
+distanceBRUTE: 1611.21
+NN-2 Index: 99
+distanceLSH: 1868.8
+distanceBRUTE: 1647.93
+Radius: 0
+===
+Query: 951
+timeLSH: 0.005582s
+timeBRUTE: 0.022103s
+NN-1 Index: 718
+distanceLSH: 1750.57
+distanceBRUTE: 1750.57
+Radius: 0
+===
+Query: 952
+timeLSH: 0.004468s
+timeBRUTE: 0.023446s
+NN-1 Index: 770
+distanceLSH: 1791.07
+distanceBRUTE: 1791.07
+NN-2 Index: 754
+distanceLSH: 2022.74
+distanceBRUTE: 1928.44
+Radius: 0
+===
+Query: 953
+timeLSH: 0.005961s
+timeBRUTE: 0.029137s
+NN-1 Index: 363
+distanceLSH: 1475.01
+distanceBRUTE: 915.819
+NN-2 Index: 364
+distanceLSH: 1492.43
+distanceBRUTE: 1355.26
+Radius: 0
+===
+Query: 954
+timeLSH: 0.007001s
+timeBRUTE: 0.024719s
+NN-1 Index: 374
+distanceLSH: 1449.57
+distanceBRUTE: 1267.35
+NN-2 Index: 600
+distanceLSH: 1726.07
+distanceBRUTE: 1305.57
+Radius: 0
+===
+Query: 955
+timeLSH: 0.004992s
+timeBRUTE: 0.023901s
+NN-1 Index: 39
+distanceLSH: 1931.86
+distanceBRUTE: 1512.81
+NN-2 Index: 594
+distanceLSH: 1937.87
+distanceBRUTE: 1639.72
+Radius: 0
+===
+Query: 956
+timeLSH: 0.005266s
+timeBRUTE: 0.023265s
+NN-1 Index: 200
+distanceLSH: 1767.48
+distanceBRUTE: 1613.75
+Radius: 0
+===
+Query: 957
+timeLSH: 0.005645s
+timeBRUTE: 0.022802s
+NN-1 Index: 890
+distanceLSH: 2095.56
+distanceBRUTE: 1966.04
+NN-2 Index: 332
+distanceLSH: 2104.23
+distanceBRUTE: 2036.58
+Radius: 0
+===
+Query: 958
+timeLSH: 0.005195s
+timeBRUTE: 0.021691s
+NN-1 Index: 736
+distanceLSH: 1880.74
+distanceBRUTE: 1404.03
+NN-2 Index: 182
+distanceLSH: 1915.28
+distanceBRUTE: 1556.52
+Radius: 0
+===
+Query: 959
+timeLSH: 0.004558s
+timeBRUTE: 0.022205s
+NN-1 Index: 48
+distanceLSH: 1581.88
+distanceBRUTE: 1581.88
+NN-2 Index: 502
+distanceLSH: 1707.7
+distanceBRUTE: 1680.42
+Radius: 0
+===
+Query: 960
+timeLSH: 0.005204s
+timeBRUTE: 0.028136s
+NN-1 Index: 310
+distanceLSH: 1558.76
+distanceBRUTE: 1313.88
+NN-2 Index: 67
+distanceLSH: 1624.2
+distanceBRUTE: 1407.25
+Radius: 0
+===
+Query: 961
+timeLSH: 0.005327s
+timeBRUTE: 0.027215s
+NN-1 Index: 41
+distanceLSH: 1283.51
+distanceBRUTE: 1283.51
+NN-2 Index: 94
+distanceLSH: 1392.24
+distanceBRUTE: 1388.72
+Radius: 0
+===
+Query: 962
+timeLSH: 0.006009s
+timeBRUTE: 0.024577s
+NN-1 Index: 566
+distanceLSH: 1348.89
+distanceBRUTE: 1153.2
+NN-2 Index: 744
+distanceLSH: 1542.24
+distanceBRUTE: 1309.5
+Radius: 0
+===
+Query: 963
+timeLSH: 0.004963s
+timeBRUTE: 0.025225s
+NN-1 Index: 174
+distanceLSH: 856.952
+distanceBRUTE: 622.656
+NN-2 Index: 310
+distanceLSH: 938.306
+distanceBRUTE: 676.654
+Radius: 0
+===
+Query: 964
+timeLSH: 0.004594s
+timeBRUTE: 0.022105s
+NN-1 Index: 290
+distanceLSH: 1095.37
+distanceBRUTE: 735.978
+NN-2 Index: 270
+distanceLSH: 1212.7
+distanceBRUTE: 801.233
+Radius: 0
+===
+Query: 965
+timeLSH: 0.004808s
+timeBRUTE: 0.022786s
+NN-1 Index: 860
+distanceLSH: 1797.77
+distanceBRUTE: 1742.98
+NN-2 Index: 679
+distanceLSH: 1923.25
+distanceBRUTE: 1762.77
+Radius: 0
+===
+Query: 966
+timeLSH: 0.005735s
+timeBRUTE: 0.023559s
+NN-1 Index: 285
+distanceLSH: 1346.73
+distanceBRUTE: 1161.94
+NN-2 Index: 307
+distanceLSH: 1365.62
+distanceBRUTE: 1174.9
+Radius: 0
+===
+Query: 967
+timeLSH: 0.004403s
+timeBRUTE: 0.024071s
+NN-1 Index: 366
+distanceLSH: 858.972
+distanceBRUTE: 664.688
+NN-2 Index: 648
+distanceLSH: 980.113
+distanceBRUTE: 700.951
+Radius: 0
+===
+Query: 968
+timeLSH: 0.005101s
+timeBRUTE: 0.021594s
+NN-1 Index: 812
+distanceLSH: 1723.45
+distanceBRUTE: 1315.73
+NN-2 Index: 834
+distanceLSH: 1802.2
+distanceBRUTE: 1637.22
+Radius: 0
+===
+Query: 969
+timeLSH: 0.004809s
+timeBRUTE: 0.024252s
+NN-1 Index: 272
+distanceLSH: 1667.78
+distanceBRUTE: 1667.78
+NN-2 Index: 754
+distanceLSH: 2004.58
+distanceBRUTE: 1806.07
+Radius: 0
+===
+Query: 970
+timeLSH: 0.004922s
+timeBRUTE: 0.024451s
+NN-1 Index: 344
+distanceLSH: 1847.64
+distanceBRUTE: 1656.21
+NN-2 Index: 768
+distanceLSH: 1971.4
+distanceBRUTE: 1697.21
+Radius: 0
+===
+Query: 971
+timeLSH: 0.007843s
+timeBRUTE: 0.024103s
+NN-1 Index: 92
+distanceLSH: 1625.11
+distanceBRUTE: 1494.53
+NN-2 Index: 820
+distanceLSH: 2126.2
+distanceBRUTE: 1549.38
+Radius: 0
+===
+Query: 972
+timeLSH: 0.005471s
+timeBRUTE: 0.022699s
+NN-1 Index: 156
+distanceLSH: 1726.14
+distanceBRUTE: 1640.8
+NN-2 Index: 489
+distanceLSH: 2199.23
+distanceBRUTE: 1726.14
+Radius: 0
+===
+Query: 973
+timeLSH: 0.005181s
+timeBRUTE: 0.027477s
+NN-1 Index: 986
+distanceLSH: 1908.93
+distanceBRUTE: 1908.93
+Radius: 0
+===
+Query: 974
+timeLSH: 0.004547s
+timeBRUTE: 0.022471s
+NN-1 Index: 76
+distanceLSH: 1751.87
+distanceBRUTE: 1751.87
+NN-2 Index: 252
+distanceLSH: 1845.31
+distanceBRUTE: 1819.18
+Radius: 0
+===
+Query: 975
+timeLSH: 0.005738s
+timeBRUTE: 0.024275s
+NN-1 Index: 866
+distanceLSH: 2238.3
+distanceBRUTE: 2019.75
+NN-2 Index: 50
+distanceLSH: 2243.18
+distanceBRUTE: 2052.68
+Radius: 0
+===
+Query: 976
+timeLSH: 0.006016s
+timeBRUTE: 0.025231s
+NN-1 Index: 726
+distanceLSH: 1778.17
+distanceBRUTE: 1537.07
+NN-2 Index: 588
+distanceLSH: 1831.56
+distanceBRUTE: 1548.18
+Radius: 0
+===
+Query: 977
+timeLSH: 0.006772s
+timeBRUTE: 0.027816s
+NN-1 Index: 77
+distanceLSH: 1375.25
+distanceBRUTE: 909.343
+Radius: 0
+===
+Query: 978
+timeLSH: 0.005826s
+timeBRUTE: 0.028135s
+NN-1 Index: 856
+distanceLSH: 2078.15
+distanceBRUTE: 1674.32
+NN-2 Index: 404
+distanceLSH: 2094.46
+distanceBRUTE: 1711.91
+Radius: 0
+===
+Query: 979
+timeLSH: 0.004752s
+timeBRUTE: 0.023919s
+NN-1 Index: 200
+distanceLSH: 729.3
+distanceBRUTE: 494.162
+NN-2 Index: 6
+distanceLSH: 967.586
+distanceBRUTE: 729.3
+Radius: 0
+===
+Query: 980
+timeLSH: 0.006693s
+timeBRUTE: 0.026277s
+NN-1 Index: 472
+distanceLSH: 2036.42
+distanceBRUTE: 1661.6
+NN-2 Index: 99
+distanceLSH: 2068.54
+distanceBRUTE: 1811.55
+Radius: 0
+===
+Query: 981
+timeLSH: 0.005241s
+timeBRUTE: 0.022405s
+NN-1 Index: 234
+distanceLSH: 1566.14
+distanceBRUTE: 1531.14
+NN-2 Index: 458
+distanceLSH: 1889.3
+distanceBRUTE: 1566.14
+Radius: 0
+===
+Query: 982
+timeLSH: 0.005465s
+timeBRUTE: 0.022913s
+NN-1 Index: 708
+distanceLSH: 1861.19
+distanceBRUTE: 1712.63
+NN-2 Index: 720
+distanceLSH: 1943.74
+distanceBRUTE: 1778.9
+Radius: 0
+===
+Query: 983
+timeLSH: 0.005342s
+timeBRUTE: 0.023883s
+NN-1 Index: 94
+distanceLSH: 1682.28
+distanceBRUTE: 1430.56
+NN-2 Index: 761
+distanceLSH: 1723.39
+distanceBRUTE: 1515.68
+Radius: 0
+===
+Query: 984
+timeLSH: 0.00616s
+timeBRUTE: 0.021144s
+NN-1 Index: 8
+distanceLSH: 826.525
+distanceBRUTE: 438.294
+NN-2 Index: 14
+distanceLSH: 1052.81
+distanceBRUTE: 623.109
+Radius: 0
+===
+Query: 985
+timeLSH: 0.005801s
+timeBRUTE: 0.026875s
+NN-1 Index: 946
+distanceLSH: 1910.56
+distanceBRUTE: 1910.56
+Radius: 0
+===
+Query: 986
+timeLSH: 0.004157s
+timeBRUTE: 0.030219s
+NN-1 Index: 36
+distanceLSH: 1659.67
+distanceBRUTE: 973.509
+NN-2 Index: 147
+distanceLSH: 1789.49
+distanceBRUTE: 1269.51
+Radius: 0
+===
+Query: 987
+timeLSH: 0.005195s
+timeBRUTE: 0.021594s
+NN-1 Index: 288
+distanceLSH: 1618.33
+distanceBRUTE: 1391.38
+NN-2 Index: 338
+distanceLSH: 1811.28
+distanceBRUTE: 1482.94
+Radius: 0
+===
+Query: 988
+timeLSH: 0.004511s
+timeBRUTE: 0.0215s
+NN-1 Index: 14
+distanceLSH: 862.78
+distanceBRUTE: 593.85
+NN-2 Index: 738
+distanceLSH: 1088.15
+distanceBRUTE: 789.003
+Radius: 0
+===
+Query: 989
+timeLSH: 0.007195s
+timeBRUTE: 0.02531s
+NN-1 Index: 762
+distanceLSH: 1794.38
+distanceBRUTE: 1654.42
+NN-2 Index: 395
+distanceLSH: 1838.61
+distanceBRUTE: 1744.06
+Radius: 0
+===
+Query: 990
+timeLSH: 0.006552s
+timeBRUTE: 0.023398s
+NN-1 Index: 140
+distanceLSH: 1855.18
+distanceBRUTE: 1820.19
+Radius: 0
+===
+Query: 991
+timeLSH: 0.005938s
+timeBRUTE: 0.021675s
+NN-1 Index: 459
+distanceLSH: 1948.48
+distanceBRUTE: 1948.48
+NN-2 Index: 740
+distanceLSH: 2335.33
+distanceBRUTE: 1952.23
+Radius: 0
+===
+Query: 992
+timeLSH: 0.004912s
+timeBRUTE: 0.021976s
+NN-1 Index: 566
+distanceLSH: 1740.42
+distanceBRUTE: 1517.47
+NN-2 Index: 350
+distanceLSH: 1752.83
+distanceBRUTE: 1534.33
+Radius: 0
+===
+Query: 993
+timeLSH: 0.005707s
+timeBRUTE: 0.023435s
+NN-1 Index: 169
+distanceLSH: 1839.05
+distanceBRUTE: 1538.95
+Radius: 0
+===
+Query: 994
+timeLSH: 0.005661s
+timeBRUTE: 0.023037s
+NN-1 Index: 394
+distanceLSH: 1567.94
+distanceBRUTE: 919.338
+NN-2 Index: 484
+distanceLSH: 1800.03
+distanceBRUTE: 1187.97
+Radius: 0
+===
+Query: 995
+timeLSH: 0.006422s
+timeBRUTE: 0.022725s
+NN-1 Index: 548
+distanceLSH: 2038
+distanceBRUTE: 1930.6
+NN-2 Index: 320
+distanceLSH: 2309.46
+distanceBRUTE: 2038
+Radius: 0
+===
+Query: 996
+timeLSH: 0.0046s
+timeBRUTE: 0.026502s
+NN-1 Index: 938
+distanceLSH: 1948.22
+distanceBRUTE: 1486.42
+NN-2 Index: 475
+distanceLSH: 2062.23
+distanceBRUTE: 1646.64
+Radius: 0
+===
+Query: 997
+timeLSH: 0.005565s
+timeBRUTE: 0.023609s
+NN-1 Index: 303
+distanceLSH: 1678.01
+distanceBRUTE: 1507.84
+NN-2 Index: 427
+distanceLSH: 1789.94
+distanceBRUTE: 1511.7
+Radius: 0
+===
+Query: 998
+timeLSH: 0.00487s
+timeBRUTE: 0.024604s
+NN-1 Index: 930
+distanceLSH: 2367.75
+distanceBRUTE: 2020.79
+NN-2 Index: 950
+distanceLSH: 2429.02
+distanceBRUTE: 2193.71
+Radius: 0
+===
+Query: 999
+timeLSH: 0.005159s
+timeBRUTE: 0.026559s
+NN-1 Index: 372
+distanceLSH: 1827.02
+distanceBRUTE: 1460.15
+Radius: 0
+===
+tAverageApproximate: 0.00582048
+tAverageBrute: 0.0278622
+MAF: 2.67399
