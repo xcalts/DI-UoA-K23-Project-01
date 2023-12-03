@@ -7,6 +7,7 @@
 #include "gnns.h"
 #include "mrng.h"
 #include "mnist.h"
+#include "brute.h"
 
 #define K_DEFAULT 50
 #define E_DEFAULT 30
@@ -90,35 +91,89 @@ int main(int argc, char *argv[])
     // Create the required class instances.
     MNIST input = MNIST(input_file);
     MNIST query = MNIST(query_file);
+    BRUTE bf = BRUTE(input);
     ofstream output(output_file, ios::out | ios::trunc);
+    clock_t start, end;
+    double time;
 
     GNNS gnns = GNNS(input, no_neighbors, no_expansions, no_restarts);
+    MRNG mrng = MRNG(input, no_candidates);
 
-    if (mode == 1)
-    {
-        gnns.Initialization();
-        // gnns.PrintGraph();
-
-        cout << input.GetImages()[2].Print() << endl;
-
-        set<MNIST_Image, MNIST_ImageComparator> nn = gnns.FindNearestNeighbors(1, input.GetImages()[2]);
-
-        cout << nn.size() << endl;
-
-        for (auto it = nn.begin();
-             it != nn.end();
-             it++)
+    // Print results in output file.
+    if (output.is_open())
+    {   
+        string method = "";
+        if (mode == 1)
         {
-            MNIST_Image neighbor = *nn.begin();
+            gnns.Initialization();
+            method = "GNNS";
+        }
+        else 
+        {
+            mrng.Initialization();
+            method = "MRNG";
+        }
 
-            if (output.is_open())
+        output << method << " Results" << endl;
+
+        for (MNIST_Image query_image : query.GetImages())
+        {
+            output << "====================================================================================" << endl;
+            output << "Query: " << query_image.GetIndex() << endl;
+
+            // First print the image to have an idea what we are looking for.
+            output << query_image.Print() << endl;
+
+            set<MNIST_Image, MNIST_ImageComparator> nn;
+
+            // Find the {no_neighbors} "Nearest Neighbors" vectors of the queried one using Locality-Sensitive Hashing.
+            if (mode == 1)
             {
-                output << neighbor.Print() << endl;
+                start = clock();
+                nn = gnns.FindNearestNeighbors(no_nearest, query_image);
+                end = clock();
+            }
+            else
+            {
+                start = clock();
+                nn = mrng.FindNearestNeighbors(no_nearest, query_image);
+                end = clock();
+            }
+            
+            time = double(end - start) / CLOCKS_PER_SEC;
+            output << "time" << method << ": " << time << " // seconds" << endl;
+
+            // Find the {no_neighbors} "Nearest Neighbors" vectors of the queried one using Brute Force.
+            start = clock();
+            set<MNIST_Image, MNIST_ImageComparator> brute_nn = bf.FindNearestNeighbors(no_nearest, query_image);
+            end = clock();
+            time = double(end - start) / CLOCKS_PER_SEC;
+            output << "timeBRUTE: " << time << " // seconds" << endl;
+
+            // Print Comparison Stats between LSH and Brute Force.
+            int i = 1;
+            for (auto it1 = nn.begin(), it2 = brute_nn.begin();
+                 (it1 != nn.end()) && (it2 != brute_nn.end());
+                 it1++, it2++)
+            {
+                MNIST_Image neighbor_approx = *it1;
+                MNIST_Image neighbor_brute = *it2;
+
+                output << neighbor_approx.Print() << endl;
+
+                output << "NN-" << i << " Index: " << neighbor_approx.GetIndex() << endl;
+                output << "distance" << method << ": " << neighbor_approx.GetDist() << endl;
+                output << "distanceBRUTE: " << neighbor_brute.GetDist() << endl;
+                i++;
             }
         }
-    }
-    else if (mode == 2)
+
+        output.close();
+    } 
+    else
     {
+        cout << "Failed to write to output file." << endl;
+        return EXIT_FAILURE;
     }
 
     return EXIT_SUCCESS;

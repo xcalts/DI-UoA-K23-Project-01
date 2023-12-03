@@ -7,7 +7,7 @@ SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_DIR = obj
 OBJECTS = $(patsy, the prefix of the src files.ubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SOURCES))
 BIN_DIR = bin
-TARGETS = clean build cube lsh cluster mrng graph_search
+TARGETS = clean build cube lsh cluster graph_search
 
 all: $(TARGETS)
 

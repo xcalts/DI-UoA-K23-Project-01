@@ -101,6 +101,12 @@ public:
 
         return result.str();
     };
+
+    bool operator==(const MNIST_Image& other) const
+    {
+        // Compare relevant fields for equality
+        return (this->distance == other.distance);
+    }
 };
 
 // MNIST_ImageComparator is used in sets for sorting purposes.

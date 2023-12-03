@@ -15,11 +15,12 @@ using namespace std;
 class GNNS
 {
 private:
-    int no_lsh_neighbors; // Number of LSH nearest neighbors to use (default: 40).
-    int no_expansions;    // Number of expansions to use (default: 30).
-    int no_restarts;      // Number of random restarts (default: 1).
-    MNIST input;          // The MNIST dataset's images converted to d-vectors.
-    list<int> *graph;     // Graph implementation using adjacency list.
+    int no_lsh_neighbors;          // Number of LSH nearest neighbors to use (default: 40).
+    int no_expansions;             // Number of expansions to use (default: 30).
+    int no_restarts;               // Number of random restarts (default: 1).
+    vector<MNIST_Image> images;    // The MNIST dataset's images converted to d-vectors.
+    LSH lsh;                       // The LSH is going to be used to find the candinates.
+    list<int> *graph;              // Graph implementation using adjacency list.
 
 public:
     // Create a new instance of GNNS.
@@ -28,24 +29,20 @@ public:
         no_lsh_neighbors = _no_lsh_neighbors;
         no_expansions = _no_expansions;
         no_restarts = _no_restarts;
-        input = _input;
+        images = _input.GetImages();
+        lsh = LSH(_input, 10, 15);
 
-        graph = new list<int>[GNNS::input.GetImagesCount()];
+        graph = new list<int>[_input.GetImagesCount()];
     }
 
     void Initialization()
     {
         cout << "DEBUG: Create graph using LSH." << endl;
-
-        LSH lsh = LSH(input, 10, 15);
-
-        vector<MNIST_Image> images = input.GetImages();
-
-        // cout << no_lsh_neighbors << endl;
+        printProgress(0.0);
         // for each image in input find a set of nearest neighbors
-        for (MNIST_Image query_image : images)
+        for (MNIST_Image p : images)
         {
-            set<MNIST_Image, MNIST_ImageComparator> lsh_nn = lsh.FindNearestNeighbors(no_lsh_neighbors, query_image);
+            set<MNIST_Image, MNIST_ImageComparator> lsh_nn = lsh.FindNearestNeighbors(no_lsh_neighbors, p);
 
             // loop through the set of nearest neighbors
             for (auto it1 = lsh_nn.begin();
@@ -54,13 +51,10 @@ public:
             {
                 MNIST_Image neighbor_lsh = *it1;
 
-                if (query_image.GetIndex() == 1)
-                {
-                    cout << neighbor_lsh.GetIndex() << "\n";
-                }
-
-                graph[query_image.GetIndex()].push_back(neighbor_lsh.GetIndex());
+                graph[p.GetIndex()].push_back(neighbor_lsh.GetIndex());
             }
+
+            printProgress((double) p.GetIndex() / (double) images.size());
         }
 
         cout << "DEBUG: Finished creating graph using LSH." << endl;
@@ -68,19 +62,15 @@ public:
 
     set<MNIST_Image, MNIST_ImageComparator> FindNearestNeighbors(int no_nearest_neighbours, MNIST_Image query_image)
     {
-        vector<MNIST_Image> images = input.GetImages();
-
         set<MNIST_Image, MNIST_ImageComparator> possible_nearest_neighbors; // Used for sorting the final vector of ANN
 
         random_device rd;
         mt19937 gen(rd());
 
-        uniform_int_distribution<int> random_image_index(0, input.GetImagesCount());
+        uniform_int_distribution<int> random_image_index(0, images.size());
 
         for (int i = 0; i < no_restarts; i++)
         {
-
-            cout << "Restart: " << i << "\n";
             // Select a graph's node to start at random
             int index = random_image_index(gen);
             MNIST_Image node_image = images[index];
@@ -94,8 +84,6 @@ public:
             // Execute t greedy steps
             for (int t = 0; t < GREEDY_STEPS; t++)
             {
-                cout << "Step: " << t << "\n";
-
                 int exp = 0;      // Number of expansions so far
                 int curr_nn = -1; // Symbolizes the index of the expanded node with min distance to the query
 
@@ -125,7 +113,6 @@ public:
                 // In case we reached a local minimum.
                 if (curr_nn == -1)
                 {
-                    cout << "Reached local min. \n";
                     break;
                 }
 
@@ -157,8 +144,6 @@ public:
     void PrintGraph()
     {
         cout << "DEBUG: Printing Graph." << endl;
-
-        vector<MNIST_Image> images = input.GetImages();
 
         for (MNIST_Image query_image : images)
         {
