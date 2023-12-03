@@ -1,0 +1,10002 @@
+MRNG Results
+===
+Query: 0
+timeMRNG: 0.142591s
+timeBRUTE: 0.025027s
+NN-1 Index: 773
+distanceMRNG: 1175.03
+distanceBRUTE: 1175.03
+NN-2 Index: 522
+distanceMRNG: 1205.84
+distanceBRUTE: 1205.84
+===
+Query: 1
+timeMRNG: 0.152162s
+timeBRUTE: 0.022141s
+NN-1 Index: 602
+distanceMRNG: 2068.66
+distanceBRUTE: 1830.26
+NN-2 Index: 50
+distanceMRNG: 2137.32
+distanceBRUTE: 2035.79
+===
+Query: 2
+timeMRNG: 0.131192s
+timeBRUTE: 0.019735s
+NN-1 Index: 466
+distanceMRNG: 645.058
+distanceBRUTE: 645.058
+NN-2 Index: 604
+distanceMRNG: 706.027
+distanceBRUTE: 680.469
+===
+Query: 3
+timeMRNG: 0.196834s
+timeBRUTE: 0.020916s
+NN-1 Index: 320
+distanceMRNG: 1484.55
+distanceBRUTE: 1394.31
+NN-2 Index: 169
+distanceMRNG: 1759.63
+distanceBRUTE: 1484.55
+===
+Query: 4
+timeMRNG: 0.138174s
+timeBRUTE: 0.021433s
+NN-1 Index: 914
+distanceMRNG: 1335.51
+distanceBRUTE: 1335.51
+NN-2 Index: 322
+distanceMRNG: 1523.53
+distanceBRUTE: 1523.53
+===
+Query: 5
+timeMRNG: 0.12295s
+timeBRUTE: 0.021181s
+NN-1 Index: 290
+distanceMRNG: 776.667
+distanceBRUTE: 757.116
+NN-2 Index: 894
+distanceMRNG: 2027.42
+distanceBRUTE: 776.667
+===
+Query: 6
+timeMRNG: 0.148451s
+timeBRUTE: 0.02106s
+NN-1 Index: 54
+distanceMRNG: 1489.44
+distanceBRUTE: 1489.44
+NN-2 Index: 718
+distanceMRNG: 1826.67
+distanceBRUTE: 1603.12
+===
+Query: 7
+timeMRNG: 0.239025s
+timeBRUTE: 0.020754s
+NN-1 Index: 744
+distanceMRNG: 1844.49
+distanceBRUTE: 1844.49
+NN-2 Index: 754
+distanceMRNG: 1954.66
+distanceBRUTE: 1846.71
+===
+Query: 8
+timeMRNG: 0.132799s
+timeBRUTE: 0.022555s
+NN-1 Index: 237
+distanceMRNG: 2235
+distanceBRUTE: 2235
+NN-2 Index: 782
+distanceMRNG: 2270.58
+distanceBRUTE: 2270.58
+===
+Query: 9
+timeMRNG: 0.143022s
+timeBRUTE: 0.020962s
+NN-1 Index: 15
+distanceMRNG: 1438.81
+distanceBRUTE: 1391.53
+NN-2 Index: 703
+distanceMRNG: 1443.1
+distanceBRUTE: 1438.81
+===
+Query: 10
+timeMRNG: 0.15619s
+timeBRUTE: 0.021911s
+NN-1 Index: 524
+distanceMRNG: 1421.33
+distanceBRUTE: 1421.33
+NN-2 Index: 458
+distanceMRNG: 1611.18
+distanceBRUTE: 1611.18
+===
+Query: 11
+timeMRNG: 0.250661s
+timeBRUTE: 0.022564s
+NN-1 Index: 314
+distanceMRNG: 2299.48
+distanceBRUTE: 2027.42
+NN-2 Index: 9
+distanceMRNG: 2644.82
+distanceBRUTE: 2078.25
+===
+Query: 12
+timeMRNG: 0.150229s
+timeBRUTE: 0.020711s
+NN-1 Index: 116
+distanceMRNG: 1215.53
+distanceBRUTE: 1215.53
+NN-2 Index: 362
+distanceMRNG: 1318.47
+distanceBRUTE: 1300.14
+===
+Query: 13
+timeMRNG: 0.136177s
+timeBRUTE: 0.02238s
+NN-1 Index: 210
+distanceMRNG: 1388.68
+distanceBRUTE: 1388.68
+NN-2 Index: 316
+distanceMRNG: 2280.3
+distanceBRUTE: 1518.18
+===
+Query: 14
+timeMRNG: 0.125012s
+timeBRUTE: 0.021953s
+NN-1 Index: 398
+distanceMRNG: 885.153
+distanceBRUTE: 872.264
+NN-2 Index: 710
+distanceMRNG: 1052.28
+distanceBRUTE: 885.153
+===
+Query: 15
+timeMRNG: 0.179919s
+timeBRUTE: 0.020926s
+NN-1 Index: 778
+distanceMRNG: 2215.18
+distanceBRUTE: 1918.04
+NN-2 Index: 754
+distanceMRNG: 2254.41
+distanceBRUTE: 1927.47
+===
+Query: 16
+timeMRNG: 0.106448s
+timeBRUTE: 0.020911s
+NN-1 Index: 334
+distanceMRNG: 1448.73
+distanceBRUTE: 1448.73
+NN-2 Index: 564
+distanceMRNG: 1509.65
+distanceBRUTE: 1509.65
+===
+Query: 17
+timeMRNG: 0.128729s
+timeBRUTE: 0.020422s
+NN-1 Index: 522
+distanceMRNG: 1358.85
+distanceBRUTE: 1358.85
+NN-2 Index: 562
+distanceMRNG: 1416.75
+distanceBRUTE: 1389.55
+===
+Query: 18
+timeMRNG: 0.073234s
+timeBRUTE: 0.022577s
+NN-1 Index: 76
+distanceMRNG: 2252.98
+distanceBRUTE: 2185.63
+NN-2 Index: 198
+distanceMRNG: 2288.91
+distanceBRUTE: 2205.13
+===
+Query: 19
+timeMRNG: 0.128071s
+timeBRUTE: 0.019912s
+NN-1 Index: 580
+distanceMRNG: 1335.72
+distanceBRUTE: 1257.99
+NN-2 Index: 812
+distanceMRNG: 1457.95
+distanceBRUTE: 1335.72
+===
+Query: 20
+timeMRNG: 0.098475s
+timeBRUTE: 0.021381s
+NN-1 Index: 423
+distanceMRNG: 1370.88
+distanceBRUTE: 1370.88
+NN-2 Index: 19
+distanceMRNG: 1601.04
+distanceBRUTE: 1380
+===
+Query: 21
+timeMRNG: 0.107096s
+timeBRUTE: 0.021469s
+NN-1 Index: 232
+distanceMRNG: 1543.23
+distanceBRUTE: 1289.16
+NN-2 Index: 660
+distanceMRNG: 1569.02
+distanceBRUTE: 1514.6
+===
+Query: 22
+timeMRNG: 0.076436s
+timeBRUTE: 0.023601s
+NN-1 Index: 488
+distanceMRNG: 1819.75
+distanceBRUTE: 1819.75
+NN-2 Index: 360
+distanceMRNG: 2654.57
+distanceBRUTE: 1979.28
+===
+Query: 23
+timeMRNG: 0.175876s
+timeBRUTE: 0.020704s
+NN-1 Index: 625
+distanceMRNG: 1428.74
+distanceBRUTE: 1428.74
+NN-2 Index: 912
+distanceMRNG: 1539.6
+distanceBRUTE: 1539.6
+===
+Query: 24
+timeMRNG: 0.149748s
+timeBRUTE: 0.019994s
+NN-1 Index: 442
+distanceMRNG: 1611.45
+distanceBRUTE: 1547.73
+NN-2 Index: 428
+distanceMRNG: 1617.83
+distanceBRUTE: 1556.56
+===
+Query: 25
+timeMRNG: 0.131218s
+timeBRUTE: 0.022204s
+NN-1 Index: 427
+distanceMRNG: 1713.91
+distanceBRUTE: 1713.91
+NN-2 Index: 293
+distanceMRNG: 2001.9
+distanceBRUTE: 1864.21
+===
+Query: 26
+timeMRNG: 0.046647s
+timeBRUTE: 0.024672s
+NN-1 Index: 786
+distanceMRNG: 1541.56
+distanceBRUTE: 1261.31
+NN-2 Index: 42
+distanceMRNG: 1906.98
+distanceBRUTE: 1377.81
+===
+Query: 27
+timeMRNG: 0.131018s
+timeBRUTE: 0.022337s
+NN-1 Index: 550
+distanceMRNG: 1480.07
+distanceBRUTE: 1480.07
+NN-2 Index: 564
+distanceMRNG: 1484.67
+distanceBRUTE: 1484.67
+===
+Query: 28
+timeMRNG: 0.140377s
+timeBRUTE: 0.02154s
+NN-1 Index: 320
+distanceMRNG: 1353.47
+distanceBRUTE: 1353.47
+NN-2 Index: 95
+distanceMRNG: 1608.31
+distanceBRUTE: 1521.49
+===
+Query: 29
+timeMRNG: 0.133771s
+timeBRUTE: 0.019513s
+NN-1 Index: 358
+distanceMRNG: 629.079
+distanceBRUTE: 629.079
+NN-2 Index: 184
+distanceMRNG: 698.132
+distanceBRUTE: 698.132
+===
+Query: 30
+timeMRNG: 0.125625s
+timeBRUTE: 0.021564s
+NN-1 Index: 74
+distanceMRNG: 1415
+distanceBRUTE: 1415
+NN-2 Index: 98
+distanceMRNG: 1558.28
+distanceBRUTE: 1558.28
+===
+Query: 31
+timeMRNG: 0.12864s
+timeBRUTE: 0.020048s
+NN-1 Index: 738
+distanceMRNG: 608.037
+distanceBRUTE: 608.037
+NN-2 Index: 104
+distanceMRNG: 966.499
+distanceBRUTE: 926.299
+===
+Query: 32
+timeMRNG: 0.200398s
+timeBRUTE: 0.020444s
+NN-1 Index: 136
+distanceMRNG: 1415.28
+distanceBRUTE: 1415.28
+NN-2 Index: 356
+distanceMRNG: 1961.93
+distanceBRUTE: 1433.44
+===
+Query: 33
+timeMRNG: 0.125582s
+timeBRUTE: 0.023452s
+NN-1 Index: 418
+distanceMRNG: 2326.69
+distanceBRUTE: 2061.18
+NN-2 Index: 11
+distanceMRNG: 2367.88
+distanceBRUTE: 2069.74
+===
+Query: 34
+timeMRNG: 0.147319s
+timeBRUTE: 0.020699s
+NN-1 Index: 795
+distanceMRNG: 1208.98
+distanceBRUTE: 1208.98
+NN-2 Index: 803
+distanceMRNG: 1222.51
+distanceBRUTE: 1222.51
+===
+Query: 35
+timeMRNG: 0.162886s
+timeBRUTE: 0.021507s
+NN-1 Index: 774
+distanceMRNG: 1958.83
+distanceBRUTE: 1958.83
+NN-2 Index: 457
+distanceMRNG: 2008.37
+distanceBRUTE: 1962.8
+===
+Query: 36
+timeMRNG: 0.109577s
+timeBRUTE: 0.028573s
+NN-1 Index: 84
+distanceMRNG: 1352.92
+distanceBRUTE: 1352.92
+NN-2 Index: 288
+distanceMRNG: 1384.6
+distanceBRUTE: 1384.6
+===
+Query: 37
+timeMRNG: 0.133025s
+timeBRUTE: 0.02201s
+NN-1 Index: 184
+distanceMRNG: 612.373
+distanceBRUTE: 612.373
+NN-2 Index: 618
+distanceMRNG: 760.842
+distanceBRUTE: 612.956
+===
+Query: 38
+timeMRNG: 0.057938s
+timeBRUTE: 0.021784s
+NN-1 Index: 674
+distanceMRNG: 1739.87
+distanceBRUTE: 1730.32
+NN-2 Index: 592
+distanceMRNG: 2265.73
+distanceBRUTE: 1739.87
+===
+Query: 39
+timeMRNG: 0.128838s
+timeBRUTE: 0.020065s
+NN-1 Index: 128
+distanceMRNG: 812.619
+distanceBRUTE: 805.088
+NN-2 Index: 710
+distanceMRNG: 932.327
+distanceBRUTE: 812.619
+===
+Query: 40
+timeMRNG: 0.082192s
+timeBRUTE: 0.020781s
+NN-1 Index: 72
+distanceMRNG: 673.645
+distanceBRUTE: 673.645
+NN-2 Index: 366
+distanceMRNG: 865.841
+distanceBRUTE: 865.841
+===
+Query: 41
+timeMRNG: 0.127849s
+timeBRUTE: 0.019875s
+NN-1 Index: 258
+distanceMRNG: 1309.95
+distanceBRUTE: 1309.95
+NN-2 Index: 133
+distanceMRNG: 1597.47
+distanceBRUTE: 1362.27
+===
+Query: 42
+timeMRNG: 0.133547s
+timeBRUTE: 0.021427s
+NN-1 Index: 237
+distanceMRNG: 1521.29
+distanceBRUTE: 1357.12
+NN-2 Index: 564
+distanceMRNG: 1568.94
+distanceBRUTE: 1521.29
+===
+Query: 43
+timeMRNG: 0.147302s
+timeBRUTE: 0.021318s
+NN-1 Index: 510
+distanceMRNG: 1716.72
+distanceBRUTE: 1711.6
+NN-2 Index: 276
+distanceMRNG: 1754.42
+distanceBRUTE: 1716.72
+===
+Query: 44
+timeMRNG: 0.120974s
+timeBRUTE: 0.021069s
+NN-1 Index: 132
+distanceMRNG: 1432.74
+distanceBRUTE: 1432.74
+NN-2 Index: 808
+distanceMRNG: 1602.93
+distanceBRUTE: 1602.93
+===
+Query: 45
+timeMRNG: 0.148167s
+timeBRUTE: 0.020688s
+NN-1 Index: 396
+distanceMRNG: 1507.54
+distanceBRUTE: 1507.54
+NN-2 Index: 420
+distanceMRNG: 1624.69
+distanceBRUTE: 1566.46
+===
+Query: 46
+timeMRNG: 0.131006s
+timeBRUTE: 0.021553s
+NN-1 Index: 870
+distanceMRNG: 758.1
+distanceBRUTE: 758.1
+NN-2 Index: 248
+distanceMRNG: 1168.65
+distanceBRUTE: 1168.65
+===
+Query: 47
+timeMRNG: 0.121231s
+timeBRUTE: 0.021416s
+NN-1 Index: 754
+distanceMRNG: 1714.37
+distanceBRUTE: 1609.18
+NN-2 Index: 271
+distanceMRNG: 1958.81
+distanceBRUTE: 1653.9
+===
+Query: 48
+timeMRNG: 0.123899s
+timeBRUTE: 0.024704s
+NN-1 Index: 438
+distanceMRNG: 1605.97
+distanceBRUTE: 1605.97
+NN-2 Index: 692
+distanceMRNG: 1683.53
+distanceBRUTE: 1683.53
+===
+Query: 49
+timeMRNG: 0.173517s
+timeBRUTE: 0.02247s
+NN-1 Index: 804
+distanceMRNG: 1602.01
+distanceBRUTE: 1602.01
+NN-2 Index: 914
+distanceMRNG: 1650.42
+distanceBRUTE: 1646.09
+===
+Query: 50
+timeMRNG: 0.119095s
+timeBRUTE: 0.0214s
+NN-1 Index: 62
+distanceMRNG: 1434.18
+distanceBRUTE: 1434.18
+NN-2 Index: 672
+distanceMRNG: 1474.55
+distanceBRUTE: 1464.5
+===
+Query: 51
+timeMRNG: 0.190171s
+timeBRUTE: 0.021418s
+NN-1 Index: 30
+distanceMRNG: 1897.03
+distanceBRUTE: 1897.03
+NN-2 Index: 486
+distanceMRNG: 1921.57
+distanceBRUTE: 1921.57
+===
+Query: 52
+timeMRNG: 0.129561s
+timeBRUTE: 0.021253s
+NN-1 Index: 328
+distanceMRNG: 1802.33
+distanceBRUTE: 1734.38
+NN-2 Index: 474
+distanceMRNG: 1838.63
+distanceBRUTE: 1802.33
+===
+Query: 53
+timeMRNG: 0.12492s
+timeBRUTE: 0.021671s
+NN-1 Index: 778
+distanceMRNG: 1975.92
+distanceBRUTE: 1347.91
+NN-2 Index: 754
+distanceMRNG: 1989.44
+distanceBRUTE: 1792.02
+===
+Query: 54
+timeMRNG: 0.207093s
+timeBRUTE: 0.023635s
+NN-1 Index: 986
+distanceMRNG: 2502.94
+distanceBRUTE: 2203.85
+NN-2 Index: 380
+distanceMRNG: 2534.26
+distanceBRUTE: 2370.93
+===
+Query: 55
+timeMRNG: 0.148888s
+timeBRUTE: 0.021022s
+NN-1 Index: 952
+distanceMRNG: 1381.08
+distanceBRUTE: 1381.08
+NN-2 Index: 542
+distanceMRNG: 1716.13
+distanceBRUTE: 1633.02
+===
+Query: 56
+timeMRNG: 0.119609s
+timeBRUTE: 0.022155s
+NN-1 Index: 914
+distanceMRNG: 1361.18
+distanceBRUTE: 1361.18
+NN-2 Index: 314
+distanceMRNG: 1441.68
+distanceBRUTE: 1441.68
+===
+Query: 57
+timeMRNG: 0.141258s
+timeBRUTE: 0.025942s
+NN-1 Index: 276
+distanceMRNG: 655.441
+distanceBRUTE: 655.441
+NN-2 Index: 604
+distanceMRNG: 671.401
+distanceBRUTE: 671.401
+===
+Query: 58
+timeMRNG: 0.200662s
+timeBRUTE: 0.020474s
+NN-1 Index: 116
+distanceMRNG: 1148.96
+distanceBRUTE: 1148.96
+NN-2 Index: 687
+distanceMRNG: 1725.2
+distanceBRUTE: 1535.28
+===
+Query: 59
+timeMRNG: 0.149375s
+timeBRUTE: 0.019991s
+NN-1 Index: 604
+distanceMRNG: 1626.72
+distanceBRUTE: 1539.11
+NN-2 Index: 67
+distanceMRNG: 1634.28
+distanceBRUTE: 1608.33
+===
+Query: 60
+timeMRNG: 0.13234s
+timeBRUTE: 0.021995s
+NN-1 Index: 196
+distanceMRNG: 1611.31
+distanceBRUTE: 1497.78
+NN-2 Index: 214
+distanceMRNG: 1671.97
+distanceBRUTE: 1611.31
+===
+Query: 61
+timeMRNG: 0.154631s
+timeBRUTE: 0.021179s
+NN-1 Index: 439
+distanceMRNG: 2070.69
+distanceBRUTE: 1851.94
+NN-2 Index: 97
+distanceMRNG: 2175.18
+distanceBRUTE: 1936.78
+===
+Query: 62
+timeMRNG: 0.130191s
+timeBRUTE: 0.036065s
+NN-1 Index: 354
+distanceMRNG: 1458.82
+distanceBRUTE: 1458.82
+NN-2 Index: 304
+distanceMRNG: 1491.43
+distanceBRUTE: 1491.43
+===
+Query: 63
+timeMRNG: 0.229792s
+timeBRUTE: 0.020602s
+NN-1 Index: 423
+distanceMRNG: 1834.07
+distanceBRUTE: 1819.05
+NN-2 Index: 153
+distanceMRNG: 1855.96
+distanceBRUTE: 1834.07
+===
+Query: 64
+timeMRNG: 0.126895s
+timeBRUTE: 0.021539s
+NN-1 Index: 683
+distanceMRNG: 1720.24
+distanceBRUTE: 1702.56
+NN-2 Index: 753
+distanceMRNG: 1806.85
+distanceBRUTE: 1718.14
+===
+Query: 65
+timeMRNG: 0.148558s
+timeBRUTE: 0.021427s
+NN-1 Index: 566
+distanceMRNG: 1507.84
+distanceBRUTE: 1507.84
+NN-2 Index: 754
+distanceMRNG: 1516.84
+distanceBRUTE: 1516.84
+===
+Query: 66
+timeMRNG: 0.146017s
+timeBRUTE: 0.021357s
+NN-1 Index: 314
+distanceMRNG: 2130.53
+distanceBRUTE: 1931.05
+NN-2 Index: 592
+distanceMRNG: 2166.6
+distanceBRUTE: 2021.37
+===
+Query: 67
+timeMRNG: 0.144824s
+timeBRUTE: 0.022403s
+NN-1 Index: 237
+distanceMRNG: 1732.91
+distanceBRUTE: 1727.09
+NN-2 Index: 804
+distanceMRNG: 1746.48
+distanceBRUTE: 1732.91
+===
+Query: 68
+timeMRNG: 0.145126s
+timeBRUTE: 0.020773s
+NN-1 Index: 74
+distanceMRNG: 1578.7
+distanceBRUTE: 1578.7
+NN-2 Index: 130
+distanceMRNG: 1701.92
+distanceBRUTE: 1629.3
+===
+Query: 69
+timeMRNG: 0.120616s
+timeBRUTE: 0.022526s
+NN-1 Index: 262
+distanceMRNG: 2467.14
+distanceBRUTE: 1670.1
+NN-2 Index: 666
+distanceMRNG: 2752.39
+distanceBRUTE: 1687.97
+===
+Query: 70
+timeMRNG: 0.137416s
+timeBRUTE: 0.022099s
+NN-1 Index: 562
+distanceMRNG: 1372.93
+distanceBRUTE: 1372.93
+NN-2 Index: 994
+distanceMRNG: 1473.04
+distanceBRUTE: 1473.04
+===
+Query: 71
+timeMRNG: 0.136631s
+timeBRUTE: 0.022685s
+NN-1 Index: 429
+distanceMRNG: 1013.71
+distanceBRUTE: 1013.71
+NN-2 Index: 283
+distanceMRNG: 1038.77
+distanceBRUTE: 1038.77
+===
+Query: 72
+timeMRNG: 0.080254s
+timeBRUTE: 0.021932s
+NN-1 Index: 674
+distanceMRNG: 2345.3
+distanceBRUTE: 2137.55
+NN-2 Index: 676
+distanceMRNG: 2465.56
+distanceBRUTE: 2142.9
+===
+Query: 73
+timeMRNG: 0.132644s
+timeBRUTE: 0.021525s
+NN-1 Index: 33
+distanceMRNG: 1416.12
+distanceBRUTE: 1346.06
+NN-2 Index: 137
+distanceMRNG: 1452.34
+distanceBRUTE: 1416.12
+===
+Query: 74
+timeMRNG: 0.126651s
+timeBRUTE: 0.02044s
+NN-1 Index: 366
+distanceMRNG: 922.207
+distanceBRUTE: 837.32
+NN-2 Index: 398
+distanceMRNG: 945.042
+distanceBRUTE: 855.446
+===
+Query: 75
+timeMRNG: 0.131243s
+timeBRUTE: 0.021746s
+NN-1 Index: 384
+distanceMRNG: 1376.75
+distanceBRUTE: 1376.75
+NN-2 Index: 324
+distanceMRNG: 1531.08
+distanceBRUTE: 1528.14
+===
+Query: 76
+timeMRNG: 0.119186s
+timeBRUTE: 0.025184s
+NN-1 Index: 310
+distanceMRNG: 1814.35
+distanceBRUTE: 1304.38
+NN-2 Index: 454
+distanceMRNG: 1918.76
+distanceBRUTE: 1488.86
+===
+Query: 77
+timeMRNG: 0.130506s
+timeBRUTE: 0.021106s
+NN-1 Index: 500
+distanceMRNG: 1649.05
+distanceBRUTE: 1649.05
+NN-2 Index: 268
+distanceMRNG: 1746.9
+distanceBRUTE: 1746.9
+===
+Query: 78
+timeMRNG: 0.127306s
+timeBRUTE: 0.021096s
+NN-1 Index: 19
+distanceMRNG: 1310.72
+distanceBRUTE: 1310.72
+NN-2 Index: 124
+distanceMRNG: 1766.73
+distanceBRUTE: 1411.16
+===
+Query: 79
+timeMRNG: 0.131675s
+timeBRUTE: 0.021693s
+NN-1 Index: 880
+distanceMRNG: 1536.9
+distanceBRUTE: 1496.25
+NN-2 Index: 305
+distanceMRNG: 1873.41
+distanceBRUTE: 1536.9
+===
+Query: 80
+timeMRNG: 0.137267s
+timeBRUTE: 0.02305s
+NN-1 Index: 812
+distanceMRNG: 1442.19
+distanceBRUTE: 1442.19
+NN-2 Index: 442
+distanceMRNG: 2024.47
+distanceBRUTE: 1607.82
+===
+Query: 81
+timeMRNG: 0.133467s
+timeBRUTE: 0.021734s
+NN-1 Index: 151
+distanceMRNG: 1455.56
+distanceBRUTE: 1344.85
+NN-2 Index: 148
+distanceMRNG: 2023.97
+distanceBRUTE: 1406.14
+===
+Query: 82
+timeMRNG: 0.119102s
+timeBRUTE: 0.022473s
+NN-1 Index: 955
+distanceMRNG: 2286.88
+distanceBRUTE: 1586.12
+NN-2 Index: 939
+distanceMRNG: 2315.71
+distanceBRUTE: 1597.89
+===
+Query: 83
+timeMRNG: 0.035528s
+timeBRUTE: 0.022366s
+NN-1 Index: 786
+distanceMRNG: 1308.15
+distanceBRUTE: 1308.15
+NN-2 Index: 778
+distanceMRNG: 1992.7
+distanceBRUTE: 1407.73
+===
+Query: 84
+timeMRNG: 0.139526s
+timeBRUTE: 0.02122s
+NN-1 Index: 588
+distanceMRNG: 2101.85
+distanceBRUTE: 1669.83
+NN-2 Index: 637
+distanceMRNG: 2128.17
+distanceBRUTE: 1909.63
+===
+Query: 85
+timeMRNG: 0.133481s
+timeBRUTE: 0.021518s
+NN-1 Index: 877
+distanceMRNG: 1594.26
+distanceBRUTE: 1382.03
+NN-2 Index: 692
+distanceMRNG: 1641.24
+distanceBRUTE: 1594.26
+===
+Query: 86
+timeMRNG: 0.155093s
+timeBRUTE: 0.021407s
+NN-1 Index: 773
+distanceMRNG: 1201.03
+distanceBRUTE: 1201.03
+NN-2 Index: 307
+distanceMRNG: 1360.83
+distanceBRUTE: 1360.83
+===
+Query: 87
+timeMRNG: 0.13223s
+timeBRUTE: 0.020887s
+NN-1 Index: 48
+distanceMRNG: 1904.29
+distanceBRUTE: 1891.81
+NN-2 Index: 441
+distanceMRNG: 2316.87
+distanceBRUTE: 1904.29
+===
+Query: 88
+timeMRNG: 0.221337s
+timeBRUTE: 0.022059s
+NN-1 Index: 142
+distanceMRNG: 2128.23
+distanceBRUTE: 1618.58
+NN-2 Index: 522
+distanceMRNG: 2712.84
+distanceBRUTE: 1711.17
+===
+Query: 89
+timeMRNG: 0.125179s
+timeBRUTE: 0.022261s
+NN-1 Index: 416
+distanceMRNG: 851.228
+distanceBRUTE: 851.228
+NN-2 Index: 290
+distanceMRNG: 911.622
+distanceBRUTE: 911.622
+===
+Query: 90
+timeMRNG: 0.128355s
+timeBRUTE: 0.022691s
+NN-1 Index: 479
+distanceMRNG: 1723.42
+distanceBRUTE: 1723.42
+NN-2 Index: 98
+distanceMRNG: 1755.24
+distanceBRUTE: 1755.24
+===
+Query: 91
+timeMRNG: 0.144456s
+timeBRUTE: 0.020496s
+NN-1 Index: 498
+distanceMRNG: 1436.58
+distanceBRUTE: 1415.88
+NN-2 Index: 147
+distanceMRNG: 1494.54
+distanceBRUTE: 1436.58
+===
+Query: 92
+timeMRNG: 0.104754s
+timeBRUTE: 0.020791s
+NN-1 Index: 22
+distanceMRNG: 1276.04
+distanceBRUTE: 1276.04
+NN-2 Index: 601
+distanceMRNG: 1374.31
+distanceBRUTE: 1374.31
+===
+Query: 93
+timeMRNG: 0.250648s
+timeBRUTE: 0.021579s
+NN-1 Index: 10
+distanceMRNG: 1479.18
+distanceBRUTE: 1479.18
+NN-2 Index: 74
+distanceMRNG: 1483.23
+distanceBRUTE: 1483.23
+===
+Query: 94
+timeMRNG: 0.120876s
+timeBRUTE: 0.021265s
+NN-1 Index: 200
+distanceMRNG: 1000.68
+distanceBRUTE: 1000.68
+NN-2 Index: 6
+distanceMRNG: 1077.04
+distanceBRUTE: 1003.3
+===
+Query: 95
+timeMRNG: 0.120336s
+timeBRUTE: 0.022521s
+NN-1 Index: 160
+distanceMRNG: 2370.11
+distanceBRUTE: 2009.77
+NN-2 Index: 235
+distanceMRNG: 2939.93
+distanceBRUTE: 2070.3
+===
+Query: 96
+timeMRNG: 0.121754s
+timeBRUTE: 0.020926s
+NN-1 Index: 870
+distanceMRNG: 1009.55
+distanceBRUTE: 1009.55
+NN-2 Index: 738
+distanceMRNG: 1106.78
+distanceBRUTE: 1106.78
+===
+Query: 97
+timeMRNG: 0.129345s
+timeBRUTE: 0.021641s
+NN-1 Index: 168
+distanceMRNG: 1839.45
+distanceBRUTE: 1467.51
+NN-2 Index: 920
+distanceMRNG: 1875.85
+distanceBRUTE: 1732.07
+===
+Query: 98
+timeMRNG: 0.145071s
+timeBRUTE: 0.020976s
+NN-1 Index: 126
+distanceMRNG: 1699.61
+distanceBRUTE: 1699.61
+NN-2 Index: 106
+distanceMRNG: 1793.58
+distanceBRUTE: 1793.58
+===
+Query: 99
+timeMRNG: 0.139679s
+timeBRUTE: 0.02338s
+NN-1 Index: 322
+distanceMRNG: 1470.72
+distanceBRUTE: 1470.72
+NN-2 Index: 940
+distanceMRNG: 1629.81
+distanceBRUTE: 1629.81
+===
+Query: 100
+timeMRNG: 0.156909s
+timeBRUTE: 0.027336s
+NN-1 Index: 412
+distanceMRNG: 1911.99
+distanceBRUTE: 1810.22
+NN-2 Index: 92
+distanceMRNG: 1912.3
+distanceBRUTE: 1827.24
+===
+Query: 101
+timeMRNG: 0.102632s
+timeBRUTE: 0.021641s
+NN-1 Index: 118
+distanceMRNG: 1549.66
+distanceBRUTE: 1549.66
+NN-2 Index: 458
+distanceMRNG: 1633.76
+distanceBRUTE: 1633.76
+===
+Query: 102
+timeMRNG: 0.285053s
+timeBRUTE: 0.021082s
+NN-1 Index: 420
+distanceMRNG: 2064.46
+distanceBRUTE: 1875.8
+NN-2 Index: 219
+distanceMRNG: 2248.96
+distanceBRUTE: 1889.31
+===
+Query: 103
+timeMRNG: 0.14034s
+timeBRUTE: 0.020816s
+NN-1 Index: 914
+distanceMRNG: 1451.55
+distanceBRUTE: 1451.55
+NN-2 Index: 926
+distanceMRNG: 1596.7
+distanceBRUTE: 1596.7
+===
+Query: 104
+timeMRNG: 0.13569s
+timeBRUTE: 0.022177s
+NN-1 Index: 682
+distanceMRNG: 1821.74
+distanceBRUTE: 1674.59
+NN-2 Index: 282
+distanceMRNG: 1827.77
+distanceBRUTE: 1821.74
+===
+Query: 105
+timeMRNG: 0.125775s
+timeBRUTE: 0.020867s
+NN-1 Index: 344
+distanceMRNG: 1267.18
+distanceBRUTE: 1267.18
+NN-2 Index: 322
+distanceMRNG: 1404.82
+distanceBRUTE: 1404.82
+===
+Query: 106
+timeMRNG: 0.138497s
+timeBRUTE: 0.023947s
+NN-1 Index: 551
+distanceMRNG: 1884.21
+distanceBRUTE: 1818.57
+NN-2 Index: 548
+distanceMRNG: 2089.23
+distanceBRUTE: 1884.21
+===
+Query: 107
+timeMRNG: 0.11908s
+timeBRUTE: 0.023314s
+NN-1 Index: 698
+distanceMRNG: 913.939
+distanceBRUTE: 913.939
+NN-2 Index: 77
+distanceMRNG: 1011.47
+distanceBRUTE: 960.841
+===
+Query: 108
+timeMRNG: 0.162s
+timeBRUTE: 0.02037s
+NN-1 Index: 428
+distanceMRNG: 1322.47
+distanceBRUTE: 1322.47
+NN-2 Index: 176
+distanceMRNG: 1476.01
+distanceBRUTE: 1476.01
+===
+Query: 109
+timeMRNG: 0.122627s
+timeBRUTE: 0.020792s
+NN-1 Index: 442
+distanceMRNG: 1241.21
+distanceBRUTE: 1241.21
+NN-2 Index: 338
+distanceMRNG: 1298.11
+distanceBRUTE: 1298.11
+===
+Query: 110
+timeMRNG: 0.138748s
+timeBRUTE: 0.020695s
+NN-1 Index: 85
+distanceMRNG: 1399.56
+distanceBRUTE: 1399.56
+NN-2 Index: 41
+distanceMRNG: 1564.52
+distanceBRUTE: 1564.52
+===
+Query: 111
+timeMRNG: 0.099135s
+timeBRUTE: 0.020292s
+NN-1 Index: 634
+distanceMRNG: 1135.47
+distanceBRUTE: 1135.47
+NN-2 Index: 884
+distanceMRNG: 1216.99
+distanceBRUTE: 1216.99
+===
+Query: 112
+timeMRNG: 0.129228s
+timeBRUTE: 0.020142s
+NN-1 Index: 878
+distanceMRNG: 1410.26
+distanceBRUTE: 1410.26
+NN-2 Index: 856
+distanceMRNG: 1470.37
+distanceBRUTE: 1470.37
+===
+Query: 113
+timeMRNG: 0.130981s
+timeBRUTE: 0.020499s
+NN-1 Index: 350
+distanceMRNG: 968.719
+distanceBRUTE: 968.719
+NN-2 Index: 812
+distanceMRNG: 1261.07
+distanceBRUTE: 1261.07
+===
+Query: 114
+timeMRNG: 0.112892s
+timeBRUTE: 0.020922s
+NN-1 Index: 968
+distanceMRNG: 1407.4
+distanceBRUTE: 1407.4
+NN-2 Index: 634
+distanceMRNG: 1506.6
+distanceBRUTE: 1506.6
+===
+Query: 115
+timeMRNG: 0.127135s
+timeBRUTE: 0.020572s
+NN-1 Index: 482
+distanceMRNG: 1357.58
+distanceBRUTE: 1226.44
+NN-2 Index: 754
+distanceMRNG: 1398.82
+distanceBRUTE: 1357.58
+===
+Query: 116
+timeMRNG: 0.138548s
+timeBRUTE: 0.020843s
+NN-1 Index: 336
+distanceMRNG: 1444.85
+distanceBRUTE: 1056.67
+NN-2 Index: 26
+distanceMRNG: 1481.41
+distanceBRUTE: 1369.81
+===
+Query: 117
+timeMRNG: 0.131627s
+timeBRUTE: 0.021127s
+NN-1 Index: 804
+distanceMRNG: 1520.89
+distanceBRUTE: 1520.89
+NN-2 Index: 2
+distanceMRNG: 1709.06
+distanceBRUTE: 1709.06
+===
+Query: 118
+timeMRNG: 0.116785s
+timeBRUTE: 0.021936s
+NN-1 Index: 364
+distanceMRNG: 1092.79
+distanceBRUTE: 1092.79
+NN-2 Index: 362
+distanceMRNG: 1365.14
+distanceBRUTE: 1273.12
+===
+Query: 119
+timeMRNG: 0.122382s
+timeBRUTE: 0.02151s
+NN-1 Index: 387
+distanceMRNG: 1873.5
+distanceBRUTE: 1873.5
+NN-2 Index: 353
+distanceMRNG: 1881.19
+distanceBRUTE: 1881.19
+===
+Query: 120
+timeMRNG: 0.127098s
+timeBRUTE: 0.022198s
+NN-1 Index: 748
+distanceMRNG: 1872.58
+distanceBRUTE: 1711.07
+NN-2 Index: 136
+distanceMRNG: 2118.45
+distanceBRUTE: 1872.58
+===
+Query: 121
+timeMRNG: 0.077361s
+timeBRUTE: 0.020503s
+NN-1 Index: 481
+distanceMRNG: 1687.22
+distanceBRUTE: 1633.23
+NN-2 Index: 937
+distanceMRNG: 1721.34
+distanceBRUTE: 1687.22
+===
+Query: 122
+timeMRNG: 0.034779s
+timeBRUTE: 0.023013s
+NN-1 Index: 824
+distanceMRNG: 1263.28
+distanceBRUTE: 1263.28
+NN-2 Index: 786
+distanceMRNG: 1330.68
+distanceBRUTE: 1320.47
+===
+Query: 123
+timeMRNG: 0.124785s
+timeBRUTE: 0.021685s
+NN-1 Index: 802
+distanceMRNG: 1431.14
+distanceBRUTE: 1181.92
+NN-2 Index: 13
+distanceMRNG: 1506.98
+distanceBRUTE: 1431.14
+===
+Query: 124
+timeMRNG: 0.20888s
+timeBRUTE: 0.02095s
+NN-1 Index: 54
+distanceMRNG: 1783.31
+distanceBRUTE: 1675.36
+NN-2 Index: 133
+distanceMRNG: 1974.91
+distanceBRUTE: 1701.59
+===
+Query: 125
+timeMRNG: 0.1409s
+timeBRUTE: 0.022196s
+NN-1 Index: 110
+distanceMRNG: 1575.96
+distanceBRUTE: 1475.22
+NN-2 Index: 550
+distanceMRNG: 1634.17
+distanceBRUTE: 1575.96
+===
+Query: 126
+timeMRNG: 0.144729s
+timeBRUTE: 0.023966s
+NN-1 Index: 209
+distanceMRNG: 2148.62
+distanceBRUTE: 2014.83
+NN-2 Index: 452
+distanceMRNG: 2236.47
+distanceBRUTE: 2086.23
+===
+Query: 127
+timeMRNG: 0.185269s
+timeBRUTE: 0.021853s
+NN-1 Index: 46
+distanceMRNG: 1948.94
+distanceBRUTE: 1529.36
+NN-2 Index: 116
+distanceMRNG: 2026.8
+distanceBRUTE: 1686.3
+===
+Query: 128
+timeMRNG: 0.154748s
+timeBRUTE: 0.023119s
+NN-1 Index: 766
+distanceMRNG: 1648.37
+distanceBRUTE: 1648.37
+NN-2 Index: 734
+distanceMRNG: 1659.16
+distanceBRUTE: 1659.16
+===
+Query: 129
+timeMRNG: 0.149674s
+timeBRUTE: 0.02984s
+NN-1 Index: 653
+distanceMRNG: 1836.61
+distanceBRUTE: 1309.26
+NN-2 Index: 822
+distanceMRNG: 1955.34
+distanceBRUTE: 1501.29
+===
+Query: 130
+timeMRNG: 0.115663s
+timeBRUTE: 0.021334s
+NN-1 Index: 816
+distanceMRNG: 1491.41
+distanceBRUTE: 1244.47
+NN-2 Index: 449
+distanceMRNG: 1507.45
+distanceBRUTE: 1278.44
+===
+Query: 131
+timeMRNG: 0.164174s
+timeBRUTE: 0.037518s
+NN-1 Index: 672
+distanceMRNG: 1486.81
+distanceBRUTE: 1419.07
+NN-2 Index: 90
+distanceMRNG: 1593.99
+distanceBRUTE: 1486.81
+===
+Query: 132
+timeMRNG: 0.243332s
+timeBRUTE: 0.032287s
+NN-1 Index: 332
+distanceMRNG: 1775.11
+distanceBRUTE: 1775.11
+NN-2 Index: 748
+distanceMRNG: 1960.33
+distanceBRUTE: 1960.33
+===
+Query: 133
+timeMRNG: 0.174418s
+timeBRUTE: 0.033492s
+NN-1 Index: 38
+distanceMRNG: 1865.26
+distanceBRUTE: 1720.24
+NN-2 Index: 324
+distanceMRNG: 1931.18
+distanceBRUTE: 1865.26
+===
+Query: 134
+timeMRNG: 0.190785s
+timeBRUTE: 0.032014s
+NN-1 Index: 766
+distanceMRNG: 1393.7
+distanceBRUTE: 1393.7
+NN-2 Index: 976
+distanceMRNG: 1538.72
+distanceBRUTE: 1538.72
+===
+Query: 135
+timeMRNG: 0.173595s
+timeBRUTE: 0.030908s
+NN-1 Index: 128
+distanceMRNG: 729.892
+distanceBRUTE: 729.892
+NN-2 Index: 450
+distanceMRNG: 801.281
+distanceBRUTE: 801.281
+===
+Query: 136
+timeMRNG: 0.171069s
+timeBRUTE: 0.029341s
+NN-1 Index: 952
+distanceMRNG: 1220.96
+distanceBRUTE: 1220.96
+NN-2 Index: 232
+distanceMRNG: 1645.75
+distanceBRUTE: 1339.51
+===
+Query: 137
+timeMRNG: 0.088384s
+timeBRUTE: 0.021049s
+NN-1 Index: 105
+distanceMRNG: 828.322
+distanceBRUTE: 828.322
+NN-2 Index: 765
+distanceMRNG: 829.212
+distanceBRUTE: 829.212
+===
+Query: 138
+timeMRNG: 0.121222s
+timeBRUTE: 0.022626s
+NN-1 Index: 299
+distanceMRNG: 1678.71
+distanceBRUTE: 1678.71
+NN-2 Index: 536
+distanceMRNG: 2032.16
+distanceBRUTE: 1685.43
+===
+Query: 139
+timeMRNG: 0.179593s
+timeBRUTE: 0.025667s
+NN-1 Index: 461
+distanceMRNG: 1611.15
+distanceBRUTE: 1517.45
+NN-2 Index: 655
+distanceMRNG: 1641.19
+distanceBRUTE: 1542.71
+===
+Query: 140
+timeMRNG: 0.199594s
+timeBRUTE: 0.025336s
+NN-1 Index: 18
+distanceMRNG: 1152.83
+distanceBRUTE: 1152.83
+NN-2 Index: 430
+distanceMRNG: 1201.88
+distanceBRUTE: 1201.88
+===
+Query: 141
+timeMRNG: 0.136667s
+timeBRUTE: 0.021354s
+NN-1 Index: 820
+distanceMRNG: 1541.41
+distanceBRUTE: 1388
+NN-2 Index: 500
+distanceMRNG: 1944.1
+distanceBRUTE: 1541.41
+===
+Query: 142
+timeMRNG: 0.143141s
+timeBRUTE: 0.022139s
+NN-1 Index: 560
+distanceMRNG: 2048.79
+distanceBRUTE: 1788.83
+NN-2 Index: 588
+distanceMRNG: 2098.76
+distanceBRUTE: 1847.54
+===
+Query: 143
+timeMRNG: 0.109111s
+timeBRUTE: 0.025105s
+NN-1 Index: 270
+distanceMRNG: 667.386
+distanceBRUTE: 611.475
+NN-2 Index: 124
+distanceMRNG: 713.866
+distanceBRUTE: 667.386
+===
+Query: 144
+timeMRNG: 0.072971s
+timeBRUTE: 0.02056s
+NN-1 Index: 954
+distanceMRNG: 1340.14
+distanceBRUTE: 1340.14
+NN-2 Index: 230
+distanceMRNG: 1431.33
+distanceBRUTE: 1431.33
+===
+Query: 145
+timeMRNG: 0.124757s
+timeBRUTE: 0.019969s
+NN-1 Index: 358
+distanceMRNG: 669.19
+distanceBRUTE: 669.19
+NN-2 Index: 104
+distanceMRNG: 723.557
+distanceBRUTE: 723.557
+===
+Query: 146
+timeMRNG: 0.130747s
+timeBRUTE: 0.021026s
+NN-1 Index: 240
+distanceMRNG: 2018.29
+distanceBRUTE: 1639.48
+NN-2 Index: 78
+distanceMRNG: 2295.21
+distanceBRUTE: 1713.93
+===
+Query: 147
+timeMRNG: 0.128244s
+timeBRUTE: 0.022013s
+NN-1 Index: 277
+distanceMRNG: 1312.99
+distanceBRUTE: 1312.99
+NN-2 Index: 375
+distanceMRNG: 1533.09
+distanceBRUTE: 1385.32
+===
+Query: 148
+timeMRNG: 0.114435s
+timeBRUTE: 0.020757s
+NN-1 Index: 320
+distanceMRNG: 1394.96
+distanceBRUTE: 1394.96
+NN-2 Index: 118
+distanceMRNG: 1531.24
+distanceBRUTE: 1414.17
+===
+Query: 149
+timeMRNG: 0.115527s
+timeBRUTE: 0.026549s
+NN-1 Index: 778
+distanceMRNG: 1874.21
+distanceBRUTE: 1846.05
+NN-2 Index: 941
+distanceMRNG: 1876.7
+distanceBRUTE: 1874.21
+===
+Query: 150
+timeMRNG: 0.106098s
+timeBRUTE: 0.02573s
+NN-1 Index: 344
+distanceMRNG: 1163
+distanceBRUTE: 1163
+NN-2 Index: 550
+distanceMRNG: 1200.14
+distanceBRUTE: 1164.8
+===
+Query: 151
+timeMRNG: 0.145343s
+timeBRUTE: 0.024723s
+NN-1 Index: 434
+distanceMRNG: 2014.86
+distanceBRUTE: 2014.86
+NN-2 Index: 906
+distanceMRNG: 2280.41
+distanceBRUTE: 2111.17
+===
+Query: 152
+timeMRNG: 0.140527s
+timeBRUTE: 0.022504s
+NN-1 Index: 827
+distanceMRNG: 1752.45
+distanceBRUTE: 1752.45
+NN-2 Index: 47
+distanceMRNG: 1754.01
+distanceBRUTE: 1754.01
+===
+Query: 153
+timeMRNG: 0.242885s
+timeBRUTE: 0.023132s
+NN-1 Index: 48
+distanceMRNG: 1694.75
+distanceBRUTE: 1305.54
+NN-2 Index: 982
+distanceMRNG: 2058.28
+distanceBRUTE: 1604.33
+===
+Query: 154
+timeMRNG: 0.118912s
+timeBRUTE: 0.028335s
+NN-1 Index: 484
+distanceMRNG: 764.435
+distanceBRUTE: 762.618
+NN-2 Index: 604
+distanceMRNG: 1541.5
+distanceBRUTE: 764.435
+===
+Query: 155
+timeMRNG: 0.287708s
+timeBRUTE: 0.021051s
+NN-1 Index: 771
+distanceMRNG: 1445.71
+distanceBRUTE: 1445.71
+NN-2 Index: 328
+distanceMRNG: 1788.05
+distanceBRUTE: 1695.19
+===
+Query: 156
+timeMRNG: 0.130353s
+timeBRUTE: 0.020374s
+NN-1 Index: 442
+distanceMRNG: 1970.42
+distanceBRUTE: 1325.57
+NN-2 Index: 372
+distanceMRNG: 2023.82
+distanceBRUTE: 1566.79
+===
+Query: 157
+timeMRNG: 0.138627s
+timeBRUTE: 0.021548s
+NN-1 Index: 952
+distanceMRNG: 1420.57
+distanceBRUTE: 1410.89
+NN-2 Index: 232
+distanceMRNG: 1617.51
+distanceBRUTE: 1420.57
+===
+Query: 158
+timeMRNG: 0.180761s
+timeBRUTE: 0.024065s
+NN-1 Index: 330
+distanceMRNG: 1650.61
+distanceBRUTE: 1650.61
+NN-2 Index: 50
+distanceMRNG: 1883.2
+distanceBRUTE: 1844.58
+===
+Query: 159
+timeMRNG: 0.025101s
+timeBRUTE: 0.030689s
+NN-1 Index: 638
+distanceMRNG: 1589.24
+distanceBRUTE: 1584.75
+NN-2 Index: 678
+distanceMRNG: 1603.71
+distanceBRUTE: 1586.83
+===
+Query: 160
+timeMRNG: 0.172729s
+timeBRUTE: 0.023308s
+NN-1 Index: 142
+distanceMRNG: 1652.56
+distanceBRUTE: 1527.84
+NN-2 Index: 285
+distanceMRNG: 2021.75
+distanceBRUTE: 1607.16
+===
+Query: 161
+timeMRNG: 0.21594s
+timeBRUTE: 0.024441s
+NN-1 Index: 785
+distanceMRNG: 1675.75
+distanceBRUTE: 1601.27
+NN-2 Index: 151
+distanceMRNG: 1826.29
+distanceBRUTE: 1643.24
+===
+Query: 162
+timeMRNG: 0.11698s
+timeBRUTE: 0.021434s
+NN-1 Index: 480
+distanceMRNG: 1680.7
+distanceBRUTE: 1405.85
+NN-2 Index: 474
+distanceMRNG: 1693.92
+distanceBRUTE: 1680.7
+===
+Query: 163
+timeMRNG: 0.149456s
+timeBRUTE: 0.022881s
+NN-1 Index: 804
+distanceMRNG: 1500.2
+distanceBRUTE: 1500.2
+NN-2 Index: 914
+distanceMRNG: 1693.13
+distanceBRUTE: 1693.13
+===
+Query: 164
+timeMRNG: 0.156438s
+timeBRUTE: 0.034213s
+NN-1 Index: 142
+distanceMRNG: 1722.95
+distanceBRUTE: 1521.38
+NN-2 Index: 754
+distanceMRNG: 1999.56
+distanceBRUTE: 1636.99
+===
+Query: 165
+timeMRNG: 0.155449s
+timeBRUTE: 0.021314s
+NN-1 Index: 254
+distanceMRNG: 1769.33
+distanceBRUTE: 1635.05
+NN-2 Index: 332
+distanceMRNG: 2102.17
+distanceBRUTE: 1691.59
+===
+Query: 166
+timeMRNG: 0.077491s
+timeBRUTE: 0.021508s
+NN-1 Index: 834
+distanceMRNG: 1514.1
+distanceBRUTE: 1514.1
+NN-2 Index: 217
+distanceMRNG: 1649.44
+distanceBRUTE: 1649.44
+===
+Query: 167
+timeMRNG: 0.15404s
+timeBRUTE: 0.021308s
+NN-1 Index: 417
+distanceMRNG: 1396.81
+distanceBRUTE: 1396.81
+NN-2 Index: 985
+distanceMRNG: 1503.54
+distanceBRUTE: 1503.54
+===
+Query: 168
+timeMRNG: 0.129371s
+timeBRUTE: 0.021045s
+NN-1 Index: 398
+distanceMRNG: 706.488
+distanceBRUTE: 647.959
+NN-2 Index: 838
+distanceMRNG: 1420.32
+distanceBRUTE: 706.488
+===
+Query: 169
+timeMRNG: 0.121682s
+timeBRUTE: 0.025262s
+NN-1 Index: 566
+distanceMRNG: 1356.51
+distanceBRUTE: 1356.51
+NN-2 Index: 812
+distanceMRNG: 1555.17
+distanceBRUTE: 1368.03
+===
+Query: 170
+timeMRNG: 0.14934s
+timeBRUTE: 0.0309s
+NN-1 Index: 92
+distanceMRNG: 1251.22
+distanceBRUTE: 1251.22
+NN-2 Index: 336
+distanceMRNG: 1430.9
+distanceBRUTE: 1430.9
+===
+Query: 171
+timeMRNG: 0.163029s
+timeBRUTE: 0.030598s
+NN-1 Index: 803
+distanceMRNG: 1445.45
+distanceBRUTE: 1445.45
+NN-2 Index: 795
+distanceMRNG: 1558.72
+distanceBRUTE: 1558.72
+===
+Query: 172
+timeMRNG: 0.074254s
+timeBRUTE: 0.024941s
+NN-1 Index: 587
+distanceMRNG: 2331.89
+distanceBRUTE: 1782.78
+NN-2 Index: 696
+distanceMRNG: 2332.47
+distanceBRUTE: 1862.8
+===
+Query: 173
+timeMRNG: 0.092647s
+timeBRUTE: 0.021711s
+NN-1 Index: 502
+distanceMRNG: 1964.98
+distanceBRUTE: 1804.09
+NN-2 Index: 778
+distanceMRNG: 1985.62
+distanceBRUTE: 1893.26
+===
+Query: 174
+timeMRNG: 0.166771s
+timeBRUTE: 0.026984s
+NN-1 Index: 78
+distanceMRNG: 1879.16
+distanceBRUTE: 1774.9
+NN-2 Index: 884
+distanceMRNG: 1894.52
+distanceBRUTE: 1810.95
+===
+Query: 175
+timeMRNG: 0.1167s
+timeBRUTE: 0.020506s
+NN-1 Index: 634
+distanceMRNG: 907.503
+distanceBRUTE: 907.503
+NN-2 Index: 604
+distanceMRNG: 945.214
+distanceBRUTE: 945.214
+===
+Query: 176
+timeMRNG: 0.105793s
+timeBRUTE: 0.026812s
+NN-1 Index: 72
+distanceMRNG: 729.98
+distanceBRUTE: 729.98
+NN-2 Index: 270
+distanceMRNG: 753.781
+distanceBRUTE: 753.781
+===
+Query: 177
+timeMRNG: 0.151437s
+timeBRUTE: 0.022859s
+NN-1 Index: 313
+distanceMRNG: 1858.98
+distanceBRUTE: 1681.47
+NN-2 Index: 588
+distanceMRNG: 1916.85
+distanceBRUTE: 1856.02
+===
+Query: 178
+timeMRNG: 0.143072s
+timeBRUTE: 0.030519s
+NN-1 Index: 310
+distanceMRNG: 541.036
+distanceBRUTE: 462.66
+NN-2 Index: 132
+distanceMRNG: 1601.29
+distanceBRUTE: 541.036
+===
+Query: 179
+timeMRNG: 0.298538s
+timeBRUTE: 0.025517s
+NN-1 Index: 766
+distanceMRNG: 1624.32
+distanceBRUTE: 1624.32
+NN-2 Index: 708
+distanceMRNG: 1796.71
+distanceBRUTE: 1759.88
+===
+Query: 180
+timeMRNG: 0.017816s
+timeBRUTE: 0.024822s
+NN-1 Index: 678
+distanceMRNG: 622.53
+distanceBRUTE: 622.53
+NN-2 Index: 251
+distanceMRNG: 1443.39
+distanceBRUTE: 622.955
+===
+Query: 181
+timeMRNG: 0.153035s
+timeBRUTE: 0.032308s
+NN-1 Index: 594
+distanceMRNG: 1821.25
+distanceBRUTE: 1821.25
+NN-2 Index: 938
+distanceMRNG: 1837.03
+distanceBRUTE: 1837.03
+===
+Query: 182
+timeMRNG: 0.160732s
+timeBRUTE: 0.029807s
+NN-1 Index: 420
+distanceMRNG: 1856.1
+distanceBRUTE: 1437.6
+NN-2 Index: 396
+distanceMRNG: 1899.89
+distanceBRUTE: 1587.97
+===
+Query: 183
+timeMRNG: 0.197553s
+timeBRUTE: 0.022538s
+NN-1 Index: 156
+distanceMRNG: 1923.81
+distanceBRUTE: 1314.48
+NN-2 Index: 429
+distanceMRNG: 1936.6
+distanceBRUTE: 1923.81
+===
+Query: 184
+timeMRNG: 0.125898s
+timeBRUTE: 0.024454s
+NN-1 Index: 938
+distanceMRNG: 1647.71
+distanceBRUTE: 1647.71
+NN-2 Index: 784
+distanceMRNG: 1689.1
+distanceBRUTE: 1689.1
+===
+Query: 185
+timeMRNG: 0.060186s
+timeBRUTE: 0.021577s
+NN-1 Index: 782
+distanceMRNG: 1509.2
+distanceBRUTE: 1509.2
+NN-2 Index: 550
+distanceMRNG: 1587.34
+distanceBRUTE: 1534.92
+===
+Query: 186
+timeMRNG: 0.17478s
+timeBRUTE: 0.02391s
+NN-1 Index: 830
+distanceMRNG: 1400.74
+distanceBRUTE: 1400.74
+NN-2 Index: 252
+distanceMRNG: 1646.25
+distanceBRUTE: 1646.25
+===
+Query: 187
+timeMRNG: 0.16059s
+timeBRUTE: 0.02675s
+NN-1 Index: 332
+distanceMRNG: 1872.34
+distanceBRUTE: 1689.92
+NN-2 Index: 136
+distanceMRNG: 1915.01
+distanceBRUTE: 1854.04
+===
+Query: 188
+timeMRNG: 0.12029s
+timeBRUTE: 0.025478s
+NN-1 Index: 818
+distanceMRNG: 1693.25
+distanceBRUTE: 1582.58
+NN-2 Index: 662
+distanceMRNG: 1878.75
+distanceBRUTE: 1693.25
+===
+Query: 189
+timeMRNG: 0.15339s
+timeBRUTE: 0.026083s
+NN-1 Index: 738
+distanceMRNG: 678.522
+distanceBRUTE: 678.522
+NN-2 Index: 104
+distanceMRNG: 829.378
+distanceBRUTE: 829.378
+===
+Query: 190
+timeMRNG: 0.128518s
+timeBRUTE: 0.022423s
+NN-1 Index: 357
+distanceMRNG: 931.47
+distanceBRUTE: 931.47
+NN-2 Index: 309
+distanceMRNG: 1428.58
+distanceBRUTE: 939.25
+===
+Query: 191
+timeMRNG: 0.14424s
+timeBRUTE: 0.021769s
+NN-1 Index: 870
+distanceMRNG: 965.409
+distanceBRUTE: 965.409
+NN-2 Index: 104
+distanceMRNG: 1064.59
+distanceBRUTE: 1064.59
+===
+Query: 192
+timeMRNG: 0.168488s
+timeBRUTE: 0.030475s
+NN-1 Index: 603
+distanceMRNG: 1351.93
+distanceBRUTE: 1125.83
+NN-2 Index: 745
+distanceMRNG: 1387.68
+distanceBRUTE: 1327.68
+===
+Query: 193
+timeMRNG: 0.134946s
+timeBRUTE: 0.033236s
+NN-1 Index: 428
+distanceMRNG: 1645.99
+distanceBRUTE: 1606.86
+NN-2 Index: 718
+distanceMRNG: 1800.64
+distanceBRUTE: 1645.99
+===
+Query: 194
+timeMRNG: 0.120958s
+timeBRUTE: 0.022465s
+NN-1 Index: 818
+distanceMRNG: 1518.26
+distanceBRUTE: 1518.26
+NN-2 Index: 952
+distanceMRNG: 1836.62
+distanceBRUTE: 1531.99
+===
+Query: 195
+timeMRNG: 0.139974s
+timeBRUTE: 0.021344s
+NN-1 Index: 978
+distanceMRNG: 1594.94
+distanceBRUTE: 1594.94
+NN-2 Index: 738
+distanceMRNG: 1668.33
+distanceBRUTE: 1599.19
+===
+Query: 196
+timeMRNG: 0.133968s
+timeBRUTE: 0.021136s
+NN-1 Index: 710
+distanceMRNG: 1053.71
+distanceBRUTE: 736.548
+NN-2 Index: 450
+distanceMRNG: 1071.17
+distanceBRUTE: 1053.71
+===
+Query: 197
+timeMRNG: 0.135125s
+timeBRUTE: 0.025285s
+NN-1 Index: 129
+distanceMRNG: 1370.89
+distanceBRUTE: 1098.99
+NN-2 Index: 794
+distanceMRNG: 1402.42
+distanceBRUTE: 1370.89
+===
+Query: 198
+timeMRNG: 0.093061s
+timeBRUTE: 0.023174s
+NN-1 Index: 566
+distanceMRNG: 1381.39
+distanceBRUTE: 1381.39
+NN-2 Index: 369
+distanceMRNG: 1396.42
+distanceBRUTE: 1387.72
+===
+Query: 199
+timeMRNG: 0.157063s
+timeBRUTE: 0.031623s
+NN-1 Index: 716
+distanceMRNG: 1908.8
+distanceBRUTE: 1684.47
+NN-2 Index: 390
+distanceMRNG: 1942.24
+distanceBRUTE: 1741.63
+===
+Query: 200
+timeMRNG: 0.155377s
+timeBRUTE: 0.032194s
+NN-1 Index: 242
+distanceMRNG: 1974.16
+distanceBRUTE: 1974.16
+NN-2 Index: 874
+distanceMRNG: 2003.66
+distanceBRUTE: 2003.66
+===
+Query: 201
+timeMRNG: 0.153811s
+timeBRUTE: 0.02309s
+NN-1 Index: 241
+distanceMRNG: 1721.79
+distanceBRUTE: 1721.79
+NN-2 Index: 323
+distanceMRNG: 2146.5
+distanceBRUTE: 1802.48
+===
+Query: 202
+timeMRNG: 0.1363s
+timeBRUTE: 0.022648s
+NN-1 Index: 538
+distanceMRNG: 834.26
+distanceBRUTE: 834.26
+NN-2 Index: 315
+distanceMRNG: 869.822
+distanceBRUTE: 869.742
+===
+Query: 203
+timeMRNG: 0.131576s
+timeBRUTE: 0.021075s
+NN-1 Index: 8
+distanceMRNG: 694.065
+distanceBRUTE: 694.065
+NN-2 Index: 132
+distanceMRNG: 1595.12
+distanceBRUTE: 746.015
+===
+Query: 204
+timeMRNG: 0.152679s
+timeBRUTE: 0.030485s
+NN-1 Index: 276
+distanceMRNG: 660.566
+distanceBRUTE: 660.566
+NN-2 Index: 290
+distanceMRNG: 806.934
+distanceBRUTE: 665.149
+===
+Query: 205
+timeMRNG: 0.135769s
+timeBRUTE: 0.026475s
+NN-1 Index: 98
+distanceMRNG: 1365.04
+distanceBRUTE: 1365.04
+NN-2 Index: 136
+distanceMRNG: 1449.57
+distanceBRUTE: 1449.57
+===
+Query: 206
+timeMRNG: 0.139336s
+timeBRUTE: 0.026693s
+NN-1 Index: 806
+distanceMRNG: 1537.38
+distanceBRUTE: 1537.38
+NN-2 Index: 980
+distanceMRNG: 1558.68
+distanceBRUTE: 1558.68
+===
+Query: 207
+timeMRNG: 0.145334s
+timeBRUTE: 0.024446s
+NN-1 Index: 316
+distanceMRNG: 1432.36
+distanceBRUTE: 1432.36
+NN-2 Index: 144
+distanceMRNG: 2037.05
+distanceBRUTE: 1851.41
+===
+Query: 208
+timeMRNG: 0.153295s
+timeBRUTE: 0.021962s
+NN-1 Index: 642
+distanceMRNG: 1816.44
+distanceBRUTE: 1816.44
+NN-2 Index: 684
+distanceMRNG: 1837.08
+distanceBRUTE: 1837.08
+===
+Query: 209
+timeMRNG: 0.155153s
+timeBRUTE: 0.033089s
+NN-1 Index: 110
+distanceMRNG: 1890.9
+distanceBRUTE: 1824.15
+NN-2 Index: 176
+distanceMRNG: 2153.39
+distanceBRUTE: 1890.9
+===
+Query: 210
+timeMRNG: 0.132164s
+timeBRUTE: 0.02093s
+NN-1 Index: 914
+distanceMRNG: 1680.8
+distanceBRUTE: 1638.78
+NN-2 Index: 314
+distanceMRNG: 1730.94
+distanceBRUTE: 1680.8
+===
+Query: 211
+timeMRNG: 0.235433s
+timeBRUTE: 0.02762s
+NN-1 Index: 280
+distanceMRNG: 1822.98
+distanceBRUTE: 1822.98
+NN-2 Index: 42
+distanceMRNG: 1857.84
+distanceBRUTE: 1836.51
+===
+Query: 212
+timeMRNG: 0.158926s
+timeBRUTE: 0.027624s
+NN-1 Index: 764
+distanceMRNG: 1505.62
+distanceBRUTE: 1505.62
+NN-2 Index: 110
+distanceMRNG: 1961.09
+distanceBRUTE: 1783.83
+===
+Query: 213
+timeMRNG: 0.143409s
+timeBRUTE: 0.020266s
+NN-1 Index: 878
+distanceMRNG: 1444.65
+distanceBRUTE: 1375.68
+NN-2 Index: 574
+distanceMRNG: 1460.33
+distanceBRUTE: 1444.65
+===
+Query: 214
+timeMRNG: 0.190643s
+timeBRUTE: 0.025817s
+NN-1 Index: 806
+distanceMRNG: 1231.12
+distanceBRUTE: 1231.12
+NN-2 Index: 162
+distanceMRNG: 1329.84
+distanceBRUTE: 1300.14
+===
+Query: 215
+timeMRNG: 0.14711s
+timeBRUTE: 0.021064s
+NN-1 Index: 952
+distanceMRNG: 1779.35
+distanceBRUTE: 1341.91
+NN-2 Index: 192
+distanceMRNG: 1980.98
+distanceBRUTE: 1594.58
+===
+Query: 216
+timeMRNG: 0.129468s
+timeBRUTE: 0.021773s
+NN-1 Index: 479
+distanceMRNG: 1626.8
+distanceBRUTE: 1626.8
+NN-2 Index: 856
+distanceMRNG: 1678.98
+distanceBRUTE: 1658.66
+===
+Query: 217
+timeMRNG: 0.031739s
+timeBRUTE: 0.021742s
+NN-1 Index: 379
+distanceMRNG: 2137.51
+distanceBRUTE: 1763.47
+NN-2 Index: 342
+distanceMRNG: 2154.58
+distanceBRUTE: 1839.51
+===
+Query: 218
+timeMRNG: 0.175484s
+timeBRUTE: 0.020511s
+NN-1 Index: 463
+distanceMRNG: 1687.86
+distanceBRUTE: 1683.24
+NN-2 Index: 145
+distanceMRNG: 1752.64
+distanceBRUTE: 1687.86
+===
+Query: 219
+timeMRNG: 0.136629s
+timeBRUTE: 0.023606s
+NN-1 Index: 805
+distanceMRNG: 1939.74
+distanceBRUTE: 1683.09
+NN-2 Index: 757
+distanceMRNG: 1955.82
+distanceBRUTE: 1695.98
+===
+Query: 220
+timeMRNG: 0.044476s
+timeBRUTE: 0.02303s
+NN-1 Index: 786
+distanceMRNG: 1598.46
+distanceBRUTE: 1414.83
+NN-2 Index: 226
+distanceMRNG: 1728.41
+distanceBRUTE: 1549.44
+===
+Query: 221
+timeMRNG: 0.148428s
+timeBRUTE: 0.037047s
+NN-1 Index: 584
+distanceMRNG: 2012.33
+distanceBRUTE: 1969.91
+NN-2 Index: 776
+distanceMRNG: 2148.67
+distanceBRUTE: 2010.57
+===
+Query: 222
+timeMRNG: 0.106856s
+timeBRUTE: 0.03447s
+NN-1 Index: 39
+distanceMRNG: 2688.55
+distanceBRUTE: 1972.22
+NN-2 Index: 517
+distanceMRNG: 3021.89
+distanceBRUTE: 2249.73
+===
+Query: 223
+timeMRNG: 0.193837s
+timeBRUTE: 0.031254s
+NN-1 Index: 387
+distanceMRNG: 945.929
+distanceBRUTE: 945.929
+NN-2 Index: 880
+distanceMRNG: 1030.66
+distanceBRUTE: 1030.66
+===
+Query: 224
+timeMRNG: 0.179463s
+timeBRUTE: 0.031095s
+NN-1 Index: 538
+distanceMRNG: 857.139
+distanceBRUTE: 753.138
+NN-2 Index: 309
+distanceMRNG: 1054.59
+distanceBRUTE: 857.139
+===
+Query: 225
+timeMRNG: 0.140336s
+timeBRUTE: 0.031734s
+NN-1 Index: 601
+distanceMRNG: 2188.13
+distanceBRUTE: 2061.75
+NN-2 Index: 858
+distanceMRNG: 2220.29
+distanceBRUTE: 2115.72
+===
+Query: 226
+timeMRNG: 0.309193s
+timeBRUTE: 0.021989s
+NN-1 Index: 160
+distanceMRNG: 1825.43
+distanceBRUTE: 1825.43
+NN-2 Index: 876
+distanceMRNG: 2028.71
+distanceBRUTE: 1917.56
+===
+Query: 227
+timeMRNG: 0.12471s
+timeBRUTE: 0.0202s
+NN-1 Index: 746
+distanceMRNG: 1490.88
+distanceBRUTE: 1365.5
+NN-2 Index: 738
+distanceMRNG: 1533.06
+distanceBRUTE: 1385.2
+===
+Query: 228
+timeMRNG: 0.121429s
+timeBRUTE: 0.020478s
+NN-1 Index: 538
+distanceMRNG: 734.385
+distanceBRUTE: 635.785
+NN-2 Index: 315
+distanceMRNG: 1114.89
+distanceBRUTE: 637.213
+===
+Query: 229
+timeMRNG: 0.127358s
+timeBRUTE: 0.021857s
+NN-1 Index: 258
+distanceMRNG: 1156.71
+distanceBRUTE: 1142.56
+NN-2 Index: 929
+distanceMRNG: 2114.89
+distanceBRUTE: 1156.71
+===
+Query: 230
+timeMRNG: 0.235576s
+timeBRUTE: 0.022662s
+NN-1 Index: 832
+distanceMRNG: 1404.15
+distanceBRUTE: 1404.15
+NN-2 Index: 330
+distanceMRNG: 1688.01
+distanceBRUTE: 1537.72
+===
+Query: 231
+timeMRNG: 0.187263s
+timeBRUTE: 0.022184s
+NN-1 Index: 856
+distanceMRNG: 1436.35
+distanceBRUTE: 1436.35
+NN-2 Index: 574
+distanceMRNG: 1472.08
+distanceBRUTE: 1472.08
+===
+Query: 232
+timeMRNG: 0.122721s
+timeBRUTE: 0.02248s
+NN-1 Index: 144
+distanceMRNG: 1843.39
+distanceBRUTE: 1681.07
+NN-2 Index: 708
+distanceMRNG: 1883.65
+distanceBRUTE: 1759.25
+===
+Query: 233
+timeMRNG: 0.199869s
+timeBRUTE: 0.020982s
+NN-1 Index: 819
+distanceMRNG: 1785.8
+distanceBRUTE: 1785.8
+NN-2 Index: 522
+distanceMRNG: 1788.37
+distanceBRUTE: 1788.37
+===
+Query: 234
+timeMRNG: 0.123069s
+timeBRUTE: 0.027272s
+NN-1 Index: 258
+distanceMRNG: 1091.16
+distanceBRUTE: 1091.16
+NN-2 Index: 634
+distanceMRNG: 1131.57
+distanceBRUTE: 1131.57
+===
+Query: 235
+timeMRNG: 0.189807s
+timeBRUTE: 0.020586s
+NN-1 Index: 334
+distanceMRNG: 1622.77
+distanceBRUTE: 1558.5
+NN-2 Index: 820
+distanceMRNG: 1630.15
+distanceBRUTE: 1622.77
+===
+Query: 236
+timeMRNG: 0.10958s
+timeBRUTE: 0.022103s
+NN-1 Index: 140
+distanceMRNG: 1939
+distanceBRUTE: 1628.24
+NN-2 Index: 624
+distanceMRNG: 2070.48
+distanceBRUTE: 1831.81
+===
+Query: 237
+timeMRNG: 0.139596s
+timeBRUTE: 0.021602s
+NN-1 Index: 99
+distanceMRNG: 1670.99
+distanceBRUTE: 1428.28
+NN-2 Index: 78
+distanceMRNG: 1678.15
+distanceBRUTE: 1670.99
+===
+Query: 238
+timeMRNG: 0.147688s
+timeBRUTE: 0.020757s
+NN-1 Index: 237
+distanceMRNG: 1387.5
+distanceBRUTE: 1387.5
+NN-2 Index: 564
+distanceMRNG: 1454.77
+distanceBRUTE: 1454.77
+===
+Query: 239
+timeMRNG: 0.116965s
+timeBRUTE: 0.020466s
+NN-1 Index: 484
+distanceMRNG: 589.961
+distanceBRUTE: 497.209
+NN-2 Index: 900
+distanceMRNG: 1615.32
+distanceBRUTE: 589.961
+===
+Query: 240
+timeMRNG: 0.129295s
+timeBRUTE: 0.020485s
+NN-1 Index: 332
+distanceMRNG: 1381.11
+distanceBRUTE: 1381.11
+NN-2 Index: 956
+distanceMRNG: 1708.48
+distanceBRUTE: 1640.34
+===
+Query: 241
+timeMRNG: 0.208122s
+timeBRUTE: 0.021183s
+NN-1 Index: 588
+distanceMRNG: 2214.53
+distanceBRUTE: 1853.03
+NN-2 Index: 728
+distanceMRNG: 2379.84
+distanceBRUTE: 1877.07
+===
+Query: 242
+timeMRNG: 0.112985s
+timeBRUTE: 0.022646s
+NN-1 Index: 623
+distanceMRNG: 1793.82
+distanceBRUTE: 1793.82
+NN-2 Index: 913
+distanceMRNG: 1898.08
+distanceBRUTE: 1898.08
+===
+Query: 243
+timeMRNG: 0.147828s
+timeBRUTE: 0.02051s
+NN-1 Index: 936
+distanceMRNG: 1734.91
+distanceBRUTE: 1599.01
+NN-2 Index: 38
+distanceMRNG: 1750.93
+distanceBRUTE: 1664.34
+===
+Query: 244
+timeMRNG: 0.120715s
+timeBRUTE: 0.024569s
+NN-1 Index: 132
+distanceMRNG: 1639.62
+distanceBRUTE: 1497.1
+NN-2 Index: 72
+distanceMRNG: 1704.26
+distanceBRUTE: 1639.62
+===
+Query: 245
+timeMRNG: 0.140975s
+timeBRUTE: 0.028321s
+NN-1 Index: 558
+distanceMRNG: 1954.49
+distanceBRUTE: 1954.12
+NN-2 Index: 778
+distanceMRNG: 2008.8
+distanceBRUTE: 1954.49
+===
+Query: 246
+timeMRNG: 0.169161s
+timeBRUTE: 0.026288s
+NN-1 Index: 464
+distanceMRNG: 1343.77
+distanceBRUTE: 1343.77
+NN-2 Index: 68
+distanceMRNG: 1811.65
+distanceBRUTE: 1453.67
+===
+Query: 247
+timeMRNG: 0.100844s
+timeBRUTE: 0.021835s
+NN-1 Index: 892
+distanceMRNG: 1935.58
+distanceBRUTE: 1765.12
+NN-2 Index: 899
+distanceMRNG: 1966.01
+distanceBRUTE: 1784.3
+===
+Query: 248
+timeMRNG: 0.140848s
+timeBRUTE: 0.023127s
+NN-1 Index: 914
+distanceMRNG: 1454.56
+distanceBRUTE: 1454.56
+NN-2 Index: 564
+distanceMRNG: 1682.91
+distanceBRUTE: 1658.87
+===
+Query: 249
+timeMRNG: 0.100597s
+timeBRUTE: 0.021576s
+NN-1 Index: 696
+distanceMRNG: 1396.68
+distanceBRUTE: 1396.68
+NN-2 Index: 397
+distanceMRNG: 1472.27
+distanceBRUTE: 1442.39
+===
+Query: 250
+timeMRNG: 0.158539s
+timeBRUTE: 0.034573s
+NN-1 Index: 438
+distanceMRNG: 1394.49
+distanceBRUTE: 1394.49
+NN-2 Index: 374
+distanceMRNG: 1411.1
+distanceBRUTE: 1411.1
+===
+Query: 251
+timeMRNG: 0.163356s
+timeBRUTE: 0.019825s
+NN-1 Index: 618
+distanceMRNG: 831.965
+distanceBRUTE: 831.965
+NN-2 Index: 14
+distanceMRNG: 1009.54
+distanceBRUTE: 852.345
+===
+Query: 252
+timeMRNG: 0.139012s
+timeBRUTE: 0.022094s
+NN-1 Index: 170
+distanceMRNG: 1264.35
+distanceBRUTE: 1264.35
+NN-2 Index: 550
+distanceMRNG: 1472.08
+distanceBRUTE: 1373.93
+===
+Query: 253
+timeMRNG: 0.278789s
+timeBRUTE: 0.030408s
+NN-1 Index: 420
+distanceMRNG: 1618.87
+distanceBRUTE: 1618.87
+NN-2 Index: 912
+distanceMRNG: 1679.17
+distanceBRUTE: 1620.02
+===
+Query: 254
+timeMRNG: 0.140246s
+timeBRUTE: 0.031567s
+NN-1 Index: 798
+distanceMRNG: 922.188
+distanceBRUTE: 922.188
+NN-2 Index: 288
+distanceMRNG: 1264.53
+distanceBRUTE: 1264.53
+===
+Query: 255
+timeMRNG: 0.14038s
+timeBRUTE: 0.021243s
+NN-1 Index: 936
+distanceMRNG: 1151.4
+distanceBRUTE: 1151.4
+NN-2 Index: 968
+distanceMRNG: 1363.34
+distanceBRUTE: 1363.34
+===
+Query: 256
+timeMRNG: 0.18438s
+timeBRUTE: 0.035918s
+NN-1 Index: 397
+distanceMRNG: 1506.95
+distanceBRUTE: 1363.31
+NN-2 Index: 315
+distanceMRNG: 1515.71
+distanceBRUTE: 1391.47
+===
+Query: 257
+timeMRNG: 0.149616s
+timeBRUTE: 0.03265s
+NN-1 Index: 920
+distanceMRNG: 1577.45
+distanceBRUTE: 1577.45
+NN-2 Index: 290
+distanceMRNG: 1646.14
+distanceBRUTE: 1621.02
+===
+Query: 258
+timeMRNG: 0.186374s
+timeBRUTE: 0.022749s
+NN-1 Index: 204
+distanceMRNG: 2282.28
+distanceBRUTE: 1385.94
+NN-2 Index: 148
+distanceMRNG: 2442.86
+distanceBRUTE: 1762.57
+===
+Query: 259
+timeMRNG: 0.157404s
+timeBRUTE: 0.028445s
+NN-1 Index: 947
+distanceMRNG: 2332.19
+distanceBRUTE: 1291.51
+NN-2 Index: 262
+distanceMRNG: 2400.64
+distanceBRUTE: 1782.45
+===
+Query: 260
+timeMRNG: 0.049598s
+timeBRUTE: 0.024352s
+NN-1 Index: 823
+distanceMRNG: 1876.75
+distanceBRUTE: 1622.22
+NN-2 Index: 227
+distanceMRNG: 2125.55
+distanceBRUTE: 1669.27
+===
+Query: 261
+timeMRNG: 0.16077s
+timeBRUTE: 0.023831s
+NN-1 Index: 366
+distanceMRNG: 1579.03
+distanceBRUTE: 1579.03
+NN-2 Index: 450
+distanceMRNG: 1625.87
+distanceBRUTE: 1625.87
+===
+Query: 262
+timeMRNG: 0.182408s
+timeBRUTE: 0.028628s
+NN-1 Index: 686
+distanceMRNG: 1509.27
+distanceBRUTE: 1509.27
+NN-2 Index: 288
+distanceMRNG: 1687.28
+distanceBRUTE: 1518.02
+===
+Query: 263
+timeMRNG: 0.166423s
+timeBRUTE: 0.029478s
+NN-1 Index: 42
+distanceMRNG: 1141.12
+distanceBRUTE: 999.066
+NN-2 Index: 418
+distanceMRNG: 2050.72
+distanceBRUTE: 1141.12
+===
+Query: 264
+timeMRNG: 0.184026s
+timeBRUTE: 0.031591s
+NN-1 Index: 428
+distanceMRNG: 1673
+distanceBRUTE: 1457.38
+NN-2 Index: 870
+distanceMRNG: 1677.8
+distanceBRUTE: 1556.47
+===
+Query: 265
+timeMRNG: 0.055058s
+timeBRUTE: 0.026498s
+NN-1 Index: 678
+distanceMRNG: 822.937
+distanceBRUTE: 822.937
+NN-2 Index: 638
+distanceMRNG: 829.739
+distanceBRUTE: 829.739
+===
+Query: 266
+timeMRNG: 0.117193s
+timeBRUTE: 0.024599s
+NN-1 Index: 594
+distanceMRNG: 1770.8
+distanceBRUTE: 1696.02
+NN-2 Index: 958
+distanceMRNG: 1986.9
+distanceBRUTE: 1770.8
+===
+Query: 267
+timeMRNG: 0.017793s
+timeBRUTE: 0.0254s
+NN-1 Index: 678
+distanceMRNG: 691.388
+distanceBRUTE: 691.388
+NN-2 Index: 543
+distanceMRNG: 2130.03
+distanceBRUTE: 867.185
+===
+Query: 268
+timeMRNG: 0.138838s
+timeBRUTE: 0.022515s
+NN-1 Index: 210
+distanceMRNG: 2185.71
+distanceBRUTE: 1948.81
+NN-2 Index: 882
+distanceMRNG: 2267.18
+distanceBRUTE: 1968.61
+===
+Query: 269
+timeMRNG: 0.069252s
+timeBRUTE: 0.024326s
+NN-1 Index: 786
+distanceMRNG: 2341.97
+distanceBRUTE: 1702.74
+NN-2 Index: 604
+distanceMRNG: 2342.38
+distanceBRUTE: 1805.9
+===
+Query: 270
+timeMRNG: 0.148112s
+timeBRUTE: 0.022889s
+NN-1 Index: 12
+distanceMRNG: 1760.27
+distanceBRUTE: 1537.27
+NN-2 Index: 98
+distanceMRNG: 1987.98
+distanceBRUTE: 1760.27
+===
+Query: 271
+timeMRNG: 0.179568s
+timeBRUTE: 0.032038s
+NN-1 Index: 320
+distanceMRNG: 1414.79
+distanceBRUTE: 1414.79
+NN-2 Index: 451
+distanceMRNG: 1667.75
+distanceBRUTE: 1495.54
+===
+Query: 272
+timeMRNG: 0.164696s
+timeBRUTE: 0.030141s
+NN-1 Index: 8
+distanceMRNG: 644.709
+distanceBRUTE: 592.888
+NN-2 Index: 736
+distanceMRNG: 1973.25
+distanceBRUTE: 637.217
+===
+Query: 273
+timeMRNG: 0.181726s
+timeBRUTE: 0.030887s
+NN-1 Index: 806
+distanceMRNG: 1489.79
+distanceBRUTE: 1489.79
+NN-2 Index: 564
+distanceMRNG: 1513.05
+distanceBRUTE: 1513.05
+===
+Query: 274
+timeMRNG: 0.24192s
+timeBRUTE: 0.022943s
+NN-1 Index: 110
+distanceMRNG: 2022.47
+distanceBRUTE: 1701.66
+NN-2 Index: 143
+distanceMRNG: 2312.41
+distanceBRUTE: 1723.7
+===
+Query: 275
+timeMRNG: 0.140325s
+timeBRUTE: 0.022459s
+NN-1 Index: 194
+distanceMRNG: 1333.27
+distanceBRUTE: 1333.27
+NN-2 Index: 616
+distanceMRNG: 1395.19
+distanceBRUTE: 1395.19
+===
+Query: 276
+timeMRNG: 0.126835s
+timeBRUTE: 0.020274s
+NN-1 Index: 152
+distanceMRNG: 609.618
+distanceBRUTE: 609.618
+NN-2 Index: 450
+distanceMRNG: 778.193
+distanceBRUTE: 626.722
+===
+Query: 277
+timeMRNG: 0.193844s
+timeBRUTE: 0.020803s
+NN-1 Index: 160
+distanceMRNG: 2042.01
+distanceBRUTE: 1413.21
+NN-2 Index: 10
+distanceMRNG: 2218.7
+distanceBRUTE: 2021.89
+===
+Query: 278
+timeMRNG: 0.136194s
+timeBRUTE: 0.02967s
+NN-1 Index: 696
+distanceMRNG: 2143.16
+distanceBRUTE: 1888.77
+NN-2 Index: 586
+distanceMRNG: 2193.67
+distanceBRUTE: 1972.99
+===
+Query: 279
+timeMRNG: 0.126516s
+timeBRUTE: 0.019486s
+NN-1 Index: 484
+distanceMRNG: 686.76
+distanceBRUTE: 686.76
+NN-2 Index: 936
+distanceMRNG: 1565.79
+distanceBRUTE: 707.853
+===
+Query: 280
+timeMRNG: 0.13737s
+timeBRUTE: 0.020316s
+NN-1 Index: 122
+distanceMRNG: 1649.4
+distanceBRUTE: 1453.67
+NN-2 Index: 696
+distanceMRNG: 1731.82
+distanceBRUTE: 1485.55
+===
+Query: 281
+timeMRNG: 0.169561s
+timeBRUTE: 0.019977s
+NN-1 Index: 687
+distanceMRNG: 1161.32
+distanceBRUTE: 1161.32
+NN-2 Index: 727
+distanceMRNG: 1319.58
+distanceBRUTE: 1162.14
+===
+Query: 282
+timeMRNG: 0.165369s
+timeBRUTE: 0.025153s
+NN-1 Index: 936
+distanceMRNG: 1207.67
+distanceBRUTE: 1207.67
+NN-2 Index: 968
+distanceMRNG: 1377.65
+distanceBRUTE: 1314.49
+===
+Query: 283
+timeMRNG: 0.058754s
+timeBRUTE: 0.031807s
+NN-1 Index: 540
+distanceMRNG: 1789.32
+distanceBRUTE: 1674.31
+NN-2 Index: 8
+distanceMRNG: 1889.3
+distanceBRUTE: 1789.32
+===
+Query: 284
+timeMRNG: 0.146601s
+timeBRUTE: 0.025399s
+NN-1 Index: 940
+distanceMRNG: 1204.15
+distanceBRUTE: 1204.15
+NN-2 Index: 322
+distanceMRNG: 1777.81
+distanceBRUTE: 1500.54
+===
+Query: 285
+timeMRNG: 0.13578s
+timeBRUTE: 0.022427s
+NN-1 Index: 584
+distanceMRNG: 1909.36
+distanceBRUTE: 1748.23
+NN-2 Index: 432
+distanceMRNG: 2000.57
+distanceBRUTE: 1909.36
+===
+Query: 286
+timeMRNG: 0.141379s
+timeBRUTE: 0.026396s
+NN-1 Index: 36
+distanceMRNG: 1508.98
+distanceBRUTE: 1040.14
+NN-2 Index: 470
+distanceMRNG: 1677.11
+distanceBRUTE: 1508.98
+===
+Query: 287
+timeMRNG: 0.225618s
+timeBRUTE: 0.032486s
+NN-1 Index: 2
+distanceMRNG: 2121.42
+distanceBRUTE: 1928.11
+NN-2 Index: 990
+distanceMRNG: 2234.31
+distanceBRUTE: 2062.61
+===
+Query: 288
+timeMRNG: 0.15463s
+timeBRUTE: 0.021466s
+NN-1 Index: 676
+distanceMRNG: 996.433
+distanceBRUTE: 896.969
+NN-2 Index: 211
+distanceMRNG: 1059.47
+distanceBRUTE: 996.433
+===
+Query: 289
+timeMRNG: 0.20659s
+timeBRUTE: 0.022542s
+NN-1 Index: 144
+distanceMRNG: 1819.73
+distanceBRUTE: 1693.08
+NN-2 Index: 266
+distanceMRNG: 1862.48
+distanceBRUTE: 1819.73
+===
+Query: 290
+timeMRNG: 0.170331s
+timeBRUTE: 0.02755s
+NN-1 Index: 532
+distanceMRNG: 1852.15
+distanceBRUTE: 1783.05
+NN-2 Index: 726
+distanceMRNG: 1872.26
+distanceBRUTE: 1852.15
+===
+Query: 291
+timeMRNG: 0.161212s
+timeBRUTE: 0.021452s
+NN-1 Index: 161
+distanceMRNG: 1878.76
+distanceBRUTE: 1878.76
+NN-2 Index: 938
+distanceMRNG: 1927.01
+distanceBRUTE: 1927.01
+===
+Query: 292
+timeMRNG: 0.212389s
+timeBRUTE: 0.023916s
+NN-1 Index: 940
+distanceMRNG: 1360.27
+distanceBRUTE: 1360.27
+NN-2 Index: 334
+distanceMRNG: 1590
+distanceBRUTE: 1570.24
+===
+Query: 293
+timeMRNG: 0.199726s
+timeBRUTE: 0.02059s
+NN-1 Index: 884
+distanceMRNG: 2123.66
+distanceBRUTE: 1734.71
+NN-2 Index: 180
+distanceMRNG: 2133.27
+distanceBRUTE: 1913.47
+===
+Query: 294
+timeMRNG: 0.126843s
+timeBRUTE: 0.02089s
+NN-1 Index: 662
+distanceMRNG: 1239.91
+distanceBRUTE: 1239.91
+NN-2 Index: 210
+distanceMRNG: 1290.56
+distanceBRUTE: 1290.56
+===
+Query: 295
+timeMRNG: 0.174935s
+timeBRUTE: 0.020892s
+NN-1 Index: 110
+distanceMRNG: 1547.34
+distanceBRUTE: 1547.34
+NN-2 Index: 58
+distanceMRNG: 1574.48
+distanceBRUTE: 1574.48
+===
+Query: 296
+timeMRNG: 0.13787s
+timeBRUTE: 0.028195s
+NN-1 Index: 462
+distanceMRNG: 1839.96
+distanceBRUTE: 1525.6
+NN-2 Index: 51
+distanceMRNG: 1946.68
+distanceBRUTE: 1574.66
+===
+Query: 297
+timeMRNG: 0.159209s
+timeBRUTE: 0.030067s
+NN-1 Index: 472
+distanceMRNG: 2502.81
+distanceBRUTE: 1597.82
+NN-2 Index: 824
+distanceMRNG: 2533.79
+distanceBRUTE: 1881.06
+===
+Query: 298
+timeMRNG: 0.317443s
+timeBRUTE: 0.025998s
+NN-1 Index: 418
+distanceMRNG: 2181.77
+distanceBRUTE: 1707.18
+NN-2 Index: 275
+distanceMRNG: 2470.84
+distanceBRUTE: 1833.06
+===
+Query: 299
+timeMRNG: 0.237439s
+timeBRUTE: 0.023759s
+NN-1 Index: 240
+distanceMRNG: 1931.18
+distanceBRUTE: 1377.57
+NN-2 Index: 766
+distanceMRNG: 1991.69
+distanceBRUTE: 1717.4
+===
+Query: 300
+timeMRNG: 0.148271s
+timeBRUTE: 0.02401s
+NN-1 Index: 648
+distanceMRNG: 1369.63
+distanceBRUTE: 1369.63
+NN-2 Index: 270
+distanceMRNG: 1468.93
+distanceBRUTE: 1468.93
+===
+Query: 301
+timeMRNG: 0.198454s
+timeBRUTE: 0.027477s
+NN-1 Index: 730
+distanceMRNG: 1717.04
+distanceBRUTE: 1717.04
+NN-2 Index: 478
+distanceMRNG: 1772.66
+distanceBRUTE: 1772.66
+===
+Query: 302
+timeMRNG: 0.124204s
+timeBRUTE: 0.019423s
+NN-1 Index: 638
+distanceMRNG: 411.699
+distanceBRUTE: 411.699
+NN-2 Index: 484
+distanceMRNG: 763.008
+distanceBRUTE: 595.757
+===
+Query: 303
+timeMRNG: 0.107423s
+timeBRUTE: 0.019924s
+NN-1 Index: 868
+distanceMRNG: 1727.16
+distanceBRUTE: 1727.16
+NN-2 Index: 754
+distanceMRNG: 1824.62
+distanceBRUTE: 1756.51
+===
+Query: 304
+timeMRNG: 0.18768s
+timeBRUTE: 0.020185s
+NN-1 Index: 26
+distanceMRNG: 1559.12
+distanceBRUTE: 1527.7
+NN-2 Index: 336
+distanceMRNG: 1787.7
+distanceBRUTE: 1541.96
+===
+Query: 305
+timeMRNG: 0.122217s
+timeBRUTE: 0.033598s
+NN-1 Index: 738
+distanceMRNG: 2677.07
+distanceBRUTE: 1862.62
+NN-2 Index: 270
+distanceMRNG: 2704.8
+distanceBRUTE: 1923.21
+===
+Query: 306
+timeMRNG: 0.104616s
+timeBRUTE: 0.025935s
+NN-1 Index: 646
+distanceMRNG: 1405.83
+distanceBRUTE: 1405.83
+NN-2 Index: 696
+distanceMRNG: 1638.5
+distanceBRUTE: 1570.65
+===
+Query: 307
+timeMRNG: 0.121304s
+timeBRUTE: 0.020604s
+NN-1 Index: 754
+distanceMRNG: 1654.23
+distanceBRUTE: 1233.6
+NN-2 Index: 905
+distanceMRNG: 2195.32
+distanceBRUTE: 1269.39
+===
+Query: 308
+timeMRNG: 0.038533s
+timeBRUTE: 0.02457s
+NN-1 Index: 363
+distanceMRNG: 1712.65
+distanceBRUTE: 1607.07
+NN-2 Index: 379
+distanceMRNG: 1739.63
+distanceBRUTE: 1666.56
+===
+Query: 309
+timeMRNG: 0.132135s
+timeBRUTE: 0.026586s
+NN-1 Index: 630
+distanceMRNG: 1752.67
+distanceBRUTE: 1752.67
+NN-2 Index: 484
+distanceMRNG: 1814.38
+distanceBRUTE: 1775.6
+===
+Query: 310
+timeMRNG: 0.146873s
+timeBRUTE: 0.03862s
+NN-1 Index: 136
+distanceMRNG: 1518.22
+distanceBRUTE: 1474.85
+NN-2 Index: 44
+distanceMRNG: 1900.6
+distanceBRUTE: 1518.22
+===
+Query: 311
+timeMRNG: 0.185106s
+timeBRUTE: 0.029371s
+NN-1 Index: 458
+distanceMRNG: 2080.8
+distanceBRUTE: 1894.75
+NN-2 Index: 596
+distanceMRNG: 2121.79
+distanceBRUTE: 1924.86
+===
+Query: 312
+timeMRNG: 0.158487s
+timeBRUTE: 0.025877s
+NN-1 Index: 192
+distanceMRNG: 1418.15
+distanceBRUTE: 1381.32
+NN-2 Index: 702
+distanceMRNG: 1473.22
+distanceBRUTE: 1418.15
+===
+Query: 313
+timeMRNG: 0.146993s
+timeBRUTE: 0.034631s
+NN-1 Index: 412
+distanceMRNG: 2215.93
+distanceBRUTE: 1513.54
+NN-2 Index: 778
+distanceMRNG: 2230.73
+distanceBRUTE: 2014.62
+===
+Query: 314
+timeMRNG: 0.169837s
+timeBRUTE: 0.031317s
+NN-1 Index: 8
+distanceMRNG: 867.702
+distanceBRUTE: 695.156
+NN-2 Index: 19
+distanceMRNG: 1986.04
+distanceBRUTE: 699.52
+===
+Query: 315
+timeMRNG: 0.152287s
+timeBRUTE: 0.021077s
+NN-1 Index: 564
+distanceMRNG: 1654.09
+distanceBRUTE: 1654.09
+NN-2 Index: 763
+distanceMRNG: 1704.7
+distanceBRUTE: 1704.7
+===
+Query: 316
+timeMRNG: 0.091805s
+timeBRUTE: 0.026321s
+NN-1 Index: 740
+distanceMRNG: 1991.89
+distanceBRUTE: 1480.06
+NN-2 Index: 771
+distanceMRNG: 2001.86
+distanceBRUTE: 1719.95
+===
+Query: 317
+timeMRNG: 0.119996s
+timeBRUTE: 0.021923s
+NN-1 Index: 65
+distanceMRNG: 1304.54
+distanceBRUTE: 1304.54
+NN-2 Index: 947
+distanceMRNG: 1428.25
+distanceBRUTE: 1428.25
+===
+Query: 318
+timeMRNG: 0.147812s
+timeBRUTE: 0.022028s
+NN-1 Index: 970
+distanceMRNG: 2078.77
+distanceBRUTE: 2055.72
+NN-2 Index: 998
+distanceMRNG: 2153.71
+distanceBRUTE: 2078.77
+===
+Query: 319
+timeMRNG: 0.134127s
+timeBRUTE: 0.021346s
+NN-1 Index: 316
+distanceMRNG: 2143.62
+distanceBRUTE: 1948.06
+NN-2 Index: 628
+distanceMRNG: 2280.31
+distanceBRUTE: 1966.62
+===
+Query: 320
+timeMRNG: 0.130319s
+timeBRUTE: 0.028254s
+NN-1 Index: 720
+distanceMRNG: 1281.57
+distanceBRUTE: 1097.01
+NN-2 Index: 838
+distanceMRNG: 1283.86
+distanceBRUTE: 1281.57
+===
+Query: 321
+timeMRNG: 0.128761s
+timeBRUTE: 0.02108s
+NN-1 Index: 728
+distanceMRNG: 1122.38
+distanceBRUTE: 1122.38
+NN-2 Index: 560
+distanceMRNG: 1182.4
+distanceBRUTE: 1182.4
+===
+Query: 322
+timeMRNG: 0.118991s
+timeBRUTE: 0.021872s
+NN-1 Index: 812
+distanceMRNG: 1381.98
+distanceBRUTE: 1381.98
+NN-2 Index: 932
+distanceMRNG: 1389.17
+distanceBRUTE: 1389.17
+===
+Query: 323
+timeMRNG: 0.127363s
+timeBRUTE: 0.021124s
+NN-1 Index: 646
+distanceMRNG: 1642.08
+distanceBRUTE: 1571.49
+NN-2 Index: 878
+distanceMRNG: 1659.72
+distanceBRUTE: 1642.08
+===
+Query: 324
+timeMRNG: 0.197778s
+timeBRUTE: 0.029277s
+NN-1 Index: 436
+distanceMRNG: 2059.37
+distanceBRUTE: 1627.57
+NN-2 Index: 514
+distanceMRNG: 2071.82
+distanceBRUTE: 1808.42
+===
+Query: 325
+timeMRNG: 0.147334s
+timeBRUTE: 0.02409s
+NN-1 Index: 621
+distanceMRNG: 1495.12
+distanceBRUTE: 1495.12
+NN-2 Index: 746
+distanceMRNG: 1583.21
+distanceBRUTE: 1578.97
+===
+Query: 326
+timeMRNG: 0.109076s
+timeBRUTE: 0.021165s
+NN-1 Index: 892
+distanceMRNG: 1874.3
+distanceBRUTE: 1874.3
+NN-2 Index: 710
+distanceMRNG: 1935.4
+distanceBRUTE: 1885.32
+===
+Query: 327
+timeMRNG: 0.163677s
+timeBRUTE: 0.021095s
+NN-1 Index: 902
+distanceMRNG: 1690.74
+distanceBRUTE: 1664.57
+NN-2 Index: 234
+distanceMRNG: 1750.25
+distanceBRUTE: 1690.74
+===
+Query: 328
+timeMRNG: 0.119683s
+timeBRUTE: 0.021701s
+NN-1 Index: 42
+distanceMRNG: 1447.24
+distanceBRUTE: 1395.9
+NN-2 Index: 384
+distanceMRNG: 1924.68
+distanceBRUTE: 1447.24
+===
+Query: 329
+timeMRNG: 0.033962s
+timeBRUTE: 0.024751s
+NN-1 Index: 678
+distanceMRNG: 603.736
+distanceBRUTE: 603.736
+NN-2 Index: 572
+distanceMRNG: 767.097
+distanceBRUTE: 724.572
+===
+Query: 330
+timeMRNG: 0.01938s
+timeBRUTE: 0.029729s
+NN-1 Index: 678
+distanceMRNG: 478.009
+distanceBRUTE: 478.009
+NN-2 Index: 968
+distanceMRNG: 1706.64
+distanceBRUTE: 612.96
+===
+Query: 331
+timeMRNG: 0.129728s
+timeBRUTE: 0.022191s
+NN-1 Index: 696
+distanceMRNG: 1555.26
+distanceBRUTE: 1339.15
+NN-2 Index: 397
+distanceMRNG: 1659.21
+distanceBRUTE: 1555.26
+===
+Query: 332
+timeMRNG: 0.070012s
+timeBRUTE: 0.01957s
+NN-1 Index: 40
+distanceMRNG: 633.182
+distanceBRUTE: 474.37
+NN-2 Index: 678
+distanceMRNG: 682.892
+distanceBRUTE: 581.924
+===
+Query: 333
+timeMRNG: 0.151475s
+timeBRUTE: 0.020587s
+NN-1 Index: 502
+distanceMRNG: 1719.29
+distanceBRUTE: 1719.29
+NN-2 Index: 912
+distanceMRNG: 1788.52
+distanceBRUTE: 1788.52
+===
+Query: 334
+timeMRNG: 0.131259s
+timeBRUTE: 0.02077s
+NN-1 Index: 479
+distanceMRNG: 1727.9
+distanceBRUTE: 1623.6
+NN-2 Index: 856
+distanceMRNG: 1853.9
+distanceBRUTE: 1727.9
+===
+Query: 335
+timeMRNG: 0.118981s
+timeBRUTE: 0.020993s
+NN-1 Index: 466
+distanceMRNG: 1787.69
+distanceBRUTE: 1470.4
+NN-2 Index: 941
+distanceMRNG: 1854.88
+distanceBRUTE: 1528.86
+===
+Query: 336
+timeMRNG: 0.143647s
+timeBRUTE: 0.021027s
+NN-1 Index: 264
+distanceMRNG: 1420.81
+distanceBRUTE: 1420.81
+NN-2 Index: 334
+distanceMRNG: 1501
+distanceBRUTE: 1501
+===
+Query: 337
+timeMRNG: 0.176295s
+timeBRUTE: 0.028925s
+NN-1 Index: 798
+distanceMRNG: 1246.89
+distanceBRUTE: 1246.89
+NN-2 Index: 84
+distanceMRNG: 1706.15
+distanceBRUTE: 1380.72
+===
+Query: 338
+timeMRNG: 0.069567s
+timeBRUTE: 0.025065s
+NN-1 Index: 284
+distanceMRNG: 2231.6
+distanceBRUTE: 2231.6
+NN-2 Index: 875
+distanceMRNG: 2361.27
+distanceBRUTE: 2261.55
+===
+Query: 339
+timeMRNG: 0.135261s
+timeBRUTE: 0.020993s
+NN-1 Index: 238
+distanceMRNG: 1732.1
+distanceBRUTE: 1107.92
+NN-2 Index: 996
+distanceMRNG: 1781.83
+distanceBRUTE: 1732.1
+===
+Query: 340
+timeMRNG: 0.131695s
+timeBRUTE: 0.021184s
+NN-1 Index: 450
+distanceMRNG: 1862.91
+distanceBRUTE: 1186.81
+NN-2 Index: 638
+distanceMRNG: 1975.06
+distanceBRUTE: 1396.7
+===
+Query: 341
+timeMRNG: 0.110132s
+timeBRUTE: 0.034692s
+NN-1 Index: 778
+distanceMRNG: 1731.45
+distanceBRUTE: 1731.45
+NN-2 Index: 418
+distanceMRNG: 1732.81
+distanceBRUTE: 1732.81
+===
+Query: 342
+timeMRNG: 0.139318s
+timeBRUTE: 0.020637s
+NN-1 Index: 112
+distanceMRNG: 719.987
+distanceBRUTE: 582.633
+NN-2 Index: 710
+distanceMRNG: 771.642
+distanceBRUTE: 719.987
+===
+Query: 343
+timeMRNG: 0.121616s
+timeBRUTE: 0.025623s
+NN-1 Index: 254
+distanceMRNG: 1569.36
+distanceBRUTE: 1569.36
+NN-2 Index: 767
+distanceMRNG: 1897.13
+distanceBRUTE: 1604.57
+===
+Query: 344
+timeMRNG: 0.107012s
+timeBRUTE: 0.021178s
+NN-1 Index: 726
+distanceMRNG: 1494.68
+distanceBRUTE: 1494.68
+NN-2 Index: 332
+distanceMRNG: 1670.14
+distanceBRUTE: 1670.14
+===
+Query: 345
+timeMRNG: 0.147543s
+timeBRUTE: 0.021515s
+NN-1 Index: 128
+distanceMRNG: 960.718
+distanceBRUTE: 866.35
+NN-2 Index: 710
+distanceMRNG: 1050.11
+distanceBRUTE: 899.926
+===
+Query: 346
+timeMRNG: 0.201508s
+timeBRUTE: 0.020836s
+NN-1 Index: 952
+distanceMRNG: 1633.96
+distanceBRUTE: 1308.23
+NN-2 Index: 69
+distanceMRNG: 1805.76
+distanceBRUTE: 1379.78
+===
+Query: 347
+timeMRNG: 0.217753s
+timeBRUTE: 0.026655s
+NN-1 Index: 348
+distanceMRNG: 2096.73
+distanceBRUTE: 1933.15
+NN-2 Index: 46
+distanceMRNG: 2228.24
+distanceBRUTE: 1948.1
+===
+Query: 348
+timeMRNG: 0.131521s
+timeBRUTE: 0.020072s
+NN-1 Index: 290
+distanceMRNG: 731.563
+distanceBRUTE: 731.563
+NN-2 Index: 208
+distanceMRNG: 972.784
+distanceBRUTE: 742.869
+===
+Query: 349
+timeMRNG: 0.104318s
+timeBRUTE: 0.020487s
+NN-1 Index: 428
+distanceMRNG: 1595.28
+distanceBRUTE: 1562.88
+NN-2 Index: 434
+distanceMRNG: 1637.41
+distanceBRUTE: 1586.09
+===
+Query: 350
+timeMRNG: 0.179477s
+timeBRUTE: 0.029686s
+NN-1 Index: 200
+distanceMRNG: 1078.28
+distanceBRUTE: 812.176
+NN-2 Index: 738
+distanceMRNG: 1152.81
+distanceBRUTE: 950.313
+===
+Query: 351
+timeMRNG: 0.122122s
+timeBRUTE: 0.021333s
+NN-1 Index: 332
+distanceMRNG: 1522.37
+distanceBRUTE: 1522.37
+NN-2 Index: 748
+distanceMRNG: 1694.92
+distanceBRUTE: 1656.29
+===
+Query: 352
+timeMRNG: 0.11875s
+timeBRUTE: 0.026539s
+NN-1 Index: 576
+distanceMRNG: 2602.37
+distanceBRUTE: 2032.69
+NN-2 Index: 971
+distanceMRNG: 2629.69
+distanceBRUTE: 2071.55
+===
+Query: 353
+timeMRNG: 0.154977s
+timeBRUTE: 0.022769s
+NN-1 Index: 299
+distanceMRNG: 1570.06
+distanceBRUTE: 1570.06
+NN-2 Index: 806
+distanceMRNG: 2621.83
+distanceBRUTE: 1720.18
+===
+Query: 354
+timeMRNG: 0.136127s
+timeBRUTE: 0.020867s
+NN-1 Index: 951
+distanceMRNG: 800.323
+distanceBRUTE: 800.323
+NN-2 Index: 637
+distanceMRNG: 838.621
+distanceBRUTE: 830.425
+===
+Query: 355
+timeMRNG: 0.155656s
+timeBRUTE: 0.021139s
+NN-1 Index: 791
+distanceMRNG: 1445.92
+distanceBRUTE: 1445.92
+NN-2 Index: 865
+distanceMRNG: 1577.92
+distanceBRUTE: 1577.92
+===
+Query: 356
+timeMRNG: 0.262112s
+timeBRUTE: 0.022161s
+NN-1 Index: 771
+distanceMRNG: 1874.2
+distanceBRUTE: 1386.05
+NN-2 Index: 874
+distanceMRNG: 2579.52
+distanceBRUTE: 1826.56
+===
+Query: 357
+timeMRNG: 0.138759s
+timeBRUTE: 0.02174s
+NN-1 Index: 454
+distanceMRNG: 590.388
+distanceBRUTE: 590.388
+NN-2 Index: 310
+distanceMRNG: 718.839
+distanceBRUTE: 718.839
+===
+Query: 358
+timeMRNG: 0.167541s
+timeBRUTE: 0.022339s
+NN-1 Index: 864
+distanceMRNG: 1818.3
+distanceBRUTE: 1537.37
+NN-2 Index: 604
+distanceMRNG: 1832.08
+distanceBRUTE: 1637.63
+===
+Query: 359
+timeMRNG: 0.128799s
+timeBRUTE: 0.021382s
+NN-1 Index: 162
+distanceMRNG: 1428.61
+distanceBRUTE: 1334.3
+NN-2 Index: 350
+distanceMRNG: 1498.34
+distanceBRUTE: 1428.61
+===
+Query: 360
+timeMRNG: 0.142013s
+timeBRUTE: 0.021666s
+NN-1 Index: 606
+distanceMRNG: 1842.19
+distanceBRUTE: 1842.19
+NN-2 Index: 294
+distanceMRNG: 1905.54
+distanceBRUTE: 1905.54
+===
+Query: 361
+timeMRNG: 0.139125s
+timeBRUTE: 0.026275s
+NN-1 Index: 534
+distanceMRNG: 1287.73
+distanceBRUTE: 1287.73
+NN-2 Index: 592
+distanceMRNG: 1599.77
+distanceBRUTE: 1599.77
+===
+Query: 362
+timeMRNG: 0.126301s
+timeBRUTE: 0.022724s
+NN-1 Index: 624
+distanceMRNG: 1921.01
+distanceBRUTE: 1912.67
+NN-2 Index: 586
+distanceMRNG: 1960.26
+distanceBRUTE: 1921.01
+===
+Query: 363
+timeMRNG: 0.057456s
+timeBRUTE: 0.02036s
+NN-1 Index: 674
+distanceMRNG: 1427.92
+distanceBRUTE: 1407.86
+NN-2 Index: 124
+distanceMRNG: 1670.87
+distanceBRUTE: 1427.92
+===
+Query: 364
+timeMRNG: 0.148014s
+timeBRUTE: 0.022336s
+NN-1 Index: 332
+distanceMRNG: 1887.79
+distanceBRUTE: 1750.24
+NN-2 Index: 628
+distanceMRNG: 2059.64
+distanceBRUTE: 1775.98
+===
+Query: 365
+timeMRNG: 0.150628s
+timeBRUTE: 0.023724s
+NN-1 Index: 952
+distanceMRNG: 1262.06
+distanceBRUTE: 1262.06
+NN-2 Index: 912
+distanceMRNG: 1961.05
+distanceBRUTE: 1685.46
+===
+Query: 366
+timeMRNG: 0.134256s
+timeBRUTE: 0.030917s
+NN-1 Index: 536
+distanceMRNG: 1929.92
+distanceBRUTE: 1911.67
+NN-2 Index: 218
+distanceMRNG: 1975.8
+distanceBRUTE: 1929.92
+===
+Query: 367
+timeMRNG: 0.124156s
+timeBRUTE: 0.021116s
+NN-1 Index: 136
+distanceMRNG: 2055.44
+distanceBRUTE: 1913.22
+NN-2 Index: 98
+distanceMRNG: 2175.9
+distanceBRUTE: 1968.99
+===
+Query: 368
+timeMRNG: 0.090089s
+timeBRUTE: 0.022435s
+NN-1 Index: 660
+distanceMRNG: 1509.37
+distanceBRUTE: 1328.38
+NN-2 Index: 32
+distanceMRNG: 1629.34
+distanceBRUTE: 1509.37
+===
+Query: 369
+timeMRNG: 0.12738s
+timeBRUTE: 0.021415s
+NN-1 Index: 479
+distanceMRNG: 1723.28
+distanceBRUTE: 1641.9
+NN-2 Index: 856
+distanceMRNG: 1909.7
+distanceBRUTE: 1723.28
+===
+Query: 370
+timeMRNG: 0.068778s
+timeBRUTE: 0.021376s
+NN-1 Index: 824
+distanceMRNG: 1414.13
+distanceBRUTE: 1414.13
+NN-2 Index: 786
+distanceMRNG: 1427.6
+distanceBRUTE: 1427.6
+===
+Query: 371
+timeMRNG: 0.144713s
+timeBRUTE: 0.021519s
+NN-1 Index: 231
+distanceMRNG: 2040.6
+distanceBRUTE: 1396.7
+NN-2 Index: 256
+distanceMRNG: 2054.49
+distanceBRUTE: 1821.02
+===
+Query: 372
+timeMRNG: 0.201277s
+timeBRUTE: 0.021169s
+NN-1 Index: 984
+distanceMRNG: 1863.5
+distanceBRUTE: 1863.5
+NN-2 Index: 209
+distanceMRNG: 2165.08
+distanceBRUTE: 1918.67
+===
+Query: 373
+timeMRNG: 0.124514s
+timeBRUTE: 0.023487s
+NN-1 Index: 46
+distanceMRNG: 1708.05
+distanceBRUTE: 1708.05
+NN-2 Index: 628
+distanceMRNG: 1795.69
+distanceBRUTE: 1795.69
+===
+Query: 374
+timeMRNG: 0.113332s
+timeBRUTE: 0.025583s
+NN-1 Index: 46
+distanceMRNG: 1747.12
+distanceBRUTE: 1566.71
+NN-2 Index: 459
+distanceMRNG: 1782.18
+distanceBRUTE: 1734.06
+===
+Query: 375
+timeMRNG: 0.189414s
+timeBRUTE: 0.020929s
+NN-1 Index: 912
+distanceMRNG: 1482.09
+distanceBRUTE: 1482.09
+NN-2 Index: 625
+distanceMRNG: 1597.96
+distanceBRUTE: 1597.96
+===
+Query: 376
+timeMRNG: 0.128039s
+timeBRUTE: 0.020369s
+NN-1 Index: 812
+distanceMRNG: 1502.36
+distanceBRUTE: 1306.86
+NN-2 Index: 900
+distanceMRNG: 1533.21
+distanceBRUTE: 1342.44
+===
+Query: 377
+timeMRNG: 0.140503s
+timeBRUTE: 0.019673s
+NN-1 Index: 124
+distanceMRNG: 594.88
+distanceBRUTE: 594.88
+NN-2 Index: 838
+distanceMRNG: 744.263
+distanceBRUTE: 744.263
+===
+Query: 378
+timeMRNG: 0.136159s
+timeBRUTE: 0.02198s
+NN-1 Index: 454
+distanceMRNG: 621.915
+distanceBRUTE: 621.915
+NN-2 Index: 310
+distanceMRNG: 700.92
+distanceBRUTE: 699.991
+===
+Query: 379
+timeMRNG: 0.143856s
+timeBRUTE: 0.026769s
+NN-1 Index: 92
+distanceMRNG: 1398.54
+distanceBRUTE: 1398.54
+NN-2 Index: 692
+distanceMRNG: 1429.23
+distanceBRUTE: 1429.23
+===
+Query: 380
+timeMRNG: 0.13247s
+timeBRUTE: 0.027953s
+NN-1 Index: 418
+distanceMRNG: 2581.19
+distanceBRUTE: 1851.86
+NN-2 Index: 276
+distanceMRNG: 2786.68
+distanceBRUTE: 1887.34
+===
+Query: 381
+timeMRNG: 0.158624s
+timeBRUTE: 0.021997s
+NN-1 Index: 650
+distanceMRNG: 1871.3
+distanceBRUTE: 1754.5
+NN-2 Index: 688
+distanceMRNG: 1887.38
+distanceBRUTE: 1776.68
+===
+Query: 382
+timeMRNG: 0.10797s
+timeBRUTE: 0.020943s
+NN-1 Index: 298
+distanceMRNG: 1423.78
+distanceBRUTE: 1423.78
+NN-2 Index: 74
+distanceMRNG: 1524.3
+distanceBRUTE: 1524.3
+===
+Query: 383
+timeMRNG: 0.159644s
+timeBRUTE: 0.020809s
+NN-1 Index: 636
+distanceMRNG: 1468.98
+distanceBRUTE: 1176.17
+NN-2 Index: 42
+distanceMRNG: 1533.11
+distanceBRUTE: 1254.44
+===
+Query: 384
+timeMRNG: 0.132124s
+timeBRUTE: 0.022192s
+NN-1 Index: 90
+distanceMRNG: 1480.82
+distanceBRUTE: 1480.82
+NN-2 Index: 221
+distanceMRNG: 1586.61
+distanceBRUTE: 1586.61
+===
+Query: 385
+timeMRNG: 0.143109s
+timeBRUTE: 0.024863s
+NN-1 Index: 310
+distanceMRNG: 671.595
+distanceBRUTE: 592.999
+NN-2 Index: 454
+distanceMRNG: 808.68
+distanceBRUTE: 671.595
+===
+Query: 386
+timeMRNG: 0.167227s
+timeBRUTE: 0.02351s
+NN-1 Index: 93
+distanceMRNG: 1346.6
+distanceBRUTE: 1346.6
+NN-2 Index: 39
+distanceMRNG: 1634.55
+distanceBRUTE: 1564.44
+===
+Query: 387
+timeMRNG: 0.131952s
+timeBRUTE: 0.02496s
+NN-1 Index: 388
+distanceMRNG: 1868.35
+distanceBRUTE: 1693.54
+NN-2 Index: 754
+distanceMRNG: 1874.16
+distanceBRUTE: 1704.85
+===
+Query: 388
+timeMRNG: 0.140181s
+timeBRUTE: 0.020035s
+NN-1 Index: 993
+distanceMRNG: 577.372
+distanceBRUTE: 541.868
+NN-2 Index: 397
+distanceMRNG: 826.873
+distanceBRUTE: 577.372
+===
+Query: 389
+timeMRNG: 0.093896s
+timeBRUTE: 0.020918s
+NN-1 Index: 267
+distanceMRNG: 1558.86
+distanceBRUTE: 1507.95
+NN-2 Index: 354
+distanceMRNG: 1565.45
+distanceBRUTE: 1558.86
+===
+Query: 390
+timeMRNG: 0.14732s
+timeBRUTE: 0.022027s
+NN-1 Index: 143
+distanceMRNG: 2352.49
+distanceBRUTE: 1743.75
+NN-2 Index: 954
+distanceMRNG: 2354.46
+distanceBRUTE: 1966.98
+===
+Query: 391
+timeMRNG: 0.039595s
+timeBRUTE: 0.021824s
+NN-1 Index: 823
+distanceMRNG: 2021.02
+distanceBRUTE: 1710.11
+NN-2 Index: 227
+distanceMRNG: 2185.48
+distanceBRUTE: 1792.1
+===
+Query: 392
+timeMRNG: 0.128413s
+timeBRUTE: 0.02148s
+NN-1 Index: 204
+distanceMRNG: 1526.06
+distanceBRUTE: 1381.18
+NN-2 Index: 261
+distanceMRNG: 1724.03
+distanceBRUTE: 1400.13
+===
+Query: 393
+timeMRNG: 0.160633s
+timeBRUTE: 0.033415s
+NN-1 Index: 838
+distanceMRNG: 695.352
+distanceBRUTE: 695.352
+NN-2 Index: 40
+distanceMRNG: 730.733
+distanceBRUTE: 730.733
+===
+Query: 394
+timeMRNG: 0.147038s
+timeBRUTE: 0.021219s
+NN-1 Index: 782
+distanceMRNG: 1507.24
+distanceBRUTE: 1507.24
+NN-2 Index: 338
+distanceMRNG: 1575.96
+distanceBRUTE: 1575.96
+===
+Query: 395
+timeMRNG: 0.210131s
+timeBRUTE: 0.022343s
+NN-1 Index: 332
+distanceMRNG: 1466.7
+distanceBRUTE: 1466.7
+NN-2 Index: 138
+distanceMRNG: 1724.7
+distanceBRUTE: 1724.7
+===
+Query: 396
+timeMRNG: 0.134055s
+timeBRUTE: 0.021198s
+NN-1 Index: 78
+distanceMRNG: 1756.45
+distanceBRUTE: 1756.45
+NN-2 Index: 355
+distanceMRNG: 1877.39
+distanceBRUTE: 1877.39
+===
+Query: 397
+timeMRNG: 0.150241s
+timeBRUTE: 0.021479s
+NN-1 Index: 332
+distanceMRNG: 1264.39
+distanceBRUTE: 1264.39
+NN-2 Index: 970
+distanceMRNG: 1773.56
+distanceBRUTE: 1548.57
+===
+Query: 398
+timeMRNG: 0.125913s
+timeBRUTE: 0.020717s
+NN-1 Index: 314
+distanceMRNG: 1488.38
+distanceBRUTE: 1488.38
+NN-2 Index: 92
+distanceMRNG: 1505.46
+distanceBRUTE: 1505.46
+===
+Query: 399
+timeMRNG: 0.17715s
+timeBRUTE: 0.021396s
+NN-1 Index: 237
+distanceMRNG: 1764.39
+distanceBRUTE: 1764.39
+NN-2 Index: 914
+distanceMRNG: 1814.84
+distanceBRUTE: 1814.84
+===
+Query: 400
+timeMRNG: 0.152688s
+timeBRUTE: 0.028972s
+NN-1 Index: 774
+distanceMRNG: 1582.48
+distanceBRUTE: 1582.48
+NN-2 Index: 477
+distanceMRNG: 1819.67
+distanceBRUTE: 1819.67
+===
+Query: 401
+timeMRNG: 0.095198s
+timeBRUTE: 0.026054s
+NN-1 Index: 708
+distanceMRNG: 1601.54
+distanceBRUTE: 1601.54
+NN-2 Index: 740
+distanceMRNG: 1651.13
+distanceBRUTE: 1651.13
+===
+Query: 402
+timeMRNG: 0.147829s
+timeBRUTE: 0.024151s
+NN-1 Index: 886
+distanceMRNG: 2044.86
+distanceBRUTE: 2044.86
+NN-2 Index: 452
+distanceMRNG: 2055.8
+distanceBRUTE: 2055.8
+===
+Query: 403
+timeMRNG: 0.130149s
+timeBRUTE: 0.020435s
+NN-1 Index: 307
+distanceMRNG: 1848.92
+distanceBRUTE: 1830.36
+NN-2 Index: 224
+distanceMRNG: 1849.37
+distanceBRUTE: 1847.25
+===
+Query: 404
+timeMRNG: 0.123586s
+timeBRUTE: 0.025713s
+NN-1 Index: 573
+distanceMRNG: 1716.55
+distanceBRUTE: 1693.68
+NN-2 Index: 113
+distanceMRNG: 2062.46
+distanceBRUTE: 1716.55
+===
+Query: 405
+timeMRNG: 0.137097s
+timeBRUTE: 0.021529s
+NN-1 Index: 20
+distanceMRNG: 1960.34
+distanceBRUTE: 1876.77
+NN-2 Index: 764
+distanceMRNG: 1965.24
+distanceBRUTE: 1880.02
+===
+Query: 406
+timeMRNG: 0.137523s
+timeBRUTE: 0.026512s
+NN-1 Index: 620
+distanceMRNG: 1567.53
+distanceBRUTE: 1567.53
+NN-2 Index: 554
+distanceMRNG: 1853.58
+distanceBRUTE: 1853.58
+===
+Query: 407
+timeMRNG: 0.166663s
+timeBRUTE: 0.026163s
+NN-1 Index: 612
+distanceMRNG: 1951.53
+distanceBRUTE: 1684.39
+NN-2 Index: 210
+distanceMRNG: 2041.88
+distanceBRUTE: 1883.99
+===
+Query: 408
+timeMRNG: 0.162879s
+timeBRUTE: 0.022263s
+NN-1 Index: 50
+distanceMRNG: 1460.67
+distanceBRUTE: 1460.67
+NN-2 Index: 998
+distanceMRNG: 1464.51
+distanceBRUTE: 1464.51
+===
+Query: 409
+timeMRNG: 0.127351s
+timeBRUTE: 0.019852s
+NN-1 Index: 638
+distanceMRNG: 875.171
+distanceBRUTE: 875.171
+NN-2 Index: 618
+distanceMRNG: 989.497
+distanceBRUTE: 937.365
+===
+Query: 410
+timeMRNG: 0.086159s
+timeBRUTE: 0.020851s
+NN-1 Index: 904
+distanceMRNG: 1430.84
+distanceBRUTE: 1430.84
+NN-2 Index: 214
+distanceMRNG: 1501.07
+distanceBRUTE: 1444.03
+===
+Query: 411
+timeMRNG: 0.114515s
+timeBRUTE: 0.023582s
+NN-1 Index: 634
+distanceMRNG: 868.639
+distanceBRUTE: 868.639
+NN-2 Index: 370
+distanceMRNG: 1219.74
+distanceBRUTE: 1136.42
+===
+Query: 412
+timeMRNG: 0.13285s
+timeBRUTE: 0.021768s
+NN-1 Index: 298
+distanceMRNG: 1894.5
+distanceBRUTE: 1894.5
+NN-2 Index: 890
+distanceMRNG: 2090.76
+distanceBRUTE: 2090.76
+===
+Query: 413
+timeMRNG: 0.117622s
+timeBRUTE: 0.021352s
+NN-1 Index: 994
+distanceMRNG: 1431.48
+distanceBRUTE: 1275.55
+NN-2 Index: 371
+distanceMRNG: 1789.43
+distanceBRUTE: 1280.79
+===
+Query: 414
+timeMRNG: 0.139429s
+timeBRUTE: 0.023157s
+NN-1 Index: 428
+distanceMRNG: 1372.92
+distanceBRUTE: 1372.92
+NN-2 Index: 932
+distanceMRNG: 1543.38
+distanceBRUTE: 1543.38
+===
+Query: 415
+timeMRNG: 0.155739s
+timeBRUTE: 0.031139s
+NN-1 Index: 436
+distanceMRNG: 1496.58
+distanceBRUTE: 1496.58
+NN-2 Index: 364
+distanceMRNG: 2031.29
+distanceBRUTE: 1502
+===
+Query: 416
+timeMRNG: 0.143643s
+timeBRUTE: 0.020057s
+NN-1 Index: 450
+distanceMRNG: 593.896
+distanceBRUTE: 593.896
+NN-2 Index: 310
+distanceMRNG: 838.89
+distanceBRUTE: 797.903
+===
+Query: 417
+timeMRNG: 0.183094s
+timeBRUTE: 0.02141s
+NN-1 Index: 744
+distanceMRNG: 1312.19
+distanceBRUTE: 1312.19
+NN-2 Index: 600
+distanceMRNG: 1377.06
+distanceBRUTE: 1345.83
+===
+Query: 418
+timeMRNG: 0.141983s
+timeBRUTE: 0.020602s
+NN-1 Index: 16
+distanceMRNG: 1538.59
+distanceBRUTE: 1538.59
+NN-2 Index: 568
+distanceMRNG: 1678.67
+distanceBRUTE: 1678.67
+===
+Query: 419
+timeMRNG: 0.018851s
+timeBRUTE: 0.021743s
+NN-1 Index: 678
+distanceMRNG: 814.145
+distanceBRUTE: 604.866
+NN-2 Index: 968
+distanceMRNG: 1709.13
+distanceBRUTE: 677.795
+===
+Query: 420
+timeMRNG: 0.114665s
+timeBRUTE: 0.022586s
+NN-1 Index: 585
+distanceMRNG: 1352.21
+distanceBRUTE: 1352.21
+NN-2 Index: 937
+distanceMRNG: 1438.03
+distanceBRUTE: 1438.03
+===
+Query: 421
+timeMRNG: 0.261365s
+timeBRUTE: 0.021471s
+NN-1 Index: 832
+distanceMRNG: 2244.09
+distanceBRUTE: 1734.51
+NN-2 Index: 472
+distanceMRNG: 2309.69
+distanceBRUTE: 2013.34
+===
+Query: 422
+timeMRNG: 0.130776s
+timeBRUTE: 0.020492s
+NN-1 Index: 162
+distanceMRNG: 1119.7
+distanceBRUTE: 977.1
+NN-2 Index: 428
+distanceMRNG: 1164.71
+distanceBRUTE: 1119.7
+===
+Query: 423
+timeMRNG: 0.09013s
+timeBRUTE: 0.020713s
+NN-1 Index: 530
+distanceMRNG: 1909.85
+distanceBRUTE: 1629.84
+NN-2 Index: 140
+distanceMRNG: 1942.41
+distanceBRUTE: 1907.22
+===
+Query: 424
+timeMRNG: 0.147914s
+timeBRUTE: 0.03052s
+NN-1 Index: 524
+distanceMRNG: 1556.92
+distanceBRUTE: 1520.63
+NN-2 Index: 458
+distanceMRNG: 1723.19
+distanceBRUTE: 1556.92
+===
+Query: 425
+timeMRNG: 0.130851s
+timeBRUTE: 0.021038s
+NN-1 Index: 372
+distanceMRNG: 1805.08
+distanceBRUTE: 1805.08
+NN-2 Index: 334
+distanceMRNG: 1918.55
+distanceBRUTE: 1918.55
+===
+Query: 426
+timeMRNG: 0.116448s
+timeBRUTE: 0.020513s
+NN-1 Index: 313
+distanceMRNG: 1162.98
+distanceBRUTE: 1162.98
+NN-2 Index: 247
+distanceMRNG: 1202.28
+distanceBRUTE: 1202.28
+===
+Query: 427
+timeMRNG: 0.127429s
+timeBRUTE: 0.023199s
+NN-1 Index: 484
+distanceMRNG: 686.405
+distanceBRUTE: 457.748
+NN-2 Index: 980
+distanceMRNG: 1782.03
+distanceBRUTE: 515.978
+===
+Query: 428
+timeMRNG: 0.144512s
+timeBRUTE: 0.020739s
+NN-1 Index: 373
+distanceMRNG: 1444.47
+distanceBRUTE: 1339.03
+NN-2 Index: 148
+distanceMRNG: 1708.43
+distanceBRUTE: 1370.51
+===
+Query: 429
+timeMRNG: 0.108437s
+timeBRUTE: 0.023159s
+NN-1 Index: 876
+distanceMRNG: 1744.92
+distanceBRUTE: 1688.61
+NN-2 Index: 708
+distanceMRNG: 1971.85
+distanceBRUTE: 1744.92
+===
+Query: 430
+timeMRNG: 0.120036s
+timeBRUTE: 0.022067s
+NN-1 Index: 676
+distanceMRNG: 709.348
+distanceBRUTE: 709.348
+NN-2 Index: 408
+distanceMRNG: 715.142
+distanceBRUTE: 715.142
+===
+Query: 431
+timeMRNG: 0.126112s
+timeBRUTE: 0.020979s
+NN-1 Index: 628
+distanceMRNG: 1805
+distanceBRUTE: 1771.69
+NN-2 Index: 900
+distanceMRNG: 2050.23
+distanceBRUTE: 1775.07
+===
+Query: 432
+timeMRNG: 0.203183s
+timeBRUTE: 0.025507s
+NN-1 Index: 142
+distanceMRNG: 1694.94
+distanceBRUTE: 1694.94
+NN-2 Index: 754
+distanceMRNG: 1860.78
+distanceBRUTE: 1796.64
+===
+Query: 433
+timeMRNG: 0.141893s
+timeBRUTE: 0.020242s
+NN-1 Index: 191
+distanceMRNG: 1828.69
+distanceBRUTE: 1828.69
+NN-2 Index: 947
+distanceMRNG: 1867.76
+distanceBRUTE: 1867.76
+===
+Query: 434
+timeMRNG: 0.046814s
+timeBRUTE: 0.021679s
+NN-1 Index: 350
+distanceMRNG: 1083.86
+distanceBRUTE: 1083.86
+NN-2 Index: 566
+distanceMRNG: 1239.65
+distanceBRUTE: 1239.65
+===
+Query: 435
+timeMRNG: 0.127864s
+timeBRUTE: 0.020407s
+NN-1 Index: 728
+distanceMRNG: 1769.73
+distanceBRUTE: 1741.39
+NN-2 Index: 132
+distanceMRNG: 1787.91
+distanceBRUTE: 1753.72
+===
+Query: 436
+timeMRNG: 0.137044s
+timeBRUTE: 0.02645s
+NN-1 Index: 227
+distanceMRNG: 1628.3
+distanceBRUTE: 1496.66
+NN-2 Index: 247
+distanceMRNG: 1679.57
+distanceBRUTE: 1628.3
+===
+Query: 437
+timeMRNG: 0.183511s
+timeBRUTE: 0.022783s
+NN-1 Index: 130
+distanceMRNG: 2387.09
+distanceBRUTE: 2014.38
+NN-2 Index: 480
+distanceMRNG: 2421.13
+distanceBRUTE: 2115.45
+===
+Query: 438
+timeMRNG: 0.117007s
+timeBRUTE: 0.020134s
+NN-1 Index: 798
+distanceMRNG: 1338.85
+distanceBRUTE: 1338.85
+NN-2 Index: 288
+distanceMRNG: 1402.26
+distanceBRUTE: 1402.26
+===
+Query: 439
+timeMRNG: 0.140027s
+timeBRUTE: 0.021735s
+NN-1 Index: 430
+distanceMRNG: 1607.45
+distanceBRUTE: 1403.15
+NN-2 Index: 62
+distanceMRNG: 1625.65
+distanceBRUTE: 1468.81
+===
+Query: 440
+timeMRNG: 0.149684s
+timeBRUTE: 0.022632s
+NN-1 Index: 458
+distanceMRNG: 1821.19
+distanceBRUTE: 1821.19
+NN-2 Index: 462
+distanceMRNG: 1927.43
+distanceBRUTE: 1905.32
+===
+Query: 441
+timeMRNG: 0.131508s
+timeBRUTE: 0.021174s
+NN-1 Index: 192
+distanceMRNG: 1444.04
+distanceBRUTE: 1371.59
+NN-2 Index: 952
+distanceMRNG: 1474.13
+distanceBRUTE: 1444.04
+===
+Query: 442
+timeMRNG: 0.137489s
+timeBRUTE: 0.021284s
+NN-1 Index: 136
+distanceMRNG: 1812.73
+distanceBRUTE: 1481.14
+NN-2 Index: 50
+distanceMRNG: 2046.82
+distanceBRUTE: 1505.28
+===
+Query: 443
+timeMRNG: 0.146388s
+timeBRUTE: 0.020602s
+NN-1 Index: 778
+distanceMRNG: 1644
+distanceBRUTE: 1503.89
+NN-2 Index: 232
+distanceMRNG: 1719.85
+distanceBRUTE: 1630.07
+===
+Query: 444
+timeMRNG: 0.162352s
+timeBRUTE: 0.031078s
+NN-1 Index: 796
+distanceMRNG: 1971.32
+distanceBRUTE: 1676.16
+NN-2 Index: 832
+distanceMRNG: 2439.03
+distanceBRUTE: 1746.36
+===
+Query: 445
+timeMRNG: 0.141895s
+timeBRUTE: 0.022599s
+NN-1 Index: 879
+distanceMRNG: 1948.74
+distanceBRUTE: 1836.94
+NN-2 Index: 418
+distanceMRNG: 2090.72
+distanceBRUTE: 1936.01
+===
+Query: 446
+timeMRNG: 0.171473s
+timeBRUTE: 0.021106s
+NN-1 Index: 106
+distanceMRNG: 1647.18
+distanceBRUTE: 1647.18
+NN-2 Index: 126
+distanceMRNG: 1861.43
+distanceBRUTE: 1799.25
+===
+Query: 447
+timeMRNG: 0.143951s
+timeBRUTE: 0.021867s
+NN-1 Index: 9
+distanceMRNG: 1868.91
+distanceBRUTE: 1807.62
+NN-2 Index: 827
+distanceMRNG: 1885.87
+distanceBRUTE: 1868.91
+===
+Query: 448
+timeMRNG: 0.200378s
+timeBRUTE: 0.028623s
+NN-1 Index: 419
+distanceMRNG: 1441.51
+distanceBRUTE: 1395.87
+NN-2 Index: 441
+distanceMRNG: 1501.61
+distanceBRUTE: 1441.51
+===
+Query: 449
+timeMRNG: 0.133983s
+timeBRUTE: 0.021246s
+NN-1 Index: 12
+distanceMRNG: 2071.55
+distanceBRUTE: 2071.55
+NN-2 Index: 298
+distanceMRNG: 2183.7
+distanceBRUTE: 2119.89
+===
+Query: 450
+timeMRNG: 0.126814s
+timeBRUTE: 0.020855s
+NN-1 Index: 74
+distanceMRNG: 1567.42
+distanceBRUTE: 1567.42
+NN-2 Index: 298
+distanceMRNG: 1703.33
+distanceBRUTE: 1703.33
+===
+Query: 451
+timeMRNG: 0.184507s
+timeBRUTE: 0.029038s
+NN-1 Index: 479
+distanceMRNG: 1731.72
+distanceBRUTE: 1731.72
+NN-2 Index: 645
+distanceMRNG: 1903.07
+distanceBRUTE: 1803.71
+===
+Query: 452
+timeMRNG: 0.208805s
+timeBRUTE: 0.026755s
+NN-1 Index: 472
+distanceMRNG: 1687.41
+distanceBRUTE: 1668.79
+NN-2 Index: 646
+distanceMRNG: 1698.27
+distanceBRUTE: 1687.41
+===
+Query: 453
+timeMRNG: 0.239561s
+timeBRUTE: 0.028161s
+NN-1 Index: 418
+distanceMRNG: 2286.48
+distanceBRUTE: 2034.19
+NN-2 Index: 412
+distanceMRNG: 2392.5
+distanceBRUTE: 2086.79
+===
+Query: 454
+timeMRNG: 0.146936s
+timeBRUTE: 0.027653s
+NN-1 Index: 608
+distanceMRNG: 1399.29
+distanceBRUTE: 1399.29
+NN-2 Index: 940
+distanceMRNG: 1414.69
+distanceBRUTE: 1414.69
+===
+Query: 455
+timeMRNG: 0.150394s
+timeBRUTE: 0.028057s
+NN-1 Index: 416
+distanceMRNG: 858.462
+distanceBRUTE: 736.315
+NN-2 Index: 211
+distanceMRNG: 864.332
+distanceBRUTE: 774.321
+===
+Query: 456
+timeMRNG: 0.12841s
+timeBRUTE: 0.032535s
+NN-1 Index: 180
+distanceMRNG: 1472.85
+distanceBRUTE: 1472.85
+NN-2 Index: 466
+distanceMRNG: 1489.8
+distanceBRUTE: 1489.8
+===
+Query: 457
+timeMRNG: 0.205272s
+timeBRUTE: 0.025902s
+NN-1 Index: 62
+distanceMRNG: 1364.91
+distanceBRUTE: 1364.91
+NN-2 Index: 430
+distanceMRNG: 1560.3
+distanceBRUTE: 1519.17
+===
+Query: 458
+timeMRNG: 0.177817s
+timeBRUTE: 0.02918s
+NN-1 Index: 247
+distanceMRNG: 1767.2
+distanceBRUTE: 1398.24
+NN-2 Index: 227
+distanceMRNG: 1783.64
+distanceBRUTE: 1767.2
+===
+Query: 459
+timeMRNG: 0.350424s
+timeBRUTE: 0.031064s
+NN-1 Index: 588
+distanceMRNG: 2501.94
+distanceBRUTE: 1635.29
+NN-2 Index: 604
+distanceMRNG: 2599.82
+distanceBRUTE: 1877.75
+===
+Query: 460
+timeMRNG: 0.16025s
+timeBRUTE: 0.02044s
+NN-1 Index: 176
+distanceMRNG: 1696.28
+distanceBRUTE: 1696.28
+NN-2 Index: 600
+distanceMRNG: 1748.24
+distanceBRUTE: 1748.24
+===
+Query: 461
+timeMRNG: 0.150777s
+timeBRUTE: 0.021267s
+NN-1 Index: 592
+distanceMRNG: 2168.08
+distanceBRUTE: 2049.79
+NN-2 Index: 534
+distanceMRNG: 2356.91
+distanceBRUTE: 2168.08
+===
+Query: 462
+timeMRNG: 0.136856s
+timeBRUTE: 0.024266s
+NN-1 Index: 299
+distanceMRNG: 2348.63
+distanceBRUTE: 1946.86
+NN-2 Index: 534
+distanceMRNG: 2404.95
+distanceBRUTE: 2142.07
+===
+Query: 463
+timeMRNG: 0.123458s
+timeBRUTE: 0.034879s
+NN-1 Index: 221
+distanceMRNG: 1679.54
+distanceBRUTE: 1594.44
+NN-2 Index: 238
+distanceMRNG: 1760.31
+distanceBRUTE: 1654.55
+===
+Query: 464
+timeMRNG: 0.167318s
+timeBRUTE: 0.033647s
+NN-1 Index: 839
+distanceMRNG: 1733.87
+distanceBRUTE: 1733.87
+NN-2 Index: 795
+distanceMRNG: 1783.43
+distanceBRUTE: 1783.43
+===
+Query: 465
+timeMRNG: 0.150181s
+timeBRUTE: 0.022078s
+NN-1 Index: 766
+distanceMRNG: 1914.94
+distanceBRUTE: 1914.94
+NN-2 Index: 333
+distanceMRNG: 1984.63
+distanceBRUTE: 1984.63
+===
+Query: 466
+timeMRNG: 0.061553s
+timeBRUTE: 0.023372s
+NN-1 Index: 823
+distanceMRNG: 1637.2
+distanceBRUTE: 1294.71
+NN-2 Index: 197
+distanceMRNG: 1741.82
+distanceBRUTE: 1465.44
+===
+Query: 467
+timeMRNG: 0.150287s
+timeBRUTE: 0.026254s
+NN-1 Index: 180
+distanceMRNG: 1756.02
+distanceBRUTE: 1357.64
+NN-2 Index: 634
+distanceMRNG: 1876.21
+distanceBRUTE: 1756.02
+===
+Query: 468
+timeMRNG: 0.132252s
+timeBRUTE: 0.027729s
+NN-1 Index: 803
+distanceMRNG: 1572.49
+distanceBRUTE: 1572.49
+NN-2 Index: 795
+distanceMRNG: 1704.46
+distanceBRUTE: 1704.46
+===
+Query: 469
+timeMRNG: 0.143422s
+timeBRUTE: 0.021886s
+NN-1 Index: 628
+distanceMRNG: 2017.27
+distanceBRUTE: 1568.42
+NN-2 Index: 376
+distanceMRNG: 2093.05
+distanceBRUTE: 1736.56
+===
+Query: 470
+timeMRNG: 0.200214s
+timeBRUTE: 0.023269s
+NN-1 Index: 766
+distanceMRNG: 1639.53
+distanceBRUTE: 1479.66
+NN-2 Index: 976
+distanceMRNG: 1654.66
+distanceBRUTE: 1639.53
+===
+Query: 471
+timeMRNG: 0.118475s
+timeBRUTE: 0.024337s
+NN-1 Index: 267
+distanceMRNG: 1297.32
+distanceBRUTE: 1250.74
+NN-2 Index: 436
+distanceMRNG: 1404.69
+distanceBRUTE: 1297.32
+===
+Query: 472
+timeMRNG: 0.146032s
+timeBRUTE: 0.023478s
+NN-1 Index: 592
+distanceMRNG: 1774.65
+distanceBRUTE: 1426.49
+NN-2 Index: 534
+distanceMRNG: 1985.14
+distanceBRUTE: 1774.65
+===
+Query: 473
+timeMRNG: 0.131569s
+timeBRUTE: 0.020756s
+NN-1 Index: 484
+distanceMRNG: 1007.03
+distanceBRUTE: 660.513
+NN-2 Index: 22
+distanceMRNG: 1897.37
+distanceBRUTE: 745.295
+===
+Query: 474
+timeMRNG: 0.234925s
+timeBRUTE: 0.021069s
+NN-1 Index: 687
+distanceMRNG: 2195.94
+distanceBRUTE: 1939.06
+NN-2 Index: 690
+distanceMRNG: 2288.45
+distanceBRUTE: 1965.78
+===
+Query: 475
+timeMRNG: 0.157256s
+timeBRUTE: 0.021527s
+NN-1 Index: 294
+distanceMRNG: 1651.11
+distanceBRUTE: 1651.11
+NN-2 Index: 222
+distanceMRNG: 1668.29
+distanceBRUTE: 1668.29
+===
+Query: 476
+timeMRNG: 0.092704s
+timeBRUTE: 0.020374s
+NN-1 Index: 72
+distanceMRNG: 640.04
+distanceBRUTE: 640.04
+NN-2 Index: 366
+distanceMRNG: 797.974
+distanceBRUTE: 797.974
+===
+Query: 477
+timeMRNG: 0.056978s
+timeBRUTE: 0.022881s
+NN-1 Index: 696
+distanceMRNG: 1828.13
+distanceBRUTE: 1828.13
+NN-2 Index: 122
+distanceMRNG: 1980.73
+distanceBRUTE: 1980.73
+===
+Query: 478
+timeMRNG: 0.133854s
+timeBRUTE: 0.020598s
+NN-1 Index: 996
+distanceMRNG: 1579.87
+distanceBRUTE: 1579.87
+NN-2 Index: 430
+distanceMRNG: 1705.09
+distanceBRUTE: 1705.09
+===
+Query: 479
+timeMRNG: 0.227913s
+timeBRUTE: 0.020899s
+NN-1 Index: 588
+distanceMRNG: 2021.2
+distanceBRUTE: 1590.85
+NN-2 Index: 140
+distanceMRNG: 2111.2
+distanceBRUTE: 1668.15
+===
+Query: 480
+timeMRNG: 0.139781s
+timeBRUTE: 0.019617s
+NN-1 Index: 466
+distanceMRNG: 711.416
+distanceBRUTE: 711.416
+NN-2 Index: 676
+distanceMRNG: 1127.55
+distanceBRUTE: 826.598
+===
+Query: 481
+timeMRNG: 0.139054s
+timeBRUTE: 0.022856s
+NN-1 Index: 428
+distanceMRNG: 961.163
+distanceBRUTE: 961.163
+NN-2 Index: 812
+distanceMRNG: 1381.36
+distanceBRUTE: 1293.05
+===
+Query: 482
+timeMRNG: 0.122994s
+timeBRUTE: 0.021833s
+NN-1 Index: 686
+distanceMRNG: 1367.25
+distanceBRUTE: 1367.25
+NN-2 Index: 134
+distanceMRNG: 2546.27
+distanceBRUTE: 1583.92
+===
+Query: 483
+timeMRNG: 0.170336s
+timeBRUTE: 0.021544s
+NN-1 Index: 947
+distanceMRNG: 1650.83
+distanceBRUTE: 1650.83
+NN-2 Index: 270
+distanceMRNG: 1670.72
+distanceBRUTE: 1670.72
+===
+Query: 484
+timeMRNG: 0.148638s
+timeBRUTE: 0.021768s
+NN-1 Index: 372
+distanceMRNG: 1132.56
+distanceBRUTE: 1132.56
+NN-2 Index: 428
+distanceMRNG: 1559.91
+distanceBRUTE: 1383.41
+===
+Query: 485
+timeMRNG: 0.132551s
+timeBRUTE: 0.027632s
+NN-1 Index: 902
+distanceMRNG: 1510.48
+distanceBRUTE: 1343.64
+NN-2 Index: 952
+distanceMRNG: 1624.69
+distanceBRUTE: 1507.74
+===
+Query: 486
+timeMRNG: 0.14936s
+timeBRUTE: 0.028904s
+NN-1 Index: 749
+distanceMRNG: 2103.09
+distanceBRUTE: 2004.74
+NN-2 Index: 423
+distanceMRNG: 2231.48
+distanceBRUTE: 2006.7
+===
+Query: 487
+timeMRNG: 0.149981s
+timeBRUTE: 0.020244s
+NN-1 Index: 550
+distanceMRNG: 1514.81
+distanceBRUTE: 1219.74
+NN-2 Index: 812
+distanceMRNG: 1568.61
+distanceBRUTE: 1514.81
+===
+Query: 488
+timeMRNG: 0.108663s
+timeBRUTE: 0.020952s
+NN-1 Index: 267
+distanceMRNG: 1367.49
+distanceBRUTE: 1367.49
+NN-2 Index: 888
+distanceMRNG: 1384.54
+distanceBRUTE: 1384.54
+===
+Query: 489
+timeMRNG: 0.10847s
+timeBRUTE: 0.021768s
+NN-1 Index: 276
+distanceMRNG: 474.094
+distanceBRUTE: 474.094
+NN-2 Index: 676
+distanceMRNG: 727.232
+distanceBRUTE: 656.481
+===
+Query: 490
+timeMRNG: 0.162894s
+timeBRUTE: 0.021627s
+NN-1 Index: 436
+distanceMRNG: 2123.8
+distanceBRUTE: 1711.18
+NN-2 Index: 778
+distanceMRNG: 2131.3
+distanceBRUTE: 1855.53
+===
+Query: 491
+timeMRNG: 0.196388s
+timeBRUTE: 0.020814s
+NN-1 Index: 625
+distanceMRNG: 1676.35
+distanceBRUTE: 1594.58
+NN-2 Index: 346
+distanceMRNG: 1677.84
+distanceBRUTE: 1676.35
+===
+Query: 492
+timeMRNG: 0.124505s
+timeBRUTE: 0.020883s
+NN-1 Index: 796
+distanceMRNG: 2247.14
+distanceBRUTE: 1898.84
+NN-2 Index: 710
+distanceMRNG: 2594.12
+distanceBRUTE: 1906.4
+===
+Query: 493
+timeMRNG: 0.189175s
+timeBRUTE: 0.028634s
+NN-1 Index: 874
+distanceMRNG: 1813.76
+distanceBRUTE: 1813.76
+NN-2 Index: 752
+distanceMRNG: 1911.89
+distanceBRUTE: 1856.49
+===
+Query: 494
+timeMRNG: 0.141234s
+timeBRUTE: 0.02173s
+NN-1 Index: 522
+distanceMRNG: 833.761
+distanceBRUTE: 833.761
+NN-2 Index: 773
+distanceMRNG: 1179.21
+distanceBRUTE: 1179.21
+===
+Query: 495
+timeMRNG: 0.150468s
+timeBRUTE: 0.022783s
+NN-1 Index: 656
+distanceMRNG: 1771.45
+distanceBRUTE: 1702.28
+NN-2 Index: 95
+distanceMRNG: 1864.78
+distanceBRUTE: 1771.45
+===
+Query: 496
+timeMRNG: 0.127583s
+timeBRUTE: 0.020733s
+NN-1 Index: 428
+distanceMRNG: 1035.37
+distanceBRUTE: 1035.37
+NN-2 Index: 344
+distanceMRNG: 1345.53
+distanceBRUTE: 1345.53
+===
+Query: 497
+timeMRNG: 0.146307s
+timeBRUTE: 0.020829s
+NN-1 Index: 354
+distanceMRNG: 1358.76
+distanceBRUTE: 1358.76
+NN-2 Index: 754
+distanceMRNG: 1378.8
+distanceBRUTE: 1378.8
+===
+Query: 498
+timeMRNG: 0.157057s
+timeBRUTE: 0.020898s
+NN-1 Index: 952
+distanceMRNG: 1568.35
+distanceBRUTE: 1568.35
+NN-2 Index: 700
+distanceMRNG: 1628.62
+distanceBRUTE: 1628.62
+===
+Query: 499
+timeMRNG: 0.100028s
+timeBRUTE: 0.02362s
+NN-1 Index: 922
+distanceMRNG: 1309.18
+distanceBRUTE: 1309.18
+NN-2 Index: 388
+distanceMRNG: 1592.52
+distanceBRUTE: 1513.18
+===
+Query: 500
+timeMRNG: 0.122486s
+timeBRUTE: 0.022254s
+NN-1 Index: 298
+distanceMRNG: 1573.49
+distanceBRUTE: 1573.49
+NN-2 Index: 12
+distanceMRNG: 1620.85
+distanceBRUTE: 1620.85
+===
+Query: 501
+timeMRNG: 0.125889s
+timeBRUTE: 0.022265s
+NN-1 Index: 322
+distanceMRNG: 1745.11
+distanceBRUTE: 1745.11
+NN-2 Index: 820
+distanceMRNG: 1923.26
+distanceBRUTE: 1883.5
+===
+Query: 502
+timeMRNG: 0.141744s
+timeBRUTE: 0.026767s
+NN-1 Index: 537
+distanceMRNG: 1583.11
+distanceBRUTE: 1558.89
+NN-2 Index: 403
+distanceMRNG: 1650.78
+distanceBRUTE: 1570.82
+===
+Query: 503
+timeMRNG: 0.215153s
+timeBRUTE: 0.021611s
+NN-1 Index: 82
+distanceMRNG: 1907.52
+distanceBRUTE: 1907.52
+NN-2 Index: 432
+distanceMRNG: 1951.7
+distanceBRUTE: 1951.7
+===
+Query: 504
+timeMRNG: 0.118715s
+timeBRUTE: 0.020035s
+NN-1 Index: 310
+distanceMRNG: 736.22
+distanceBRUTE: 548.745
+NN-2 Index: 251
+distanceMRNG: 1524.73
+distanceBRUTE: 642.023
+===
+Query: 505
+timeMRNG: 0.116198s
+timeBRUTE: 0.021632s
+NN-1 Index: 646
+distanceMRNG: 1863.58
+distanceBRUTE: 1727.97
+NN-2 Index: 479
+distanceMRNG: 1884.88
+distanceBRUTE: 1824.79
+===
+Query: 506
+timeMRNG: 0.121071s
+timeBRUTE: 0.020281s
+NN-1 Index: 538
+distanceMRNG: 651.299
+distanceBRUTE: 651.299
+NN-2 Index: 993
+distanceMRNG: 1170.71
+distanceBRUTE: 781.825
+===
+Query: 507
+timeMRNG: 0.127781s
+timeBRUTE: 0.020509s
+NN-1 Index: 840
+distanceMRNG: 1571.76
+distanceBRUTE: 1571.76
+NN-2 Index: 376
+distanceMRNG: 1655.65
+distanceBRUTE: 1655.65
+===
+Query: 508
+timeMRNG: 0.147282s
+timeBRUTE: 0.02346s
+NN-1 Index: 62
+distanceMRNG: 1478.9
+distanceBRUTE: 1478.9
+NN-2 Index: 430
+distanceMRNG: 1592.29
+distanceBRUTE: 1572.19
+===
+Query: 509
+timeMRNG: 0.196059s
+timeBRUTE: 0.020297s
+NN-1 Index: 98
+distanceMRNG: 1687.46
+distanceBRUTE: 1599.16
+NN-2 Index: 856
+distanceMRNG: 1738.89
+distanceBRUTE: 1687.46
+===
+Query: 510
+timeMRNG: 0.132177s
+timeBRUTE: 0.020562s
+NN-1 Index: 567
+distanceMRNG: 1373.63
+distanceBRUTE: 1373.63
+NN-2 Index: 683
+distanceMRNG: 1494.05
+distanceBRUTE: 1466.97
+===
+Query: 511
+timeMRNG: 0.150932s
+timeBRUTE: 0.020845s
+NN-1 Index: 19
+distanceMRNG: 1465
+distanceBRUTE: 1465
+NN-2 Index: 560
+distanceMRNG: 1495.11
+distanceBRUTE: 1478.29
+===
+Query: 512
+timeMRNG: 0.09186s
+timeBRUTE: 0.021779s
+NN-1 Index: 180
+distanceMRNG: 1686.51
+distanceBRUTE: 1554.95
+NN-2 Index: 696
+distanceMRNG: 1728.55
+distanceBRUTE: 1679.08
+===
+Query: 513
+timeMRNG: 0.137693s
+timeBRUTE: 0.021872s
+NN-1 Index: 302
+distanceMRNG: 2245.72
+distanceBRUTE: 1771.2
+NN-2 Index: 802
+distanceMRNG: 2272.73
+distanceBRUTE: 1896.7
+===
+Query: 514
+timeMRNG: 0.133346s
+timeBRUTE: 0.02252s
+NN-1 Index: 296
+distanceMRNG: 2373.25
+distanceBRUTE: 2199.14
+NN-2 Index: 702
+distanceMRNG: 2424.15
+distanceBRUTE: 2373.25
+===
+Query: 515
+timeMRNG: 0.231945s
+timeBRUTE: 0.023655s
+NN-1 Index: 856
+distanceMRNG: 1589.81
+distanceBRUTE: 1589.81
+NN-2 Index: 574
+distanceMRNG: 1601.4
+distanceBRUTE: 1601.4
+===
+Query: 516
+timeMRNG: 0.056844s
+timeBRUTE: 0.022294s
+NN-1 Index: 379
+distanceMRNG: 2060.15
+distanceBRUTE: 2004.81
+NN-2 Index: 601
+distanceMRNG: 2312.47
+distanceBRUTE: 2028.84
+===
+Query: 517
+timeMRNG: 0.109976s
+timeBRUTE: 0.021568s
+NN-1 Index: 802
+distanceMRNG: 1570.61
+distanceBRUTE: 1523.18
+NN-2 Index: 39
+distanceMRNG: 1592.84
+distanceBRUTE: 1570.61
+===
+Query: 518
+timeMRNG: 0.1222s
+timeBRUTE: 0.02129s
+NN-1 Index: 26
+distanceMRNG: 2021.5
+distanceBRUTE: 1644.34
+NN-2 Index: 387
+distanceMRNG: 2297.49
+distanceBRUTE: 1778.01
+===
+Query: 519
+timeMRNG: 0.109595s
+timeBRUTE: 0.021206s
+NN-1 Index: 26
+distanceMRNG: 1331.38
+distanceBRUTE: 1290.66
+NN-2 Index: 267
+distanceMRNG: 1605.42
+distanceBRUTE: 1331.38
+===
+Query: 520
+timeMRNG: 0.129375s
+timeBRUTE: 0.020451s
+NN-1 Index: 920
+distanceMRNG: 1579.21
+distanceBRUTE: 1515.04
+NN-2 Index: 43
+distanceMRNG: 1943.67
+distanceBRUTE: 1557.22
+===
+Query: 521
+timeMRNG: 0.192809s
+timeBRUTE: 0.022984s
+NN-1 Index: 176
+distanceMRNG: 1359.39
+distanceBRUTE: 1359.39
+NN-2 Index: 566
+distanceMRNG: 1455.45
+distanceBRUTE: 1450.7
+===
+Query: 522
+timeMRNG: 0.21559s
+timeBRUTE: 0.021116s
+NN-1 Index: 686
+distanceMRNG: 1677.69
+distanceBRUTE: 1590.69
+NN-2 Index: 468
+distanceMRNG: 2350.97
+distanceBRUTE: 1616.02
+===
+Query: 523
+timeMRNG: 0.202247s
+timeBRUTE: 0.020223s
+NN-1 Index: 418
+distanceMRNG: 1659.89
+distanceBRUTE: 869.41
+NN-2 Index: 524
+distanceMRNG: 2929.57
+distanceBRUTE: 1111.05
+===
+Query: 524
+timeMRNG: 0.14278s
+timeBRUTE: 0.021217s
+NN-1 Index: 738
+distanceMRNG: 2192.89
+distanceBRUTE: 2007.34
+NN-2 Index: 514
+distanceMRNG: 2226.78
+distanceBRUTE: 2071.18
+===
+Query: 525
+timeMRNG: 0.133363s
+timeBRUTE: 0.022178s
+NN-1 Index: 524
+distanceMRNG: 1663.04
+distanceBRUTE: 1663.04
+NN-2 Index: 296
+distanceMRNG: 1780.44
+distanceBRUTE: 1780.44
+===
+Query: 526
+timeMRNG: 0.131234s
+timeBRUTE: 0.021826s
+NN-1 Index: 330
+distanceMRNG: 1749.75
+distanceBRUTE: 1561.57
+NN-2 Index: 182
+distanceMRNG: 1790.6
+distanceBRUTE: 1749.75
+===
+Query: 527
+timeMRNG: 0.13592s
+timeBRUTE: 0.023809s
+NN-1 Index: 25
+distanceMRNG: 1908.95
+distanceBRUTE: 1908.95
+NN-2 Index: 352
+distanceMRNG: 2164.67
+distanceBRUTE: 1984.45
+===
+Query: 528
+timeMRNG: 0.113031s
+timeBRUTE: 0.021334s
+NN-1 Index: 650
+distanceMRNG: 1957.92
+distanceBRUTE: 1689.77
+NN-2 Index: 430
+distanceMRNG: 2063.26
+distanceBRUTE: 1811.49
+===
+Query: 529
+timeMRNG: 0.025887s
+timeBRUTE: 0.023529s
+NN-1 Index: 678
+distanceMRNG: 686.738
+distanceBRUTE: 652.131
+NN-2 Index: 40
+distanceMRNG: 838.338
+distanceBRUTE: 686.738
+===
+Query: 530
+timeMRNG: 0.204736s
+timeBRUTE: 0.020487s
+NN-1 Index: 754
+distanceMRNG: 1790.5
+distanceBRUTE: 1370.63
+NN-2 Index: 99
+distanceMRNG: 1948.54
+distanceBRUTE: 1517.18
+===
+Query: 531
+timeMRNG: 0.131531s
+timeBRUTE: 0.020437s
+NN-1 Index: 630
+distanceMRNG: 1638.7
+distanceBRUTE: 1625.81
+NN-2 Index: 546
+distanceMRNG: 1718.25
+distanceBRUTE: 1638.7
+===
+Query: 532
+timeMRNG: 0.047371s
+timeBRUTE: 0.020742s
+NN-1 Index: 800
+distanceMRNG: 1617.56
+distanceBRUTE: 1478.52
+NN-2 Index: 217
+distanceMRNG: 1644.28
+distanceBRUTE: 1617.56
+===
+Query: 533
+timeMRNG: 0.149903s
+timeBRUTE: 0.021091s
+NN-1 Index: 616
+distanceMRNG: 1717.29
+distanceBRUTE: 1717.29
+NN-2 Index: 914
+distanceMRNG: 1771.2
+distanceBRUTE: 1771.2
+===
+Query: 534
+timeMRNG: 0.142312s
+timeBRUTE: 0.02068s
+NN-1 Index: 810
+distanceMRNG: 1391.52
+distanceBRUTE: 1232.84
+NN-2 Index: 996
+distanceMRNG: 1444.46
+distanceBRUTE: 1391.52
+===
+Query: 535
+timeMRNG: 0.141957s
+timeBRUTE: 0.021545s
+NN-1 Index: 742
+distanceMRNG: 1801.05
+distanceBRUTE: 1801.05
+NN-2 Index: 897
+distanceMRNG: 2024.24
+distanceBRUTE: 1868.61
+===
+Query: 536
+timeMRNG: 0.134272s
+timeBRUTE: 0.025345s
+NN-1 Index: 184
+distanceMRNG: 1736.11
+distanceBRUTE: 1676.03
+NN-2 Index: 310
+distanceMRNG: 1743.62
+distanceBRUTE: 1687.88
+===
+Query: 537
+timeMRNG: 0.155485s
+timeBRUTE: 0.020468s
+NN-1 Index: 152
+distanceMRNG: 826.996
+distanceBRUTE: 685.506
+NN-2 Index: 450
+distanceMRNG: 831.934
+distanceBRUTE: 717.683
+===
+Query: 538
+timeMRNG: 0.177095s
+timeBRUTE: 0.022546s
+NN-1 Index: 270
+distanceMRNG: 1694.66
+distanceBRUTE: 1524.47
+NN-2 Index: 276
+distanceMRNG: 1775.14
+distanceBRUTE: 1534.28
+===
+Query: 539
+timeMRNG: 0.154044s
+timeBRUTE: 0.021464s
+NN-1 Index: 291
+distanceMRNG: 2244.87
+distanceBRUTE: 1664.97
+NN-2 Index: 78
+distanceMRNG: 2290.54
+distanceBRUTE: 1694.86
+===
+Query: 540
+timeMRNG: 0.130927s
+timeBRUTE: 0.021203s
+NN-1 Index: 332
+distanceMRNG: 1718.48
+distanceBRUTE: 1718.48
+NN-2 Index: 960
+distanceMRNG: 1782.54
+distanceBRUTE: 1782.54
+===
+Query: 541
+timeMRNG: 0.121299s
+timeBRUTE: 0.02112s
+NN-1 Index: 914
+distanceMRNG: 1257.92
+distanceBRUTE: 1257.92
+NN-2 Index: 194
+distanceMRNG: 1407.39
+distanceBRUTE: 1407.39
+===
+Query: 542
+timeMRNG: 0.130467s
+timeBRUTE: 0.020972s
+NN-1 Index: 604
+distanceMRNG: 1549.8
+distanceBRUTE: 1549.8
+NN-2 Index: 270
+distanceMRNG: 1557.59
+distanceBRUTE: 1556.16
+===
+Query: 543
+timeMRNG: 0.129709s
+timeBRUTE: 0.020779s
+NN-1 Index: 576
+distanceMRNG: 1894.66
+distanceBRUTE: 1838.77
+NN-2 Index: 144
+distanceMRNG: 1930.86
+distanceBRUTE: 1894.66
+===
+Query: 544
+timeMRNG: 0.120156s
+timeBRUTE: 0.022834s
+NN-1 Index: 92
+distanceMRNG: 1761.92
+distanceBRUTE: 1544.64
+NN-2 Index: 718
+distanceMRNG: 1831.02
+distanceBRUTE: 1611.5
+===
+Query: 545
+timeMRNG: 0.093013s
+timeBRUTE: 0.031183s
+NN-1 Index: 818
+distanceMRNG: 1559.27
+distanceBRUTE: 1559.27
+NN-2 Index: 844
+distanceMRNG: 1909.27
+distanceBRUTE: 1603.43
+===
+Query: 546
+timeMRNG: 0.221303s
+timeBRUTE: 0.022433s
+NN-1 Index: 628
+distanceMRNG: 2416.16
+distanceBRUTE: 1626.8
+NN-2 Index: 938
+distanceMRNG: 2435.05
+distanceBRUTE: 1639.24
+===
+Query: 547
+timeMRNG: 0.149385s
+timeBRUTE: 0.022784s
+NN-1 Index: 146
+distanceMRNG: 1809.54
+distanceBRUTE: 1671.67
+NN-2 Index: 575
+distanceMRNG: 2008
+distanceBRUTE: 1697.97
+===
+Query: 548
+timeMRNG: 0.252935s
+timeBRUTE: 0.019904s
+NN-1 Index: 10
+distanceMRNG: 1555.28
+distanceBRUTE: 1555.28
+NN-2 Index: 514
+distanceMRNG: 1623.78
+distanceBRUTE: 1623.78
+===
+Query: 549
+timeMRNG: 0.074658s
+timeBRUTE: 0.027058s
+NN-1 Index: 472
+distanceMRNG: 2540.23
+distanceBRUTE: 1900.64
+NN-2 Index: 395
+distanceMRNG: 2675.45
+distanceBRUTE: 2144.71
+===
+Query: 550
+timeMRNG: 0.12354s
+timeBRUTE: 0.020481s
+NN-1 Index: 754
+distanceMRNG: 1375.66
+distanceBRUTE: 1132.19
+NN-2 Index: 438
+distanceMRNG: 2178.62
+distanceBRUTE: 1316.18
+===
+Query: 551
+timeMRNG: 0.038874s
+timeBRUTE: 0.021726s
+NN-1 Index: 184
+distanceMRNG: 1508.03
+distanceBRUTE: 1495.42
+NN-2 Index: 780
+distanceMRNG: 1509.11
+distanceBRUTE: 1508.03
+===
+Query: 552
+timeMRNG: 0.120723s
+timeBRUTE: 0.022313s
+NN-1 Index: 958
+distanceMRNG: 1724.71
+distanceBRUTE: 1724.71
+NN-2 Index: 320
+distanceMRNG: 2027.34
+distanceBRUTE: 1731.49
+===
+Query: 553
+timeMRNG: 0.143578s
+timeBRUTE: 0.021449s
+NN-1 Index: 204
+distanceMRNG: 2242.01
+distanceBRUTE: 2025.71
+NN-2 Index: 816
+distanceMRNG: 2333.65
+distanceBRUTE: 2053.03
+===
+Query: 554
+timeMRNG: 0.121929s
+timeBRUTE: 0.024911s
+NN-1 Index: 263
+distanceMRNG: 1548.8
+distanceBRUTE: 1548.8
+NN-2 Index: 773
+distanceMRNG: 1585.9
+distanceBRUTE: 1585.9
+===
+Query: 555
+timeMRNG: 0.204785s
+timeBRUTE: 0.039994s
+NN-1 Index: 700
+distanceMRNG: 1104.82
+distanceBRUTE: 1104.82
+NN-2 Index: 257
+distanceMRNG: 1265.98
+distanceBRUTE: 1265.98
+===
+Query: 556
+timeMRNG: 0.138492s
+timeBRUTE: 0.021986s
+NN-1 Index: 804
+distanceMRNG: 1662.55
+distanceBRUTE: 1662.55
+NN-2 Index: 294
+distanceMRNG: 1780.52
+distanceBRUTE: 1780.52
+===
+Query: 557
+timeMRNG: 0.11784s
+timeBRUTE: 0.020792s
+NN-1 Index: 936
+distanceMRNG: 1426.9
+distanceBRUTE: 1426.9
+NN-2 Index: 798
+distanceMRNG: 1514.75
+distanceBRUTE: 1514.75
+===
+Query: 558
+timeMRNG: 0.127227s
+timeBRUTE: 0.020559s
+NN-1 Index: 980
+distanceMRNG: 1305.81
+distanceBRUTE: 1292.5
+NN-2 Index: 267
+distanceMRNG: 1337.73
+distanceBRUTE: 1305.81
+===
+Query: 559
+timeMRNG: 0.137953s
+timeBRUTE: 0.021472s
+NN-1 Index: 986
+distanceMRNG: 1686.39
+distanceBRUTE: 1686.39
+NN-2 Index: 241
+distanceMRNG: 1803.26
+distanceBRUTE: 1803.26
+===
+Query: 560
+timeMRNG: 0.137018s
+timeBRUTE: 0.023527s
+NN-1 Index: 313
+distanceMRNG: 1339.9
+distanceBRUTE: 1319.71
+NN-2 Index: 636
+distanceMRNG: 1350.5
+distanceBRUTE: 1339.9
+===
+Query: 561
+timeMRNG: 0.128515s
+timeBRUTE: 0.021359s
+NN-1 Index: 260
+distanceMRNG: 1826.27
+distanceBRUTE: 1826.27
+NN-2 Index: 273
+distanceMRNG: 2313
+distanceBRUTE: 1942.5
+===
+Query: 562
+timeMRNG: 0.049415s
+timeBRUTE: 0.022524s
+NN-1 Index: 782
+distanceMRNG: 1574.01
+distanceBRUTE: 1574.01
+NN-2 Index: 786
+distanceMRNG: 1681.08
+distanceBRUTE: 1589.11
+===
+Query: 563
+timeMRNG: 0.32023s
+timeBRUTE: 0.027143s
+NN-1 Index: 94
+distanceMRNG: 1605.04
+distanceBRUTE: 1605.04
+NN-2 Index: 796
+distanceMRNG: 1738.18
+distanceBRUTE: 1606.07
+===
+Query: 564
+timeMRNG: 0.155817s
+timeBRUTE: 0.023911s
+NN-1 Index: 582
+distanceMRNG: 1472.59
+distanceBRUTE: 1436.67
+NN-2 Index: 316
+distanceMRNG: 2083.9
+distanceBRUTE: 1472.59
+===
+Query: 565
+timeMRNG: 0.129219s
+timeBRUTE: 0.023014s
+NN-1 Index: 412
+distanceMRNG: 1425.1
+distanceBRUTE: 1425.1
+NN-2 Index: 267
+distanceMRNG: 1461.31
+distanceBRUTE: 1461.31
+===
+Query: 566
+timeMRNG: 0.094421s
+timeBRUTE: 0.023524s
+NN-1 Index: 388
+distanceMRNG: 1317.18
+distanceBRUTE: 1317.18
+NN-2 Index: 922
+distanceMRNG: 1404.67
+distanceBRUTE: 1404.67
+===
+Query: 567
+timeMRNG: 0.139672s
+timeBRUTE: 0.021142s
+NN-1 Index: 856
+distanceMRNG: 1961.26
+distanceBRUTE: 1363.48
+NN-2 Index: 604
+distanceMRNG: 2003.94
+distanceBRUTE: 1489.81
+===
+Query: 568
+timeMRNG: 0.14015s
+timeBRUTE: 0.020521s
+NN-1 Index: 186
+distanceMRNG: 1273.98
+distanceBRUTE: 1273.98
+NN-2 Index: 218
+distanceMRNG: 1368.35
+distanceBRUTE: 1368.35
+===
+Query: 569
+timeMRNG: 0.130652s
+timeBRUTE: 0.020946s
+NN-1 Index: 978
+distanceMRNG: 2041.25
+distanceBRUTE: 1490.36
+NN-2 Index: 754
+distanceMRNG: 2133.99
+distanceBRUTE: 1811.27
+===
+Query: 570
+timeMRNG: 0.045214s
+timeBRUTE: 0.022544s
+NN-1 Index: 786
+distanceMRNG: 2305.93
+distanceBRUTE: 1974.06
+NN-2 Index: 468
+distanceMRNG: 2662.85
+distanceBRUTE: 1979.96
+===
+Query: 571
+timeMRNG: 0.164891s
+timeBRUTE: 0.021476s
+NN-1 Index: 116
+distanceMRNG: 1438.43
+distanceBRUTE: 1406.64
+NN-2 Index: 482
+distanceMRNG: 1528.92
+distanceBRUTE: 1438.43
+===
+Query: 572
+timeMRNG: 0.163888s
+timeBRUTE: 0.021046s
+NN-1 Index: 247
+distanceMRNG: 1676
+distanceBRUTE: 1676
+NN-2 Index: 566
+distanceMRNG: 1867.15
+distanceBRUTE: 1683.59
+===
+Query: 573
+timeMRNG: 0.167721s
+timeBRUTE: 0.021048s
+NN-1 Index: 50
+distanceMRNG: 1485.06
+distanceBRUTE: 1485.06
+NN-2 Index: 992
+distanceMRNG: 1491.75
+distanceBRUTE: 1491.75
+===
+Query: 574
+timeMRNG: 0.163581s
+timeBRUTE: 0.022238s
+NN-1 Index: 433
+distanceMRNG: 1387.36
+distanceBRUTE: 1265.56
+NN-2 Index: 215
+distanceMRNG: 1610.9
+distanceBRUTE: 1387.36
+===
+Query: 575
+timeMRNG: 0.145219s
+timeBRUTE: 0.020735s
+NN-1 Index: 806
+distanceMRNG: 1383.71
+distanceBRUTE: 1383.71
+NN-2 Index: 176
+distanceMRNG: 1451.09
+distanceBRUTE: 1451.09
+===
+Query: 576
+timeMRNG: 0.170577s
+timeBRUTE: 0.025973s
+NN-1 Index: 840
+distanceMRNG: 1346.56
+distanceBRUTE: 1346.56
+NN-2 Index: 130
+distanceMRNG: 1449.63
+distanceBRUTE: 1449.63
+===
+Query: 577
+timeMRNG: 0.148983s
+timeBRUTE: 0.023417s
+NN-1 Index: 566
+distanceMRNG: 1759.79
+distanceBRUTE: 1426.88
+NN-2 Index: 160
+distanceMRNG: 1783.96
+distanceBRUTE: 1508.08
+===
+Query: 578
+timeMRNG: 0.192538s
+timeBRUTE: 0.02375s
+NN-1 Index: 353
+distanceMRNG: 1809.52
+distanceBRUTE: 1755.03
+NN-2 Index: 258
+distanceMRNG: 1812.54
+distanceBRUTE: 1785.23
+===
+Query: 579
+timeMRNG: 0.136627s
+timeBRUTE: 0.021273s
+NN-1 Index: 301
+distanceMRNG: 1115.33
+distanceBRUTE: 1115.33
+NN-2 Index: 223
+distanceMRNG: 1150.04
+distanceBRUTE: 1150.04
+===
+Query: 580
+timeMRNG: 0.121754s
+timeBRUTE: 0.029457s
+NN-1 Index: 168
+distanceMRNG: 1767.81
+distanceBRUTE: 1514.13
+NN-2 Index: 803
+distanceMRNG: 1981.56
+distanceBRUTE: 1562.43
+===
+Query: 581
+timeMRNG: 0.129663s
+timeBRUTE: 0.02214s
+NN-1 Index: 472
+distanceMRNG: 2532.28
+distanceBRUTE: 1722.33
+NN-2 Index: 258
+distanceMRNG: 2589.13
+distanceBRUTE: 1781.18
+===
+Query: 582
+timeMRNG: 0.133963s
+timeBRUTE: 0.020445s
+NN-1 Index: 99
+distanceMRNG: 1713.4
+distanceBRUTE: 1666.43
+NN-2 Index: 309
+distanceMRNG: 1716.29
+distanceBRUTE: 1713.4
+===
+Query: 583
+timeMRNG: 0.153815s
+timeBRUTE: 0.023136s
+NN-1 Index: 560
+distanceMRNG: 1795.97
+distanceBRUTE: 1693.81
+NN-2 Index: 884
+distanceMRNG: 1920.24
+distanceBRUTE: 1795.97
+===
+Query: 584
+timeMRNG: 0.128321s
+timeBRUTE: 0.020329s
+NN-1 Index: 184
+distanceMRNG: 890.356
+distanceBRUTE: 889.803
+NN-2 Index: 6
+distanceMRNG: 894.313
+distanceBRUTE: 890.356
+===
+Query: 585
+timeMRNG: 0.133987s
+timeBRUTE: 0.020559s
+NN-1 Index: 798
+distanceMRNG: 1351.17
+distanceBRUTE: 1351.17
+NN-2 Index: 820
+distanceMRNG: 1534.42
+distanceBRUTE: 1362.86
+===
+Query: 586
+timeMRNG: 0.144405s
+timeBRUTE: 0.020905s
+NN-1 Index: 796
+distanceMRNG: 2132.98
+distanceBRUTE: 1602.4
+NN-2 Index: 856
+distanceMRNG: 2261.14
+distanceBRUTE: 1623.69
+===
+Query: 587
+timeMRNG: 0.123809s
+timeBRUTE: 0.021372s
+NN-1 Index: 534
+distanceMRNG: 1476.02
+distanceBRUTE: 1476.02
+NN-2 Index: 218
+distanceMRNG: 1858.19
+distanceBRUTE: 1858.19
+===
+Query: 588
+timeMRNG: 0.129435s
+timeBRUTE: 0.021461s
+NN-1 Index: 760
+distanceMRNG: 1783.17
+distanceBRUTE: 1783.17
+NN-2 Index: 284
+distanceMRNG: 1824.04
+distanceBRUTE: 1824.04
+===
+Query: 589
+timeMRNG: 0.121987s
+timeBRUTE: 0.021938s
+NN-1 Index: 576
+distanceMRNG: 1351.67
+distanceBRUTE: 1351.67
+NN-2 Index: 26
+distanceMRNG: 1360.11
+distanceBRUTE: 1360.11
+===
+Query: 590
+timeMRNG: 0.139092s
+timeBRUTE: 0.021791s
+NN-1 Index: 490
+distanceMRNG: 1389.89
+distanceBRUTE: 1389.89
+NN-2 Index: 752
+distanceMRNG: 1786.66
+distanceBRUTE: 1522.53
+===
+Query: 591
+timeMRNG: 0.140951s
+timeBRUTE: 0.020697s
+NN-1 Index: 602
+distanceMRNG: 1467.33
+distanceBRUTE: 1467.33
+NN-2 Index: 50
+distanceMRNG: 1534.07
+distanceBRUTE: 1534.07
+===
+Query: 592
+timeMRNG: 0.192193s
+timeBRUTE: 0.030299s
+NN-1 Index: 902
+distanceMRNG: 1546.76
+distanceBRUTE: 1546.76
+NN-2 Index: 192
+distanceMRNG: 1611.75
+distanceBRUTE: 1611.75
+===
+Query: 593
+timeMRNG: 0.156209s
+timeBRUTE: 0.025531s
+NN-1 Index: 888
+distanceMRNG: 1268.53
+distanceBRUTE: 1229.09
+NN-2 Index: 346
+distanceMRNG: 1795.62
+distanceBRUTE: 1268.53
+===
+Query: 594
+timeMRNG: 0.142995s
+timeBRUTE: 0.021543s
+NN-1 Index: 996
+distanceMRNG: 1374.32
+distanceBRUTE: 1347.1
+NN-2 Index: 660
+distanceMRNG: 1386.46
+distanceBRUTE: 1374.32
+===
+Query: 595
+timeMRNG: 0.131785s
+timeBRUTE: 0.02279s
+NN-1 Index: 136
+distanceMRNG: 1695.98
+distanceBRUTE: 1695.98
+NN-2 Index: 486
+distanceMRNG: 1733.36
+distanceBRUTE: 1733.36
+===
+Query: 596
+timeMRNG: 0.236535s
+timeBRUTE: 0.020417s
+NN-1 Index: 796
+distanceMRNG: 2148.31
+distanceBRUTE: 1894.43
+NN-2 Index: 856
+distanceMRNG: 2213.56
+distanceBRUTE: 1906.82
+===
+Query: 597
+timeMRNG: 0.146425s
+timeBRUTE: 0.021263s
+NN-1 Index: 436
+distanceMRNG: 2304.56
+distanceBRUTE: 2121.98
+NN-2 Index: 971
+distanceMRNG: 2330.4
+distanceBRUTE: 2193.38
+===
+Query: 598
+timeMRNG: 0.127484s
+timeBRUTE: 0.021275s
+NN-1 Index: 267
+distanceMRNG: 1312.65
+distanceBRUTE: 1312.65
+NN-2 Index: 980
+distanceMRNG: 1373.22
+distanceBRUTE: 1373.22
+===
+Query: 599
+timeMRNG: 0.137096s
+timeBRUTE: 0.021318s
+NN-1 Index: 434
+distanceMRNG: 1671.73
+distanceBRUTE: 1513.35
+NN-2 Index: 264
+distanceMRNG: 1690.44
+distanceBRUTE: 1671.73
+===
+Query: 600
+timeMRNG: 0.158344s
+timeBRUTE: 0.021114s
+NN-1 Index: 238
+distanceMRNG: 1281.91
+distanceBRUTE: 1281.91
+NN-2 Index: 32
+distanceMRNG: 1477.95
+distanceBRUTE: 1477.95
+===
+Query: 601
+timeMRNG: 0.145552s
+timeBRUTE: 0.020935s
+NN-1 Index: 137
+distanceMRNG: 1601.32
+distanceBRUTE: 1601.32
+NN-2 Index: 884
+distanceMRNG: 1802.78
+distanceBRUTE: 1751.73
+===
+Query: 602
+timeMRNG: 0.10013s
+timeBRUTE: 0.024609s
+NN-1 Index: 828
+distanceMRNG: 2329.84
+distanceBRUTE: 1934.84
+NN-2 Index: 209
+distanceMRNG: 2871.11
+distanceBRUTE: 2148.9
+===
+Query: 603
+timeMRNG: 0.188251s
+timeBRUTE: 0.022087s
+NN-1 Index: 502
+distanceMRNG: 1895.09
+distanceBRUTE: 1649.54
+NN-2 Index: 912
+distanceMRNG: 1897.99
+distanceBRUTE: 1726.65
+===
+Query: 604
+timeMRNG: 0.131353s
+timeBRUTE: 0.022151s
+NN-1 Index: 362
+distanceMRNG: 1927.54
+distanceBRUTE: 1759.31
+NN-2 Index: 389
+distanceMRNG: 1992.52
+distanceBRUTE: 1784.99
+===
+Query: 605
+timeMRNG: 0.145188s
+timeBRUTE: 0.020877s
+NN-1 Index: 795
+distanceMRNG: 1417.13
+distanceBRUTE: 1290.06
+NN-2 Index: 611
+distanceMRNG: 1437.85
+distanceBRUTE: 1417.13
+===
+Query: 606
+timeMRNG: 0.143887s
+timeBRUTE: 0.022606s
+NN-1 Index: 856
+distanceMRNG: 1834.78
+distanceBRUTE: 1808.65
+NN-2 Index: 49
+distanceMRNG: 1835.74
+distanceBRUTE: 1834.78
+===
+Query: 607
+timeMRNG: 0.147347s
+timeBRUTE: 0.022839s
+NN-1 Index: 142
+distanceMRNG: 1992.14
+distanceBRUTE: 1292.71
+NN-2 Index: 354
+distanceMRNG: 1993.63
+distanceBRUTE: 1498.63
+===
+Query: 608
+timeMRNG: 0.131039s
+timeBRUTE: 0.021995s
+NN-1 Index: 524
+distanceMRNG: 1664.08
+distanceBRUTE: 1664.08
+NN-2 Index: 209
+distanceMRNG: 1665.7
+distanceBRUTE: 1665.7
+===
+Query: 609
+timeMRNG: 0.101272s
+timeBRUTE: 0.021973s
+NN-1 Index: 646
+distanceMRNG: 1515.74
+distanceBRUTE: 1515.74
+NN-2 Index: 588
+distanceMRNG: 1620.16
+distanceBRUTE: 1620.16
+===
+Query: 610
+timeMRNG: 0.183122s
+timeBRUTE: 0.021342s
+NN-1 Index: 217
+distanceMRNG: 1879.93
+distanceBRUTE: 1841.87
+NN-2 Index: 955
+distanceMRNG: 1920.25
+distanceBRUTE: 1844.91
+===
+Query: 611
+timeMRNG: 0.145828s
+timeBRUTE: 0.022149s
+NN-1 Index: 668
+distanceMRNG: 2022.25
+distanceBRUTE: 1954.55
+NN-2 Index: 209
+distanceMRNG: 2137.66
+distanceBRUTE: 2006.98
+===
+Query: 612
+timeMRNG: 0.077179s
+timeBRUTE: 0.022107s
+NN-1 Index: 374
+distanceMRNG: 2276.23
+distanceBRUTE: 1578.83
+NN-2 Index: 147
+distanceMRNG: 2339.19
+distanceBRUTE: 2148.83
+===
+Query: 613
+timeMRNG: 0.132076s
+timeBRUTE: 0.022507s
+NN-1 Index: 611
+distanceMRNG: 1460.42
+distanceBRUTE: 1451.43
+NN-2 Index: 637
+distanceMRNG: 1524.7
+distanceBRUTE: 1460.42
+===
+Query: 614
+timeMRNG: 0.01088s
+timeBRUTE: 0.029049s
+NN-1 Index: 678
+distanceMRNG: 1387.09
+distanceBRUTE: 1230.15
+NN-2 Index: 422
+distanceMRNG: 2021.77
+distanceBRUTE: 1320.36
+===
+Query: 615
+timeMRNG: 0.141918s
+timeBRUTE: 0.026014s
+NN-1 Index: 779
+distanceMRNG: 1011.8
+distanceBRUTE: 1011.8
+NN-2 Index: 783
+distanceMRNG: 1013.58
+distanceBRUTE: 1013.58
+===
+Query: 616
+timeMRNG: 0.212793s
+timeBRUTE: 0.026794s
+NN-1 Index: 170
+distanceMRNG: 1554.71
+distanceBRUTE: 1554.71
+NN-2 Index: 176
+distanceMRNG: 1571.14
+distanceBRUTE: 1571.14
+===
+Query: 617
+timeMRNG: 0.146826s
+timeBRUTE: 0.028609s
+NN-1 Index: 478
+distanceMRNG: 1554.7
+distanceBRUTE: 1554.7
+NN-2 Index: 38
+distanceMRNG: 1738.59
+distanceBRUTE: 1738.59
+===
+Query: 618
+timeMRNG: 0.354232s
+timeBRUTE: 0.022465s
+NN-1 Index: 0
+distanceMRNG: 1807.68
+distanceBRUTE: 1807.68
+===
+Query: 619
+timeMRNG: 0.13605s
+timeBRUTE: 0.027284s
+NN-1 Index: 870
+distanceMRNG: 1615.37
+distanceBRUTE: 1615.37
+NN-2 Index: 200
+distanceMRNG: 1733.07
+distanceBRUTE: 1733.07
+===
+Query: 620
+timeMRNG: 0.231837s
+timeBRUTE: 0.031942s
+NN-1 Index: 118
+distanceMRNG: 1656.71
+distanceBRUTE: 1656.71
+NN-2 Index: 612
+distanceMRNG: 1667.88
+distanceBRUTE: 1667.88
+===
+Query: 621
+timeMRNG: 0.1429s
+timeBRUTE: 0.020117s
+NN-1 Index: 708
+distanceMRNG: 1495.1
+distanceBRUTE: 1495.1
+NN-2 Index: 502
+distanceMRNG: 1603.02
+distanceBRUTE: 1549.77
+===
+Query: 622
+timeMRNG: 0.224382s
+timeBRUTE: 0.025992s
+NN-1 Index: 217
+distanceMRNG: 1426.77
+distanceBRUTE: 1426.77
+NN-2 Index: 564
+distanceMRNG: 1536.36
+distanceBRUTE: 1536.36
+===
+Query: 623
+timeMRNG: 0.140328s
+timeBRUTE: 0.021554s
+NN-1 Index: 852
+distanceMRNG: 1344.18
+distanceBRUTE: 1263.79
+NN-2 Index: 816
+distanceMRNG: 1360.31
+distanceBRUTE: 1284.67
+===
+Query: 624
+timeMRNG: 0.13639s
+timeBRUTE: 0.020624s
+NN-1 Index: 397
+distanceMRNG: 1362.68
+distanceBRUTE: 1132.31
+NN-2 Index: 447
+distanceMRNG: 1364.73
+distanceBRUTE: 1215.88
+===
+Query: 625
+timeMRNG: 0.143089s
+timeBRUTE: 0.022436s
+NN-1 Index: 367
+distanceMRNG: 1799.14
+distanceBRUTE: 1799.14
+NN-2 Index: 238
+distanceMRNG: 2255.37
+distanceBRUTE: 1846.85
+===
+Query: 626
+timeMRNG: 0.054803s
+timeBRUTE: 0.0207s
+NN-1 Index: 230
+distanceMRNG: 1116.19
+distanceBRUTE: 1004.32
+NN-2 Index: 22
+distanceMRNG: 1931.93
+distanceBRUTE: 1116.19
+===
+Query: 627
+timeMRNG: 0.142332s
+timeBRUTE: 0.023559s
+NN-1 Index: 442
+distanceMRNG: 1541.16
+distanceBRUTE: 1493.26
+NN-2 Index: 26
+distanceMRNG: 1635.56
+distanceBRUTE: 1541.16
+===
+Query: 628
+timeMRNG: 0.118943s
+timeBRUTE: 0.02477s
+NN-1 Index: 226
+distanceMRNG: 1710.41
+distanceBRUTE: 1645.54
+NN-2 Index: 428
+distanceMRNG: 1736.85
+distanceBRUTE: 1710.41
+===
+Query: 629
+timeMRNG: 0.204925s
+timeBRUTE: 0.029397s
+NN-1 Index: 536
+distanceMRNG: 2059.01
+distanceBRUTE: 1849.53
+NN-2 Index: 275
+distanceMRNG: 2065.53
+distanceBRUTE: 1905.47
+===
+Query: 630
+timeMRNG: 0.133881s
+timeBRUTE: 0.020391s
+NN-1 Index: 92
+distanceMRNG: 1548.96
+distanceBRUTE: 1376.99
+NN-2 Index: 718
+distanceMRNG: 1667.37
+distanceBRUTE: 1416.82
+===
+Query: 631
+timeMRNG: 0.168019s
+timeBRUTE: 0.034781s
+NN-1 Index: 708
+distanceMRNG: 2201.71
+distanceBRUTE: 1956.39
+NN-2 Index: 144
+distanceMRNG: 2236.73
+distanceBRUTE: 1962.58
+===
+Query: 632
+timeMRNG: 0.211428s
+timeBRUTE: 0.020842s
+NN-1 Index: 802
+distanceMRNG: 2132.35
+distanceBRUTE: 1635.49
+NN-2 Index: 147
+distanceMRNG: 2140.17
+distanceBRUTE: 1824.85
+===
+Query: 633
+timeMRNG: 0.121188s
+timeBRUTE: 0.021246s
+NN-1 Index: 696
+distanceMRNG: 2000.8
+distanceBRUTE: 1850.05
+NN-2 Index: 355
+distanceMRNG: 2020.89
+distanceBRUTE: 1907.67
+===
+Query: 634
+timeMRNG: 0.152306s
+timeBRUTE: 0.029297s
+NN-1 Index: 322
+distanceMRNG: 1648.15
+distanceBRUTE: 1503.74
+NN-2 Index: 820
+distanceMRNG: 1702.62
+distanceBRUTE: 1648.15
+===
+Query: 635
+timeMRNG: 0.104868s
+timeBRUTE: 0.02165s
+NN-1 Index: 835
+distanceMRNG: 1496.92
+distanceBRUTE: 1464.72
+NN-2 Index: 961
+distanceMRNG: 1501.86
+distanceBRUTE: 1478.03
+===
+Query: 636
+timeMRNG: 0.143026s
+timeBRUTE: 0.026233s
+NN-1 Index: 908
+distanceMRNG: 1551.05
+distanceBRUTE: 1395.1
+NN-2 Index: 436
+distanceMRNG: 1676.59
+distanceBRUTE: 1408.04
+===
+Query: 637
+timeMRNG: 0.14804s
+timeBRUTE: 0.02131s
+NN-1 Index: 310
+distanceMRNG: 2236.28
+distanceBRUTE: 1734.47
+NN-2 Index: 211
+distanceMRNG: 2428.12
+distanceBRUTE: 1779.75
+===
+Query: 638
+timeMRNG: 0.135353s
+timeBRUTE: 0.029284s
+NN-1 Index: 223
+distanceMRNG: 1913.92
+distanceBRUTE: 1863.66
+NN-2 Index: 364
+distanceMRNG: 1932.25
+distanceBRUTE: 1880.69
+===
+Query: 639
+timeMRNG: 0.139206s
+timeBRUTE: 0.023894s
+NN-1 Index: 364
+distanceMRNG: 1367.65
+distanceBRUTE: 1367.65
+NN-2 Index: 482
+distanceMRNG: 1408.99
+distanceBRUTE: 1408.99
+===
+Query: 640
+timeMRNG: 0.134859s
+timeBRUTE: 0.020327s
+NN-1 Index: 6
+distanceMRNG: 641.472
+distanceBRUTE: 641.472
+NN-2 Index: 200
+distanceMRNG: 694.349
+distanceBRUTE: 694.349
+===
+Query: 641
+timeMRNG: 0.129853s
+timeBRUTE: 0.021126s
+NN-1 Index: 958
+distanceMRNG: 1890.97
+distanceBRUTE: 1749.48
+NN-2 Index: 160
+distanceMRNG: 1914.14
+distanceBRUTE: 1762.07
+===
+Query: 642
+timeMRNG: 0.114145s
+timeBRUTE: 0.022103s
+NN-1 Index: 260
+distanceMRNG: 1935.1
+distanceBRUTE: 1803.17
+NN-2 Index: 614
+distanceMRNG: 1936.13
+distanceBRUTE: 1935.1
+===
+Query: 643
+timeMRNG: 0.136416s
+timeBRUTE: 0.021082s
+NN-1 Index: 180
+distanceMRNG: 1882.93
+distanceBRUTE: 1785.28
+NN-2 Index: 472
+distanceMRNG: 1905.06
+distanceBRUTE: 1823.47
+===
+Query: 644
+timeMRNG: 0.144984s
+timeBRUTE: 0.028122s
+NN-1 Index: 702
+distanceMRNG: 1138.09
+distanceBRUTE: 1138.09
+NN-2 Index: 192
+distanceMRNG: 1622.53
+distanceBRUTE: 1592.57
+===
+Query: 645
+timeMRNG: 0.315358s
+timeBRUTE: 0.031713s
+NN-1 Index: 0
+distanceMRNG: 1888.65
+distanceBRUTE: 1601.31
+NN-2 Index: 132
+distanceMRNG: 1986.89
+distanceBRUTE: 1606.41
+===
+Query: 646
+timeMRNG: 0.141241s
+timeBRUTE: 0.020525s
+NN-1 Index: 388
+distanceMRNG: 1628.49
+distanceBRUTE: 1515.03
+NN-2 Index: 630
+distanceMRNG: 1669.63
+distanceBRUTE: 1628.49
+===
+Query: 647
+timeMRNG: 0.139298s
+timeBRUTE: 0.025323s
+NN-1 Index: 184
+distanceMRNG: 901.841
+distanceBRUTE: 671.761
+NN-2 Index: 738
+distanceMRNG: 908.925
+distanceBRUTE: 830.8
+===
+Query: 648
+timeMRNG: 0.163749s
+timeBRUTE: 0.027285s
+NN-1 Index: 12
+distanceMRNG: 1796.7
+distanceBRUTE: 1796.7
+NN-2 Index: 149
+distanceMRNG: 1836.07
+distanceBRUTE: 1808.89
+===
+Query: 649
+timeMRNG: 0.036625s
+timeBRUTE: 0.030159s
+NN-1 Index: 786
+distanceMRNG: 1182.23
+distanceBRUTE: 1182.23
+NN-2 Index: 258
+distanceMRNG: 1611.15
+distanceBRUTE: 1298.49
+===
+Query: 650
+timeMRNG: 0.170853s
+timeBRUTE: 0.034488s
+NN-1 Index: 672
+distanceMRNG: 1585.54
+distanceBRUTE: 1585.54
+NN-2 Index: 401
+distanceMRNG: 1590.57
+distanceBRUTE: 1590.57
+===
+Query: 651
+timeMRNG: 0.102118s
+timeBRUTE: 0.025849s
+NN-1 Index: 798
+distanceMRNG: 1647.82
+distanceBRUTE: 1291.33
+NN-2 Index: 750
+distanceMRNG: 1726.02
+distanceBRUTE: 1392.94
+===
+Query: 652
+timeMRNG: 0.136678s
+timeBRUTE: 0.020384s
+NN-1 Index: 638
+distanceMRNG: 748.797
+distanceBRUTE: 748.797
+NN-2 Index: 398
+distanceMRNG: 821.756
+distanceBRUTE: 789.385
+===
+Query: 653
+timeMRNG: 0.047486s
+timeBRUTE: 0.028846s
+NN-1 Index: 180
+distanceMRNG: 1635.78
+distanceBRUTE: 1635.78
+NN-2 Index: 184
+distanceMRNG: 1846.95
+distanceBRUTE: 1804.89
+===
+Query: 654
+timeMRNG: 0.146254s
+timeBRUTE: 0.026657s
+NN-1 Index: 316
+distanceMRNG: 2400.27
+distanceBRUTE: 2263.21
+NN-2 Index: 144
+distanceMRNG: 2517.77
+distanceBRUTE: 2283.1
+===
+Query: 655
+timeMRNG: 0.15164s
+timeBRUTE: 0.021952s
+NN-1 Index: 766
+distanceMRNG: 2137.87
+distanceBRUTE: 2137.87
+NN-2 Index: 791
+distanceMRNG: 2223.61
+distanceBRUTE: 2154.35
+===
+Query: 656
+timeMRNG: 0.168876s
+timeBRUTE: 0.023365s
+NN-1 Index: 209
+distanceMRNG: 1655.05
+distanceBRUTE: 1586.39
+NN-2 Index: 668
+distanceMRNG: 2443.89
+distanceBRUTE: 1655.05
+===
+Query: 657
+timeMRNG: 0.146307s
+timeBRUTE: 0.021599s
+NN-1 Index: 298
+distanceMRNG: 1577.59
+distanceBRUTE: 1577.59
+NN-2 Index: 752
+distanceMRNG: 1650.55
+distanceBRUTE: 1650.55
+===
+Query: 658
+timeMRNG: 0.126692s
+timeBRUTE: 0.027091s
+NN-1 Index: 436
+distanceMRNG: 2096.86
+distanceBRUTE: 1597.33
+NN-2 Index: 778
+distanceMRNG: 2166.88
+distanceBRUTE: 1891.57
+===
+Query: 659
+timeMRNG: 0.140209s
+timeBRUTE: 0.021292s
+NN-1 Index: 936
+distanceMRNG: 1718.83
+distanceBRUTE: 1718.83
+NN-2 Index: 720
+distanceMRNG: 1760.34
+distanceBRUTE: 1760.34
+===
+Query: 660
+timeMRNG: 0.112764s
+timeBRUTE: 0.021043s
+NN-1 Index: 834
+distanceMRNG: 1112
+distanceBRUTE: 1112
+NN-2 Index: 217
+distanceMRNG: 1338.3
+distanceBRUTE: 1338.3
+===
+Query: 661
+timeMRNG: 0.149172s
+timeBRUTE: 0.026102s
+NN-1 Index: 776
+distanceMRNG: 1359.5
+distanceBRUTE: 1359.5
+NN-2 Index: 996
+distanceMRNG: 1874.59
+distanceBRUTE: 1658.54
+===
+Query: 662
+timeMRNG: 0.135624s
+timeBRUTE: 0.020946s
+NN-1 Index: 110
+distanceMRNG: 1345.25
+distanceBRUTE: 963.81
+NN-2 Index: 170
+distanceMRNG: 1407.32
+distanceBRUTE: 1294.78
+===
+Query: 663
+timeMRNG: 0.015186s
+timeBRUTE: 0.029989s
+NN-1 Index: 678
+distanceMRNG: 666.269
+distanceBRUTE: 663.892
+NN-2 Index: 454
+distanceMRNG: 850.084
+distanceBRUTE: 666.269
+===
+Query: 664
+timeMRNG: 0.148835s
+timeBRUTE: 0.027475s
+NN-1 Index: 517
+distanceMRNG: 1663.12
+distanceBRUTE: 1663.12
+NN-2 Index: 146
+distanceMRNG: 1754.85
+distanceBRUTE: 1754.85
+===
+Query: 665
+timeMRNG: 0.199294s
+timeBRUTE: 0.021812s
+NN-1 Index: 986
+distanceMRNG: 2104.88
+distanceBRUTE: 1992.28
+NN-2 Index: 658
+distanceMRNG: 2163.35
+distanceBRUTE: 2104.88
+===
+Query: 666
+timeMRNG: 0.131471s
+timeBRUTE: 0.020244s
+NN-1 Index: 888
+distanceMRNG: 1103.43
+distanceBRUTE: 772.9
+NN-2 Index: 153
+distanceMRNG: 1336.46
+distanceBRUTE: 1103.43
+===
+Query: 667
+timeMRNG: 0.143973s
+timeBRUTE: 0.023786s
+NN-1 Index: 604
+distanceMRNG: 897.25
+distanceBRUTE: 897.25
+NN-2 Index: 276
+distanceMRNG: 1096.06
+distanceBRUTE: 1096.06
+===
+Query: 668
+timeMRNG: 0.187475s
+timeBRUTE: 0.029327s
+NN-1 Index: 428
+distanceMRNG: 1842.21
+distanceBRUTE: 1828.51
+NN-2 Index: 576
+distanceMRNG: 1951.38
+distanceBRUTE: 1842.21
+===
+Query: 669
+timeMRNG: 0.152032s
+timeBRUTE: 0.032092s
+NN-1 Index: 136
+distanceMRNG: 1448.93
+distanceBRUTE: 1448.93
+NN-2 Index: 44
+distanceMRNG: 1449.1
+distanceBRUTE: 1449.1
+===
+Query: 670
+timeMRNG: 0.139876s
+timeBRUTE: 0.030343s
+NN-1 Index: 487
+distanceMRNG: 1474.45
+distanceBRUTE: 1336.6
+NN-2 Index: 29
+distanceMRNG: 1503.56
+distanceBRUTE: 1474.45
+===
+Query: 671
+timeMRNG: 0.151036s
+timeBRUTE: 0.032014s
+NN-1 Index: 264
+distanceMRNG: 2225.92
+distanceBRUTE: 1957.49
+NN-2 Index: 268
+distanceMRNG: 2280.94
+distanceBRUTE: 2022.21
+===
+Query: 672
+timeMRNG: 0.143614s
+timeBRUTE: 0.022519s
+NN-1 Index: 174
+distanceMRNG: 593.351
+distanceBRUTE: 593.351
+NN-2 Index: 450
+distanceMRNG: 795.223
+distanceBRUTE: 625.577
+===
+Query: 673
+timeMRNG: 0.164293s
+timeBRUTE: 0.031956s
+NN-1 Index: 755
+distanceMRNG: 1415.73
+distanceBRUTE: 1415.73
+NN-2 Index: 167
+distanceMRNG: 1768.89
+distanceBRUTE: 1768.89
+===
+Query: 674
+timeMRNG: 0.126223s
+timeBRUTE: 0.026201s
+NN-1 Index: 956
+distanceMRNG: 1680.57
+distanceBRUTE: 1519.74
+NN-2 Index: 514
+distanceMRNG: 1750.44
+distanceBRUTE: 1680.57
+===
+Query: 675
+timeMRNG: 0.137817s
+timeBRUTE: 0.019473s
+NN-1 Index: 310
+distanceMRNG: 718.235
+distanceBRUTE: 670.657
+NN-2 Index: 398
+distanceMRNG: 847.754
+distanceBRUTE: 682.961
+===
+Query: 676
+timeMRNG: 0.153768s
+timeBRUTE: 0.030561s
+NN-1 Index: 928
+distanceMRNG: 1542.36
+distanceBRUTE: 1542.36
+NN-2 Index: 349
+distanceMRNG: 1544.88
+distanceBRUTE: 1544.88
+===
+Query: 677
+timeMRNG: 0.17867s
+timeBRUTE: 0.021437s
+NN-1 Index: 830
+distanceMRNG: 2065.08
+distanceBRUTE: 2024.1
+NN-2 Index: 992
+distanceMRNG: 2080.86
+distanceBRUTE: 2061.24
+===
+Query: 678
+timeMRNG: 0.146184s
+timeBRUTE: 0.02204s
+NN-1 Index: 110
+distanceMRNG: 1890.65
+distanceBRUTE: 1485.14
+NN-2 Index: 718
+distanceMRNG: 2038.55
+distanceBRUTE: 1575.59
+===
+Query: 679
+timeMRNG: 0.155521s
+timeBRUTE: 0.026363s
+NN-1 Index: 968
+distanceMRNG: 1364.13
+distanceBRUTE: 1201.83
+NN-2 Index: 798
+distanceMRNG: 1411.75
+distanceBRUTE: 1321.48
+===
+Query: 680
+timeMRNG: 0.16073s
+timeBRUTE: 0.022351s
+NN-1 Index: 299
+distanceMRNG: 1942.07
+distanceBRUTE: 1643.5
+NN-2 Index: 536
+distanceMRNG: 2030.3
+distanceBRUTE: 1666.66
+===
+Query: 681
+timeMRNG: 0.132493s
+timeBRUTE: 0.028709s
+NN-1 Index: 820
+distanceMRNG: 1584.7
+distanceBRUTE: 1584.7
+NN-2 Index: 196
+distanceMRNG: 1690.92
+distanceBRUTE: 1690.92
+===
+Query: 682
+timeMRNG: 0.036974s
+timeBRUTE: 0.028939s
+NN-1 Index: 678
+distanceMRNG: 692.623
+distanceBRUTE: 692.623
+NN-2 Index: 112
+distanceMRNG: 904.454
+distanceBRUTE: 698.957
+===
+Query: 683
+timeMRNG: 0.09874s
+timeBRUTE: 0.024121s
+NN-1 Index: 676
+distanceMRNG: 1718.96
+distanceBRUTE: 1403.65
+NN-2 Index: 48
+distanceMRNG: 1719.25
+distanceBRUTE: 1429.99
+===
+Query: 684
+timeMRNG: 0.159705s
+timeBRUTE: 0.021322s
+NN-1 Index: 134
+distanceMRNG: 1888.94
+distanceBRUTE: 1888.94
+NN-2 Index: 870
+distanceMRNG: 1945.88
+distanceBRUTE: 1945.88
+===
+Query: 685
+timeMRNG: 0.101928s
+timeBRUTE: 0.025709s
+NN-1 Index: 586
+distanceMRNG: 1978.59
+distanceBRUTE: 1817.86
+NN-2 Index: 601
+distanceMRNG: 1986.45
+distanceBRUTE: 1825.69
+===
+Query: 686
+timeMRNG: 0.13362s
+timeBRUTE: 0.028975s
+NN-1 Index: 356
+distanceMRNG: 1568.2
+distanceBRUTE: 1454.93
+NN-2 Index: 646
+distanceMRNG: 1948.92
+distanceBRUTE: 1507.05
+===
+Query: 687
+timeMRNG: 0.132898s
+timeBRUTE: 0.020445s
+NN-1 Index: 136
+distanceMRNG: 1548.27
+distanceBRUTE: 1548.27
+NN-2 Index: 144
+distanceMRNG: 1786.31
+distanceBRUTE: 1680.36
+===
+Query: 688
+timeMRNG: 0.132343s
+timeBRUTE: 0.033782s
+NN-1 Index: 62
+distanceMRNG: 1366.6
+distanceBRUTE: 1366.6
+NN-2 Index: 430
+distanceMRNG: 1418.44
+distanceBRUTE: 1418.44
+===
+Query: 689
+timeMRNG: 0.148208s
+timeBRUTE: 0.029063s
+NN-1 Index: 26
+distanceMRNG: 1260.82
+distanceBRUTE: 1260.82
+NN-2 Index: 342
+distanceMRNG: 1349.34
+distanceBRUTE: 1349.34
+===
+Query: 690
+timeMRNG: 0.145745s
+timeBRUTE: 0.025359s
+NN-1 Index: 657
+distanceMRNG: 1939.63
+distanceBRUTE: 1735.29
+NN-2 Index: 696
+distanceMRNG: 1952.3
+distanceBRUTE: 1893.99
+===
+Query: 691
+timeMRNG: 0.131603s
+timeBRUTE: 0.026162s
+NN-1 Index: 228
+distanceMRNG: 2058.97
+distanceBRUTE: 2058.97
+NN-2 Index: 424
+distanceMRNG: 2129.45
+distanceBRUTE: 2129.45
+===
+Query: 692
+timeMRNG: 0.206732s
+timeBRUTE: 0.029349s
+NN-1 Index: 600
+distanceMRNG: 1823.86
+distanceBRUTE: 1823.86
+NN-2 Index: 636
+distanceMRNG: 1827.24
+distanceBRUTE: 1827.24
+===
+Query: 693
+timeMRNG: 0.156782s
+timeBRUTE: 0.022603s
+NN-1 Index: 720
+distanceMRNG: 1893.28
+distanceBRUTE: 1599.98
+NN-2 Index: 884
+distanceMRNG: 1943.34
+distanceBRUTE: 1680.63
+===
+Query: 694
+timeMRNG: 0.166023s
+timeBRUTE: 0.026081s
+NN-1 Index: 17
+distanceMRNG: 1827
+distanceBRUTE: 1827
+NN-2 Index: 197
+distanceMRNG: 1955.16
+distanceBRUTE: 1873.92
+===
+Query: 695
+timeMRNG: 0.137045s
+timeBRUTE: 0.02501s
+NN-1 Index: 276
+distanceMRNG: 568.02
+distanceBRUTE: 568.02
+NN-2 Index: 174
+distanceMRNG: 647.365
+distanceBRUTE: 647.365
+===
+Query: 696
+timeMRNG: 0.146627s
+timeBRUTE: 0.035048s
+NN-1 Index: 484
+distanceMRNG: 969.232
+distanceBRUTE: 862.917
+NN-2 Index: 892
+distanceMRNG: 1693.21
+distanceBRUTE: 871.009
+===
+Query: 697
+timeMRNG: 0.16889s
+timeBRUTE: 0.028782s
+NN-1 Index: 438
+distanceMRNG: 1187.46
+distanceBRUTE: 1187.46
+NN-2 Index: 520
+distanceMRNG: 1545.04
+distanceBRUTE: 1346.13
+===
+Query: 698
+timeMRNG: 0.125211s
+timeBRUTE: 0.02176s
+NN-1 Index: 402
+distanceMRNG: 1970.7
+distanceBRUTE: 1690.57
+NN-2 Index: 778
+distanceMRNG: 2016.46
+distanceBRUTE: 1803.21
+===
+Query: 699
+timeMRNG: 0.114218s
+timeBRUTE: 0.023227s
+NN-1 Index: 808
+distanceMRNG: 1406.98
+distanceBRUTE: 1406.98
+NN-2 Index: 44
+distanceMRNG: 1547.42
+distanceBRUTE: 1547.42
+===
+Query: 700
+timeMRNG: 0.126101s
+timeBRUTE: 0.019904s
+NN-1 Index: 104
+distanceMRNG: 846.926
+distanceBRUTE: 846.926
+NN-2 Index: 358
+distanceMRNG: 985.673
+distanceBRUTE: 985.673
+===
+Query: 701
+timeMRNG: 0.131729s
+timeBRUTE: 0.02481s
+NN-1 Index: 119
+distanceMRNG: 1546.67
+distanceBRUTE: 1546.67
+NN-2 Index: 427
+distanceMRNG: 1626.07
+distanceBRUTE: 1626.07
+===
+Query: 702
+timeMRNG: 0.159042s
+timeBRUTE: 0.020138s
+NN-1 Index: 624
+distanceMRNG: 1207.87
+distanceBRUTE: 1207.87
+NN-2 Index: 773
+distanceMRNG: 1301.52
+distanceBRUTE: 1301.52
+===
+Query: 703
+timeMRNG: 0.134526s
+timeBRUTE: 0.021393s
+NN-1 Index: 38
+distanceMRNG: 1438.04
+distanceBRUTE: 1438.04
+NN-2 Index: 936
+distanceMRNG: 1750.53
+distanceBRUTE: 1537.36
+===
+Query: 704
+timeMRNG: 0.140179s
+timeBRUTE: 0.030231s
+NN-1 Index: 787
+distanceMRNG: 1400.11
+distanceBRUTE: 1326.77
+NN-2 Index: 453
+distanceMRNG: 1683.12
+distanceBRUTE: 1400.11
+===
+Query: 705
+timeMRNG: 0.032713s
+timeBRUTE: 0.020411s
+NN-1 Index: 786
+distanceMRNG: 1175.76
+distanceBRUTE: 1059.83
+NN-2 Index: 824
+distanceMRNG: 1522.59
+distanceBRUTE: 1175.76
+===
+Query: 706
+timeMRNG: 0.139237s
+timeBRUTE: 0.02115s
+NN-1 Index: 428
+distanceMRNG: 1325.8
+distanceBRUTE: 1325.8
+NN-2 Index: 718
+distanceMRNG: 1409.88
+distanceBRUTE: 1326.21
+===
+Query: 707
+timeMRNG: 0.142016s
+timeBRUTE: 0.020732s
+NN-1 Index: 806
+distanceMRNG: 1614.6
+distanceBRUTE: 1519.19
+NN-2 Index: 590
+distanceMRNG: 1620.58
+distanceBRUTE: 1614.6
+===
+Query: 708
+timeMRNG: 0.132639s
+timeBRUTE: 0.028518s
+NN-1 Index: 428
+distanceMRNG: 1699.09
+distanceBRUTE: 1614.53
+NN-2 Index: 750
+distanceMRNG: 1740.33
+distanceBRUTE: 1637.18
+===
+Query: 709
+timeMRNG: 0.140443s
+timeBRUTE: 0.022244s
+NN-1 Index: 766
+distanceMRNG: 1351.57
+distanceBRUTE: 1351.57
+NN-2 Index: 41
+distanceMRNG: 1644.51
+distanceBRUTE: 1644.51
+===
+Query: 710
+timeMRNG: 0.131515s
+timeBRUTE: 0.020577s
+NN-1 Index: 512
+distanceMRNG: 1939.42
+distanceBRUTE: 1939.42
+NN-2 Index: 480
+distanceMRNG: 2086
+distanceBRUTE: 1991
+===
+Query: 711
+timeMRNG: 0.096176s
+timeBRUTE: 0.026952s
+NN-1 Index: 219
+distanceMRNG: 2083.95
+distanceBRUTE: 1968.54
+NN-2 Index: 815
+distanceMRNG: 2105.18
+distanceBRUTE: 2007.7
+===
+Query: 712
+timeMRNG: 0.131523s
+timeBRUTE: 0.020611s
+NN-1 Index: 350
+distanceMRNG: 1669.96
+distanceBRUTE: 1495.39
+NN-2 Index: 292
+distanceMRNG: 1697.21
+distanceBRUTE: 1641.83
+===
+Query: 713
+timeMRNG: 0.132253s
+timeBRUTE: 0.021292s
+NN-1 Index: 586
+distanceMRNG: 2210.8
+distanceBRUTE: 1536.57
+NN-2 Index: 728
+distanceMRNG: 2281.09
+distanceBRUTE: 1864.91
+===
+Query: 714
+timeMRNG: 0.125174s
+timeBRUTE: 0.023385s
+NN-1 Index: 316
+distanceMRNG: 1769.83
+distanceBRUTE: 1769.83
+NN-2 Index: 576
+distanceMRNG: 2166.78
+distanceBRUTE: 1925.94
+===
+Query: 715
+timeMRNG: 0.15356s
+timeBRUTE: 0.021708s
+NN-1 Index: 946
+distanceMRNG: 1899.68
+distanceBRUTE: 1899.68
+NN-2 Index: 171
+distanceMRNG: 2021.11
+distanceBRUTE: 2015.24
+===
+Query: 716
+timeMRNG: 0.133568s
+timeBRUTE: 0.028363s
+NN-1 Index: 270
+distanceMRNG: 994.401
+distanceBRUTE: 994.401
+NN-2 Index: 408
+distanceMRNG: 1025.86
+distanceBRUTE: 1025.86
+===
+Query: 717
+timeMRNG: 0.136394s
+timeBRUTE: 0.020898s
+NN-1 Index: 850
+distanceMRNG: 2128.6
+distanceBRUTE: 2039.11
+NN-2 Index: 367
+distanceMRNG: 2386.41
+distanceBRUTE: 2128.6
+===
+Query: 718
+timeMRNG: 0.139482s
+timeBRUTE: 0.02522s
+NN-1 Index: 766
+distanceMRNG: 1619.17
+distanceBRUTE: 1619.17
+NN-2 Index: 976
+distanceMRNG: 1694.53
+distanceBRUTE: 1694.53
+===
+Query: 719
+timeMRNG: 0.158221s
+timeBRUTE: 0.021659s
+NN-1 Index: 222
+distanceMRNG: 1827.74
+distanceBRUTE: 1827.74
+NN-2 Index: 164
+distanceMRNG: 1846.37
+distanceBRUTE: 1846.37
+===
+Query: 720
+timeMRNG: 0.160043s
+timeBRUTE: 0.028298s
+NN-1 Index: 858
+distanceMRNG: 2363.21
+distanceBRUTE: 2064.35
+NN-2 Index: 354
+distanceMRNG: 2368.91
+distanceBRUTE: 2152.62
+===
+Query: 721
+timeMRNG: 0.128727s
+timeBRUTE: 0.021737s
+NN-1 Index: 586
+distanceMRNG: 2416.8
+distanceBRUTE: 1677.76
+NN-2 Index: 418
+distanceMRNG: 2421.44
+distanceBRUTE: 1889.79
+===
+Query: 722
+timeMRNG: 0.153042s
+timeBRUTE: 0.020773s
+NN-1 Index: 914
+distanceMRNG: 1466.97
+distanceBRUTE: 1466.97
+NN-2 Index: 804
+distanceMRNG: 1635.89
+distanceBRUTE: 1527.91
+===
+Query: 723
+timeMRNG: 0.259352s
+timeBRUTE: 0.021708s
+NN-1 Index: 232
+distanceMRNG: 1731.41
+distanceBRUTE: 1597.54
+NN-2 Index: 584
+distanceMRNG: 1816.85
+distanceBRUTE: 1731.41
+===
+Query: 724
+timeMRNG: 0.145303s
+timeBRUTE: 0.029021s
+NN-1 Index: 32
+distanceMRNG: 1292.11
+distanceBRUTE: 1230.44
+NN-2 Index: 536
+distanceMRNG: 1414.62
+distanceBRUTE: 1292.11
+===
+Query: 725
+timeMRNG: 0.138773s
+timeBRUTE: 0.019707s
+NN-1 Index: 310
+distanceMRNG: 800.006
+distanceBRUTE: 459.022
+NN-2 Index: 231
+distanceMRNG: 1200.99
+distanceBRUTE: 559.006
+===
+Query: 726
+timeMRNG: 0.123552s
+timeBRUTE: 0.028693s
+NN-1 Index: 48
+distanceMRNG: 1658.35
+distanceBRUTE: 1520.08
+NN-2 Index: 856
+distanceMRNG: 1807.31
+distanceBRUTE: 1601.9
+===
+Query: 727
+timeMRNG: 0.123197s
+timeBRUTE: 0.021477s
+NN-1 Index: 876
+distanceMRNG: 1629.63
+distanceBRUTE: 1629.63
+NN-2 Index: 136
+distanceMRNG: 1701.43
+distanceBRUTE: 1677.11
+===
+Query: 728
+timeMRNG: 0.14302s
+timeBRUTE: 0.020526s
+NN-1 Index: 588
+distanceMRNG: 1726.41
+distanceBRUTE: 1726.41
+NN-2 Index: 728
+distanceMRNG: 1979.43
+distanceBRUTE: 1803.03
+===
+Query: 729
+timeMRNG: 0.130187s
+timeBRUTE: 0.028795s
+NN-1 Index: 62
+distanceMRNG: 1542.06
+distanceBRUTE: 1536.35
+NN-2 Index: 430
+distanceMRNG: 1696.12
+distanceBRUTE: 1542.06
+===
+Query: 730
+timeMRNG: 0.060352s
+timeBRUTE: 0.029257s
+NN-1 Index: 786
+distanceMRNG: 1872.76
+distanceBRUTE: 1506.12
+NN-2 Index: 738
+distanceMRNG: 2144.51
+distanceBRUTE: 1766.07
+===
+Query: 731
+timeMRNG: 0.154s
+timeBRUTE: 0.02372s
+NN-1 Index: 584
+distanceMRNG: 2003.17
+distanceBRUTE: 1993.39
+NN-2 Index: 548
+distanceMRNG: 2047.15
+distanceBRUTE: 2003.17
+===
+Query: 732
+timeMRNG: 0.138796s
+timeBRUTE: 0.021373s
+NN-1 Index: 241
+distanceMRNG: 1739.38
+distanceBRUTE: 1524.07
+NN-2 Index: 658
+distanceMRNG: 1905.61
+distanceBRUTE: 1739.38
+===
+Query: 733
+timeMRNG: 0.229134s
+timeBRUTE: 0.020588s
+NN-1 Index: 428
+distanceMRNG: 1314.95
+distanceBRUTE: 1314.95
+NN-2 Index: 110
+distanceMRNG: 1505.51
+distanceBRUTE: 1505.51
+===
+Query: 734
+timeMRNG: 0.115128s
+timeBRUTE: 0.022627s
+NN-1 Index: 652
+distanceMRNG: 1549.04
+distanceBRUTE: 1549.04
+NN-2 Index: 132
+distanceMRNG: 1569.56
+distanceBRUTE: 1569.56
+===
+Query: 735
+timeMRNG: 0.122914s
+timeBRUTE: 0.021205s
+NN-1 Index: 638
+distanceMRNG: 444.756
+distanceBRUTE: 444.756
+NN-2 Index: 184
+distanceMRNG: 718.45
+distanceBRUTE: 558.641
+===
+Query: 736
+timeMRNG: 0.17739s
+timeBRUTE: 0.021568s
+NN-1 Index: 616
+distanceMRNG: 1893.48
+distanceBRUTE: 1575
+NN-2 Index: 926
+distanceMRNG: 1957.23
+distanceBRUTE: 1893.48
+===
+Query: 737
+timeMRNG: 0.129579s
+timeBRUTE: 0.020806s
+NN-1 Index: 241
+distanceMRNG: 1583.69
+distanceBRUTE: 1583.69
+NN-2 Index: 986
+distanceMRNG: 1898.54
+distanceBRUTE: 1898.54
+===
+Query: 738
+timeMRNG: 0.121018s
+timeBRUTE: 0.022062s
+NN-1 Index: 25
+distanceMRNG: 2111.07
+distanceBRUTE: 1926.62
+NN-2 Index: 225
+distanceMRNG: 2669.32
+distanceBRUTE: 1996.48
+===
+Query: 739
+timeMRNG: 0.133662s
+timeBRUTE: 0.029056s
+NN-1 Index: 815
+distanceMRNG: 1213.34
+distanceBRUTE: 1213.34
+NN-2 Index: 496
+distanceMRNG: 1285.64
+distanceBRUTE: 1285.64
+===
+Query: 740
+timeMRNG: 0.110914s
+timeBRUTE: 0.027575s
+NN-1 Index: 176
+distanceMRNG: 1498.27
+distanceBRUTE: 1498.27
+NN-2 Index: 428
+distanceMRNG: 1510.29
+distanceBRUTE: 1510.29
+===
+Query: 741
+timeMRNG: 0.141311s
+timeBRUTE: 0.027209s
+NN-1 Index: 588
+distanceMRNG: 1418.77
+distanceBRUTE: 1418.77
+NN-2 Index: 351
+distanceMRNG: 1790.8
+distanceBRUTE: 1700.57
+===
+Query: 742
+timeMRNG: 0.185744s
+timeBRUTE: 0.022331s
+NN-1 Index: 435
+distanceMRNG: 1607
+distanceBRUTE: 1607
+NN-2 Index: 156
+distanceMRNG: 1712.95
+distanceBRUTE: 1712.95
+===
+Query: 743
+timeMRNG: 0.121759s
+timeBRUTE: 0.02082s
+NN-1 Index: 498
+distanceMRNG: 1405.1
+distanceBRUTE: 1294.56
+NN-2 Index: 922
+distanceMRNG: 1462.71
+distanceBRUTE: 1401.91
+===
+Query: 744
+timeMRNG: 0.158549s
+timeBRUTE: 0.022828s
+NN-1 Index: 873
+distanceMRNG: 2008.24
+distanceBRUTE: 2008.24
+NN-2 Index: 548
+distanceMRNG: 2123.28
+distanceBRUTE: 2033.27
+===
+Query: 745
+timeMRNG: 0.112051s
+timeBRUTE: 0.020992s
+NN-1 Index: 315
+distanceMRNG: 773.383
+distanceBRUTE: 773.383
+NN-2 Index: 177
+distanceMRNG: 824.608
+distanceBRUTE: 824.608
+===
+Query: 746
+timeMRNG: 0.026028s
+timeBRUTE: 0.024461s
+NN-1 Index: 786
+distanceMRNG: 1297.65
+distanceBRUTE: 1265.58
+NN-2 Index: 824
+distanceMRNG: 1338.74
+distanceBRUTE: 1297.65
+===
+Query: 747
+timeMRNG: 0.142854s
+timeBRUTE: 0.020528s
+NN-1 Index: 98
+distanceMRNG: 1653.85
+distanceBRUTE: 1584.05
+NN-2 Index: 44
+distanceMRNG: 1676.47
+distanceBRUTE: 1653.85
+===
+Query: 748
+timeMRNG: 0.195642s
+timeBRUTE: 0.025301s
+NN-1 Index: 550
+distanceMRNG: 1698.76
+distanceBRUTE: 1698.76
+NN-2 Index: 682
+distanceMRNG: 1714.01
+distanceBRUTE: 1714.01
+===
+Query: 749
+timeMRNG: 0.129243s
+timeBRUTE: 0.027868s
+NN-1 Index: 270
+distanceMRNG: 453.043
+distanceBRUTE: 453.043
+NN-2 Index: 124
+distanceMRNG: 573.509
+distanceBRUTE: 573.509
+===
+Query: 750
+timeMRNG: 0.160699s
+timeBRUTE: 0.021545s
+NN-1 Index: 118
+distanceMRNG: 1286.11
+distanceBRUTE: 1286.11
+NN-2 Index: 612
+distanceMRNG: 1638.71
+distanceBRUTE: 1638.71
+===
+Query: 751
+timeMRNG: 0.135541s
+timeBRUTE: 0.021875s
+NN-1 Index: 895
+distanceMRNG: 1619.64
+distanceBRUTE: 1619.64
+NN-2 Index: 554
+distanceMRNG: 1621.6
+distanceBRUTE: 1621.6
+===
+Query: 752
+timeMRNG: 0.031917s
+timeBRUTE: 0.032881s
+NN-1 Index: 800
+distanceMRNG: 1389.75
+distanceBRUTE: 1389.75
+NN-2 Index: 834
+distanceMRNG: 1566.01
+distanceBRUTE: 1488.33
+===
+Query: 753
+timeMRNG: 0.127044s
+timeBRUTE: 0.029691s
+NN-1 Index: 840
+distanceMRNG: 1413.25
+distanceBRUTE: 1413.25
+NN-2 Index: 10
+distanceMRNG: 1699.82
+distanceBRUTE: 1699.82
+===
+Query: 754
+timeMRNG: 0.129366s
+timeBRUTE: 0.019922s
+NN-1 Index: 276
+distanceMRNG: 421.175
+distanceBRUTE: 421.175
+NN-2 Index: 174
+distanceMRNG: 567.631
+distanceBRUTE: 567.631
+===
+Query: 755
+timeMRNG: 0.136431s
+timeBRUTE: 0.031851s
+NN-1 Index: 8
+distanceMRNG: 514.536
+distanceBRUTE: 514.536
+NN-2 Index: 26
+distanceMRNG: 1865.79
+distanceBRUTE: 661.612
+===
+Query: 756
+timeMRNG: 0.146892s
+timeBRUTE: 0.026309s
+NN-1 Index: 258
+distanceMRNG: 1419.63
+distanceBRUTE: 1372.02
+NN-2 Index: 888
+distanceMRNG: 1542.87
+distanceBRUTE: 1419.63
+===
+Query: 757
+timeMRNG: 0.108976s
+timeBRUTE: 0.021397s
+NN-1 Index: 369
+distanceMRNG: 1325.03
+distanceBRUTE: 1325.03
+NN-2 Index: 217
+distanceMRNG: 1400.26
+distanceBRUTE: 1355.1
+===
+Query: 758
+timeMRNG: 0.162905s
+timeBRUTE: 0.029627s
+NN-1 Index: 247
+distanceMRNG: 1546.61
+distanceBRUTE: 1407.85
+NN-2 Index: 796
+distanceMRNG: 1979.74
+distanceBRUTE: 1488.76
+===
+Query: 759
+timeMRNG: 0.163413s
+timeBRUTE: 0.032907s
+NN-1 Index: 441
+distanceMRNG: 955.713
+distanceBRUTE: 955.713
+NN-2 Index: 285
+distanceMRNG: 1106.32
+distanceBRUTE: 1106.32
+===
+Query: 760
+timeMRNG: 0.158148s
+timeBRUTE: 0.028718s
+NN-1 Index: 389
+distanceMRNG: 1254.92
+distanceBRUTE: 1254.92
+NN-2 Index: 22
+distanceMRNG: 1368.56
+distanceBRUTE: 1368.56
+===
+Query: 761
+timeMRNG: 0.034611s
+timeBRUTE: 0.026977s
+NN-1 Index: 885
+distanceMRNG: 1862.5
+distanceBRUTE: 1766.17
+NN-2 Index: 800
+distanceMRNG: 2051.61
+distanceBRUTE: 1862.5
+===
+Query: 762
+timeMRNG: 0.203709s
+timeBRUTE: 0.022794s
+NN-1 Index: 882
+distanceMRNG: 1705.41
+distanceBRUTE: 1705.41
+NN-2 Index: 616
+distanceMRNG: 1935.42
+distanceBRUTE: 1935.42
+===
+Query: 763
+timeMRNG: 0.151625s
+timeBRUTE: 0.031015s
+NN-1 Index: 530
+distanceMRNG: 2360.41
+distanceBRUTE: 1912.9
+NN-2 Index: 472
+distanceMRNG: 2430.51
+distanceBRUTE: 1993.39
+===
+Query: 764
+timeMRNG: 0.236475s
+timeBRUTE: 0.02232s
+NN-1 Index: 16
+distanceMRNG: 1800.93
+distanceBRUTE: 1800.93
+NN-2 Index: 477
+distanceMRNG: 1966.62
+distanceBRUTE: 1813.46
+===
+Query: 765
+timeMRNG: 0.136254s
+timeBRUTE: 0.02002s
+NN-1 Index: 442
+distanceMRNG: 1016.45
+distanceBRUTE: 1016.45
+NN-2 Index: 338
+distanceMRNG: 1150.73
+distanceBRUTE: 1150.73
+===
+Query: 766
+timeMRNG: 0.127276s
+timeBRUTE: 0.030063s
+NN-1 Index: 960
+distanceMRNG: 1966.57
+distanceBRUTE: 1966.57
+NN-2 Index: 298
+distanceMRNG: 2095.42
+distanceBRUTE: 2095.42
+===
+Query: 767
+timeMRNG: 0.14556s
+timeBRUTE: 0.020159s
+NN-1 Index: 538
+distanceMRNG: 843.1
+distanceBRUTE: 735.486
+NN-2 Index: 648
+distanceMRNG: 938.079
+distanceBRUTE: 843.1
+===
+Query: 768
+timeMRNG: 0.115389s
+timeBRUTE: 0.020086s
+NN-1 Index: 450
+distanceMRNG: 619.447
+distanceBRUTE: 619.447
+NN-2 Index: 40
+distanceMRNG: 726.151
+distanceBRUTE: 726.151
+===
+Query: 769
+timeMRNG: 0.106686s
+timeBRUTE: 0.021517s
+NN-1 Index: 660
+distanceMRNG: 1434.53
+distanceBRUTE: 1424.48
+NN-2 Index: 129
+distanceMRNG: 1507.32
+distanceBRUTE: 1434.53
+===
+Query: 770
+timeMRNG: 0.152959s
+timeBRUTE: 0.021186s
+NN-1 Index: 275
+distanceMRNG: 1546.36
+distanceBRUTE: 1546.36
+NN-2 Index: 402
+distanceMRNG: 1563.66
+distanceBRUTE: 1563.66
+===
+Query: 771
+timeMRNG: 0.033394s
+timeBRUTE: 0.02238s
+NN-1 Index: 786
+distanceMRNG: 1771.95
+distanceBRUTE: 1613.19
+NN-2 Index: 160
+distanceMRNG: 2263.24
+distanceBRUTE: 1632.64
+===
+Query: 772
+timeMRNG: 0.123719s
+timeBRUTE: 0.024535s
+NN-1 Index: 398
+distanceMRNG: 734.466
+distanceBRUTE: 734.466
+NN-2 Index: 748
+distanceMRNG: 2373.58
+distanceBRUTE: 759.362
+===
+Query: 773
+timeMRNG: 0.039259s
+timeBRUTE: 0.029142s
+NN-1 Index: 786
+distanceMRNG: 1455.14
+distanceBRUTE: 1096.25
+NN-2 Index: 160
+distanceMRNG: 1976.43
+distanceBRUTE: 1241.35
+===
+Query: 774
+timeMRNG: 0.16184s
+timeBRUTE: 0.020437s
+NN-1 Index: 754
+distanceMRNG: 1426.55
+distanceBRUTE: 1304.98
+NN-2 Index: 778
+distanceMRNG: 1649.18
+distanceBRUTE: 1310.56
+===
+Query: 775
+timeMRNG: 0.204199s
+timeBRUTE: 0.020511s
+NN-1 Index: 884
+distanceMRNG: 1947.3
+distanceBRUTE: 1554.41
+NN-2 Index: 416
+distanceMRNG: 2002.69
+distanceBRUTE: 1729.45
+===
+Query: 776
+timeMRNG: 0.162672s
+timeBRUTE: 0.021009s
+NN-1 Index: 926
+distanceMRNG: 1939.41
+distanceBRUTE: 1889.97
+NN-2 Index: 264
+distanceMRNG: 1994.72
+distanceBRUTE: 1939.41
+===
+Query: 777
+timeMRNG: 0.130334s
+timeBRUTE: 0.019945s
+NN-1 Index: 780
+distanceMRNG: 878.562
+distanceBRUTE: 740.095
+NN-2 Index: 184
+distanceMRNG: 928.252
+distanceBRUTE: 878.562
+===
+Query: 778
+timeMRNG: 0.168387s
+timeBRUTE: 0.021242s
+NN-1 Index: 106
+distanceMRNG: 1855.81
+distanceBRUTE: 1775.9
+NN-2 Index: 332
+distanceMRNG: 1862.99
+distanceBRUTE: 1855.81
+===
+Query: 779
+timeMRNG: 0.140185s
+timeBRUTE: 0.028656s
+NN-1 Index: 653
+distanceMRNG: 1827.22
+distanceBRUTE: 1615.49
+NN-2 Index: 827
+distanceMRNG: 1831.32
+distanceBRUTE: 1661.03
+===
+Query: 780
+timeMRNG: 0.139852s
+timeBRUTE: 0.025801s
+NN-1 Index: 778
+distanceMRNG: 2288.15
+distanceBRUTE: 2031.53
+NN-2 Index: 618
+distanceMRNG: 2337.57
+distanceBRUTE: 2082.87
+===
+Query: 781
+timeMRNG: 0.184603s
+timeBRUTE: 0.0216s
+NN-1 Index: 630
+distanceMRNG: 1695.07
+distanceBRUTE: 1602.91
+NN-2 Index: 48
+distanceMRNG: 1762.42
+distanceBRUTE: 1641.95
+===
+Query: 782
+timeMRNG: 0.118327s
+timeBRUTE: 0.024625s
+NN-1 Index: 298
+distanceMRNG: 1869.1
+distanceBRUTE: 1869.1
+NN-2 Index: 74
+distanceMRNG: 2127.71
+distanceBRUTE: 1885.11
+===
+Query: 783
+timeMRNG: 0.135571s
+timeBRUTE: 0.020239s
+NN-1 Index: 484
+distanceMRNG: 576.976
+distanceBRUTE: 576.976
+NN-2 Index: 285
+distanceMRNG: 1892.61
+distanceBRUTE: 599.276
+===
+Query: 784
+timeMRNG: 0.152207s
+timeBRUTE: 0.020688s
+NN-1 Index: 142
+distanceMRNG: 2141.51
+distanceBRUTE: 1725.08
+NN-2 Index: 354
+distanceMRNG: 2314.78
+distanceBRUTE: 1763.64
+===
+Query: 785
+timeMRNG: 0.15306s
+timeBRUTE: 0.027455s
+NN-1 Index: 298
+distanceMRNG: 1784.34
+distanceBRUTE: 1565.9
+NN-2 Index: 48
+distanceMRNG: 2028
+distanceBRUTE: 1784.34
+===
+Query: 786
+timeMRNG: 0.141494s
+timeBRUTE: 0.028913s
+NN-1 Index: 186
+distanceMRNG: 1741.09
+distanceBRUTE: 1741.09
+NN-2 Index: 32
+distanceMRNG: 1742.9
+distanceBRUTE: 1742.9
+===
+Query: 787
+timeMRNG: 0.136693s
+timeBRUTE: 0.021676s
+NN-1 Index: 240
+distanceMRNG: 2379.98
+distanceBRUTE: 2102.88
+NN-2 Index: 98
+distanceMRNG: 2618.5
+distanceBRUTE: 2197.69
+===
+Query: 788
+timeMRNG: 0.130855s
+timeBRUTE: 0.030258s
+NN-1 Index: 550
+distanceMRNG: 1033.37
+distanceBRUTE: 957.289
+NN-2 Index: 350
+distanceMRNG: 1074.86
+distanceBRUTE: 1033.37
+===
+Query: 789
+timeMRNG: 0.229578s
+timeBRUTE: 0.021279s
+NN-1 Index: 92
+distanceMRNG: 1328.73
+distanceBRUTE: 1328.73
+NN-2 Index: 110
+distanceMRNG: 1597.64
+distanceBRUTE: 1597.64
+===
+Query: 790
+timeMRNG: 0.123769s
+timeBRUTE: 0.0217s
+NN-1 Index: 920
+distanceMRNG: 972.224
+distanceBRUTE: 772.774
+NN-2 Index: 838
+distanceMRNG: 1047.19
+distanceBRUTE: 842.891
+===
+Query: 791
+timeMRNG: 0.178919s
+timeBRUTE: 0.022139s
+NN-1 Index: 282
+distanceMRNG: 1591.38
+distanceBRUTE: 1458.62
+NN-2 Index: 682
+distanceMRNG: 1927.41
+distanceBRUTE: 1591.38
+===
+Query: 792
+timeMRNG: 0.146135s
+timeBRUTE: 0.020772s
+NN-1 Index: 298
+distanceMRNG: 2271.82
+distanceBRUTE: 2043.5
+NN-2 Index: 7
+distanceMRNG: 2327.43
+distanceBRUTE: 2087.82
+===
+Query: 793
+timeMRNG: 0.151199s
+timeBRUTE: 0.02098s
+NN-1 Index: 532
+distanceMRNG: 1754.51
+distanceBRUTE: 1741.44
+NN-2 Index: 594
+distanceMRNG: 1871.04
+distanceBRUTE: 1754.51
+===
+Query: 794
+timeMRNG: 0.131728s
+timeBRUTE: 0.021681s
+NN-1 Index: 860
+distanceMRNG: 1072.47
+distanceBRUTE: 1072.47
+NN-2 Index: 1
+distanceMRNG: 1235.8
+distanceBRUTE: 1235.8
+===
+Query: 795
+timeMRNG: 0.128789s
+timeBRUTE: 0.02051s
+NN-1 Index: 832
+distanceMRNG: 1644
+distanceBRUTE: 1631.51
+NN-2 Index: 398
+distanceMRNG: 1675.23
+distanceBRUTE: 1644
+===
+Query: 796
+timeMRNG: 0.13187s
+timeBRUTE: 0.022583s
+NN-1 Index: 716
+distanceMRNG: 1931.5
+distanceBRUTE: 1931.5
+NN-2 Index: 213
+distanceMRNG: 2019.19
+distanceBRUTE: 2019.19
+===
+Query: 797
+timeMRNG: 0.130657s
+timeBRUTE: 0.021491s
+NN-1 Index: 618
+distanceMRNG: 1568.64
+distanceBRUTE: 1373.07
+NN-2 Index: 394
+distanceMRNG: 1615.16
+distanceBRUTE: 1568.64
+===
+Query: 798
+timeMRNG: 0.154146s
+timeBRUTE: 0.027977s
+NN-1 Index: 200
+distanceMRNG: 793.916
+distanceBRUTE: 793.916
+NN-2 Index: 358
+distanceMRNG: 834.418
+distanceBRUTE: 834.418
+===
+Query: 799
+timeMRNG: 0.152854s
+timeBRUTE: 0.020976s
+NN-1 Index: 884
+distanceMRNG: 2359.47
+distanceBRUTE: 1951.72
+NN-2 Index: 546
+distanceMRNG: 2359.52
+distanceBRUTE: 2067.3
+===
+Query: 800
+timeMRNG: 0.140272s
+timeBRUTE: 0.024383s
+NN-1 Index: 216
+distanceMRNG: 1712.72
+distanceBRUTE: 1712.72
+NN-2 Index: 970
+distanceMRNG: 1718.4
+distanceBRUTE: 1718.4
+===
+Query: 801
+timeMRNG: 0.091516s
+timeBRUTE: 0.024844s
+NN-1 Index: 298
+distanceMRNG: 1929.26
+distanceBRUTE: 1742.89
+NN-2 Index: 74
+distanceMRNG: 2131.56
+distanceBRUTE: 1929.26
+===
+Query: 802
+timeMRNG: 0.150684s
+timeBRUTE: 0.020605s
+NN-1 Index: 692
+distanceMRNG: 1454.27
+distanceBRUTE: 1351.52
+NN-2 Index: 914
+distanceMRNG: 1693.42
+distanceBRUTE: 1454.27
+===
+Query: 803
+timeMRNG: 0.146643s
+timeBRUTE: 0.021286s
+NN-1 Index: 882
+distanceMRNG: 1625.76
+distanceBRUTE: 1625.76
+NN-2 Index: 314
+distanceMRNG: 1758.8
+distanceBRUTE: 1758.8
+===
+Query: 804
+timeMRNG: 0.156314s
+timeBRUTE: 0.021242s
+NN-1 Index: 664
+distanceMRNG: 2317.89
+distanceBRUTE: 1906.93
+NN-2 Index: 143
+distanceMRNG: 2379.13
+distanceBRUTE: 2082.7
+===
+Query: 805
+timeMRNG: 0.127034s
+timeBRUTE: 0.02143s
+NN-1 Index: 97
+distanceMRNG: 1521.62
+distanceBRUTE: 1521.62
+NN-2 Index: 17
+distanceMRNG: 1681.14
+distanceBRUTE: 1586.14
+===
+Query: 806
+timeMRNG: 0.125762s
+timeBRUTE: 0.021206s
+NN-1 Index: 76
+distanceMRNG: 1888.31
+distanceBRUTE: 1837.38
+NN-2 Index: 628
+distanceMRNG: 1931.68
+distanceBRUTE: 1888.31
+===
+Query: 807
+timeMRNG: 0.173928s
+timeBRUTE: 0.029632s
+NN-1 Index: 490
+distanceMRNG: 1526.59
+distanceBRUTE: 1526.59
+NN-2 Index: 752
+distanceMRNG: 1840.86
+distanceBRUTE: 1675.25
+===
+Query: 808
+timeMRNG: 0.143477s
+timeBRUTE: 0.021567s
+NN-1 Index: 50
+distanceMRNG: 1350.77
+distanceBRUTE: 1350.77
+NN-2 Index: 330
+distanceMRNG: 1534.31
+distanceBRUTE: 1534.31
+===
+Query: 809
+timeMRNG: 0.118983s
+timeBRUTE: 0.027829s
+NN-1 Index: 102
+distanceMRNG: 699.329
+distanceBRUTE: 699.329
+NN-2 Index: 72
+distanceMRNG: 773.685
+distanceBRUTE: 773.685
+===
+Query: 810
+timeMRNG: 0.119931s
+timeBRUTE: 0.021795s
+NN-1 Index: 522
+distanceMRNG: 1849.93
+distanceBRUTE: 1849.93
+NN-2 Index: 664
+distanceMRNG: 2037.93
+distanceBRUTE: 1897.71
+===
+Query: 811
+timeMRNG: 0.144967s
+timeBRUTE: 0.020217s
+NN-1 Index: 130
+distanceMRNG: 1147.99
+distanceBRUTE: 1147.99
+NN-2 Index: 479
+distanceMRNG: 1564.45
+distanceBRUTE: 1564.45
+===
+Query: 812
+timeMRNG: 0.14901s
+timeBRUTE: 0.025197s
+NN-1 Index: 504
+distanceMRNG: 1887.88
+distanceBRUTE: 1887.88
+NN-2 Index: 138
+distanceMRNG: 1948.64
+distanceBRUTE: 1899.38
+===
+Query: 813
+timeMRNG: 0.145103s
+timeBRUTE: 0.020387s
+NN-1 Index: 87
+distanceMRNG: 1763.25
+distanceBRUTE: 1763.25
+NN-2 Index: 772
+distanceMRNG: 1784.32
+distanceBRUTE: 1784.32
+===
+Query: 814
+timeMRNG: 0.12003s
+timeBRUTE: 0.020679s
+NN-1 Index: 147
+distanceMRNG: 1227.69
+distanceBRUTE: 1227.69
+NN-2 Index: 498
+distanceMRNG: 1468.32
+distanceBRUTE: 1323.07
+===
+Query: 815
+timeMRNG: 0.155212s
+timeBRUTE: 0.023561s
+NN-1 Index: 50
+distanceMRNG: 1400.76
+distanceBRUTE: 1400.76
+NN-2 Index: 330
+distanceMRNG: 1579.16
+distanceBRUTE: 1579.16
+===
+Query: 816
+timeMRNG: 0.120405s
+timeBRUTE: 0.021846s
+NN-1 Index: 646
+distanceMRNG: 1610.87
+distanceBRUTE: 1610.87
+NN-2 Index: 76
+distanceMRNG: 1649.51
+distanceBRUTE: 1649.51
+===
+Query: 817
+timeMRNG: 0.163762s
+timeBRUTE: 0.024259s
+NN-1 Index: 241
+distanceMRNG: 1490.35
+distanceBRUTE: 1490.35
+NN-2 Index: 323
+distanceMRNG: 1793.73
+distanceBRUTE: 1793.73
+===
+Query: 818
+timeMRNG: 0.132473s
+timeBRUTE: 0.019759s
+NN-1 Index: 710
+distanceMRNG: 743.251
+distanceBRUTE: 743.251
+NN-2 Index: 484
+distanceMRNG: 1168.19
+distanceBRUTE: 1126.14
+===
+Query: 819
+timeMRNG: 0.107948s
+timeBRUTE: 0.023368s
+NN-1 Index: 546
+distanceMRNG: 1797.1
+distanceBRUTE: 1696.89
+NN-2 Index: 50
+distanceMRNG: 1876.16
+distanceBRUTE: 1797.1
+===
+Query: 820
+timeMRNG: 0.088145s
+timeBRUTE: 0.021375s
+NN-1 Index: 106
+distanceMRNG: 1634.08
+distanceBRUTE: 1454.82
+NN-2 Index: 395
+distanceMRNG: 1708.2
+distanceBRUTE: 1634.08
+===
+Query: 821
+timeMRNG: 0.139585s
+timeBRUTE: 0.021057s
+NN-1 Index: 234
+distanceMRNG: 1966.47
+distanceBRUTE: 1655.68
+NN-2 Index: 210
+distanceMRNG: 2022.94
+distanceBRUTE: 1684.28
+===
+Query: 822
+timeMRNG: 0.118007s
+timeBRUTE: 0.02151s
+NN-1 Index: 654
+distanceMRNG: 2171.65
+distanceBRUTE: 1296.37
+NN-2 Index: 868
+distanceMRNG: 2198.26
+distanceBRUTE: 1380.81
+===
+Query: 823
+timeMRNG: 0.221925s
+timeBRUTE: 0.021381s
+NN-1 Index: 657
+distanceMRNG: 1935.56
+distanceBRUTE: 1690.35
+NN-2 Index: 723
+distanceMRNG: 2387.92
+distanceBRUTE: 1935.56
+===
+Query: 824
+timeMRNG: 0.129222s
+timeBRUTE: 0.029405s
+NN-1 Index: 270
+distanceMRNG: 650.567
+distanceBRUTE: 650.567
+NN-2 Index: 648
+distanceMRNG: 819.968
+distanceBRUTE: 819.968
+===
+Query: 825
+timeMRNG: 0.101157s
+timeBRUTE: 0.022117s
+NN-1 Index: 798
+distanceMRNG: 1272.48
+distanceBRUTE: 1272.48
+NN-2 Index: 288
+distanceMRNG: 1439.33
+distanceBRUTE: 1310.96
+===
+Query: 826
+timeMRNG: 0.119225s
+timeBRUTE: 0.02791s
+NN-1 Index: 450
+distanceMRNG: 728.789
+distanceBRUTE: 594.787
+NN-2 Index: 50
+distanceMRNG: 2018.45
+distanceBRUTE: 614.399
+===
+Query: 827
+timeMRNG: 0.167704s
+timeBRUTE: 0.027992s
+NN-1 Index: 586
+distanceMRNG: 1620.75
+distanceBRUTE: 1620.75
+NN-2 Index: 412
+distanceMRNG: 1686.16
+distanceBRUTE: 1686.16
+===
+Query: 828
+timeMRNG: 0.155458s
+timeBRUTE: 0.020894s
+NN-1 Index: 858
+distanceMRNG: 1859.64
+distanceBRUTE: 1481.57
+NN-2 Index: 938
+distanceMRNG: 1874.64
+distanceBRUTE: 1859.64
+===
+Query: 829
+timeMRNG: 0.088158s
+timeBRUTE: 0.027805s
+NN-1 Index: 529
+distanceMRNG: 1839.59
+distanceBRUTE: 1618.9
+NN-2 Index: 601
+distanceMRNG: 1974.83
+distanceBRUTE: 1701.31
+===
+Query: 830
+timeMRNG: 0.126689s
+timeBRUTE: 0.021283s
+NN-1 Index: 217
+distanceMRNG: 1556.16
+distanceBRUTE: 1556.16
+NN-2 Index: 418
+distanceMRNG: 1765.22
+distanceBRUTE: 1692.48
+===
+Query: 831
+timeMRNG: 0.132039s
+timeBRUTE: 0.026682s
+NN-1 Index: 40
+distanceMRNG: 644.313
+distanceBRUTE: 644.313
+NN-2 Index: 112
+distanceMRNG: 705.802
+distanceBRUTE: 705.802
+===
+Query: 832
+timeMRNG: 0.167527s
+timeBRUTE: 0.026985s
+NN-1 Index: 968
+distanceMRNG: 1310.57
+distanceBRUTE: 1310.57
+NN-2 Index: 42
+distanceMRNG: 1323.58
+distanceBRUTE: 1323.58
+===
+Query: 833
+timeMRNG: 0.126866s
+timeBRUTE: 0.031207s
+NN-1 Index: 172
+distanceMRNG: 1536.48
+distanceBRUTE: 1495.94
+NN-2 Index: 133
+distanceMRNG: 1539.19
+distanceBRUTE: 1536.48
+===
+Query: 834
+timeMRNG: 0.171434s
+timeBRUTE: 0.030274s
+NN-1 Index: 996
+distanceMRNG: 1474.31
+distanceBRUTE: 1463.42
+NN-2 Index: 672
+distanceMRNG: 1941.41
+distanceBRUTE: 1474.31
+===
+Query: 835
+timeMRNG: 0.150341s
+timeBRUTE: 0.028292s
+NN-1 Index: 276
+distanceMRNG: 388.507
+distanceBRUTE: 388.507
+NN-2 Index: 676
+distanceMRNG: 762.894
+distanceBRUTE: 580.648
+===
+Query: 836
+timeMRNG: 0.141158s
+timeBRUTE: 0.025471s
+NN-1 Index: 538
+distanceMRNG: 731.646
+distanceBRUTE: 615.927
+NN-2 Index: 484
+distanceMRNG: 1711.5
+distanceBRUTE: 663.709
+===
+Query: 837
+timeMRNG: 0.1647s
+timeBRUTE: 0.032316s
+NN-1 Index: 646
+distanceMRNG: 1550.68
+distanceBRUTE: 1550.68
+NN-2 Index: 466
+distanceMRNG: 1704.9
+distanceBRUTE: 1568.81
+===
+Query: 838
+timeMRNG: 0.163739s
+timeBRUTE: 0.021198s
+NN-1 Index: 932
+distanceMRNG: 1513.94
+distanceBRUTE: 1513.94
+NN-2 Index: 682
+distanceMRNG: 1693.12
+distanceBRUTE: 1693.12
+===
+Query: 839
+timeMRNG: 0.132515s
+timeBRUTE: 0.021592s
+NN-1 Index: 81
+distanceMRNG: 1816.12
+distanceBRUTE: 1749.99
+NN-2 Index: 927
+distanceMRNG: 1887.72
+distanceBRUTE: 1816.12
+===
+Query: 840
+timeMRNG: 0.106726s
+timeBRUTE: 0.020091s
+NN-1 Index: 177
+distanceMRNG: 859.412
+distanceBRUTE: 859.412
+NN-2 Index: 53
+distanceMRNG: 1799.58
+distanceBRUTE: 954.556
+===
+Query: 841
+timeMRNG: 0.105719s
+timeBRUTE: 0.021325s
+NN-1 Index: 214
+distanceMRNG: 1793.38
+distanceBRUTE: 1635.47
+NN-2 Index: 724
+distanceMRNG: 1844.13
+distanceBRUTE: 1793.38
+===
+Query: 842
+timeMRNG: 0.136868s
+timeBRUTE: 0.021855s
+NN-1 Index: 728
+distanceMRNG: 1003.89
+distanceBRUTE: 1003.89
+NN-2 Index: 864
+distanceMRNG: 1214.21
+distanceBRUTE: 1094.8
+===
+Query: 843
+timeMRNG: 0.176146s
+timeBRUTE: 0.021262s
+NN-1 Index: 926
+distanceMRNG: 1423.05
+distanceBRUTE: 1423.05
+NN-2 Index: 914
+distanceMRNG: 1447.89
+distanceBRUTE: 1447.89
+===
+Query: 844
+timeMRNG: 0.151126s
+timeBRUTE: 0.031839s
+NN-1 Index: 50
+distanceMRNG: 1880.2
+distanceBRUTE: 1880.2
+NN-2 Index: 864
+distanceMRNG: 1939.98
+distanceBRUTE: 1939.98
+===
+Query: 845
+timeMRNG: 0.207097s
+timeBRUTE: 0.027499s
+NN-1 Index: 787
+distanceMRNG: 1727.14
+distanceBRUTE: 1648.03
+NN-2 Index: 51
+distanceMRNG: 1746.6
+distanceBRUTE: 1727.14
+===
+Query: 846
+timeMRNG: 0.151454s
+timeBRUTE: 0.02195s
+NN-1 Index: 387
+distanceMRNG: 1581.43
+distanceBRUTE: 1581.43
+NN-2 Index: 567
+distanceMRNG: 1634.52
+distanceBRUTE: 1634.52
+===
+Query: 847
+timeMRNG: 0.110425s
+timeBRUTE: 0.024752s
+NN-1 Index: 130
+distanceMRNG: 1620.93
+distanceBRUTE: 1620.93
+NN-2 Index: 840
+distanceMRNG: 1632.73
+distanceBRUTE: 1632.73
+===
+Query: 848
+timeMRNG: 0.133821s
+timeBRUTE: 0.023716s
+NN-1 Index: 538
+distanceMRNG: 724.345
+distanceBRUTE: 724.345
+NN-2 Index: 455
+distanceMRNG: 1048.28
+distanceBRUTE: 783.355
+===
+Query: 849
+timeMRNG: 0.158762s
+timeBRUTE: 0.021199s
+NN-1 Index: 490
+distanceMRNG: 1678.28
+distanceBRUTE: 1678.28
+NN-2 Index: 392
+distanceMRNG: 1711.62
+distanceBRUTE: 1711.62
+===
+Query: 850
+timeMRNG: 0.170024s
+timeBRUTE: 0.029121s
+NN-1 Index: 152
+distanceMRNG: 657.623
+distanceBRUTE: 657.623
+NN-2 Index: 40
+distanceMRNG: 801.655
+distanceBRUTE: 801.655
+===
+Query: 851
+timeMRNG: 0.145675s
+timeBRUTE: 0.020875s
+NN-1 Index: 81
+distanceMRNG: 1512.26
+distanceBRUTE: 1512.26
+NN-2 Index: 37
+distanceMRNG: 1571.35
+distanceBRUTE: 1543.6
+===
+Query: 852
+timeMRNG: 0.062224s
+timeBRUTE: 0.022663s
+NN-1 Index: 786
+distanceMRNG: 1389.09
+distanceBRUTE: 1389.09
+NN-2 Index: 288
+distanceMRNG: 1493.98
+distanceBRUTE: 1440.81
+===
+Query: 853
+timeMRNG: 0.107377s
+timeBRUTE: 0.027955s
+NN-1 Index: 803
+distanceMRNG: 1317.34
+distanceBRUTE: 1317.34
+NN-2 Index: 795
+distanceMRNG: 1359.86
+distanceBRUTE: 1359.86
+===
+Query: 854
+timeMRNG: 0.139035s
+timeBRUTE: 0.022066s
+NN-1 Index: 118
+distanceMRNG: 1589.21
+distanceBRUTE: 1580.58
+NN-2 Index: 458
+distanceMRNG: 1644.73
+distanceBRUTE: 1589.21
+===
+Query: 855
+timeMRNG: 0.199229s
+timeBRUTE: 0.029535s
+NN-1 Index: 136
+distanceMRNG: 1380.58
+distanceBRUTE: 1380.58
+NN-2 Index: 752
+distanceMRNG: 1533.61
+distanceBRUTE: 1533.61
+===
+Query: 856
+timeMRNG: 0.141464s
+timeBRUTE: 0.023885s
+NN-1 Index: 145
+distanceMRNG: 1856.82
+distanceBRUTE: 1856.82
+NN-2 Index: 191
+distanceMRNG: 1881.03
+distanceBRUTE: 1881.03
+===
+Query: 857
+timeMRNG: 0.302625s
+timeBRUTE: 0.020044s
+NN-1 Index: 132
+distanceMRNG: 1288.74
+distanceBRUTE: 1288.74
+NN-2 Index: 552
+distanceMRNG: 1723.65
+distanceBRUTE: 1434.27
+===
+Query: 858
+timeMRNG: 0.133237s
+timeBRUTE: 0.022603s
+NN-1 Index: 457
+distanceMRNG: 1672.26
+distanceBRUTE: 1672.26
+NN-2 Index: 568
+distanceMRNG: 1748.94
+distanceBRUTE: 1748.09
+===
+Query: 859
+timeMRNG: 0.08495s
+timeBRUTE: 0.020443s
+NN-1 Index: 750
+distanceMRNG: 1216.91
+distanceBRUTE: 1045.41
+NN-2 Index: 786
+distanceMRNG: 1223.42
+distanceBRUTE: 1216.91
+===
+Query: 860
+timeMRNG: 0.128352s
+timeBRUTE: 0.021104s
+NN-1 Index: 238
+distanceMRNG: 1727.73
+distanceBRUTE: 1713.55
+NN-2 Index: 90
+distanceMRNG: 1933.43
+distanceBRUTE: 1727.73
+===
+Query: 861
+timeMRNG: 0.149769s
+timeBRUTE: 0.020338s
+NN-1 Index: 536
+distanceMRNG: 1701.48
+distanceBRUTE: 1701.48
+NN-2 Index: 32
+distanceMRNG: 1757.5
+distanceBRUTE: 1757.5
+===
+Query: 862
+timeMRNG: 0.152234s
+timeBRUTE: 0.030588s
+NN-1 Index: 428
+distanceMRNG: 1139.18
+distanceBRUTE: 1139.18
+NN-2 Index: 520
+distanceMRNG: 1185.13
+distanceBRUTE: 1185.13
+===
+Query: 863
+timeMRNG: 0.10606s
+timeBRUTE: 0.024887s
+NN-1 Index: 127
+distanceMRNG: 1982.78
+distanceBRUTE: 1619.33
+NN-2 Index: 663
+distanceMRNG: 2036.09
+distanceBRUTE: 1639.56
+===
+Query: 864
+timeMRNG: 0.140762s
+timeBRUTE: 0.021872s
+NN-1 Index: 756
+distanceMRNG: 1780.56
+distanceBRUTE: 1780.56
+NN-2 Index: 972
+distanceMRNG: 1979.95
+distanceBRUTE: 1979.95
+===
+Query: 865
+timeMRNG: 0.139283s
+timeBRUTE: 0.023717s
+NN-1 Index: 514
+distanceMRNG: 1499
+distanceBRUTE: 1499
+NN-2 Index: 50
+distanceMRNG: 1605.81
+distanceBRUTE: 1605.81
+===
+Query: 866
+timeMRNG: 0.118635s
+timeBRUTE: 0.021113s
+NN-1 Index: 958
+distanceMRNG: 1796.13
+distanceBRUTE: 1796.13
+NN-2 Index: 333
+distanceMRNG: 1944.86
+distanceBRUTE: 1822.78
+===
+Query: 867
+timeMRNG: 0.147987s
+timeBRUTE: 0.02094s
+NN-1 Index: 180
+distanceMRNG: 1670.2
+distanceBRUTE: 1670.2
+NN-2 Index: 884
+distanceMRNG: 1777.2
+distanceBRUTE: 1677.6
+===
+Query: 868
+timeMRNG: 0.171043s
+timeBRUTE: 0.028517s
+NN-1 Index: 684
+distanceMRNG: 1588.05
+distanceBRUTE: 1588.05
+NN-2 Index: 584
+distanceMRNG: 1674.6
+distanceBRUTE: 1674.6
+===
+Query: 869
+timeMRNG: 0.225559s
+timeBRUTE: 0.032735s
+NN-1 Index: 480
+distanceMRNG: 1897.43
+distanceBRUTE: 1814.33
+NN-2 Index: 512
+distanceMRNG: 1944.35
+distanceBRUTE: 1897.43
+===
+Query: 870
+timeMRNG: 0.163592s
+timeBRUTE: 0.020094s
+NN-1 Index: 62
+distanceMRNG: 1535.7
+distanceBRUTE: 1535.7
+NN-2 Index: 430
+distanceMRNG: 1542.05
+distanceBRUTE: 1542.05
+===
+Query: 871
+timeMRNG: 0.128773s
+timeBRUTE: 0.021642s
+NN-1 Index: 453
+distanceMRNG: 1574.55
+distanceBRUTE: 1574.55
+NN-2 Index: 119
+distanceMRNG: 1616.5
+distanceBRUTE: 1598.1
+===
+Query: 872
+timeMRNG: 0.173298s
+timeBRUTE: 0.020493s
+NN-1 Index: 160
+distanceMRNG: 1694.92
+distanceBRUTE: 1694.92
+NN-2 Index: 754
+distanceMRNG: 2065.33
+distanceBRUTE: 1715.21
+===
+Query: 873
+timeMRNG: 0.205534s
+timeBRUTE: 0.020778s
+NN-1 Index: 530
+distanceMRNG: 1614.69
+distanceBRUTE: 1614.69
+NN-2 Index: 586
+distanceMRNG: 1859.68
+distanceBRUTE: 1859.68
+===
+Query: 874
+timeMRNG: 0.097349s
+timeBRUTE: 0.020301s
+NN-1 Index: 423
+distanceMRNG: 1180.12
+distanceBRUTE: 1154.6
+NN-2 Index: 419
+distanceMRNG: 1437.29
+distanceBRUTE: 1180.12
+===
+Query: 875
+timeMRNG: 0.161284s
+timeBRUTE: 0.022774s
+NN-1 Index: 555
+distanceMRNG: 1601.62
+distanceBRUTE: 1570.78
+NN-2 Index: 716
+distanceMRNG: 1696.87
+distanceBRUTE: 1601.62
+===
+Query: 876
+timeMRNG: 0.101756s
+timeBRUTE: 0.030611s
+NN-1 Index: 352
+distanceMRNG: 2201.46
+distanceBRUTE: 2201.46
+NN-2 Index: 886
+distanceMRNG: 2263.53
+distanceBRUTE: 2263.53
+===
+Query: 877
+timeMRNG: 0.129327s
+timeBRUTE: 0.021454s
+NN-1 Index: 628
+distanceMRNG: 2395.05
+distanceBRUTE: 1955.47
+NN-2 Index: 376
+distanceMRNG: 2734.14
+distanceBRUTE: 2251.53
+===
+Query: 878
+timeMRNG: 0.130153s
+timeBRUTE: 0.022436s
+NN-1 Index: 628
+distanceMRNG: 2258.63
+distanceBRUTE: 1979.08
+NN-2 Index: 334
+distanceMRNG: 2570.23
+distanceBRUTE: 2055.22
+===
+Query: 879
+timeMRNG: 0.144546s
+timeBRUTE: 0.020982s
+NN-1 Index: 46
+distanceMRNG: 1935.8
+distanceBRUTE: 1780.5
+NN-2 Index: 41
+distanceMRNG: 1961.49
+distanceBRUTE: 1871.28
+===
+Query: 880
+timeMRNG: 0.141503s
+timeBRUTE: 0.021383s
+NN-1 Index: 567
+distanceMRNG: 992.554
+distanceBRUTE: 992.554
+NN-2 Index: 839
+distanceMRNG: 1383.64
+distanceBRUTE: 1383.64
+===
+Query: 881
+timeMRNG: 0.137846s
+timeBRUTE: 0.020291s
+NN-1 Index: 932
+distanceMRNG: 1821.06
+distanceBRUTE: 1669.43
+NN-2 Index: 226
+distanceMRNG: 1859.76
+distanceBRUTE: 1774.47
+===
+Query: 882
+timeMRNG: 0.126832s
+timeBRUTE: 0.020806s
+NN-1 Index: 258
+distanceMRNG: 1334.63
+distanceBRUTE: 1334.63
+NN-2 Index: 43
+distanceMRNG: 1745.51
+distanceBRUTE: 1335.44
+===
+Query: 883
+timeMRNG: 0.138274s
+timeBRUTE: 0.020293s
+NN-1 Index: 514
+distanceMRNG: 1613.74
+distanceBRUTE: 1613.74
+NN-2 Index: 50
+distanceMRNG: 1641.72
+distanceBRUTE: 1641.72
+===
+Query: 884
+timeMRNG: 0.13586s
+timeBRUTE: 0.02082s
+NN-1 Index: 668
+distanceMRNG: 1401.2
+distanceBRUTE: 1401.2
+NN-2 Index: 80
+distanceMRNG: 1558.77
+distanceBRUTE: 1558.77
+===
+Query: 885
+timeMRNG: 0.130289s
+timeBRUTE: 0.019857s
+NN-1 Index: 204
+distanceMRNG: 1560.28
+distanceBRUTE: 1560.28
+NN-2 Index: 32
+distanceMRNG: 1596.14
+distanceBRUTE: 1571.9
+===
+Query: 886
+timeMRNG: 0.14663s
+timeBRUTE: 0.02786s
+NN-1 Index: 221
+distanceMRNG: 1708.58
+distanceBRUTE: 1708.58
+NN-2 Index: 238
+distanceMRNG: 1827.59
+distanceBRUTE: 1786.98
+===
+Query: 887
+timeMRNG: 0.203523s
+timeBRUTE: 0.020949s
+NN-1 Index: 856
+distanceMRNG: 1600.71
+distanceBRUTE: 1571.69
+NN-2 Index: 49
+distanceMRNG: 1688.28
+distanceBRUTE: 1600.71
+===
+Query: 888
+timeMRNG: 0.120837s
+timeBRUTE: 0.021344s
+NN-1 Index: 939
+distanceMRNG: 2102.77
+distanceBRUTE: 1800.26
+NN-2 Index: 531
+distanceMRNG: 2355.26
+distanceBRUTE: 1832.37
+===
+Query: 889
+timeMRNG: 0.122615s
+timeBRUTE: 0.019818s
+NN-1 Index: 310
+distanceMRNG: 535.961
+distanceBRUTE: 521.92
+NN-2 Index: 484
+distanceMRNG: 700.598
+distanceBRUTE: 535.961
+===
+Query: 890
+timeMRNG: 0.159393s
+timeBRUTE: 0.020081s
+NN-1 Index: 956
+distanceMRNG: 1706.57
+distanceBRUTE: 1706.57
+NN-2 Index: 490
+distanceMRNG: 1738.52
+distanceBRUTE: 1738.52
+===
+Query: 891
+timeMRNG: 0.132995s
+timeBRUTE: 0.021085s
+NN-1 Index: 938
+distanceMRNG: 1335.82
+distanceBRUTE: 1335.82
+NN-2 Index: 646
+distanceMRNG: 1493.61
+distanceBRUTE: 1477.75
+===
+Query: 892
+timeMRNG: 0.163327s
+timeBRUTE: 0.020892s
+NN-1 Index: 530
+distanceMRNG: 2006.54
+distanceBRUTE: 1694.52
+NN-2 Index: 472
+distanceMRNG: 2279.66
+distanceBRUTE: 2006.54
+===
+Query: 893
+timeMRNG: 0.120232s
+timeBRUTE: 0.020991s
+NN-1 Index: 322
+distanceMRNG: 1548.84
+distanceBRUTE: 1548.84
+NN-2 Index: 608
+distanceMRNG: 1561.39
+distanceBRUTE: 1561.39
+===
+Query: 894
+timeMRNG: 0.124176s
+timeBRUTE: 0.025438s
+NN-1 Index: 776
+distanceMRNG: 2578.45
+distanceBRUTE: 2143.64
+NN-2 Index: 702
+distanceMRNG: 3033.51
+distanceBRUTE: 2227.03
+===
+Query: 895
+timeMRNG: 0.130075s
+timeBRUTE: 0.02469s
+NN-1 Index: 582
+distanceMRNG: 1567.13
+distanceBRUTE: 1567.13
+NN-2 Index: 169
+distanceMRNG: 1883.68
+distanceBRUTE: 1655.34
+===
+Query: 896
+timeMRNG: 0.154463s
+timeBRUTE: 0.02144s
+NN-1 Index: 489
+distanceMRNG: 1695.63
+distanceBRUTE: 1695.63
+NN-2 Index: 473
+distanceMRNG: 1866.88
+distanceBRUTE: 1866.88
+===
+Query: 897
+timeMRNG: 0.132068s
+timeBRUTE: 0.021069s
+NN-1 Index: 332
+distanceMRNG: 1874.46
+distanceBRUTE: 1747.92
+NN-2 Index: 480
+distanceMRNG: 2062.27
+distanceBRUTE: 1874.46
+===
+Query: 898
+timeMRNG: 0.120261s
+timeBRUTE: 0.025146s
+NN-1 Index: 370
+distanceMRNG: 1406.07
+distanceBRUTE: 1406.07
+NN-2 Index: 588
+distanceMRNG: 1607.2
+distanceBRUTE: 1520.19
+===
+Query: 899
+timeMRNG: 0.123521s
+timeBRUTE: 0.021605s
+NN-1 Index: 628
+distanceMRNG: 1980.52
+distanceBRUTE: 1865.25
+NN-2 Index: 766
+distanceMRNG: 2090.97
+distanceBRUTE: 1917.4
+===
+Query: 900
+timeMRNG: 0.023007s
+timeBRUTE: 0.023745s
+NN-1 Index: 678
+distanceMRNG: 1151.49
+distanceBRUTE: 1151.49
+NN-2 Index: 454
+distanceMRNG: 1220.83
+distanceBRUTE: 1203.9
+===
+Query: 901
+timeMRNG: 0.128465s
+timeBRUTE: 0.022455s
+NN-1 Index: 706
+distanceMRNG: 1501.86
+distanceBRUTE: 1501.86
+NN-2 Index: 20
+distanceMRNG: 1542.6
+distanceBRUTE: 1542.6
+===
+Query: 902
+timeMRNG: 0.032439s
+timeBRUTE: 0.023088s
+NN-1 Index: 576
+distanceMRNG: 1123.92
+distanceBRUTE: 1123.92
+NN-2 Index: 786
+distanceMRNG: 1533.84
+distanceBRUTE: 1413.46
+===
+Query: 903
+timeMRNG: 0.155913s
+timeBRUTE: 0.021205s
+NN-1 Index: 299
+distanceMRNG: 2041.52
+distanceBRUTE: 1783.51
+NN-2 Index: 323
+distanceMRNG: 2165.04
+distanceBRUTE: 1842.79
+===
+Query: 904
+timeMRNG: 0.246844s
+timeBRUTE: 0.030127s
+NN-1 Index: 668
+distanceMRNG: 1903.15
+distanceBRUTE: 1903.15
+NN-2 Index: 209
+distanceMRNG: 2037.14
+distanceBRUTE: 1939.02
+===
+Query: 905
+timeMRNG: 0.069998s
+timeBRUTE: 0.021637s
+NN-1 Index: 530
+distanceMRNG: 1793.62
+distanceBRUTE: 1738.5
+NN-2 Index: 140
+distanceMRNG: 2365.2
+distanceBRUTE: 1793.62
+===
+Query: 906
+timeMRNG: 0.114488s
+timeBRUTE: 0.020949s
+NN-1 Index: 550
+distanceMRNG: 1634.78
+distanceBRUTE: 1393.77
+NN-2 Index: 170
+distanceMRNG: 1704.25
+distanceBRUTE: 1634.78
+===
+Query: 907
+timeMRNG: 0.12229s
+timeBRUTE: 0.020654s
+NN-1 Index: 538
+distanceMRNG: 895.619
+distanceBRUTE: 654.679
+NN-2 Index: 604
+distanceMRNG: 966.759
+distanceBRUTE: 704.104
+===
+Query: 908
+timeMRNG: 0.133023s
+timeBRUTE: 0.020395s
+NN-1 Index: 373
+distanceMRNG: 1018.77
+distanceBRUTE: 1018.77
+NN-2 Index: 271
+distanceMRNG: 1387.71
+distanceBRUTE: 1106.24
+===
+Query: 909
+timeMRNG: 0.133228s
+timeBRUTE: 0.021799s
+NN-1 Index: 908
+distanceMRNG: 1766.57
+distanceBRUTE: 1719.93
+NN-2 Index: 778
+distanceMRNG: 1795.4
+distanceBRUTE: 1745.46
+===
+Query: 910
+timeMRNG: 0.126764s
+timeBRUTE: 0.020524s
+NN-1 Index: 402
+distanceMRNG: 1229.02
+distanceBRUTE: 1156.54
+NN-2 Index: 314
+distanceMRNG: 1471.83
+distanceBRUTE: 1229.02
+===
+Query: 911
+timeMRNG: 0.134233s
+timeBRUTE: 0.022733s
+NN-1 Index: 522
+distanceMRNG: 1464.87
+distanceBRUTE: 1464.87
+NN-2 Index: 258
+distanceMRNG: 1480.17
+distanceBRUTE: 1480.17
+===
+Query: 912
+timeMRNG: 0.143473s
+timeBRUTE: 0.021059s
+NN-1 Index: 215
+distanceMRNG: 1792.9
+distanceBRUTE: 1792.9
+NN-2 Index: 909
+distanceMRNG: 1808.5
+distanceBRUTE: 1808.5
+===
+Query: 913
+timeMRNG: 0.1346s
+timeBRUTE: 0.021282s
+NN-1 Index: 940
+distanceMRNG: 1722.19
+distanceBRUTE: 1295.56
+NN-2 Index: 564
+distanceMRNG: 1927.27
+distanceBRUTE: 1722.19
+===
+Query: 914
+timeMRNG: 0.130211s
+timeBRUTE: 0.020864s
+NN-1 Index: 368
+distanceMRNG: 1564.66
+distanceBRUTE: 1172.09
+NN-2 Index: 791
+distanceMRNG: 1685.85
+distanceBRUTE: 1438.8
+===
+Query: 915
+timeMRNG: 0.143408s
+timeBRUTE: 0.028944s
+NN-1 Index: 708
+distanceMRNG: 1588.63
+distanceBRUTE: 1588.63
+NN-2 Index: 740
+distanceMRNG: 1648.03
+distanceBRUTE: 1620.89
+===
+Query: 916
+timeMRNG: 0.159591s
+timeBRUTE: 0.020656s
+NN-1 Index: 60
+distanceMRNG: 2012.25
+distanceBRUTE: 2006.87
+NN-2 Index: 804
+distanceMRNG: 2022.55
+distanceBRUTE: 2012.25
+===
+Query: 917
+timeMRNG: 0.127939s
+timeBRUTE: 0.020313s
+NN-1 Index: 798
+distanceMRNG: 1108.51
+distanceBRUTE: 1108.51
+NN-2 Index: 288
+distanceMRNG: 1202.94
+distanceBRUTE: 1202.94
+===
+Query: 918
+timeMRNG: 0.123659s
+timeBRUTE: 0.03041s
+NN-1 Index: 398
+distanceMRNG: 795.419
+distanceBRUTE: 657.385
+NN-2 Index: 744
+distanceMRNG: 1693.1
+distanceBRUTE: 713.679
+===
+Query: 919
+timeMRNG: 0.222293s
+timeBRUTE: 0.029517s
+NN-1 Index: 270
+distanceMRNG: 1793.38
+distanceBRUTE: 1789.83
+NN-2 Index: 558
+distanceMRNG: 1843.34
+distanceBRUTE: 1793.38
+===
+Query: 920
+timeMRNG: 0.127766s
+timeBRUTE: 0.024158s
+NN-1 Index: 174
+distanceMRNG: 609.839
+distanceBRUTE: 609.839
+NN-2 Index: 276
+distanceMRNG: 615.439
+distanceBRUTE: 615.439
+===
+Query: 921
+timeMRNG: 0.145116s
+timeBRUTE: 0.020385s
+NN-1 Index: 16
+distanceMRNG: 1880.87
+distanceBRUTE: 1712.93
+NN-2 Index: 642
+distanceMRNG: 1949.96
+distanceBRUTE: 1877.36
+===
+Query: 922
+timeMRNG: 0.168413s
+timeBRUTE: 0.021254s
+NN-1 Index: 586
+distanceMRNG: 1758.8
+distanceBRUTE: 1758.8
+NN-2 Index: 94
+distanceMRNG: 1851.2
+distanceBRUTE: 1764.74
+===
+Query: 923
+timeMRNG: 0.163091s
+timeBRUTE: 0.021779s
+NN-1 Index: 479
+distanceMRNG: 2029.95
+distanceBRUTE: 1480.7
+NN-2 Index: 856
+distanceMRNG: 2539.84
+distanceBRUTE: 1780.43
+===
+Query: 924
+timeMRNG: 0.142301s
+timeBRUTE: 0.020671s
+NN-1 Index: 586
+distanceMRNG: 1743.87
+distanceBRUTE: 1741.84
+NN-2 Index: 683
+distanceMRNG: 1854.01
+distanceBRUTE: 1743.87
+===
+Query: 925
+timeMRNG: 0.119522s
+timeBRUTE: 0.023806s
+NN-1 Index: 479
+distanceMRNG: 1677.79
+distanceBRUTE: 1493.95
+NN-2 Index: 856
+distanceMRNG: 1891.18
+distanceBRUTE: 1552.16
+===
+Query: 926
+timeMRNG: 0.116198s
+timeBRUTE: 0.022677s
+NN-1 Index: 320
+distanceMRNG: 1869.65
+distanceBRUTE: 1869.65
+NN-2 Index: 232
+distanceMRNG: 1930.92
+distanceBRUTE: 1930.92
+===
+Query: 927
+timeMRNG: 0.127751s
+timeBRUTE: 0.020427s
+NN-1 Index: 50
+distanceMRNG: 1342.54
+distanceBRUTE: 1342.54
+NN-2 Index: 998
+distanceMRNG: 1463.69
+distanceBRUTE: 1457.96
+===
+Query: 928
+timeMRNG: 0.112558s
+timeBRUTE: 0.020194s
+NN-1 Index: 322
+distanceMRNG: 1261.2
+distanceBRUTE: 1261.2
+NN-2 Index: 344
+distanceMRNG: 1437.2
+distanceBRUTE: 1437.2
+===
+Query: 929
+timeMRNG: 0.128188s
+timeBRUTE: 0.02311s
+NN-1 Index: 838
+distanceMRNG: 686.991
+distanceBRUTE: 686.991
+NN-2 Index: 174
+distanceMRNG: 694.746
+distanceBRUTE: 694.746
+===
+Query: 930
+timeMRNG: 0.105417s
+timeBRUTE: 0.020001s
+NN-1 Index: 72
+distanceMRNG: 1550.66
+distanceBRUTE: 1538.29
+NN-2 Index: 270
+distanceMRNG: 1666.55
+distanceBRUTE: 1550.66
+===
+Query: 931
+timeMRNG: 0.13623s
+timeBRUTE: 0.019743s
+NN-1 Index: 428
+distanceMRNG: 1344.45
+distanceBRUTE: 1344.45
+NN-2 Index: 92
+distanceMRNG: 1445.88
+distanceBRUTE: 1445.88
+===
+Query: 932
+timeMRNG: 0.122318s
+timeBRUTE: 0.022168s
+NN-1 Index: 586
+distanceMRNG: 2429.63
+distanceBRUTE: 1825.46
+NN-2 Index: 418
+distanceMRNG: 2457.38
+distanceBRUTE: 1913.5
+===
+Query: 933
+timeMRNG: 0.163544s
+timeBRUTE: 0.020373s
+NN-1 Index: 342
+distanceMRNG: 2115.98
+distanceBRUTE: 1660.11
+NN-2 Index: 412
+distanceMRNG: 2176.09
+distanceBRUTE: 1665.03
+===
+Query: 934
+timeMRNG: 0.119581s
+timeBRUTE: 0.020342s
+NN-1 Index: 480
+distanceMRNG: 1839.92
+distanceBRUTE: 1807.84
+NN-2 Index: 474
+distanceMRNG: 1843.62
+distanceBRUTE: 1839.92
+===
+Query: 935
+timeMRNG: 0.229939s
+timeBRUTE: 0.020014s
+NN-1 Index: 878
+distanceMRNG: 2123.22
+distanceBRUTE: 1859.72
+NN-2 Index: 412
+distanceMRNG: 2169.33
+distanceBRUTE: 1873.97
+===
+Query: 936
+timeMRNG: 0.147947s
+timeBRUTE: 0.02067s
+NN-1 Index: 62
+distanceMRNG: 1861.65
+distanceBRUTE: 1764.92
+NN-2 Index: 916
+distanceMRNG: 1905.81
+distanceBRUTE: 1861.65
+===
+Query: 937
+timeMRNG: 0.151174s
+timeBRUTE: 0.021038s
+NN-1 Index: 658
+distanceMRNG: 1958.86
+distanceBRUTE: 1958.86
+NN-2 Index: 241
+distanceMRNG: 2234.46
+distanceBRUTE: 2093.27
+===
+Query: 938
+timeMRNG: 0.126614s
+timeBRUTE: 0.020524s
+NN-1 Index: 404
+distanceMRNG: 1764.47
+distanceBRUTE: 1764.47
+NN-2 Index: 760
+distanceMRNG: 1821.37
+distanceBRUTE: 1797.4
+===
+Query: 939
+timeMRNG: 0.193036s
+timeBRUTE: 0.020465s
+NN-1 Index: 586
+distanceMRNG: 2361.84
+distanceBRUTE: 2096.39
+NN-2 Index: 728
+distanceMRNG: 2454.43
+distanceBRUTE: 2129.32
+===
+Query: 940
+timeMRNG: 0.117997s
+timeBRUTE: 0.020958s
+NN-1 Index: 62
+distanceMRNG: 1460.78
+distanceBRUTE: 1293.61
+NN-2 Index: 430
+distanceMRNG: 1583.88
+distanceBRUTE: 1460.78
+===
+Query: 941
+timeMRNG: 0.103381s
+timeBRUTE: 0.019945s
+NN-1 Index: 798
+distanceMRNG: 1018.35
+distanceBRUTE: 1018.35
+NN-2 Index: 522
+distanceMRNG: 1081.65
+distanceBRUTE: 1081.65
+===
+Query: 942
+timeMRNG: 0.119617s
+timeBRUTE: 0.0203s
+NN-1 Index: 32
+distanceMRNG: 1500.19
+distanceBRUTE: 1500.19
+NN-2 Index: 238
+distanceMRNG: 1742.68
+distanceBRUTE: 1563.29
+===
+Query: 943
+timeMRNG: 0.123109s
+timeBRUTE: 0.019846s
+NN-1 Index: 999
+distanceMRNG: 1333.28
+distanceBRUTE: 1333.28
+NN-2 Index: 977
+distanceMRNG: 1515.01
+distanceBRUTE: 1466.75
+===
+Query: 944
+timeMRNG: 0.116856s
+timeBRUTE: 0.020264s
+NN-1 Index: 406
+distanceMRNG: 1691.66
+distanceBRUTE: 1691.66
+NN-2 Index: 248
+distanceMRNG: 1728.56
+distanceBRUTE: 1728.56
+===
+Query: 945
+timeMRNG: 0.02753s
+timeBRUTE: 0.020955s
+NN-1 Index: 809
+distanceMRNG: 2280
+distanceBRUTE: 1701.56
+NN-2 Index: 671
+distanceMRNG: 2503.41
+distanceBRUTE: 1750.53
+===
+Query: 946
+timeMRNG: 0.09997s
+timeBRUTE: 0.020234s
+NN-1 Index: 936
+distanceMRNG: 1240.17
+distanceBRUTE: 1240.17
+NN-2 Index: 968
+distanceMRNG: 1296.57
+distanceBRUTE: 1296.57
+===
+Query: 947
+timeMRNG: 0.150313s
+timeBRUTE: 0.020494s
+NN-1 Index: 806
+distanceMRNG: 1412.17
+distanceBRUTE: 1412.17
+NN-2 Index: 520
+distanceMRNG: 1791.8
+distanceBRUTE: 1579.42
+===
+Query: 948
+timeMRNG: 0.113027s
+timeBRUTE: 0.019286s
+NN-1 Index: 8
+distanceMRNG: 804.924
+distanceBRUTE: 583.657
+NN-2 Index: 212
+distanceMRNG: 1291.52
+distanceBRUTE: 622.911
+===
+Query: 949
+timeMRNG: 0.112426s
+timeBRUTE: 0.019921s
+NN-1 Index: 638
+distanceMRNG: 568.157
+distanceBRUTE: 568.157
+NN-2 Index: 8
+distanceMRNG: 841.366
+distanceBRUTE: 807.212
+===
+Query: 950
+timeMRNG: 0.148059s
+timeBRUTE: 0.023281s
+NN-1 Index: 586
+distanceMRNG: 1611.21
+distanceBRUTE: 1611.21
+NN-2 Index: 795
+distanceMRNG: 1663.83
+distanceBRUTE: 1647.93
+===
+Query: 951
+timeMRNG: 0.128735s
+timeBRUTE: 0.020191s
+NN-1 Index: 718
+distanceMRNG: 1750.57
+distanceBRUTE: 1750.57
+NN-2 Index: 576
+distanceMRNG: 1777.97
+distanceBRUTE: 1777.97
+===
+Query: 952
+timeMRNG: 0.118168s
+timeBRUTE: 0.020296s
+NN-1 Index: 418
+distanceMRNG: 1941.63
+distanceBRUTE: 1791.07
+NN-2 Index: 850
+distanceMRNG: 1958.51
+distanceBRUTE: 1928.44
+===
+Query: 953
+timeMRNG: 0.209842s
+timeBRUTE: 0.019707s
+NN-1 Index: 336
+distanceMRNG: 915.819
+distanceBRUTE: 915.819
+NN-2 Index: 271
+distanceMRNG: 1366.5
+distanceBRUTE: 1355.26
+===
+Query: 954
+timeMRNG: 0.117934s
+timeBRUTE: 0.021026s
+NN-1 Index: 812
+distanceMRNG: 1267.35
+distanceBRUTE: 1267.35
+NN-2 Index: 176
+distanceMRNG: 1305.57
+distanceBRUTE: 1305.57
+===
+Query: 955
+timeMRNG: 0.118453s
+timeBRUTE: 0.023195s
+NN-1 Index: 916
+distanceMRNG: 1639.72
+distanceBRUTE: 1512.81
+NN-2 Index: 970
+distanceMRNG: 1833.15
+distanceBRUTE: 1639.72
+===
+Query: 956
+timeMRNG: 0.151387s
+timeBRUTE: 0.026783s
+NN-1 Index: 248
+distanceMRNG: 1757.9
+distanceBRUTE: 1613.75
+NN-2 Index: 200
+distanceMRNG: 1767.48
+distanceBRUTE: 1757.9
+===
+Query: 957
+timeMRNG: 0.120389s
+timeBRUTE: 0.02514s
+NN-1 Index: 856
+distanceMRNG: 2087.32
+distanceBRUTE: 1966.04
+NN-2 Index: 43
+distanceMRNG: 2119.24
+distanceBRUTE: 2036.58
+===
+Query: 958
+timeMRNG: 0.128996s
+timeBRUTE: 0.023279s
+NN-1 Index: 398
+distanceMRNG: 1928.35
+distanceBRUTE: 1404.03
+NN-2 Index: 439
+distanceMRNG: 2671.15
+distanceBRUTE: 1556.52
+===
+Query: 959
+timeMRNG: 0.147804s
+timeBRUTE: 0.021081s
+NN-1 Index: 900
+distanceMRNG: 1687.98
+distanceBRUTE: 1581.88
+NN-2 Index: 754
+distanceMRNG: 1690.43
+distanceBRUTE: 1680.42
+===
+Query: 960
+timeMRNG: 0.128103s
+timeBRUTE: 0.020857s
+NN-1 Index: 276
+distanceMRNG: 1444.24
+distanceBRUTE: 1313.88
+NN-2 Index: 838
+distanceMRNG: 1459.74
+distanceBRUTE: 1407.25
+===
+Query: 961
+timeMRNG: 0.058378s
+timeBRUTE: 0.029376s
+NN-1 Index: 823
+distanceMRNG: 1550.47
+distanceBRUTE: 1283.51
+NN-2 Index: 571
+distanceMRNG: 1661.04
+distanceBRUTE: 1388.72
+===
+Query: 962
+timeMRNG: 0.034977s
+timeBRUTE: 0.025888s
+NN-1 Index: 786
+distanceMRNG: 1329.82
+distanceBRUTE: 1153.2
+NN-2 Index: 301
+distanceMRNG: 2108.44
+distanceBRUTE: 1309.5
+===
+Query: 963
+timeMRNG: 0.144753s
+timeBRUTE: 0.020041s
+NN-1 Index: 276
+distanceMRNG: 622.656
+distanceBRUTE: 622.656
+NN-2 Index: 604
+distanceMRNG: 676.654
+distanceBRUTE: 676.654
+===
+Query: 964
+timeMRNG: 0.124269s
+timeBRUTE: 0.02048s
+NN-1 Index: 604
+distanceMRNG: 801.233
+distanceBRUTE: 735.978
+NN-2 Index: 648
+distanceMRNG: 888.509
+distanceBRUTE: 801.233
+===
+Query: 965
+timeMRNG: 0.213936s
+timeBRUTE: 0.021163s
+NN-1 Index: 1
+distanceMRNG: 1780.04
+distanceBRUTE: 1742.98
+NN-2 Index: 860
+distanceMRNG: 1797.77
+distanceBRUTE: 1762.77
+===
+Query: 966
+timeMRNG: 0.129625s
+timeBRUTE: 0.020473s
+NN-1 Index: 888
+distanceMRNG: 1174.9
+distanceBRUTE: 1161.94
+NN-2 Index: 819
+distanceMRNG: 1722.06
+distanceBRUTE: 1174.9
+===
+Query: 967
+timeMRNG: 0.116259s
+timeBRUTE: 0.021003s
+NN-1 Index: 270
+distanceMRNG: 664.688
+distanceBRUTE: 664.688
+NN-2 Index: 124
+distanceMRNG: 700.951
+distanceBRUTE: 700.951
+===
+Query: 968
+timeMRNG: 0.188907s
+timeBRUTE: 0.022342s
+NN-1 Index: 354
+distanceMRNG: 1315.73
+distanceBRUTE: 1315.73
+NN-2 Index: 566
+distanceMRNG: 1637.22
+distanceBRUTE: 1637.22
+===
+Query: 969
+timeMRNG: 0.092508s
+timeBRUTE: 0.020987s
+NN-1 Index: 778
+distanceMRNG: 1806.07
+distanceBRUTE: 1667.78
+NN-2 Index: 54
+distanceMRNG: 1847.45
+distanceBRUTE: 1806.07
+===
+Query: 970
+timeMRNG: 0.136736s
+timeBRUTE: 0.020435s
+NN-1 Index: 912
+distanceMRNG: 1697.21
+distanceBRUTE: 1656.21
+NN-2 Index: 690
+distanceMRNG: 1736.81
+distanceBRUTE: 1697.21
+===
+Query: 971
+timeMRNG: 0.124122s
+timeBRUTE: 0.020869s
+NN-1 Index: 194
+distanceMRNG: 1494.53
+distanceBRUTE: 1494.53
+NN-2 Index: 58
+distanceMRNG: 1549.38
+distanceBRUTE: 1549.38
+===
+Query: 972
+timeMRNG: 0.210068s
+timeBRUTE: 0.028898s
+NN-1 Index: 435
+distanceMRNG: 1640.8
+distanceBRUTE: 1640.8
+NN-2 Index: 156
+distanceMRNG: 1726.14
+distanceBRUTE: 1726.14
+===
+Query: 973
+timeMRNG: 0.175752s
+timeBRUTE: 0.024163s
+NN-1 Index: 472
+distanceMRNG: 2222.82
+distanceBRUTE: 1908.93
+NN-2 Index: 354
+distanceMRNG: 2257.61
+distanceBRUTE: 2037.54
+===
+Query: 974
+timeMRNG: 0.167988s
+timeBRUTE: 0.025703s
+NN-1 Index: 76
+distanceMRNG: 1751.87
+distanceBRUTE: 1751.87
+NN-2 Index: 688
+distanceMRNG: 1819.18
+distanceBRUTE: 1819.18
+===
+Query: 975
+timeMRNG: 0.192873s
+timeBRUTE: 0.03485s
+NN-1 Index: 514
+distanceMRNG: 2019.75
+distanceBRUTE: 2019.75
+NN-2 Index: 584
+distanceMRNG: 2052.68
+distanceBRUTE: 2052.68
+===
+Query: 976
+timeMRNG: 0.121517s
+timeBRUTE: 0.020738s
+NN-1 Index: 708
+distanceMRNG: 1537.07
+distanceBRUTE: 1537.07
+NN-2 Index: 876
+distanceMRNG: 1548.18
+distanceBRUTE: 1548.18
+===
+Query: 977
+timeMRNG: 0.118791s
+timeBRUTE: 0.021075s
+NN-1 Index: 416
+distanceMRNG: 909.343
+distanceBRUTE: 909.343
+NN-2 Index: 357
+distanceMRNG: 1121.06
+distanceBRUTE: 1087.1
+===
+Query: 978
+timeMRNG: 0.121271s
+timeBRUTE: 0.020899s
+NN-1 Index: 960
+distanceMRNG: 1674.32
+distanceBRUTE: 1674.32
+NN-2 Index: 333
+distanceMRNG: 1711.91
+distanceBRUTE: 1711.91
+===
+Query: 979
+timeMRNG: 0.126305s
+timeBRUTE: 0.020786s
+NN-1 Index: 184
+distanceMRNG: 494.162
+distanceBRUTE: 494.162
+NN-2 Index: 780
+distanceMRNG: 762.299
+distanceBRUTE: 729.3
+===
+Query: 980
+timeMRNG: 0.16825s
+timeBRUTE: 0.02882s
+NN-1 Index: 939
+distanceMRNG: 2009.34
+distanceBRUTE: 1661.6
+NN-2 Index: 597
+distanceMRNG: 2513.56
+distanceBRUTE: 1811.55
+===
+Query: 981
+timeMRNG: 0.132122s
+timeBRUTE: 0.02166s
+NN-1 Index: 118
+distanceMRNG: 1531.14
+distanceBRUTE: 1531.14
+NN-2 Index: 234
+distanceMRNG: 1566.14
+distanceBRUTE: 1566.14
+===
+Query: 982
+timeMRNG: 0.120164s
+timeBRUTE: 0.021468s
+NN-1 Index: 240
+distanceMRNG: 1843.54
+distanceBRUTE: 1712.63
+NN-2 Index: 976
+distanceMRNG: 2267.9
+distanceBRUTE: 1778.9
+===
+Query: 983
+timeMRNG: 0.11462s
+timeBRUTE: 0.0244s
+NN-1 Index: 295
+distanceMRNG: 1430.56
+distanceBRUTE: 1430.56
+NN-2 Index: 456
+distanceMRNG: 1517.27
+distanceBRUTE: 1515.68
+===
+Query: 984
+timeMRNG: 0.011299s
+timeBRUTE: 0.02388s
+NN-1 Index: 678
+distanceMRNG: 873.254
+distanceBRUTE: 438.294
+NN-2 Index: 978
+distanceMRNG: 1256.46
+distanceBRUTE: 623.109
+===
+Query: 985
+timeMRNG: 0.051437s
+timeBRUTE: 0.022107s
+NN-1 Index: 545
+distanceMRNG: 2270.88
+distanceBRUTE: 1910.56
+NN-2 Index: 535
+distanceMRNG: 2290.08
+distanceBRUTE: 2054.53
+===
+Query: 986
+timeMRNG: 0.137939s
+timeBRUTE: 0.02429s
+NN-1 Index: 62
+distanceMRNG: 1269.51
+distanceBRUTE: 973.509
+NN-2 Index: 126
+distanceMRNG: 1475.91
+distanceBRUTE: 1269.51
+===
+Query: 987
+timeMRNG: 0.050035s
+timeBRUTE: 0.022479s
+NN-1 Index: 824
+distanceMRNG: 1391.38
+distanceBRUTE: 1391.38
+NN-2 Index: 786
+distanceMRNG: 1482.94
+distanceBRUTE: 1482.94
+===
+Query: 988
+timeMRNG: 0.13561s
+timeBRUTE: 0.020916s
+NN-1 Index: 358
+distanceMRNG: 789.003
+distanceBRUTE: 593.85
+NN-2 Index: 14
+distanceMRNG: 862.78
+distanceBRUTE: 789.003
+===
+Query: 989
+timeMRNG: 0.115332s
+timeBRUTE: 0.02205s
+NN-1 Index: 238
+distanceMRNG: 1654.42
+distanceBRUTE: 1654.42
+NN-2 Index: 311
+distanceMRNG: 1744.06
+distanceBRUTE: 1744.06
+===
+Query: 990
+timeMRNG: 0.132848s
+timeBRUTE: 0.020852s
+NN-1 Index: 884
+distanceMRNG: 1836.79
+distanceBRUTE: 1820.19
+NN-2 Index: 838
+distanceMRNG: 1857.94
+distanceBRUTE: 1836.79
+===
+Query: 991
+timeMRNG: 0.144286s
+timeBRUTE: 0.023506s
+NN-1 Index: 459
+distanceMRNG: 1948.48
+distanceBRUTE: 1948.48
+NN-2 Index: 44
+distanceMRNG: 2010.37
+distanceBRUTE: 1952.23
+===
+Query: 992
+timeMRNG: 0.137741s
+timeBRUTE: 0.020266s
+NN-1 Index: 428
+distanceMRNG: 1517.47
+distanceBRUTE: 1517.47
+NN-2 Index: 372
+distanceMRNG: 1595.81
+distanceBRUTE: 1534.33
+===
+Query: 993
+timeMRNG: 0.15019s
+timeBRUTE: 0.021703s
+NN-1 Index: 420
+distanceMRNG: 1963.35
+distanceBRUTE: 1538.95
+NN-2 Index: 652
+distanceMRNG: 2141.28
+distanceBRUTE: 1671.27
+===
+Query: 994
+timeMRNG: 0.129755s
+timeBRUTE: 0.021238s
+NN-1 Index: 248
+distanceMRNG: 1187.97
+distanceBRUTE: 919.338
+NN-2 Index: 200
+distanceMRNG: 1206.32
+distanceBRUTE: 1187.97
+===
+Query: 995
+timeMRNG: 0.153088s
+timeBRUTE: 0.021572s
+NN-1 Index: 548
+distanceMRNG: 2038
+distanceBRUTE: 1930.6
+NN-2 Index: 427
+distanceMRNG: 2254.5
+distanceBRUTE: 2038
+===
+Query: 996
+timeMRNG: 0.067431s
+timeBRUTE: 0.026574s
+NN-1 Index: 535
+distanceMRNG: 1924.33
+distanceBRUTE: 1486.42
+NN-2 Index: 938
+distanceMRNG: 1948.22
+distanceBRUTE: 1646.64
+===
+Query: 997
+timeMRNG: 0.178427s
+timeBRUTE: 0.024709s
+NN-1 Index: 669
+distanceMRNG: 1507.84
+distanceBRUTE: 1507.84
+NN-2 Index: 119
+distanceMRNG: 1511.7
+distanceBRUTE: 1511.7
+===
+Query: 998
+timeMRNG: 0.16583s
+timeBRUTE: 0.021792s
+NN-1 Index: 896
+distanceMRNG: 2290.32
+distanceBRUTE: 2020.79
+NN-2 Index: 348
+distanceMRNG: 2358.83
+distanceBRUTE: 2193.71
+===
+Query: 999
+timeMRNG: 0.048915s
+timeBRUTE: 0.020918s
+NN-1 Index: 162
+distanceMRNG: 1600.95
+distanceBRUTE: 1460.15
+NN-2 Index: 786
+distanceMRNG: 1645.92
+distanceBRUTE: 1553.49
+===
+tAverageApproximate: 0.140612
+tAverageBrute: 0.0234956
+MAF: 1.99239

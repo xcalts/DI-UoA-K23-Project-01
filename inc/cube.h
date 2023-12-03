@@ -58,8 +58,6 @@ private:
 
     void Initialization()
     {
-        cout << "DEBUG: Assigning the input set to hypercube's vertices." << endl;
-
         // Create random projection vectors
         random_projections = GetRandomProjections(1, dimension)[0];
 
@@ -129,8 +127,6 @@ public:
     // Find the {no_nearest} "Nearest Neighbors" vectors of the queried one using the Hypercube algorithm.
     set<MNIST_Image, MNIST_ImageComparator> FindNearestNeighbors(int no_neighbours, MNIST_Image query_image)
     {
-        cout << "DEBUG: Searching for " << no_neighbours << " Nearest Neighbors using Hypercube." << endl;
-
         // Find corresponding vertex for query_image
         string query_vertex_code = "";
 
@@ -195,8 +191,6 @@ public:
     // Find the vectors inside the given radius of the queried one using Hypercube algorithm.
     set<MNIST_Image, MNIST_ImageComparator> RadiusSearch(MNIST_Image query_image, int radius)
     {
-        cout << "DEBUG: Searching for Neighbors in Radius using Hypercube." << endl;
-
         // Find corresponding vertex for query_image
         string query_vertex_code = "";
 
