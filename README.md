@@ -45,11 +45,11 @@ $ sudo apt install build-essential
 
 ```sh
 $ make debug
-$ ./bin/lsh -i data/input.1K.dat -q data/query.1K.dat -o results.txt --hash-function 15 --hash-tables 10 --num-nearest 2 -R 0
-$ ./bin/cube -i data/input.1K.dat -q data/query.1K.dat -o results.txt --num-nearest 2 -M 100 -probes 10 -k 14
+$ ./bin/lsh -i data/input.1K.dat -q data/query.1K.dat -o output/results_lsh.txt --hash-function 15 --hash-tables 10 --num-nearest 2 -R 0
+$ ./bin/cube -i data/input.1K.dat -q data/query.1K.dat -o output/results_cube.txt --num-nearest 2 -M 100 -probes 10 -k 14
 $ ./bin/cluster -m lsh -i data/train-images.idx3-ubyte -q data/t10k-images.idx3-ubyte -o results.txt -c ./data/cluster.conf
-$ ./bin/graph_search -i ./data/input.1K.dat -q ./data/query.1K.dat -o output_gnns.txt -m 1 -R 5 -N 2
-$ ./bin/graph_search -i ./data/input.1K.dat -q ./data/query.1K.dat -o output_mrng.txt -m 2 -l 30 -N 2
+$ ./bin/graph_search -i ./data/input.1K.dat -q ./data/query.1K.dat -o output/output_gnns.txt -m 1 -R 5 -N 2
+$ ./bin/graph_search -i ./data/input.1K.dat -q ./data/query.1K.dat -o output/output_mrng.txt -m 2 -l 30 -N 2
 
 ```
 
