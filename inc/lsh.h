@@ -18,8 +18,6 @@
 using namespace std;
 
 #define WINDOW 400
-#define PBSTR "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
-#define PBWIDTH 60
 
 // LSH contains the functionality of the Locality-Sensitive Hashing algorithm.
 class LSH
@@ -33,7 +31,7 @@ private:
 
     void Initialization()
     {
-        cout << "LSH started hashing the dataset." << endl;
+        cout << "[i] LSH started hashing the dataset." << endl;
 
         // For each hash table, create {number_of_hashing_functions} random projections
         random_projections = GetRandomProjections(no_hash_tables, no_hash_functions);
@@ -59,7 +57,7 @@ private:
         printProgress(1);
 
         cout << endl
-             << "LSH fished hashing the dataset." << endl;
+             << "[i] LSH finished hashing the dataset." << endl;
     }
 
 public:

@@ -85,11 +85,8 @@ int main(int argc, char *argv[])
     {
         for (MNIST_Image query_image : query.GetImages())
         {
-            output << "====================================================================================" << endl;
+            output << "===" << endl;
             output << "Query: " << query_image.GetIndex() << endl;
-
-            // First print the image to have an idea what we are looking for.
-            output << query_image.Print() << endl;
 
             // Find the {no_neighbors} "Nearest Neighbors" vectors of the queried one using Locality-Sensitive Hashing.
             start = clock();
@@ -113,8 +110,6 @@ int main(int argc, char *argv[])
             {
                 MNIST_Image neighbor_lsh = *it1;
                 MNIST_Image neighbor_brute = *it2;
-
-                output << neighbor_lsh.Print() << endl;
 
                 output << "NN-" << i << " Index: " << neighbor_lsh.GetIndex() << endl;
                 output << "distanceLSH: " << neighbor_lsh.GetDist() << endl;

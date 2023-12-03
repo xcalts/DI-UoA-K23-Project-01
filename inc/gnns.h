@@ -15,29 +15,31 @@ using namespace std;
 class GNNS
 {
 private:
-    int no_lsh_neighbors;          // Number of LSH nearest neighbors to use (default: 40).
-    int no_expansions;             // Number of expansions to use (default: 30).
-    int no_restarts;               // Number of random restarts (default: 1).
-    vector<MNIST_Image> images;    // The MNIST dataset's images converted to d-vectors.
-    LSH lsh;                       // The LSH is going to be used to find the candinates.
-    list<int> *graph;              // Graph implementation using adjacency list.
+    MNIST input;
+    int no_lsh_neighbors;       // Number of LSH nearest neighbors to use (default: 40).
+    int no_expansions;          // Number of expansions to use (default: 30).
+    int no_restarts;            // Number of random restarts (default: 1).
+    vector<MNIST_Image> images; // The MNIST dataset's images converted to d-vectors.
+    LSH lsh;                    // The LSH is going to be used to find the candinates.
+    list<int> *graph;           // Graph implementation using adjacency list.
 
 public:
     // Create a new instance of GNNS.
     GNNS(MNIST _input, int _no_lsh_neighbors, int _no_expansions, int _no_restarts)
     {
+        input = _input;
         no_lsh_neighbors = _no_lsh_neighbors;
         no_expansions = _no_expansions;
         no_restarts = _no_restarts;
         images = _input.GetImages();
-        lsh = LSH(_input, 10, 15);
 
         graph = new list<int>[_input.GetImagesCount()];
     }
 
     void Initialization()
     {
-        cout << "DEBUG: Create graph using LSH." << endl;
+        lsh = LSH(input, 10, 15);
+        cout << "[i] Initializing GNNS construction" << endl;
         printProgress(0.0);
         // for each image in input find a set of nearest neighbors
         for (MNIST_Image p : images)
@@ -54,10 +56,12 @@ public:
                 graph[p.GetIndex()].push_back(neighbor_lsh.GetIndex());
             }
 
-            printProgress((double) p.GetIndex() / (double) images.size());
+            printProgress((double)p.GetIndex() / (double)images.size());
         }
 
-        cout << "DEBUG: Finished creating graph using LSH." << endl;
+        printProgress(1.0);
+        cout << endl
+             << "[i] Finished GNNS construction" << endl;
     }
 
     set<MNIST_Image, MNIST_ImageComparator> FindNearestNeighbors(int no_nearest_neighbours, MNIST_Image query_image)
@@ -67,7 +71,7 @@ public:
         random_device rd;
         mt19937 gen(rd());
 
-        uniform_int_distribution<int> random_image_index(0, images.size());
+        uniform_int_distribution<int> random_image_index(0, images.size() - 1);
 
         for (int i = 0; i < no_restarts; i++)
         {

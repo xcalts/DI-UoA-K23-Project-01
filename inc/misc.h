@@ -1,4 +1,5 @@
-
+#ifndef MISC_H
+#define MISC_H
 #include <stdio.h>
 
 #define PBSTR "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
@@ -12,3 +13,5 @@ void printProgress(double percentage)
     printf("\r%3d%% [%.*s%*s]", val, lpad, PBSTR, rpad, "");
     fflush(stdout);
 }
+
+#endif // MISC_H
